@@ -37,6 +37,14 @@ Check the physical drawer before relying on anything here.
 The source video and the 529 full-size keyframes are not in the repo; `site/frames/` holds
 downscaled copies of the frames referenced by the inventory.
 
+## Using the site
+
+The **drawers / items** toggle switches between one row per drawer, reel or bin and one row per
+listed part. In items mode a label such as `7805 7809 / 7808 7812` becomes four rows, each grouped
+under its own category, with a column showing which drawer label it came from. Clicking a row opens
+the drawer's detail panel in either mode. Search, filters, sort and the selected entry live in the
+URL hash, so links are shareable.
+
 ## Updating the site
 
 Edits to `verify.json` (or `inventory.json`) deploy on push; CI runs `build_site.py --no-images`.

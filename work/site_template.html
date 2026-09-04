@@ -61,6 +61,8 @@
   tr.row.sel td { background: var(--sel); }
   td.lbl { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   td.desc { color: var(--fg2); }
+  col.c-drw { width: 22%; }
+  td.drw { color: var(--fg2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 13px; }
   td.time { color: var(--fg2); white-space: nowrap; font-variant-numeric: tabular-nums; }
   .badge { display: inline-block; font-size: 11px; line-height: 1; padding: 3px 6px; border-radius: 10px; white-space: nowrap; font-weight: 600; }
   .badge.ok { color: var(--ok); background: var(--ok-bg); }
@@ -90,16 +92,20 @@
 <div id="app">
   <header>
     <h1>Drawer inventory</h1>
-    <span class="muted">{{ entries.length }} entries · {{ counts.drawer }} drawers, {{ counts.reel }} reels, {{ counts.bin }} bins, {{ counts.column_label + counts.section_label }} labels</span>
+    <span class="muted">{{ entries.length }} entries · {{ counts.drawer }} drawers, {{ counts.reel }} reels, {{ counts.bin }} bins, {{ counts.column_label + counts.section_label }} labels · {{ items.length }} items</span>
     <span class="muted">labels checked against video: {{ counts.done }} / {{ entries.length }}</span>
     <span class="muted" style="margin-left:auto">built {{ built }}</span>
   </header>
   <div id="notice">⚠ Any entry may be wrong: labels were read by OCR from a video and the &ldquo;label OK&rdquo; status only means the reading matches what the label says, not that the part is actually in the drawer. Drawers may be empty, components may be misplaced or mixed, handwritten labels may be misread or outdated, and typed labels may not match the contents. Check the drawer before relying on this.</div>
 
   <div id="controls">
+    <span class="seg" title="one row per drawer/reel/bin, or one row per listed part">
+      <button :class="{on: mode==='drawers'}" @click="mode='drawers'">drawers</button>
+      <button :class="{on: mode==='items'}" @click="mode='items'">items</button>
+    </span>
     <input type="search" v-model.trim="f.q" placeholder="search label, category, description, contents…" autofocus>
     <select v-model="f.cat">
-      <option value="">all categories ({{ entries.length }})</option>
+      <option value="">all categories ({{ rows.length }})</option>
       <option v-for="c in catList" :value="c.name">{{ c.name }} ({{ c.n }})</option>
     </select>
     <select v-model="f.kind">
@@ -136,10 +142,11 @@
           <h2 class="cat">{{ g.name }} <span class="n">{{ g.rows.length }}</span>
             <a href="#" v-if="!f.cat" @click.prevent="f.cat = g.name">only this</a></h2>
           <table>
-            <colgroup><col class="c-lbl"><col><col class="c-kind"><col class="c-st"></colgroup>
-            <tr class="row" v-for="e in g.rows" :key="e.id" :class="{sel: sel && sel.id===e.id}" @click="select(e)">
+            <colgroup><col class="c-lbl"><col><col class="c-drw" v-if="mode==='items'"><col class="c-kind"><col class="c-st"></colgroup>
+            <tr class="row" v-for="e in g.rows" :key="e.id" :class="{sel: sel && sel.id===e._e.id}" @click="select(e._e)">
               <td class="lbl">{{ label(e) }}</td>
               <td class="desc">{{ short(e) }}</td>
+              <td class="drw" v-if="mode==='items'"><span v-if="e._e !== e" :title="'listed on: ' + label(e._e)">{{ label(e._e) }}</span></td>
               <td><span class="kind" v-if="e.kind!=='drawer'">{{ kindName(e.kind) }}</span></td>
               <td><span class="badge" :class="e.status || 'none'">{{ statusName(e.status) }}</span></td>
             </tr>
@@ -148,20 +155,22 @@
       </template>
 
       <table v-else-if="filtered.length">
-        <colgroup><col class="c-lbl"><col class="c-cat"><col><col class="c-kind"><col class="c-st"><col class="c-time"></colgroup>
+        <colgroup><col class="c-lbl"><col class="c-cat"><col><col class="c-drw" v-if="mode==='items'"><col class="c-kind"><col class="c-st"><col class="c-time"></colgroup>
         <thead><tr>
-          <th :class="{on: sort==='label'}" @click="sort='label'">Label</th>
+          <th :class="{on: sort==='label'}" @click="sort='label'">{{ mode==='items' ? 'Item' : 'Label' }}</th>
           <th :class="{on: sort==='cat'}" @click="sort='cat'">Category</th>
           <th>Description</th>
+          <th v-if="mode==='items'">Drawer label</th>
           <th>Kind</th>
           <th>Status</th>
           <th :class="{on: sort==='time'}" @click="sort='time'">Video</th>
         </tr></thead>
         <tbody>
-          <tr class="row" v-for="e in filtered" :key="e.id" :class="{sel: sel && sel.id===e.id}" @click="select(e)">
+          <tr class="row" v-for="e in filtered" :key="e.id" :class="{sel: sel && sel.id===e._e.id}" @click="select(e._e)">
             <td class="lbl">{{ label(e) }}</td>
             <td>{{ e.category }}</td>
             <td class="desc">{{ short(e) }}</td>
+            <td class="drw" v-if="mode==='items'"><span v-if="e._e !== e">{{ label(e._e) }}</span></td>
             <td><span class="kind" v-if="e.kind!=='drawer'">{{ kindName(e.kind) }}</span></td>
             <td><span class="badge" :class="e.status || 'none'">{{ statusName(e.status) }}</span></td>
             <td class="time">{{ mmss(e.t_first) }}</td>
@@ -231,9 +240,18 @@ createApp({
     const entries = DATA.entries.map(e => ({ ...e, _vk: valueKey(e),
       _hay: (e.lines.join(' ') + ' ' + e.category + ' ' + (e.description || '') + ' ' + (e.note || '') + ' ' +
              (e.contents || []).map(c => c.label + ' ' + (c.category || '')).join(' ') + ' ' + (e.ocr_lines || []).join(' ')).toLowerCase() }));
+    for (const e of entries) e._e = e;   // a drawer row points at itself
     const byId = new Map(entries.map(e => [e.id, e]));
+    // item rows: one per listed part (entries with `contents`), else the entry itself
+    const items = entries.flatMap(e => e.contents && e.contents.length
+      ? e.contents.map((c, i) => ({ id: e.id + '.' + i, lines: [c.label], category: c.category || e.category,
+          description: c.description || '', kind: e.kind, status: e.status, t_first: e.t_first, _e: e,
+          _vk: valueKey({ lines: [c.label] }),
+          _hay: (c.label + ' ' + (c.category || '') + ' ' + (c.description || '') + ' ' + e._hay).toLowerCase() }))
+      : [e]);
     const f = reactive({ q: '', cat: '', kind: '', status: '' });
-    const view = ref('grouped'), sort = ref('value'), sel = ref(null), fi = ref(0);
+    const mode = ref('drawers'), view = ref('grouped'), sort = ref('value'), sel = ref(null), fi = ref(0);
+    const rows = computed(() => mode.value === 'items' ? items : entries);
 
     const counts = computed(() => {
       const c = { drawer: 0, reel: 0, bin: 0, column_label: 0, section_label: 0, done: 0 };
@@ -242,7 +260,7 @@ createApp({
     });
     const catList = computed(() => {
       const m = new Map();
-      for (const e of entries) m.set(e.category, (m.get(e.category) || 0) + 1);
+      for (const e of rows.value) m.set(e.category, (m.get(e.category) || 0) + 1);
       return [...m].map(([name, n]) => ({ name, n })).sort((a, b) => coll.compare(a.name, b.name));
     });
     const kindList = computed(() => Object.keys(KIND).filter(k => counts.value[k]));
@@ -255,7 +273,7 @@ createApp({
     }
     const filtered = computed(() => {
       const q = f.q.toLowerCase().split(/\s+/).filter(Boolean);
-      return entries.filter(e =>
+      return rows.value.filter(e =>
         (!f.cat || e.category === f.cat) &&
         (!f.kind || e.kind === f.kind) &&
         (!f.status || (f.status === 'none' ? !e.status : f.status === 'reviewed' ? !!e.status : e.status === f.status)) &&
@@ -271,7 +289,8 @@ createApp({
     function select(e) { sel.value = e; fi.value = 0; }
     function reset() { f.q = f.cat = f.kind = f.status = ''; }
     const label = e => e.lines.join(' / ');
-    const short = e => e.contents && e.contents.length ? e.contents.map(c => c.label).join(', ') + (e.description ? ' — ' + e.description : '') : (e.description || '');
+    const short = e => e._e !== e ? (e.description || '') :
+      e.contents && e.contents.length ? e.contents.map(c => c.label).join(', ') + (e.description ? ' — ' + e.description : '') : (e.description || '');
     const mmss = t => { t = Math.round(t); return Math.floor(t / 60) + ':' + String(t % 60).padStart(2, '0'); };
     const kindName = k => KIND[k] || k;
     const statusName = s => STATUS[s] || s;
@@ -280,6 +299,7 @@ createApp({
     function writeHash() {
       const p = new URLSearchParams();
       for (const k of ['q', 'cat', 'kind', 'status']) if (f[k]) p.set(k, f[k]);
+      if (mode.value !== 'drawers') p.set('mode', mode.value);
       if (view.value !== 'grouped') p.set('view', view.value);
       if (sort.value !== 'value') p.set('sort', sort.value);
       if (sel.value) p.set('id', sel.value.id);
@@ -289,19 +309,21 @@ createApp({
     function readHash() {
       const p = new URLSearchParams(location.hash.slice(1));
       for (const k of ['q', 'cat', 'kind', 'status']) f[k] = p.get(k) || '';
+      mode.value = p.get('mode') === 'items' ? 'items' : 'drawers';
       view.value = p.get('view') || 'grouped';
       sort.value = p.get('sort') || 'value';
       const id = p.get('id');
       sel.value = id !== null && byId.has(+id) ? byId.get(+id) : null;
     }
     readHash();
-    watch([f, view, sort, sel], writeHash, { deep: true });
+    watch([f, mode, view, sort, sel], writeHash, { deep: true });
+    watch(mode, () => { if (f.cat && !catList.value.some(c => c.name === f.cat)) f.cat = ''; });
     onMounted(() => {
       window.addEventListener('hashchange', readHash);
       window.addEventListener('keydown', ev => { if (ev.key === 'Escape') select(null); });
     });
 
-    return { entries, f, view, sort, sel, fi, counts, catList, kindList, filtered, groups, built: DATA.built,
+    return { entries, items, rows, f, mode, view, sort, sel, fi, counts, catList, kindList, filtered, groups, built: DATA.built,
              select, reset, label, short, mmss, kindName, statusName };
   }
 }).mount('#app');
