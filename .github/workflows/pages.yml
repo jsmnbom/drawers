@@ -3,7 +3,6 @@ name: Deploy site to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ['site/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 
 permissions:
@@ -23,6 +22,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build site/index.html (frames are committed)
+        working-directory: work
+        run: python build_site.py --no-images
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
