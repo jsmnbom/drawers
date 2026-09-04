@@ -11,11 +11,13 @@ Steps:
 
 The result is a plain folder: drop it on GitHub Pages / any static host, or open index.html directly.
 """
+import sys
+# work/select.py shadows the stdlib `select` module that subprocess needs; drop the script dir from sys.path
+sys.path = [p for p in sys.path if p not in ('', __import__('os').path.dirname(__import__('os').path.abspath(__file__)))]
 import argparse
 import json
 import os
 import subprocess
-import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)

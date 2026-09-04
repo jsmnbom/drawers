@@ -1,5 +1,8 @@
 # Drawer inventory
 
+> **Note:** this repo really should live under https://github.com/openspaceaarhus. It is parked
+> here temporarily and will be transferred there.
+
 A searchable inventory of the electronic component drawers, built from a video pan across the
 cabinets. The browsable parts list is published at
 **https://jsmnbom.github.io/drawers/**. GitHub Actions rebuilds `site/index.html` from the data on every
