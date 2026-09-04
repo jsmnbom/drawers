@@ -1,0 +1,56 @@
+{"lines": ["SPU2220", "SPU2221", "TV/CRT", "SECAM", "Processor"], "category": "Processor", "frame": "k_0060.jpg", "t": 44.53, "where": "row 1, left drawer", "confidence": 0.85}
+{"lines": ["VCU2100", "VCU2133", "VCU2136", "TV/CRT", "IC"], "category": "IC", "frame": "k_0060.jpg", "t": 44.53, "where": "row 1, second from left", "confidence": 0.9}
+{"lines": ["MC3361BP", "Low power", "Narrowband", "FM IF"], "category": null, "frame": "k_0060.jpg", "t": 44.53, "where": "row 2, center drawer", "confidence": 0.9}
+{"lines": ["SAA1280", "SAA1282", "SAA1283", "TV/CRT", "ICs"], "category": "ICs", "frame": "k_0060.jpg", "t": 44.53, "where": "row 3, left-center drawer", "confidence": 0.9}
+{"lines": ["SAA5020", "SAA5030", "SAA5041"], "category": null, "frame": "k_0060.jpg", "t": 44.53, "where": "row 3, right edge (partially cut off)", "confidence": 0.55}
+{"lines": ["TEA1507P", "Greenchip2", "SMPS ctrl.", "IC"], "category": "IC", "frame": "k_0061.jpg", "t": 45.58, "where": "top row, center drawer", "confidence": 0.9}
+{"lines": ["NCP1200", "PWM i-Mode", "Ctrl. for low", "power"], "category": null, "frame": "k_0061.jpg", "t": 45.58, "where": "row 2, left drawer", "confidence": 0.9}
+{"lines": ["SAA1283 SAA1294", "SAA1291 SAA1296", "SAA1292 TV/CRT ICs"], "category": "ICs", "frame": "k_0061.jpg", "t": 45.58, "where": "row 2, center drawer (green tape)", "confidence": 0.85}
+{"lines": ["SN75491", "MOS-to-LED", "Quad Segment Driver"], "category": null, "frame": "k_0061.jpg", "t": 45.58, "where": "row 3, left drawer", "confidence": 0.9}
+{"lines": ["SL1430", "TV/CRT", "IF", "PreAmp."], "category": null, "frame": "k_0061.jpg", "t": 45.58, "where": "row 3, center drawer", "confidence": 0.9}
+{"lines": ["SN75189", "MC1489", "Quad Line Receiver"], "category": null, "frame": "k_0061.jpg", "t": 45.58, "where": "row 4, left drawer", "confidence": 0.9}
+{"lines": ["NCP1200", "PWM i-Mode", "Ctrl. for low", "power"], "category": null, "frame": "k_0062.jpg", "t": 47.55, "where": "row 1, center drawer", "confidence": 0.9}
+{"lines": ["SN75491", "MOS-to-LED", "Quad Segment Driver"], "category": null, "frame": "k_0062.jpg", "t": 47.55, "where": "row 2, center drawer", "confidence": 0.9}
+{"lines": ["SN75189", "MC1489", "Quad Line Reciever"], "category": null, "frame": "k_0062.jpg", "t": 47.55, "where": "row 3, center drawer", "confidence": 0.9}
+{"lines": ["LH0033CG", "FET input.", "voltage follower/buffer"], "category": null, "frame": "k_0063.jpg", "t": 49.4, "where": "row 1, right drawer", "confidence": 0.85}
+{"lines": ["DS75492", "MOS-to-LED", "Hex Digit Driver"], "category": null, "frame": "k_0063.jpg", "t": 49.4, "where": "row 2, left drawer", "confidence": 0.9}
+{"lines": ["SN55115", "SN75115", "DUAL DIFFERENTIAL", "RECEIVERS"], "category": null, "frame": "k_0063.jpg", "t": 49.4, "where": "row 2, right drawer", "confidence": 0.75}
+{"lines": ["81LS95", "81LS97", "3-STATE Octal Buffer"], "category": null, "frame": "k_0063.jpg", "t": 49.4, "where": "row 3, left drawer", "confidence": 0.9}
+{"lines": ["DS75492", "MOS-to-LED", "Hex Digit Driver"], "category": null, "frame": "k_0064.jpg", "t": 50.27, "where": "row 3, left drawer", "confidence": 0.9}
+{"lines": ["81LS95", "81LS97", "3-STATE Octal Buffer"], "category": null, "frame": "k_0064.jpg", "t": 50.27, "where": "row 4, left drawer", "confidence": 0.9}
+{"lines": ["LF156H", "OP AMP"], "category": "OP AMP", "frame": "k_0069.jpg", "t": 52.39, "where": "row 1, left drawer", "confidence": 0.9}
+{"lines": ["LH0032CG", "OP AMP"], "category": "OP AMP", "frame": "k_0069.jpg", "t": 52.39, "where": "row 1, center drawer", "confidence": 0.75}
+{"lines": ["RC4559", "Dual", "OP AMP"], "category": "OP AMP", "frame": "k_0069.jpg", "t": 52.39, "where": "row 2, center drawer", "confidence": 0.85}
+{"lines": ["LM308T", "OP AMP"], "category": "OP AMP", "frame": "k_0069.jpg", "t": 52.39, "where": "row 3, left drawer", "confidence": 0.9}
+{"lines": ["LH0021CK", "Power", "OP AMP"], "category": "OP AMP", "frame": "k_0069.jpg", "t": 52.39, "where": "row 3, center drawer", "confidence": 0.9}
+{"lines": ["TAA761", "TAA765", "OP AMP"], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 1, left drawer", "confidence": 0.95}
+{"lines": ["MC1439G", "OP AMP"], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 1, center drawer", "confidence": 0.95}
+{"lines": ["LF156H", "OP. AMP"], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 2, left drawer", "confidence": 0.95}
+{"lines": ["LH0032CG", "OP. AMP."], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 2, center drawer", "confidence": 0.95}
+{"lines": ["CA3140", "mosfet-", "OP. AMP."], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 3, left drawer", "confidence": 0.95}
+{"lines": ["RC4559", "Dual", "OP. AMP."], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 3, center drawer", "confidence": 0.95}
+{"lines": ["LM308T", "OP. AMP."], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 4, left drawer", "confidence": 0.95}
+{"lines": ["LH0021CK", "Power", "OP. AMP."], "category": "OP AMP", "frame": "k_0070.jpg", "t": 53.39, "where": "row 4, center drawer", "confidence": 0.95}
+{"lines": ["TAA761", "TAA765", "OP AMP"], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 1, left drawer", "confidence": 0.95}
+{"lines": ["MC1439G", "OP. AMP"], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 1, center drawer", "confidence": 0.95}
+{"lines": ["EL2020CN", "OP AMP"], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 1, right drawer", "confidence": 0.9}
+{"lines": ["LF156H", "OP. AMP."], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 2, left drawer", "confidence": 0.95}
+{"lines": ["LH0032CG", "OP. AMP"], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 2, center drawer", "confidence": 0.95}
+{"lines": ["LM208", "OP. AMP."], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 2, right drawer", "confidence": 0.9}
+{"lines": ["CA3140", "mosfet-", "OP. AMP."], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 3, left drawer", "confidence": 0.95}
+{"lines": ["RC4559", "Dual", "OP. AMP."], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 3, center drawer", "confidence": 0.95}
+{"lines": ["CNY 75A", "H11A1", "OP. AMP."], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 3, right drawer", "confidence": 0.85}
+{"lines": ["LM308T", "OP. AMP."], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 4, left drawer", "confidence": 0.9}
+{"lines": ["LH0021CK", "Power", "OP. AMP"], "category": "OP AMP", "frame": "k_0071.jpg", "t": 54.47, "where": "row 4, center drawer", "confidence": 0.95}
+{"lines": ["EL2020CN", "OP. AMP"], "category": "OP AMP", "frame": "k_0072.jpg", "t": 55.67, "where": "row 1, center drawer", "confidence": 0.95}
+{"lines": ["LF353-N", "Dual JFET", "OP. AMP."], "category": "OP AMP", "frame": "k_0072.jpg", "t": 55.67, "where": "row 1, right drawer", "confidence": 0.95}
+{"lines": ["LM208", "OP. AMP."], "category": "OP AMP", "frame": "k_0072.jpg", "t": 55.67, "where": "row 2, center drawer", "confidence": 0.95}
+{"lines": ["LM324", "OP. AMP."], "category": "OP AMP", "frame": "k_0072.jpg", "t": 55.67, "where": "row 2, right drawer", "confidence": 0.95}
+{"lines": ["CNY 75A", "H11A1", "OP. AMP."], "category": "OP AMP", "frame": "k_0072.jpg", "t": 55.67, "where": "row 3, center drawer", "confidence": 0.9}
+{"lines": ["TL084", "fet-", "OP. AMP."], "category": "OP AMP", "frame": "k_0072.jpg", "t": 55.67, "where": "row 3, right drawer", "confidence": 0.9}
+{"lines": ["EL2020CN", "OP. AMP"], "category": "OP AMP", "frame": "k_0073.jpg", "t": 56.97, "where": "row 1, center drawer", "confidence": 0.95}
+{"lines": ["LF353-N", "Dual JFET", "OP. AMP"], "category": "OP AMP", "frame": "k_0073.jpg", "t": 56.97, "where": "row 1, right drawer", "confidence": 0.95}
+{"lines": ["LM208", "OP. AMP."], "category": "OP AMP", "frame": "k_0073.jpg", "t": 56.97, "where": "row 2, center drawer", "confidence": 0.95}
+{"lines": ["LM324", "OP. AMP."], "category": "OP AMP", "frame": "k_0073.jpg", "t": 56.97, "where": "row 2, right drawer", "confidence": 0.95}
+{"lines": ["CNY 75A", "H11A1", "OP. AMP."], "category": "OP AMP", "frame": "k_0073.jpg", "t": 56.97, "where": "row 3, center drawer", "confidence": 0.9}
+{"lines": ["TL084", "fet-", "OP. AMP."], "category": "OP AMP", "frame": "k_0073.jpg", "t": 56.97, "where": "row 3, right drawer", "confidence": 0.9}

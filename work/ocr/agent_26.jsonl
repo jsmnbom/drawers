@@ -1,0 +1,434 @@
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "top row, left-center", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "top row, right-center", "confidence": 0.9}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 2, left-center", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 2, right-center", "confidence": 0.9}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 3, left-center", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 3, right-center", "confidence": 0.7}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 4, far left", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 4, right-center", "confidence": 0.85}
+{"lines": ["allen M6"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 5, left-center", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "row 5, center-right", "confidence": 0.85}
+{"lines": ["allen pan"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "bottom row, far left", "confidence": 0.85}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0491.jpg", "t": 360.74, "where": "bottom row, center-right", "confidence": 0.85}
+{"lines": ["M4 U.SAENK."], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "top row, second from left", "confidence": 0.85}
+{"lines": ["M5x12 u.saenk. allen"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "top row, center-right", "confidence": 0.85}
+{"lines": ["MESSING"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 3, far left", "confidence": 0.8}
+{"lines": ["M5 BLANDET"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 2, center-right", "confidence": 0.9}
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 5, center-right", "confidence": 0.75}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 6, center-right", "confidence": 0.85}
+{"lines": ["M5 U.SAENK."], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 6, far right", "confidence": 0.7}
+{"lines": ["allen M6"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "row 7, far right", "confidence": 0.75}
+{"lines": ["M6", "allen pan"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "bottom row, far left", "confidence": 0.85}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0492.jpg", "t": 361.21, "where": "bottom row, center-right", "confidence": 0.85}
+{"lines": ["M5 BLANDET"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "top row, far left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "top row, center", "confidence": 0.9}
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["M6 m. skive"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 3, right", "confidence": 0.75}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 4, center", "confidence": 0.75}
+{"lines": ["M6"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 5, left", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 5, center", "confidence": 0.85}
+{"lines": ["M5 U.SAENK."], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 5, right", "confidence": 0.8}
+{"lines": ["allen M6"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 6, left-center", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 6, center", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 6, right", "confidence": 0.8}
+{"lines": ["allen pan"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0493.jpg", "t": 361.8, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["M4 U.SAENK."], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "top row, second from left", "confidence": 0.85}
+{"lines": ["M5x12 u.saenk. allen"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "top row, center-right", "confidence": 0.85}
+{"lines": ["M5 U.SAENK.", "BLANDET"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "top row, far right", "confidence": 0.8}
+{"lines": ["M5 BLANDET"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 2, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 2, far right", "confidence": 0.9}
+{"lines": ["M5 MESSING"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 3, far left", "confidence": 0.8}
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M6 m. skiver"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 4, far right", "confidence": 0.8}
+{"lines": ["M6"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 5, center-right", "confidence": 0.75}
+{"lines": ["M6"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 6, center", "confidence": 0.85}
+{"lines": ["M5 U.SAENK."], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["M6 U.SAE"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 6, far right (cut off)", "confidence": 0.5}
+{"lines": ["allen M6"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 7, center-right", "confidence": 0.8}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 7, far right", "confidence": 0.75}
+{"lines": ["allen pan"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0494.jpg", "t": 362.63, "where": "row 8, center", "confidence": 0.85}
+{"lines": ["M3 USORT."], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "top row, far left", "confidence": 0.85}
+{"lines": ["M4 U.SAENK."], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "top row, second from left", "confidence": 0.85}
+{"lines": ["M5x12 u.saenk. allen"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "top row, center-right", "confidence": 0.85}
+{"lines": ["M5 U.SAENK.", "BLAND"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "top row, far right (cut off)", "confidence": 0.6}
+{"lines": ["M5 6K BLANDET"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 2, far left", "confidence": 0.85}
+{"lines": ["M5 BLANDET"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 2, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 2, far right", "confidence": 0.9}
+{"lines": ["M5 MESSING"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 3, far left", "confidence": 0.85}
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M6 m. skiver"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 4, far right", "confidence": 0.8}
+{"lines": ["M6"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 5, center-right", "confidence": 0.75}
+{"lines": ["M6"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 6, center-right", "confidence": 0.85}
+{"lines": ["M5 U.SAENK."], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 6, far right", "confidence": 0.8}
+{"lines": ["allen M6"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 7, right", "confidence": 0.8}
+{"lines": ["allen pan"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0495.jpg", "t": 363.2, "where": "row 8, center", "confidence": 0.85}
+{"lines": ["USORT."], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "top row, far left (cut off, likely M3 USORT)", "confidence": 0.6}
+{"lines": ["M4 U.SAENK."], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "top row, second from left", "confidence": 0.85}
+{"lines": ["M5x12 u.saenk. allen"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "top row, center-right", "confidence": 0.85}
+{"lines": ["M5 U.SAENK.", "BLANDET"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "top row, far right", "confidence": 0.8}
+{"lines": ["6K BLANDET"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 2, far left (cut off, likely M5 6K BLANDET)", "confidence": 0.7}
+{"lines": ["M5 BLANDET"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 2, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 2, far right", "confidence": 0.9}
+{"lines": ["M5 MESSING"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 3, far left", "confidence": 0.85}
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M6 m. skiver"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 4, far right", "confidence": 0.8}
+{"lines": ["M6"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 5, center-right", "confidence": 0.75}
+{"lines": ["M6"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 5, right", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 6, center", "confidence": 0.85}
+{"lines": ["M5 U.SAENK."], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["M6 U.SAE"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 6, far right (cut off)", "confidence": 0.5}
+{"lines": ["allen M6"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 7, center-right", "confidence": 0.8}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 7, far right", "confidence": 0.75}
+{"lines": ["allen pan"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0496.jpg", "t": 363.63, "where": "row 8, center", "confidence": 0.85}
+{"lines": ["M4 U.SAENK."], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 2, second from left", "confidence": 0.85}
+{"lines": ["M5x12 u.saenk. allen"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 2, center-right", "confidence": 0.85}
+{"lines": ["M5 U.SAENK.", "BLANDET"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 2, far right", "confidence": 0.8}
+{"lines": ["M5 BLANDET"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["M5 MESSING"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 4, far left", "confidence": 0.85}
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 4, far right", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 5, center-right", "confidence": 0.9}
+{"lines": ["M6 m. skiver"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 5, far right", "confidence": 0.8}
+{"lines": ["M6"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 6, center-right", "confidence": 0.75}
+{"lines": ["M6"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 6, right", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 6, far right", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["M5 U.SAENK."], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 7, center-right", "confidence": 0.8}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 7, far right", "confidence": 0.75}
+{"lines": ["allen M6"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 8, second from left", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 8, center", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 8, center-right", "confidence": 0.8}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 8, far right", "confidence": 0.75}
+{"lines": ["allen pan"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 9, far left", "confidence": 0.85}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0497.jpg", "t": 364.06, "where": "row 9, center", "confidence": 0.85}
+{"lines": ["U.SAENK."], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "top row, far left (cut off, likely M5 U.SAENK.)", "confidence": 0.6}
+{"lines": ["M5x12 u.saenk. allen"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "top row, second from left", "confidence": 0.85}
+{"lines": ["M5 U.SAENK.", "BLANDET"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "top row, center-right", "confidence": 0.8}
+{"lines": ["M5 BLANDET"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 2, center-right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 2, far right", "confidence": 0.9}
+{"lines": ["M5 SORTE"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["M5 FLANGE"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["M3"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 3, far right", "confidence": 0.85}
+{"lines": ["M6x15", "6K", "A2"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M6"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M6 m. skiver"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 4, center-right", "confidence": 0.8}
+{"lines": ["M6 SORTE"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["M6 USORT"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 5, second from left", "confidence": 0.75}
+{"lines": ["M6"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 5, center-right", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["M6 6K"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 6, second from left", "confidence": 0.85}
+{"lines": ["M5 U.SAENK."], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 6, far right", "confidence": 0.8}
+{"lines": ["allen M6"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 7, left-center", "confidence": 0.85}
+{"lines": ["allen M6x50 A2"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 7, far right", "confidence": 0.8}
+{"lines": ["M6 BLANDET"], "category": null, "frame": "k_0498.jpg", "t": 364.51, "where": "row 8, center", "confidence": 0.85}
+{"lines": ["M1.6, M2, M2.5"], "category": null, "frame": "k_0499.jpg", "t": 365.38, "where": "row 2, left (new cabinet)", "confidence": 0.85}
+{"lines": ["HSS 0.8mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["HSS 1.0mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["HSS 1.3mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["HSS 3.0mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["HSS 3.2mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["HSS 4.8mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["HSS 9mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["HSS 6mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 6, center", "confidence": 0.9}
+{"lines": ["HSS 8mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["TRAEBOR"], "category": null, "frame": "k_0499.jpg", "t": 365.38, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["SELVCENTRERENDE", "BOR"], "category": null, "frame": "k_0499.jpg", "t": 365.38, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["HSS 9.5mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 8, left", "confidence": 0.9}
+{"lines": ["HSS 10mm"], "category": "Drill bit", "frame": "k_0499.jpg", "t": 365.38, "where": "row 8, center-right", "confidence": 0.9}
+{"lines": ["M3"], "category": null, "frame": "k_0499.jpg", "t": 365.38, "where": "far left, row 3 (adjacent cabinet)", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0499.jpg", "t": 365.38, "where": "far left, row 5 (adjacent cabinet)", "confidence": 0.85}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0499.jpg", "t": 365.38, "where": "far left, row 6 (adjacent cabinet)", "confidence": 0.8}
+{"lines": ["M6 allen"], "category": null, "frame": "k_0499.jpg", "t": 365.38, "where": "far left, row 7 (adjacent cabinet)", "confidence": 0.8}
+{"lines": ["M1.6, M2, M2.5"], "category": null, "frame": "k_0500.jpg", "t": 367.07, "where": "row 2, far left", "confidence": 0.85}
+{"lines": ["HSS 0.8mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["HSS 1.0mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["HSS 1.3mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["HSS 1.5mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["HSS 3.0mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["HSS 3.2mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["HSS 5.5mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 4, far right", "confidence": 0.9}
+{"lines": ["HSS 4.8mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["HSS 9mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["PINOLBOR"], "category": null, "frame": "k_0500.jpg", "t": 367.07, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["HSS 6mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["HSS 8mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 6, center-right", "confidence": 0.9}
+{"lines": ["TRAEBOR"], "category": null, "frame": "k_0500.jpg", "t": 367.07, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["SELVCENTRERENDE", "BOR"], "category": null, "frame": "k_0500.jpg", "t": 367.07, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["HSS 9.5mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 8, far left", "confidence": 0.9}
+{"lines": ["HSS 10mm"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 8, center", "confidence": 0.9}
+{"lines": ["HSS blandet"], "category": "Drill bit", "frame": "k_0500.jpg", "t": 367.07, "where": "row 8, far right", "confidence": 0.85}
+{"lines": ["M3"], "category": null, "frame": "k_0501.jpg", "t": 368.42, "where": "row 1, far right", "confidence": 0.9}
+{"lines": ["HSS 1.0mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["HSS 1.3mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["HSS 1.5mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 3, center-right", "confidence": 0.9}
+{"lines": ["HSS 2.0mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["HSS 3.0mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["HSS 3.2mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["HSS 5.5mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["HSS 9mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["PINOLBOR"], "category": null, "frame": "k_0501.jpg", "t": 368.42, "where": "row 5, center", "confidence": 0.85}
+{"lines": ["MURBOR"], "category": null, "frame": "k_0501.jpg", "t": 368.42, "where": "row 5, center-right", "confidence": 0.85}
+{"lines": ["HSS 6mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["HSS 8mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["SELVCENTRERENDE", "BOR"], "category": null, "frame": "k_0501.jpg", "t": 368.42, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["9.5mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 8, far left (cut off, likely HSS 9.5mm)", "confidence": 0.7}
+{"lines": ["HSS 10mm"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 8, second from left", "confidence": 0.9}
+{"lines": ["HSS blandet"], "category": "Drill bit", "frame": "k_0501.jpg", "t": 368.42, "where": "row 8, center-right", "confidence": 0.85}
+{"lines": ["M8 SORT"], "category": null, "frame": "k_0501.jpg", "t": 368.42, "where": "far right, adjacent cabinet (partial)", "confidence": 0.55}
+{"lines": ["M10 ALLEN"], "category": null, "frame": "k_0501.jpg", "t": 368.42, "where": "far right, adjacent cabinet (partial)", "confidence": 0.6}
+{"lines": ["M6 MESSING"], "category": null, "frame": "k_0501.jpg", "t": 368.42, "where": "bottom right, adjacent cabinet (partial)", "confidence": 0.6}
+{"lines": ["M3"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "far left row 1", "confidence": 0.9}
+{"lines": ["HSS 2.0mm"], "category": "Drill bit", "frame": "k_0502.jpg", "t": 369.75, "where": "far left row 3", "confidence": 0.9}
+{"lines": ["MURBOR"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "far left row 5", "confidence": 0.85}
+{"lines": ["HSS blandet"], "category": "Drill bit", "frame": "k_0502.jpg", "t": 369.75, "where": "far left row 8", "confidence": 0.8}
+{"lines": ["PINOL"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "top row, left (blue cabinet)", "confidence": 0.85}
+{"lines": ["GEVINDSTAENGER"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "top row, center (blue cabinet)", "confidence": 0.85}
+{"lines": ["M3 U.SAENK."], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 2, left", "confidence": 0.85}
+{"lines": ["PINOL M8x25"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 3, center", "confidence": 0.85}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 4, far right", "confidence": 0.85}
+{"lines": ["allen M8"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 5, left", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 5, center-right", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["M8 SORT"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["M8 MESSING"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 6, center", "confidence": 0.85}
+{"lines": ["M8 USORT."], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 6, far right", "confidence": 0.85}
+{"lines": ["M10 ALLEN"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["M10 6K"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["GEVINDNITTER"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 7, far right", "confidence": 0.85}
+{"lines": ["6x M8"], "category": null, "frame": "k_0502.jpg", "t": 369.75, "where": "row 8, left", "confidence": 0.8}
+{"lines": ["PINOL"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "top row, left", "confidence": 0.85}
+{"lines": ["GEVINDSTAENGER"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "top row, center", "confidence": 0.85}
+{"lines": ["M4 SORTE"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 2, far right", "confidence": 0.85}
+{"lines": ["M3 U.SAENK."], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 2, far left", "confidence": 0.85}
+{"lines": ["PINOL M8x25"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 3, center", "confidence": 0.85}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 3, center-right", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 4, far right", "confidence": 0.85}
+{"lines": ["allen M8"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 5, far left", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 5, center", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["M8 SORT"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M8 MESSING"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 6, second from left", "confidence": 0.85}
+{"lines": ["M8 USORT."], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 6, far right", "confidence": 0.85}
+{"lines": ["M10 ALLEN"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["M10 6K"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["GEVINDNITTER"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 7, far right", "confidence": 0.85}
+{"lines": ["6k M8"], "category": null, "frame": "k_0503.jpg", "t": 370.64, "where": "row 8, second from left", "confidence": 0.8}
+{"lines": ["blandet"], "category": "Drill bit", "frame": "k_0503.jpg", "t": 370.64, "where": "far left bottom, adjacent cabinet (cut off)", "confidence": 0.6}
+{"lines": ["PINOL"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "top row, far left", "confidence": 0.85}
+{"lines": ["GEVINDSTAENGER"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "top row, second from left", "confidence": 0.85}
+{"lines": ["M4 SORTE"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 2, far right", "confidence": 0.85}
+{"lines": ["M3 U.SAENK."], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 2, far left", "confidence": 0.85}
+{"lines": ["PINOL M8x25"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 3, second from left", "confidence": 0.85}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 3, center-right", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 4, far right", "confidence": 0.85}
+{"lines": ["allen M8"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 5, far left", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 5, center", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["M8 SORT"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M8 MESSING"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 6, second from left", "confidence": 0.85}
+{"lines": ["M8 USORT."], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 6, far right", "confidence": 0.85}
+{"lines": ["M10 ALLEN"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["M10 6K"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["GEVINDNITTER"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 7, far right", "confidence": 0.85}
+{"lines": ["6k M8"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 8, second from left", "confidence": 0.8}
+{"lines": ["M10"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "row 7, far right (small)", "confidence": 0.65}
+{"lines": ["M6 MESSING"], "category": null, "frame": "k_0504.jpg", "t": 371.25, "where": "bottom, far left of next cabinet", "confidence": 0.6}
+{"lines": ["PINOL"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "top row, left", "confidence": 0.85}
+{"lines": ["GEVINDSTAENGER"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "top row, center", "confidence": 0.85}
+{"lines": ["M3 U.SAENK."], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 2, far left", "confidence": 0.85}
+{"lines": ["PINOL M8x25"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 3, center", "confidence": 0.85}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 3, center-right", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["allen M8"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 5, far left", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 5, center-right", "confidence": 0.85}
+{"lines": ["M8 SORT"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M8 MESSING"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 6, second from left", "confidence": 0.85}
+{"lines": ["M8 USORT."], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 6, far right", "confidence": 0.8}
+{"lines": ["M10 ALLEN"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["M10 6K"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["GEVINDNITTER"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 7, far right", "confidence": 0.8}
+{"lines": ["6k M8"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "row 8, second from left", "confidence": 0.8}
+{"lines": ["HSS blandet"], "category": "Drill bit", "frame": "k_0505.jpg", "t": 372.32, "where": "far left, adjacent cabinet", "confidence": 0.75}
+{"lines": ["MURBOR"], "category": null, "frame": "k_0505.jpg", "t": 372.32, "where": "far left, adjacent cabinet upper", "confidence": 0.7}
+{"lines": ["PINOL"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "top row, far left", "confidence": 0.85}
+{"lines": ["GEVINDSTAENGER"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "top row, second from left", "confidence": 0.85}
+{"lines": ["M3 U.SAENK."], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 2, far left", "confidence": 0.85}
+{"lines": ["M4 SORTE"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 2, far right", "confidence": 0.85}
+{"lines": ["PINOL M8x25"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 3, second from left", "confidence": 0.85}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 3, center-right", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 4, center-right", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 4, far right", "confidence": 0.9}
+{"lines": ["allen M8"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 5, far left", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 5, center-right", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["M8 SORT"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M8 MESSING"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 6, second from left", "confidence": 0.85}
+{"lines": ["M8 USORT."], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 6, center-right", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 6, far right", "confidence": 0.8}
+{"lines": ["M10 ALLEN"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["M10 6K"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["GEVINDNITTER"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 7, far right", "confidence": 0.85}
+{"lines": ["6k M8"], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "row 8, second from left", "confidence": 0.8}
+{"lines": ["M4 U.SAENK."], "category": null, "frame": "k_0506.jpg", "t": 373.86, "where": "bottom cabinet, far right", "confidence": 0.75}
+{"lines": ["M4 SORTE"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 2, center-left", "confidence": 0.85}
+{"lines": ["FJEDRE"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 2, center-right", "confidence": 0.85}
+{"lines": ["INOL M8x25"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 3, far left (cut off, PINOL M8x25)", "confidence": 0.7}
+{"lines": ["M6 U.SAENK."], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 3, second from left", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 5, second from left", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 5, center", "confidence": 0.85}
+{"lines": ["M8 MESSING"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["M8 USORT."], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 6, second from left", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 6, center", "confidence": 0.85}
+{"lines": ["STAG"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 6, center-right", "confidence": 0.85}
+{"lines": ["M10 6K"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 7, second from left", "confidence": 0.8}
+{"lines": ["GEVINDNITTER"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 7, center-right", "confidence": 0.85}
+{"lines": ["6k M8"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 8, far left", "confidence": 0.75}
+{"lines": ["M10"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "row 8, center-right", "confidence": 0.7}
+{"lines": ["VINGEMOT"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "far right, adjacent cabinet (cut off)", "confidence": 0.55}
+{"lines": ["USORTERE"], "category": null, "frame": "k_0507.jpg", "t": 375.46, "where": "far right, adjacent cabinet (cut off)", "confidence": 0.55}
+{"lines": ["M4 SORTE"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 2, far left", "confidence": 0.85}
+{"lines": ["FJEDRE"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 2, second from left", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 4, second from left", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 5, second from left", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 6, second from left", "confidence": 0.8}
+{"lines": ["STAG"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 6, third from left", "confidence": 0.8}
+{"lines": ["GEVINDNITTER"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 7, far left", "confidence": 0.8}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 7, second from left", "confidence": 0.8}
+{"lines": ["M10"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "row 8, far left", "confidence": 0.7}
+{"lines": ["3x13 TX10 A2"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "new gray cabinet, top row", "confidence": 0.85}
+{"lines": ["M3"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 2, left", "confidence": 0.85}
+{"lines": ["M3"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 2, right", "confidence": 0.85}
+{"lines": ["M5"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 3, left", "confidence": 0.85}
+{"lines": ["M5 LAS"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 3, right", "confidence": 0.75}
+{"lines": ["M8"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 4, left", "confidence": 0.85}
+{"lines": ["M8 las"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 4, right", "confidence": 0.8}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 5, left", "confidence": 0.85}
+{"lines": ["T NUT M5"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 5, right", "confidence": 0.85}
+{"lines": ["T NUT M6"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 6, left", "confidence": 0.85}
+{"lines": ["T NUT M4"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 6, right", "confidence": 0.85}
+{"lines": ["VINGEMOTRIK"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 7, left", "confidence": 0.8}
+{"lines": ["FIRKANTEDE"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 7, center", "confidence": 0.8}
+{"lines": ["USORTEREDE MOTRIKK"], "category": null, "frame": "k_0508.jpg", "t": 376.14, "where": "gray cabinet, row 8, left", "confidence": 0.8}
+{"lines": ["FJEDRE"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "row 2, second from left (blue cabinet)", "confidence": 0.85}
+{"lines": ["M8 6K"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "row 4, far left (blue cabinet)", "confidence": 0.85}
+{"lines": ["M8 allen"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "row 5, far left (blue cabinet)", "confidence": 0.8}
+{"lines": ["LINKSGEVIND"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "row 6, far left (blue cabinet)", "confidence": 0.85}
+{"lines": ["STAG"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "row 6, second from left (blue cabinet)", "confidence": 0.85}
+{"lines": ["PASBOLTE"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "row 7, far left (blue cabinet)", "confidence": 0.85}
+{"lines": ["M10"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "row 8, second from left (blue cabinet)", "confidence": 0.75}
+{"lines": ["3x13 TX10 A2"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, top row", "confidence": 0.85}
+{"lines": ["M3"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 2, left", "confidence": 0.9}
+{"lines": ["M3 LAS"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 2, center", "confidence": 0.85}
+{"lines": ["M5"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 3, left", "confidence": 0.9}
+{"lines": ["M5 LAS"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 3, center", "confidence": 0.85}
+{"lines": ["M8"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 4, left", "confidence": 0.9}
+{"lines": ["M8 las"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 4, center", "confidence": 0.85}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 5, left", "confidence": 0.9}
+{"lines": ["T NUT M5"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 5, center", "confidence": 0.9}
+{"lines": ["T NUT"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 5, right (cut off)", "confidence": 0.7}
+{"lines": ["T NUT M6"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 6, left", "confidence": 0.9}
+{"lines": ["T NUT M4"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 6, center", "confidence": 0.9}
+{"lines": ["VINGEMOTRIK"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 7, left", "confidence": 0.85}
+{"lines": ["FIRKANTEDE"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 7, center", "confidence": 0.85}
+{"lines": ["HAETTEMOTRIKKER"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 7, right", "confidence": 0.85}
+{"lines": ["USORTEREDE MOTRIKK"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 8, left", "confidence": 0.85}
+{"lines": ["HALVSMA USORT."], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "gray cabinet, row 8, right", "confidence": 0.85}
+{"lines": ["MOB"], "category": null, "frame": "k_0509.jpg", "t": 376.89, "where": "top of gray cabinet, handwritten label (cut off)", "confidence": 0.5}

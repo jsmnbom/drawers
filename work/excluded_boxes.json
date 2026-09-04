@@ -1,0 +1,362 @@
+[
+ {
+  "lines": [
+   "MD-0603"
+  ],
+  "part_key": "MD-0603",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 59.3,
+  "frames": [
+   "k_0077.jpg"
+  ],
+  "where": "top-left, orange tape label above shelf",
+  "_column": false,
+  "category": "Resistor (SMD 0603)",
+  "category_confidence": "medium",
+  "category_source": "part_number",
+  "description": "SMD 0603 section label (shelf of reels)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "SMD-0603"
+  ],
+  "part_key": "SMD-0603",
+  "label_category": null,
+  "reads_total": 4,
+  "reads_agreeing": 4,
+  "confidence": 1.0,
+  "t_first": 60.2,
+  "frames": [
+   "k_0078.jpg",
+   "k_0079.jpg",
+   "k_0080.jpg",
+   "k_0081.jpg"
+  ],
+  "where": "top-left, orange tape label above shelf",
+  "_column": false,
+  "category": "Resistor (SMD 0603)",
+  "category_confidence": "medium",
+  "category_source": "part_number",
+  "description": "SMD 0603 section label (shelf of reels)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "4071"
+  ],
+  "part_key": "4071",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 105.7,
+  "frames": [
+   "k_0143.jpg"
+  ],
+  "where": "top of cabinet, blue tape label",
+  "_column": false,
+  "category": "Logic (CMOS 4000)",
+  "category_confidence": "low",
+  "category_source": "inferred",
+  "description": "Blue tape label on top of the resistor cabinet; \"4071\" could be CD4071 quad OR but is out of place here",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "DIODER"
+  ],
+  "part_key": "DIODER",
+  "label_category": "Diode",
+  "reads_total": 4,
+  "reads_agreeing": 4,
+  "confidence": 1.0,
+  "t_first": 158.4,
+  "frames": [
+   "k_0219.jpg",
+   "k_0220.jpg",
+   "k_0222.jpg",
+   "k_0224.jpg"
+  ],
+  "where": "top edge header sign",
+  "_column": false,
+  "category": "Diode",
+  "category_confidence": "high",
+  "category_source": "label",
+  "description": "Danish \"dioder\" = diodes (cabinet header)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "SMD-0603"
+  ],
+  "part_key": "SMD-0603",
+  "label_category": null,
+  "reads_total": 7,
+  "reads_agreeing": 7,
+  "confidence": 1.0,
+  "t_first": 174.3,
+  "frames": [
+   "k_0241.jpg",
+   "k_0242.jpg",
+   "k_0243.jpg",
+   "k_0244.jpg",
+   "k_0247.jpg",
+   "k_0248.jpg",
+   "k_0249.jpg"
+  ],
+  "where": "shelf ledge label, center",
+  "_column": false,
+  "category": "Resistor (SMD 0603)",
+  "category_confidence": "medium",
+  "category_source": "part_number",
+  "description": "SMD 0603 section label (shelf of reels)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "SMD-06"
+  ],
+  "part_key": "SMD-06",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 177.8,
+  "frames": [
+   "k_0246.jpg"
+  ],
+  "where": "shelf ledge label, right edge, cut off",
+  "_column": false,
+  "category": "Resistor (SMD 0603)",
+  "category_confidence": "medium",
+  "category_source": "part_number",
+  "description": "SMD 0603 section label (shelf of reels)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "SMD-0603"
+  ],
+  "part_key": "SMD-0603",
+  "label_category": "Resistor",
+  "reads_total": 11,
+  "reads_agreeing": 11,
+  "confidence": 1.0,
+  "t_first": 190.8,
+  "frames": [
+   "k_0267.jpg",
+   "k_0268.jpg",
+   "k_0269.jpg",
+   "k_0270.jpg",
+   "k_0271.jpg",
+   "k_0279.jpg",
+   "k_0280.jpg",
+   "k_0281.jpg",
+   "k_0289.jpg",
+   "k_0290.jpg",
+   "k_0291.jpg"
+  ],
+  "where": "bottom shelf edge divider label",
+  "_column": false,
+  "category": "Resistor (SMD 0603)",
+  "category_confidence": "medium",
+  "category_source": "label",
+  "description": "SMD 0603 section label (shelf of reels)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "SMD-0"
+  ],
+  "part_key": "SMD-0",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 204.6,
+  "frames": [
+   "k_0288.jpg"
+  ],
+  "where": "bottom right, wide red divider label (cut off)",
+  "_column": false,
+  "category": "Resistor (SMD 0603)",
+  "category_confidence": "medium",
+  "category_source": "part_number",
+  "description": "SMD 0603 section label (shelf of reels)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "EFFEKTMOD"
+  ],
+  "part_key": "EFFEKTMOD",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 242.9,
+  "frames": [
+   "k_0338.jpg"
+  ],
+  "where": "bottom cabinet label, cut off",
+  "_column": false,
+  "category": "Resistor (power)",
+  "category_confidence": "high",
+  "category_source": "part_number",
+  "description": "Danish \"effektmodstande\" = power resistors (cabinet label)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "MODSTANDE"
+  ],
+  "part_key": "MODSTANDE",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 250.4,
+  "frames": [
+   "k_0345.jpg"
+  ],
+  "where": "bottom cabinet label",
+  "_column": false,
+  "category": "Resistor",
+  "category_confidence": "high",
+  "category_source": "part_number",
+  "description": "Danish \"modstande\" = resistors (cabinet/divider label, partly cut off)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "OSTANDE"
+  ],
+  "part_key": "OSTANDE",
+  "label_category": null,
+  "reads_total": 2,
+  "reads_agreeing": 2,
+  "confidence": 1.0,
+  "t_first": 258.3,
+  "frames": [
+   "k_0356.jpg",
+   "k_0359.jpg"
+  ],
+  "where": "printed shelf divider label, top left (partial, likely MOTSTANDE)",
+  "_column": false,
+  "category": "Resistor",
+  "category_confidence": "high",
+  "category_source": "part_number",
+  "description": "Danish \"modstande\" = resistors (cabinet/divider label, partly cut off)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "TANDE"
+  ],
+  "part_key": "TANDE",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 258.9,
+  "frames": [
+   "k_0357.jpg"
+  ],
+  "where": "printed shelf divider label, top (partial, cut off left, likely MOTSTANDE)",
+  "_column": false,
+  "category": "Resistor",
+  "category_confidence": "high",
+  "category_source": "part_number",
+  "description": "Danish \"modstande\" = resistors (cabinet/divider label, partly cut off)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "STANDE"
+  ],
+  "part_key": "STANDE",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 259.8,
+  "frames": [
+   "k_0358.jpg"
+  ],
+  "where": "printed shelf divider label, top left (partial, likely MOTSTANDE)",
+  "_column": false,
+  "category": "Resistor",
+  "category_confidence": "high",
+  "category_source": "part_number",
+  "description": "Danish \"modstande\" = resistors (cabinet/divider label, partly cut off)",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "M6"
+  ],
+  "part_key": "M6",
+  "label_category": null,
+  "reads_total": 2,
+  "reads_agreeing": 2,
+  "confidence": 1.0,
+  "t_first": 352.4,
+  "frames": [
+   "k_0479.jpg",
+   "k_0480.jpg"
+  ],
+  "where": "right side, separate cabinet section, plastic bin",
+  "_column": false,
+  "category": "Screw/bolt",
+  "category_confidence": "low",
+  "category_source": "part_number",
+  "description": "Plastic bin labelled M6 in a separate cabinet section next to the memory ICs; M6 screws assumed",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "MOB"
+  ],
+  "part_key": "MOB",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 376.9,
+  "frames": [
+   "k_0509.jpg"
+  ],
+  "where": "top of gray cabinet, handwritten label (cut off)",
+  "_column": false,
+  "category": "Unknown",
+  "category_confidence": "low",
+  "category_source": "inferred",
+  "description": "Cut-off handwritten label on top of the fastener cabinet",
+  "kind": "section_label"
+ },
+ {
+  "lines": [
+   "MEGET SMÅ"
+  ],
+  "part_key": "MEGETSMÅ",
+  "label_category": null,
+  "reads_total": 1,
+  "reads_agreeing": 1,
+  "confidence": 1.0,
+  "t_first": 381.7,
+  "frames": [
+   "k_0513.jpg"
+  ],
+  "where": "top of right blue cabinet",
+  "_column": false,
+  "category": "Fastener (unsorted)",
+  "category_confidence": "medium",
+  "category_source": "part_number",
+  "description": "Danish \"meget små\" = very small (screws/nuts)",
+  "kind": "section_label"
+ }
+]

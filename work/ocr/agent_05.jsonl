@@ -1,0 +1,190 @@
+{"lines": ["79M0T3C", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0075.jpg", "t": 58.24, "where": "row 1, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["7905 7912", "7906 7924", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0075.jpg", "t": 58.24, "where": "row 2, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["LM104H", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0075.jpg", "t": 58.24, "where": "row 3, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["LM320K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0075.jpg", "t": 58.24, "where": "row 4, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["ICL7660", "Negative", "Voltage", "Converter"], "category": "Negative Voltage Converter", "frame": "k_0075.jpg", "t": 58.24, "where": "row 5, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["TAA761", "TAA765", "OP AMP"], "category": "OP AMP", "frame": "k_0075.jpg", "t": 58.24, "where": "row 1, col 1 (right cabinet)", "confidence": 0.6}
+{"lines": ["LF156H", "OP. AMP."], "category": "OP AMP", "frame": "k_0075.jpg", "t": 58.24, "where": "row 2, col 1 (right cabinet)", "confidence": 0.85}
+{"lines": ["CA3140", "model:", "OP AMP"], "category": "OP AMP", "frame": "k_0075.jpg", "t": 58.24, "where": "row 3, col 1 (right cabinet)", "confidence": 0.5}
+{"lines": ["LM308T", "OP AMP"], "category": "OP AMP", "frame": "k_0075.jpg", "t": 58.24, "where": "row 4, col 1 (right cabinet)", "confidence": 0.85}
+{"lines": ["UA79HG", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0076.jpg", "t": 58.56, "where": "row 1, col 1 (left cabinet)", "confidence": 0.85}
+{"lines": ["79M0T3C", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0076.jpg", "t": 58.56, "where": "row 1, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["LM337", "LM337T", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0076.jpg", "t": 58.56, "where": "row 2, col 1 (left cabinet)", "confidence": 0.85}
+{"lines": ["7905 7912", "7906 7924", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0076.jpg", "t": 58.56, "where": "row 2, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["LM337K", "LM237K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0076.jpg", "t": 58.56, "where": "row 3, col 1 (left cabinet)", "confidence": 0.85}
+{"lines": ["LM104H", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0076.jpg", "t": 58.56, "where": "row 3, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["LM320K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0076.jpg", "t": 58.56, "where": "row 4, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["ICL7660", "Negative", "Voltage", "Converter"], "category": "Negative Voltage Converter", "frame": "k_0076.jpg", "t": 58.56, "where": "row 5, col 2 (left cabinet)", "confidence": 0.85}
+{"lines": ["TAA781", "TAA785", "OP AMP"], "category": "OP AMP", "frame": "k_0076.jpg", "t": 58.56, "where": "row 1, col 1 (right cabinet)", "confidence": 0.5}
+{"lines": ["LF156H", "OP. AMP."], "category": "OP AMP", "frame": "k_0076.jpg", "t": 58.56, "where": "row 2, col 1 (right cabinet)", "confidence": 0.85}
+{"lines": ["CA3140", "made by", "OP AMP"], "category": "OP AMP", "frame": "k_0076.jpg", "t": 58.56, "where": "row 3, col 1 (right cabinet)", "confidence": 0.45}
+{"lines": ["LM308T", "OP. AMP."], "category": "OP AMP", "frame": "k_0076.jpg", "t": 58.56, "where": "row 4, col 1 (right cabinet)", "confidence": 0.85}
+{"lines": ["UA79HG", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 1, col 2", "confidence": 0.95}
+{"lines": ["79MGT3C", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 1, col 3", "confidence": 0.95}
+{"lines": ["LM337", "LM337T", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 2, col 2", "confidence": 0.95}
+{"lines": ["7905 7912", "7906 7924", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 2, col 3", "confidence": 0.95}
+{"lines": ["LM337K", "LM237K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 3, col 2", "confidence": 0.95}
+{"lines": ["LM104H", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 3, col 3", "confidence": 0.95}
+{"lines": ["LM340K", "7815", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 4, col 2", "confidence": 0.95}
+{"lines": ["LM320K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 4, col 3", "confidence": 0.95}
+{"lines": ["LM723", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 5, col 2", "confidence": 0.95}
+{"lines": ["ICL7660", "Negative", "Voltage", "Converter"], "category": "Negative Voltage Converter", "frame": "k_0077.jpg", "t": 59.31, "where": "row 5, col 3", "confidence": 0.95}
+{"lines": ["TL431", "Adjustable", "shunt", "regulator"], "category": "Adjustable shunt regulator", "frame": "k_0077.jpg", "t": 59.31, "where": "row 6, col 2", "confidence": 0.9}
+{"lines": ["MD-0603"], "category": null, "frame": "k_0077.jpg", "t": 59.31, "where": "top-left, orange tape label above shelf", "confidence": 0.6}
+{"lines": ["Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 2, far-left column (cut off)", "confidence": 0.4}
+{"lines": ["UA79HG", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 1, col 2", "confidence": 0.95}
+{"lines": ["79MGT3C", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 1, col 3", "confidence": 0.95}
+{"lines": ["LM337", "LM337T", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 2, col 2", "confidence": 0.95}
+{"lines": ["7905 7912", "7906 7924", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 2, col 3", "confidence": 0.95}
+{"lines": ["LM337K", "LM237K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 3, col 2", "confidence": 0.95}
+{"lines": ["LM104H", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 3, col 3", "confidence": 0.95}
+{"lines": ["LM340K", "7815", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 4, col 2", "confidence": 0.95}
+{"lines": ["LM320K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 4, col 3", "confidence": 0.95}
+{"lines": ["LM723", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 5, col 2", "confidence": 0.95}
+{"lines": ["ICL7660", "Negative", "Voltage", "Converter"], "category": "Negative Voltage Converter", "frame": "k_0078.jpg", "t": 60.24, "where": "row 5, col 3", "confidence": 0.95}
+{"lines": ["TL431", "Adjustable", "shunt", "regulator"], "category": "Adjustable shunt regulator", "frame": "k_0078.jpg", "t": 60.24, "where": "row 6, col 2", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0078.jpg", "t": 60.24, "where": "top-left, orange tape label above shelf", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0079.jpg", "t": 61.28, "where": "top-left, orange tape label above shelf", "confidence": 0.9}
+{"lines": ["7805"], "category": null, "frame": "k_0079.jpg", "t": 61.28, "where": "row 1, col 1, handwritten label", "confidence": 0.85}
+{"lines": ["UA79HG", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 1, col 2", "confidence": 0.9}
+{"lines": ["79MGT3C", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 1, col 3", "confidence": 0.75}
+{"lines": ["LM340", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["LM337", "LM337T", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["7905 7912", "7906 7924", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 2, col 3", "confidence": 0.75}
+{"lines": ["UA78HGA", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["LM337K", "LM237K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["LM104H", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 3, col 3", "confidence": 0.75}
+{"lines": ["LT1086", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["LM340K", "7815", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["LM320K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 4, col 3", "confidence": 0.7}
+{"lines": ["UA7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["LM723", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["ICL7660", "Negative", "Voltage", "Converter"], "category": "Negative Voltage Converter", "frame": "k_0079.jpg", "t": 61.28, "where": "row 5, col 3", "confidence": 0.7}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0079.jpg", "t": 61.28, "where": "row 6, col 1", "confidence": 0.9}
+{"lines": ["TL431", "Adjustable", "shunt", "regulator"], "category": "Adjustable shunt regulator", "frame": "k_0079.jpg", "t": 61.28, "where": "row 6, col 2", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0080.jpg", "t": 62.3, "where": "top-center, orange tape label above shelf", "confidence": 0.9}
+{"lines": ["7805 7809", "7808 7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 1, col 1", "confidence": 0.85}
+{"lines": ["7805"], "category": null, "frame": "k_0080.jpg", "t": 62.3, "where": "row 1, col 2, handwritten label", "confidence": 0.85}
+{"lines": ["UA79HG", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 1, col 3", "confidence": 0.9}
+{"lines": ["LM317T", "LM317S", "LM317HP+", "Voltage", "Regulator"], "category": "Voltage Regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 2, col 1", "confidence": 0.85}
+{"lines": ["LM340", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["LM337", "LM337T", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 2, col 3", "confidence": 0.85}
+{"lines": ["LM340T12", "Voltage Regulator"], "category": "Voltage Regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["UA78HGA", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["LM337K", "LM237K", "Negative", "Voltage", "regulator"], "category": "Negative Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 3, col 3", "confidence": 0.85}
+{"lines": ["UA7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["LT1086", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["LM340K", "7815", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 4, col 3", "confidence": 0.85}
+{"lines": ["7815", "7818", "7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 5, col 1", "confidence": 0.85}
+{"lines": ["UA7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["LM723", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 5, col 3", "confidence": 0.85}
+{"lines": ["7660", "W. V. REG"], "category": "Voltage regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 6, col 1", "confidence": 0.5}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0080.jpg", "t": 62.3, "where": "row 6, col 2", "confidence": 0.9}
+{"lines": ["TL431", "Adjustable", "shunt", "regulator"], "category": "Adjustable shunt regulator", "frame": "k_0080.jpg", "t": 62.3, "where": "row 6, col 3", "confidence": 0.7}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0081.jpg", "t": 63.16, "where": "top-right, orange tape label above shelf", "confidence": 0.9}
+{"lines": ["7805 7809", "7808 7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 1, col 1", "confidence": 0.9}
+{"lines": ["7805"], "category": null, "frame": "k_0081.jpg", "t": 63.16, "where": "row 1, col 2, handwritten label", "confidence": 0.9}
+{"lines": ["LM317T", "LM317S", "LM317HP+", "Voltage", "Regulator"], "category": "Voltage Regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["LM340", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["LM340T12", "Voltage Regulator"], "category": "Voltage Regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["UA78HGA", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["UA7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["LT1086", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["7815", "7818", "7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["UA7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["L4960", "SW. V. REG"], "category": "Voltage regulator", "frame": "k_0081.jpg", "t": 63.16, "where": "row 6, col 1", "confidence": 0.9}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0081.jpg", "t": 63.16, "where": "row 6, col 2", "confidence": 0.9}
+{"lines": ["7805 7809", "7808 7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 1, col 1", "confidence": 0.9}
+{"lines": ["7805"], "category": null, "frame": "k_0082.jpg", "t": 63.68, "where": "row 1, col 2, handwritten label", "confidence": 0.9}
+{"lines": ["LM317T", "LM317S", "LM317HP+", "Voltage", "Regulator"], "category": "Voltage Regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["LM340", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["LM340T12", "Voltage Regulator"], "category": "Voltage Regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["UA78HGA", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["UA7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["LT1086", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["7815", "7818", "7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["UA7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["L4960", "SW. V. REG"], "category": "Voltage regulator", "frame": "k_0082.jpg", "t": 63.68, "where": "row 6, col 1", "confidence": 0.9}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0082.jpg", "t": 63.68, "where": "row 6, col 2", "confidence": 0.9}
+{"lines": ["LM317T", "LM317S", "LM317HP+", "Voltage", "Regulator"], "category": "Voltage Regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 1 (top), col 1", "confidence": 0.85}
+{"lines": ["LM340", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 1 (top), col 2", "confidence": 0.85}
+{"lines": ["LM340T12", "Voltage Regulator"], "category": "Voltage Regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["UA78HGA", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["UA7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["LT1086", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["7815", "7818", "7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["UA7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["L4960", "SW. V. REG"], "category": "Voltage regulator", "frame": "k_0083.jpg", "t": 64.1, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0083.jpg", "t": 64.1, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["SL611C", "RF/IF", "Amplifier"], "category": "RF/IF Amplifier", "frame": "k_0083.jpg", "t": 64.1, "where": "row 6, col 1", "confidence": 0.9}
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Differential Amplifier", "frame": "k_0083.jpg", "t": 64.1, "where": "row 6, col 2", "confidence": 0.9}
+{"lines": ["LM340T12", "Voltage Regulator"], "category": "Voltage Regulator", "frame": "k_0084.jpg", "t": 64.72, "where": "row 1 (top), col 1", "confidence": 0.9}
+{"lines": ["UA78HGA", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0084.jpg", "t": 64.72, "where": "row 1 (top), col 2", "confidence": 0.9}
+{"lines": ["UA7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0084.jpg", "t": 64.72, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["LT1086", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0084.jpg", "t": 64.72, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["7815", "7818", "7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0084.jpg", "t": 64.72, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["UA7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0084.jpg", "t": 64.72, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["L4960", "SW. V. REG"], "category": "Voltage regulator", "frame": "k_0084.jpg", "t": 64.72, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0084.jpg", "t": 64.72, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["SL611C", "RF/IF", "Amplifier"], "category": "RF/IF Amplifier", "frame": "k_0084.jpg", "t": 64.72, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Differential Amplifier", "frame": "k_0084.jpg", "t": 64.72, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["UA7812", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0085.jpg", "t": 65.52, "where": "row 1 (top), col 1", "confidence": 0.9}
+{"lines": ["LT1086", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0085.jpg", "t": 65.52, "where": "row 1 (top), col 2", "confidence": 0.9}
+{"lines": ["7815", "7818", "7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0085.jpg", "t": 65.52, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["UA7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0085.jpg", "t": 65.52, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["L4960", "SW. V. REG"], "category": "Voltage regulator", "frame": "k_0085.jpg", "t": 65.52, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0085.jpg", "t": 65.52, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["SL611C", "RF/IF", "Amplifier"], "category": "RF/IF Amplifier", "frame": "k_0085.jpg", "t": 65.52, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Differential Amplifier", "frame": "k_0085.jpg", "t": 65.52, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["SN75107", "Dual LINE RECEIVER", "SN75112", "Dual LINE Driver", "75112"], "category": "Dual Line Receiver/Driver", "frame": "k_0085.jpg", "t": 65.52, "where": "row 5, col 1", "confidence": 0.75}
+{"lines": ["SN75150", "DUAL LINE DRIVER", "SN75154", "QUAD LINE RECEIVER"], "category": "Dual Line Driver / Quad Line Receiver", "frame": "k_0085.jpg", "t": 65.52, "where": "row 5, col 2", "confidence": 0.7}
+{"lines": ["LM219H", "HIGH-Speed", "Dual", "Comparator"], "category": "Dual Comparator", "frame": "k_0085.jpg", "t": 65.52, "where": "row 6 (bottom), col 1", "confidence": 0.85}
+{"lines": ["LM339", "Quad", "differential", "comparator"], "category": "Quad differential comparator", "frame": "k_0085.jpg", "t": 65.52, "where": "row 6 (bottom), col 2", "confidence": 0.85}
+{"lines": ["7815", "7818", "7824", "Voltage", "regulator"], "category": "Voltage regulator", "frame": "k_0086.jpg", "t": 66.27, "where": "row 1 (top), col 1", "confidence": 0.7}
+{"lines": ["UA7824", "regulator"], "category": "Voltage regulator", "frame": "k_0086.jpg", "t": 66.27, "where": "row 1 (top), col 2", "confidence": 0.7}
+{"lines": ["L4960", "SW. V. REG"], "category": "Voltage regulator", "frame": "k_0086.jpg", "t": 66.27, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0086.jpg", "t": 66.27, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["SL611C", "RF/IF", "Amplifier"], "category": "RF/IF Amplifier", "frame": "k_0086.jpg", "t": 66.27, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Differential Amplifier", "frame": "k_0086.jpg", "t": 66.27, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["SN75107", "Dual LINE RECEIVER", "SN75112", "Dual LINE Driver", "75112"], "category": "Dual Line Receiver/Driver", "frame": "k_0086.jpg", "t": 66.27, "where": "row 4, col 1", "confidence": 0.75}
+{"lines": ["SN75150", "DUAL LINE DRIVER", "SN75154", "QUAD LINE RECEIVER"], "category": "Dual Line Driver / Quad Line Receiver", "frame": "k_0086.jpg", "t": 66.27, "where": "row 4, col 2", "confidence": 0.7}
+{"lines": ["LM219H", "HIGH-Speed", "Dual", "Comparator"], "category": "Dual Comparator", "frame": "k_0086.jpg", "t": 66.27, "where": "row 5, col 1", "confidence": 0.85}
+{"lines": ["LM339", "Quad", "differential", "comparator"], "category": "Quad differential comparator", "frame": "k_0086.jpg", "t": 66.27, "where": "row 5, col 2", "confidence": 0.85}
+{"lines": ["LM556", "Timer"], "category": "Timer", "frame": "k_0086.jpg", "t": 66.27, "where": "row 6 (bottom), col 1", "confidence": 0.9}
+{"lines": ["NE555"], "category": null, "frame": "k_0086.jpg", "t": 66.27, "where": "row 6 (bottom), col 2", "confidence": 0.9}
+{"lines": ["L4960", "SW. V. REG"], "category": "Voltage regulator", "frame": "k_0087.jpg", "t": 66.8, "where": "row 1 (top), col 1", "confidence": 0.9}
+{"lines": ["TAA550", "Voltage", "Stabilizer"], "category": "Voltage Stabilizer", "frame": "k_0087.jpg", "t": 66.8, "where": "row 1 (top), col 2", "confidence": 0.9}
+{"lines": ["SL611C", "RF/IF", "Amplifier"], "category": "RF/IF Amplifier", "frame": "k_0087.jpg", "t": 66.8, "where": "row 2, col 1", "confidence": 0.9}
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Differential Amplifier", "frame": "k_0087.jpg", "t": 66.8, "where": "row 2, col 2", "confidence": 0.9}
+{"lines": ["SN75107", "Dual LINE RECEIVER", "SN75112", "Dual LINE Driver", "75112"], "category": "Dual Line Receiver/Driver", "frame": "k_0087.jpg", "t": 66.8, "where": "row 3, col 1", "confidence": 0.8}
+{"lines": ["SN75150", "DUAL LINE DRIVER", "SN75154", "QUAD LINE RECEIVER"], "category": "Dual Line Driver / Quad Line Receiver", "frame": "k_0087.jpg", "t": 66.8, "where": "row 3, col 2", "confidence": 0.75}
+{"lines": ["LM219H", "HIGH-Speed", "Dual", "Comparator"], "category": "Dual Comparator", "frame": "k_0087.jpg", "t": 66.8, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["LM339", "Quad", "differential", "comparator"], "category": "Quad differential comparator", "frame": "k_0087.jpg", "t": 66.8, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["LM556", "Timer"], "category": "Timer", "frame": "k_0087.jpg", "t": 66.8, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["NE555"], "category": null, "frame": "k_0087.jpg", "t": 66.8, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["MC10102", "Quad 2-Input", "NOR GATE"], "category": "NOR GATE", "frame": "k_0087.jpg", "t": 66.8, "where": "row 6 (bottom), col 1", "confidence": 0.85}
+{"lines": ["MC10111", "Dual 3-In/Out", "NOR Gate"], "category": "NOR Gate", "frame": "k_0087.jpg", "t": 66.8, "where": "row 6 (bottom), col 2", "confidence": 0.85}
+{"lines": ["SL611C", "RF/IF", "Amplifier"], "category": "RF/IF Amplifier", "frame": "k_0088.jpg", "t": 67.6, "where": "row 1 (top), col 1", "confidence": 0.9}
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Differential Amplifier", "frame": "k_0088.jpg", "t": 67.6, "where": "row 1 (top), col 2", "confidence": 0.9}
+{"lines": ["SN75107", "Dual LINE RECEIVER", "SN75112", "Dual LINE Driver", "75112"], "category": "Dual Line Receiver/Driver", "frame": "k_0088.jpg", "t": 67.6, "where": "row 2, col 1", "confidence": 0.8}
+{"lines": ["SN75150", "DUAL LINE DRIVER", "SN75154", "QUAD LINE RECEIVER"], "category": "Dual Line Driver / Quad Line Receiver", "frame": "k_0088.jpg", "t": 67.6, "where": "row 2, col 2", "confidence": 0.75}
+{"lines": ["LM219H", "HIGH-Speed", "Dual", "Comparator"], "category": "Dual Comparator", "frame": "k_0088.jpg", "t": 67.6, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["LM339", "Quad", "differential", "comparator"], "category": "Quad differential comparator", "frame": "k_0088.jpg", "t": 67.6, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["LM556", "Timer"], "category": "Timer", "frame": "k_0088.jpg", "t": 67.6, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["NE555"], "category": null, "frame": "k_0088.jpg", "t": 67.6, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["MC10102", "Quad 2-Input", "NOR GATE"], "category": "NOR GATE", "frame": "k_0088.jpg", "t": 67.6, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["MC10111", "Dual 3-In/Out", "NOR Gate"], "category": "NOR Gate", "frame": "k_0088.jpg", "t": 67.6, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["LTC485", "Low power", "RS485 interf", "transciever"], "category": "RS485 transceiver", "frame": "k_0088.jpg", "t": 67.6, "where": "row 6 (bottom), col 1", "confidence": 0.8}
+{"lines": ["MC3441A", "Quad Interface", "Bus", "Transceiver"], "category": "Bus Transceiver", "frame": "k_0088.jpg", "t": 67.6, "where": "row 6 (bottom), col 2", "confidence": 0.7}
+{"lines": ["SL611C", "RF/IF", "Amplifier"], "category": "RF/IF Amplifier", "frame": "k_0089.jpg", "t": 68.3, "where": "row 1 (top), col 1", "confidence": 0.9}
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Differential Amplifier", "frame": "k_0089.jpg", "t": 68.3, "where": "row 1 (top), col 2", "confidence": 0.9}
+{"lines": ["SN75107", "Dual LINE RECEIVER", "SN75112", "Dual LINE Driver", "75112"], "category": "Dual Line Receiver/Driver", "frame": "k_0089.jpg", "t": 68.3, "where": "row 2, col 1", "confidence": 0.8}
+{"lines": ["SN75150", "DUAL LINE DRIVER", "SN75154", "QUAD LINE RECEIVER"], "category": "Dual Line Driver / Quad Line Receiver", "frame": "k_0089.jpg", "t": 68.3, "where": "row 2, col 2", "confidence": 0.75}
+{"lines": ["LM219H", "HIGH-Speed", "Dual", "Comparator"], "category": "Dual Comparator", "frame": "k_0089.jpg", "t": 68.3, "where": "row 3, col 1", "confidence": 0.9}
+{"lines": ["LM339", "Quad", "differential", "comparator"], "category": "Quad differential comparator", "frame": "k_0089.jpg", "t": 68.3, "where": "row 3, col 2", "confidence": 0.9}
+{"lines": ["LM556", "Timer"], "category": "Timer", "frame": "k_0089.jpg", "t": 68.3, "where": "row 4, col 1", "confidence": 0.9}
+{"lines": ["NE555"], "category": null, "frame": "k_0089.jpg", "t": 68.3, "where": "row 4, col 2", "confidence": 0.9}
+{"lines": ["MC10102", "Quad 2-Input", "NOR GATE"], "category": "NOR GATE", "frame": "k_0089.jpg", "t": 68.3, "where": "row 5, col 1", "confidence": 0.9}
+{"lines": ["MC10111", "Dual 3-In/Out", "NOR Gate"], "category": "NOR Gate", "frame": "k_0089.jpg", "t": 68.3, "where": "row 5, col 2", "confidence": 0.9}
+{"lines": ["LTC485", "Low power", "RS485 interf", "transciever"], "category": "RS485 transceiver", "frame": "k_0089.jpg", "t": 68.3, "where": "row 6 (bottom), col 1", "confidence": 0.8}
+{"lines": ["MC3441A", "Quad Interface", "Bus", "Transceiver"], "category": "Bus Transceiver", "frame": "k_0089.jpg", "t": 68.3, "where": "row 6 (bottom), col 2", "confidence": 0.6}

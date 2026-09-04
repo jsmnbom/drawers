@@ -1,0 +1,164 @@
+{"lines": ["150R"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 1, handwritten on drawer front, second column", "confidence": 0.85}
+{"lines": ["560"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 2, first column", "confidence": 0.8}
+{"lines": ["820"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 2, third column", "confidence": 0.85}
+{"lines": ["1k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 2, fourth column", "confidence": 0.7}
+{"lines": ["1.5k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 3, first column", "confidence": 0.85}
+{"lines": ["2.2k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 3, third column", "confidence": 0.85}
+{"lines": ["2.7k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 3, fourth column", "confidence": 0.85}
+{"lines": ["3.9k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 4, first column", "confidence": 0.85}
+{"lines": ["4.7k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 4, second column", "confidence": 0.9}
+{"lines": ["5.6k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 4, third column", "confidence": 0.9}
+{"lines": ["6.8k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 4, fourth column", "confidence": 0.9}
+{"lines": ["10k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 5, first column", "confidence": 0.9}
+{"lines": ["12k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 5, second column", "confidence": 0.9}
+{"lines": ["18k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 5, fourth column", "confidence": 0.9}
+{"lines": ["27k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 6, first column", "confidence": 0.85}
+{"lines": ["33k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 6, second column", "confidence": 0.9}
+{"lines": ["47k"], "category": null, "frame": "k_t0315.0.jpg", "t": 315.0, "where": "row 6, fourth column", "confidence": 0.85}
+{"lines": ["150R"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "top edge, handwritten, second column", "confidence": 0.7}
+{"lines": ["560"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 2, first column", "confidence": 0.75}
+{"lines": ["820"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 2, third column", "confidence": 0.8}
+{"lines": ["1k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 2, fourth column", "confidence": 0.65}
+{"lines": ["1.5k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 3, first column", "confidence": 0.8}
+{"lines": ["2.2k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 3, third column", "confidence": 0.7}
+{"lines": ["2.7k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 3, fourth column", "confidence": 0.8}
+{"lines": ["3.9k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 4, first column", "confidence": 0.8}
+{"lines": ["4.7k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 4, second column", "confidence": 0.85}
+{"lines": ["5.6k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 4, third column", "confidence": 0.85}
+{"lines": ["6.8k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 4, fourth column", "confidence": 0.8}
+{"lines": ["10k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 5, first column", "confidence": 0.85}
+{"lines": ["12k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 5, second column", "confidence": 0.85}
+{"lines": ["18k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 5, fourth column", "confidence": 0.75}
+{"lines": ["27k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 6, first column", "confidence": 0.7}
+{"lines": ["33k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 6, second column", "confidence": 0.75}
+{"lines": ["47k"], "category": null, "frame": "k_t0315.2.jpg", "t": 315.2, "where": "row 6, fourth column", "confidence": 0.7}
+{"lines": ["CD 4047"], "category": null, "frame": "k_t0316.2.jpg", "t": 316.2, "where": "left column, upper area", "confidence": 0.8}
+{"lines": ["CD 4066"], "category": null, "frame": "k_t0316.2.jpg", "t": 316.2, "where": "left column, below CD4047", "confidence": 0.8}
+{"lines": ["CD 4072"], "category": null, "frame": "k_t0316.2.jpg", "t": 316.2, "where": "left column, below CD4066", "confidence": 0.8}
+{"lines": ["CD 4082"], "category": null, "frame": "k_t0316.2.jpg", "t": 316.2, "where": "left column, below CD4072", "confidence": 0.75}
+{"lines": ["BC236PNP"], "category": null, "frame": "k_t0316.2.jpg", "t": 316.2, "where": "right column, middle area", "confidence": 0.4}
+{"lines": ["BC327"], "category": null, "frame": "k_t0316.2.jpg", "t": 316.2, "where": "right column, bottom area, left cell", "confidence": 0.8}
+{"lines": ["CD 4060", "CD 4063"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 1, left column", "confidence": 0.75}
+{"lines": ["CD 4066"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 1, right column", "confidence": 0.85}
+{"lines": ["CD 4071"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4072"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4081"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4082"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 40106"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 4, left column", "confidence": 0.85}
+{"lines": ["CD 4512"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 5, left column", "confidence": 0.8}
+{"lines": ["CD 4515"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "row 5, right column", "confidence": 0.75}
+{"lines": ["BC327"], "category": null, "frame": "k_t0316.8.jpg", "t": 316.8, "where": "far right column, lower area", "confidence": 0.85}
+{"lines": ["CD 4070"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 2 (top visible), left column", "confidence": 0.6}
+{"lines": ["CD 4071"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 2, middle column", "confidence": 0.9}
+{"lines": ["CD 4072"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4076"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 3, left column", "confidence": 0.85}
+{"lines": ["CD 4081"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["CD 4082"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4099"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 40106"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["CD 4511"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["CD 4512"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 5, middle column", "confidence": 0.9}
+{"lines": ["CD 4515"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 5, right column", "confidence": 0.85}
+{"lines": ["CD 4526"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 6, left column", "confidence": 0.85}
+{"lines": ["CD 4528"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 6, middle column", "confidence": 0.85}
+{"lines": ["CD 4532"], "category": null, "frame": "k_t0317.3.jpg", "t": 317.3, "where": "row 6, right column", "confidence": 0.7}
+{"lines": ["CD 4081"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4082"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 40106"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4512"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 4515"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4528"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["CD 4532"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["80C95"], "category": null, "frame": "k_t0318.5.jpg", "t": 318.5, "where": "row 6, right column", "confidence": 0.85}
+{"lines": ["CD 4081"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 2, middle column", "confidence": 0.9}
+{"lines": ["CD 4082"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 40106"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["CD 4512"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["CD 4515"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4526"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 5, left column", "confidence": 0.75}
+{"lines": ["CD 4528"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 5, middle column", "confidence": 0.9}
+{"lines": ["CD 4532"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["80C95"], "category": null, "frame": "k_t0319.1.jpg", "t": 319.1, "where": "row 6, right column", "confidence": 0.85}
+{"lines": ["CD 4075"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 1, left column", "confidence": 0.8}
+{"lines": ["CD 4076"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 1, middle column", "confidence": 0.9}
+{"lines": ["CD 4098"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 2, left column", "confidence": 0.75}
+{"lines": ["CD 4099"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 2, middle column", "confidence": 0.9}
+{"lines": ["CD 40106"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["4503"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 3, left column, handwritten label", "confidence": 0.7}
+{"lines": ["CD 4511"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["CD 4512"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4520"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 4, left column", "confidence": 0.85}
+{"lines": ["CD 4526"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 4, middle column", "confidence": 0.85}
+{"lines": ["CD 4528"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4556"], "category": null, "frame": "k_t0320.4.jpg", "t": 320.4, "where": "row 5, left column", "confidence": 0.85}
+{"lines": ["CD 4075"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 1, left column", "confidence": 0.9}
+{"lines": ["CD 4076"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 1, right column", "confidence": 0.9}
+{"lines": ["CD 4098"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4099"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4503"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 3, left column, handwritten label", "confidence": 0.85}
+{"lines": ["CD 4511"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4520"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 4526"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4556"], "category": null, "frame": "k_t0321.3.jpg", "t": 321.3, "where": "row 5, left column", "confidence": 0.85}
+{"lines": ["CD 4073"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 1, left column", "confidence": 0.9}
+{"lines": ["CD 4075"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 1, middle column", "confidence": 0.9}
+{"lines": ["CD 4093"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4098"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 2, middle column", "confidence": 0.9}
+{"lines": ["CD 4099"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["CD 4502"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4503"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 3, middle column, handwritten label", "confidence": 0.9}
+{"lines": ["CD 4511"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4516"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 4520"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["CD 4526"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 4, right column", "confidence": 0.75}
+{"lines": ["CD 4555"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 5, left column", "confidence": 0.8}
+{"lines": ["CD 4556"], "category": null, "frame": "k_t0321.9.jpg", "t": 321.9, "where": "row 5, middle column", "confidence": 0.85}
+{"lines": ["CD 4073"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 1, middle column", "confidence": 0.9}
+{"lines": ["CD 4093"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 2, middle column", "confidence": 0.9}
+{"lines": ["CD 4098"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4502"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["CD 4503"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 3, right column, handwritten label", "confidence": 0.9}
+{"lines": ["CD 4516"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["CD 4520"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4555"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 5, middle column", "confidence": 0.85}
+{"lines": ["CD 4556"], "category": null, "frame": "k_t0322.8.jpg", "t": 322.8, "where": "row 5, right column", "confidence": 0.85}
+{"lines": ["HC 145"], "category": null, "frame": "k_t0325.8.jpg", "t": 325.8, "where": "row 2, middle-left column", "confidence": 0.85}
+{"lines": ["126"], "category": null, "frame": "k_t0325.8.jpg", "t": 325.8, "where": "row 4, middle-left column, handwritten label", "confidence": 0.75}
+{"lines": ["112"], "category": null, "frame": "k_t0327.0.jpg", "t": 327.0, "where": "row 2, middle column, handwritten label", "confidence": 0.8}
+{"lines": ["HC 145"], "category": null, "frame": "k_t0327.0.jpg", "t": 327.0, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["140"], "category": null, "frame": "k_t0327.0.jpg", "t": 327.0, "where": "row 3, middle column, handwritten label", "confidence": 0.8}
+{"lines": ["123"], "category": null, "frame": "k_t0327.0.jpg", "t": 327.0, "where": "row 4, middle column, handwritten label", "confidence": 0.8}
+{"lines": ["126"], "category": null, "frame": "k_t0327.0.jpg", "t": 327.0, "where": "row 4, right column, handwritten label", "confidence": 0.75}
+{"lines": ["163"], "category": null, "frame": "k_t0327.0.jpg", "t": 327.0, "where": "row 5, middle column, handwritten label", "confidence": 0.8}
+{"lines": ["HC 132"], "category": null, "frame": "k_t0327.7.jpg", "t": 327.7, "where": "row 1, left column", "confidence": 0.9}
+{"lines": ["112"], "category": null, "frame": "k_t0327.7.jpg", "t": 327.7, "where": "row 2, middle column, handwritten label", "confidence": 0.85}
+{"lines": ["HC 150"], "category": null, "frame": "k_t0327.7.jpg", "t": 327.7, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["140"], "category": null, "frame": "k_t0327.7.jpg", "t": 327.7, "where": "row 3, middle column, handwritten label", "confidence": 0.85}
+{"lines": ["123"], "category": null, "frame": "k_t0327.7.jpg", "t": 327.7, "where": "row 4, middle column, handwritten label", "confidence": 0.85}
+{"lines": ["163"], "category": null, "frame": "k_t0327.7.jpg", "t": 327.7, "where": "row 5, middle column, handwritten label", "confidence": 0.8}
+{"lines": ["HC 132"], "category": null, "frame": "k_t0328.3.jpg", "t": 328.3, "where": "row 1, left column", "confidence": 0.9}
+{"lines": ["112"], "category": null, "frame": "k_t0328.3.jpg", "t": 328.3, "where": "row 2, right column, handwritten label", "confidence": 0.85}
+{"lines": ["HC 150"], "category": null, "frame": "k_t0328.3.jpg", "t": 328.3, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["140"], "category": null, "frame": "k_t0328.3.jpg", "t": 328.3, "where": "row 3, right column, handwritten label", "confidence": 0.85}
+{"lines": ["123"], "category": null, "frame": "k_t0328.3.jpg", "t": 328.3, "where": "row 4, right column, handwritten label", "confidence": 0.85}
+{"lines": ["163"], "category": null, "frame": "k_t0328.3.jpg", "t": 328.3, "where": "row 5, right column, handwritten label", "confidence": 0.8}
+{"lines": ["HC 132"], "category": null, "frame": "k_t0328.7.jpg", "t": 328.7, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["112"], "category": null, "frame": "k_t0328.7.jpg", "t": 328.7, "where": "row 3, right column, handwritten label", "confidence": 0.85}
+{"lines": ["HC 150"], "category": null, "frame": "k_t0328.7.jpg", "t": 328.7, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["140"], "category": null, "frame": "k_t0328.7.jpg", "t": 328.7, "where": "row 4, right column, handwritten label", "confidence": 0.85}
+{"lines": ["123"], "category": null, "frame": "k_t0328.7.jpg", "t": 328.7, "where": "row 5, right column, handwritten label", "confidence": 0.85}
+{"lines": ["163"], "category": null, "frame": "k_t0328.7.jpg", "t": 328.7, "where": "row 6, right column, handwritten label", "confidence": 0.8}
+{"lines": ["HC 173"], "category": null, "frame": "k_t0329.4.jpg", "t": 329.4, "where": "top row, left column", "confidence": 0.8}
+{"lines": ["HC 148"], "category": null, "frame": "k_t0329.4.jpg", "t": 329.4, "where": "top row, right column", "confidence": 0.85}
+{"lines": ["HC 74"], "category": null, "frame": "k_t0329.4.jpg", "t": 329.4, "where": "row 2, left column", "confidence": 0.85}
+{"lines": ["176"], "category": null, "frame": "k_t0329.4.jpg", "t": 329.4, "where": "row 2, right column, handwritten label", "confidence": 0.85}
+{"lines": ["177"], "category": null, "frame": "k_t0329.4.jpg", "t": 329.4, "where": "row 3, left column, handwritten label", "confidence": 0.85}
+{"lines": ["182"], "category": null, "frame": "k_t0329.4.jpg", "t": 329.4, "where": "row 3, right column, handwritten label", "confidence": 0.8}
+{"lines": ["HC 124"], "category": null, "frame": "k_t0329.4.jpg", "t": 329.4, "where": "bottom row, left column", "confidence": 0.8}
+{"lines": ["HC 173"], "category": null, "frame": "k_t0329.9.jpg", "t": 329.9, "where": "top row, left column", "confidence": 0.85}
+{"lines": ["HC 148"], "category": null, "frame": "k_t0329.9.jpg", "t": 329.9, "where": "top row, right column", "confidence": 0.85}
+{"lines": ["HC 74"], "category": null, "frame": "k_t0329.9.jpg", "t": 329.9, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["176"], "category": null, "frame": "k_t0329.9.jpg", "t": 329.9, "where": "row 2, right column, handwritten label", "confidence": 0.9}
+{"lines": ["177"], "category": null, "frame": "k_t0329.9.jpg", "t": 329.9, "where": "row 3, left column, handwritten label", "confidence": 0.9}
+{"lines": ["182"], "category": null, "frame": "k_t0329.9.jpg", "t": 329.9, "where": "row 3, right column, handwritten label", "confidence": 0.85}
+{"lines": ["HC 174"], "category": null, "frame": "k_t0329.9.jpg", "t": 329.9, "where": "bottom row, left column", "confidence": 0.8}

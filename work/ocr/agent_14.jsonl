@@ -1,0 +1,139 @@
+{"lines": ["0603", "39.2Ω"], "category": "Resistor", "frame": "k_0250.jpg", "t": 180.5, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "47.5Ω"], "category": "Resistor", "frame": "k_0250.jpg", "t": 180.5, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "49.9Ω"], "category": "Resistor", "frame": "k_0250.jpg", "t": 180.5, "where": "reel row, third from left", "confidence": 0.9}
+{"lines": ["0603", "51.1Ω"], "category": "Resistor", "frame": "k_0250.jpg", "t": 180.5, "where": "reel row, fourth from left", "confidence": 0.9}
+{"lines": ["0603", "54.9Ω"], "category": "Resistor", "frame": "k_0250.jpg", "t": 180.5, "where": "reel row, fifth from left", "confidence": 0.9}
+{"lines": ["0603", "68.1Ω"], "category": "Resistor", "frame": "k_0250.jpg", "t": 180.5, "where": "reel row, far right", "confidence": 0.9}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0250.jpg", "t": 180.5, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0250.jpg", "t": 180.5, "where": "bottom row, right drawer", "confidence": 0.95}
+{"lines": ["0603", "47.5Ω"], "category": "Resistor", "frame": "k_0251.jpg", "t": 180.91, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "49.9Ω"], "category": "Resistor", "frame": "k_0251.jpg", "t": 180.91, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "51.1Ω"], "category": "Resistor", "frame": "k_0251.jpg", "t": 180.91, "where": "reel row, third from left", "confidence": 0.9}
+{"lines": ["0603", "54.9Ω"], "category": "Resistor", "frame": "k_0251.jpg", "t": 180.91, "where": "reel row, fourth from left", "confidence": 0.9}
+{"lines": ["0603", "68.1Ω"], "category": "Resistor", "frame": "k_0251.jpg", "t": 180.91, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "75.0Ω"], "category": "Resistor", "frame": "k_0251.jpg", "t": 180.91, "where": "reel row, far right", "confidence": 0.85}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0251.jpg", "t": 180.91, "where": "bottom row, left edge cut off", "confidence": 0.7}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0251.jpg", "t": 180.91, "where": "bottom row, right drawer", "confidence": 0.95}
+{"lines": ["0603", "51.1Ω"], "category": "Resistor", "frame": "k_0252.jpg", "t": 181.3, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "54.9Ω"], "category": "Resistor", "frame": "k_0252.jpg", "t": 181.3, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "61.9Ω"], "category": "Resistor", "frame": "k_0252.jpg", "t": 181.3, "where": "reel row, middle, partly obscured", "confidence": 0.6}
+{"lines": ["0603", "68.1Ω"], "category": "Resistor", "frame": "k_0252.jpg", "t": 181.3, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "75.0Ω"], "category": "Resistor", "frame": "k_0252.jpg", "t": 181.3, "where": "reel row, right, green label", "confidence": 0.9}
+{"lines": ["0603", "100Ω"], "category": "Resistor", "frame": "k_0252.jpg", "t": 181.3, "where": "reel row, far right, green label", "confidence": 0.9}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0252.jpg", "t": 181.3, "where": "bottom row, second drawer", "confidence": 0.95}
+{"lines": ["0603", "54.9Ω"], "category": "Resistor", "frame": "k_0253.jpg", "t": 181.7, "where": "reel row, far left, partly cut off", "confidence": 0.55}
+{"lines": ["0603", "61.9Ω"], "category": "Resistor", "frame": "k_0253.jpg", "t": 181.7, "where": "reel row, left", "confidence": 0.75}
+{"lines": ["0603", "68.1Ω"], "category": "Resistor", "frame": "k_0253.jpg", "t": 181.7, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "75.0Ω"], "category": "Resistor", "frame": "k_0253.jpg", "t": 181.7, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "100Ω"], "category": "Resistor", "frame": "k_0253.jpg", "t": 181.7, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0253.jpg", "t": 181.7, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["0603", "75.0Ω"], "category": "Resistor", "frame": "k_0254.jpg", "t": 182.52, "where": "reel row, far left edge cut off", "confidence": 0.7}
+{"lines": ["0603", "100Ω"], "category": "Resistor", "frame": "k_0254.jpg", "t": 182.52, "where": "reel row, left", "confidence": 0.9}
+{"lines": ["0603", "110Ω"], "category": "Resistor", "frame": "k_0254.jpg", "t": 182.52, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "121Ω"], "category": "Resistor", "frame": "k_0254.jpg", "t": 182.52, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "133Ω"], "category": "Resistor", "frame": "k_0254.jpg", "t": 182.52, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC107", "NPN"], "category": "Transistor", "frame": "k_0254.jpg", "t": 182.52, "where": "bottom row, right drawer", "confidence": 0.9}
+{"lines": ["0603", "110Ω"], "category": "Resistor", "frame": "k_0255.jpg", "t": 183.43, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "121Ω"], "category": "Resistor", "frame": "k_0255.jpg", "t": 183.43, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "133Ω"], "category": "Resistor", "frame": "k_0255.jpg", "t": 183.43, "where": "reel row, third from left", "confidence": 0.9}
+{"lines": ["0603", "221Ω"], "category": "Resistor", "frame": "k_0255.jpg", "t": 183.43, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "243Ω"], "category": "Resistor", "frame": "k_0255.jpg", "t": 183.43, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "274Ω"], "category": "Resistor", "frame": "k_0255.jpg", "t": 183.43, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC107", "NPN"], "category": "Transistor", "frame": "k_0255.jpg", "t": 183.43, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["0603", "133Ω"], "category": "Resistor", "frame": "k_0256.jpg", "t": 184.13, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "221Ω"], "category": "Resistor", "frame": "k_0256.jpg", "t": 184.13, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "243Ω"], "category": "Resistor", "frame": "k_0256.jpg", "t": 184.13, "where": "reel row, third from left", "confidence": 0.9}
+{"lines": ["0603", "274Ω"], "category": "Resistor", "frame": "k_0256.jpg", "t": 184.13, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "280Ω"], "category": "Resistor", "frame": "k_0256.jpg", "t": 184.13, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "294Ω"], "category": "Resistor", "frame": "k_0256.jpg", "t": 184.13, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC107", "NPN"], "category": "Transistor", "frame": "k_0256.jpg", "t": 184.13, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["BC337", "NPN"], "category": "Transistor", "frame": "k_0256.jpg", "t": 184.13, "where": "bottom row, right drawer", "confidence": 0.95}
+{"lines": ["0603", "274Ω"], "category": "Resistor", "frame": "k_0257.jpg", "t": 185.12, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "280Ω"], "category": "Resistor", "frame": "k_0257.jpg", "t": 185.12, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "294Ω"], "category": "Resistor", "frame": "k_0257.jpg", "t": 185.12, "where": "reel row, third from left", "confidence": 0.9}
+{"lines": ["0603", "301Ω"], "category": "Resistor", "frame": "k_0257.jpg", "t": 185.12, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "324Ω"], "category": "Resistor", "frame": "k_0257.jpg", "t": 185.12, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "330Ω"], "category": "Resistor", "frame": "k_0257.jpg", "t": 185.12, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC337", "NPN"], "category": "Transistor", "frame": "k_0257.jpg", "t": 185.12, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["0603", "243Ω"], "category": "Resistor", "frame": "k_0258.jpg", "t": 185.85, "where": "reel row, far left, cut off", "confidence": 0.6}
+{"lines": ["0603", "274Ω"], "category": "Resistor", "frame": "k_0258.jpg", "t": 185.85, "where": "reel row, left", "confidence": 0.9}
+{"lines": ["0603", "280Ω"], "category": "Resistor", "frame": "k_0258.jpg", "t": 185.85, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "294Ω"], "category": "Resistor", "frame": "k_0258.jpg", "t": 185.85, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "301Ω"], "category": "Resistor", "frame": "k_0258.jpg", "t": 185.85, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "324Ω"], "category": "Resistor", "frame": "k_0258.jpg", "t": 185.85, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "330Ω"], "category": "Resistor", "frame": "k_0258.jpg", "t": 185.85, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC337", "NPN"], "category": "Transistor", "frame": "k_0258.jpg", "t": 185.85, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["0603", "294Ω"], "category": "Resistor", "frame": "k_0259.jpg", "t": 186.37, "where": "reel row, far left, cut off", "confidence": 0.7}
+{"lines": ["0603", "301Ω"], "category": "Resistor", "frame": "k_0259.jpg", "t": 186.37, "where": "reel row, left", "confidence": 0.9}
+{"lines": ["0603", "324Ω"], "category": "Resistor", "frame": "k_0259.jpg", "t": 186.37, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "330Ω"], "category": "Resistor", "frame": "k_0259.jpg", "t": 186.37, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "357Ω"], "category": "Resistor", "frame": "k_0259.jpg", "t": 186.37, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "392Ω"], "category": "Resistor", "frame": "k_0259.jpg", "t": 186.37, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC337", "NPN"], "category": "Transistor", "frame": "k_0259.jpg", "t": 186.37, "where": "bottom row, far left, cut off", "confidence": 0.7}
+{"lines": ["BC547B", "NPN"], "category": "Transistor", "frame": "k_0259.jpg", "t": 186.37, "where": "bottom row, right drawer", "confidence": 0.95}
+{"lines": ["0603", "357Ω"], "category": "Resistor", "frame": "k_0260.jpg", "t": 187.04, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "392Ω"], "category": "Resistor", "frame": "k_0260.jpg", "t": 187.04, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "499Ω"], "category": "Resistor", "frame": "k_0260.jpg", "t": 187.04, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "511Ω"], "category": "Resistor", "frame": "k_0260.jpg", "t": 187.04, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "519Ω"], "category": "Resistor", "frame": "k_0260.jpg", "t": 187.04, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "562Ω"], "category": "Resistor", "frame": "k_0260.jpg", "t": 187.04, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC547B", "NPN"], "category": "Transistor", "frame": "k_0260.jpg", "t": 187.04, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["BC639", "NPN"], "category": "Transistor", "frame": "k_0260.jpg", "t": 187.04, "where": "bottom row, right drawer", "confidence": 0.95}
+{"lines": ["0603", "392Ω"], "category": "Resistor", "frame": "k_0261.jpg", "t": 187.69, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "499Ω"], "category": "Resistor", "frame": "k_0261.jpg", "t": 187.69, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "511Ω"], "category": "Resistor", "frame": "k_0261.jpg", "t": 187.69, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "519Ω"], "category": "Resistor", "frame": "k_0261.jpg", "t": 187.69, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "562Ω"], "category": "Resistor", "frame": "k_0261.jpg", "t": 187.69, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "590Ω"], "category": "Resistor", "frame": "k_0261.jpg", "t": 187.69, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC547B", "NPN"], "category": "Transistor", "frame": "k_0261.jpg", "t": 187.69, "where": "bottom row, left drawer", "confidence": 0.95}
+{"lines": ["BC639", "NPN"], "category": "Transistor", "frame": "k_0261.jpg", "t": 187.69, "where": "bottom row, right drawer", "confidence": 0.95}
+{"lines": ["0603", "499Ω"], "category": "Resistor", "frame": "k_0262.jpg", "t": 188.02, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "511Ω"], "category": "Resistor", "frame": "k_0262.jpg", "t": 188.02, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "519Ω"], "category": "Resistor", "frame": "k_0262.jpg", "t": 188.02, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "562Ω"], "category": "Resistor", "frame": "k_0262.jpg", "t": 188.02, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "590Ω"], "category": "Resistor", "frame": "k_0262.jpg", "t": 188.02, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC639", "NPN"], "category": "Transistor", "frame": "k_0262.jpg", "t": 188.02, "where": "bottom row, right drawer", "confidence": 0.95}
+{"lines": ["0603", "511Ω"], "category": "Resistor", "frame": "k_0263.jpg", "t": 188.29, "where": "reel row, far left, cut off", "confidence": 0.7}
+{"lines": ["0603", "519Ω"], "category": "Resistor", "frame": "k_0263.jpg", "t": 188.29, "where": "reel row, left", "confidence": 0.9}
+{"lines": ["0603", "562Ω"], "category": "Resistor", "frame": "k_0263.jpg", "t": 188.29, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "590Ω"], "category": "Resistor", "frame": "k_0263.jpg", "t": 188.29, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "698Ω"], "category": "Resistor", "frame": "k_0263.jpg", "t": 188.29, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["BC639", "NPN"], "category": "Transistor", "frame": "k_0263.jpg", "t": 188.29, "where": "bottom row, middle drawer", "confidence": 0.95}
+{"lines": ["0603", "681Ω"], "category": "Resistor", "frame": "k_0264.jpg", "t": 188.85, "where": "reel row, far left, cut off", "confidence": 0.75}
+{"lines": ["0603", "698Ω"], "category": "Resistor", "frame": "k_0264.jpg", "t": 188.85, "where": "reel row, left", "confidence": 0.9}
+{"lines": ["0603", "825Ω"], "category": "Resistor", "frame": "k_0264.jpg", "t": 188.85, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["7805", "7808"], "category": null, "frame": "k_0264.jpg", "t": 188.85, "where": "bottom row, right drawer", "confidence": 0.75}
+{"lines": ["0603", "825Ω"], "category": "Resistor", "frame": "k_0265.jpg", "t": 189.54, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "1.21KΩ"], "category": "Resistor", "frame": "k_0265.jpg", "t": 189.54, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "1.33KΩ"], "category": "Resistor", "frame": "k_0265.jpg", "t": 189.54, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "1.50KΩ"], "category": "Resistor", "frame": "k_0265.jpg", "t": 189.54, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["7805 7809", "7808 7812", "Voltage regulator"], "category": "Voltage Regulator", "frame": "k_0265.jpg", "t": 189.54, "where": "bottom row drawer", "confidence": 0.9}
+{"lines": ["0603", "1.21KΩ"], "category": "Resistor", "frame": "k_0266.jpg", "t": 190.22, "where": "reel row, far left, cut off", "confidence": 0.7}
+{"lines": ["0603", "1.33KΩ"], "category": "Resistor", "frame": "k_0266.jpg", "t": 190.22, "where": "reel row, left", "confidence": 0.9}
+{"lines": ["0603", "1.50KΩ"], "category": "Resistor", "frame": "k_0266.jpg", "t": 190.22, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "1.65KΩ"], "category": "Resistor", "frame": "k_0266.jpg", "t": 190.22, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "2.00KΩ"], "category": "Resistor", "frame": "k_0266.jpg", "t": 190.22, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["0603", "2.05KΩ"], "category": "Resistor", "frame": "k_0266.jpg", "t": 190.22, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["7805 7809", "Voltage regulator"], "category": "Voltage Regulator", "frame": "k_0266.jpg", "t": 190.22, "where": "bottom row, left drawer", "confidence": 0.85}
+{"lines": ["7805"], "category": null, "frame": "k_0266.jpg", "t": 190.22, "where": "bottom row, right drawer, handwritten label", "confidence": 0.8}
+{"lines": ["0603", "1.50KΩ"], "category": "Resistor", "frame": "k_0267.jpg", "t": 190.82, "where": "reel row, far left, cut off", "confidence": 0.7}
+{"lines": ["0603", "1.65KΩ"], "category": "Resistor", "frame": "k_0267.jpg", "t": 190.82, "where": "reel row, left", "confidence": 0.9}
+{"lines": ["0603", "2.00KΩ"], "category": "Resistor", "frame": "k_0267.jpg", "t": 190.82, "where": "reel row, middle-left", "confidence": 0.9}
+{"lines": ["0603", "2.05KΩ"], "category": "Resistor", "frame": "k_0267.jpg", "t": 190.82, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "2.21KΩ"], "category": "Resistor", "frame": "k_0267.jpg", "t": 190.82, "where": "reel row, middle-right", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0267.jpg", "t": 190.82, "where": "bottom shelf edge divider label", "confidence": 0.9}
+{"lines": ["7805"], "category": null, "frame": "k_0267.jpg", "t": 190.82, "where": "bottom row drawer, handwritten label", "confidence": 0.85}
+{"lines": ["0603", "2.00KΩ"], "category": "Resistor", "frame": "k_0268.jpg", "t": 191.22, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "2.05KΩ"], "category": "Resistor", "frame": "k_0268.jpg", "t": 191.22, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "2.21KΩ"], "category": "Resistor", "frame": "k_0268.jpg", "t": 191.22, "where": "reel row, third from left", "confidence": 0.9}
+{"lines": ["0603", "2.74KΩ"], "category": "Resistor", "frame": "k_0268.jpg", "t": 191.22, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0268.jpg", "t": 191.22, "where": "bottom shelf edge divider label", "confidence": 0.9}
+{"lines": ["7805"], "category": null, "frame": "k_0268.jpg", "t": 191.22, "where": "bottom row drawer, handwritten label", "confidence": 0.85}
+{"lines": ["0603", "2.05KΩ"], "category": "Resistor", "frame": "k_0269.jpg", "t": 192.16, "where": "reel row, far left", "confidence": 0.9}
+{"lines": ["0603", "2.21KΩ"], "category": "Resistor", "frame": "k_0269.jpg", "t": 192.16, "where": "reel row, second from left", "confidence": 0.9}
+{"lines": ["0603", "2.74KΩ"], "category": "Resistor", "frame": "k_0269.jpg", "t": 192.16, "where": "reel row, middle", "confidence": 0.9}
+{"lines": ["0603", "2.94KΩ"], "category": "Resistor", "frame": "k_0269.jpg", "t": 192.16, "where": "reel row, middle-right, partly cut off", "confidence": 0.65}
+{"lines": ["0603", "3.01KΩ"], "category": "Resistor", "frame": "k_0269.jpg", "t": 192.16, "where": "reel row, right", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0269.jpg", "t": 192.16, "where": "bottom shelf edge divider label", "confidence": 0.9}
+{"lines": ["805"], "category": null, "frame": "k_0269.jpg", "t": 192.16, "where": "bottom row, left drawer, handwritten label cut off", "confidence": 0.6}
+{"lines": ["UA79HG", "Negat...", "Volta...", "regul..."], "category": "Voltage Regulator", "frame": "k_0269.jpg", "t": 192.16, "where": "bottom row, right drawer, text cut off at edge", "confidence": 0.75}

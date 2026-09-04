@@ -1,0 +1,50 @@
+{"lines": ["0603", "66.2KΩ"], "category": "Resistor", "frame": "k_0290.jpg", "t": 205.62, "where": "left area, orange label", "confidence": 0.85}
+{"lines": ["0603", "68.1KΩ"], "category": "Resistor", "frame": "k_0290.jpg", "t": 205.62, "where": "left-center, orange label", "confidence": 0.7}
+{"lines": ["0603", "121KΩ"], "category": "Resistor", "frame": "k_0290.jpg", "t": 205.62, "where": "right area, orange label", "confidence": 0.85}
+{"lines": ["SMD-0603"], "category": "Resistor", "frame": "k_0290.jpg", "t": 205.62, "where": "bottom, drawer front label", "confidence": 0.9}
+{"lines": ["0603", "82.5KΩ"], "category": "Resistor", "frame": "k_0291.jpg", "t": 206.62, "where": "left-center, orange label", "confidence": 0.85}
+{"lines": ["0603", "121KΩ"], "category": "Resistor", "frame": "k_0291.jpg", "t": 206.62, "where": "center, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "150KΩ"], "category": "Resistor", "frame": "k_0291.jpg", "t": 206.62, "where": "center-right, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "200KΩ"], "category": "Resistor", "frame": "k_0291.jpg", "t": 206.62, "where": "right, black reel orange label", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": "Resistor", "frame": "k_0291.jpg", "t": 206.62, "where": "bottom, drawer front label", "confidence": 0.6}
+{"lines": ["0603", "82.5KΩ"], "category": "Resistor", "frame": "k_0292.jpg", "t": 207.39, "where": "far left, orange label", "confidence": 0.75}
+{"lines": ["0603", "121KΩ"], "category": "Resistor", "frame": "k_0292.jpg", "t": 207.39, "where": "left-center, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "150KΩ"], "category": "Resistor", "frame": "k_0292.jpg", "t": 207.39, "where": "center, black reel orange label", "confidence": 0.9}
+{"lines": ["162KΩ"], "category": "Resistor", "frame": "k_0292.jpg", "t": 207.39, "where": "center-right, partially obscured by tape", "confidence": 0.6}
+{"lines": ["0603", "200KΩ"], "category": "Resistor", "frame": "k_0292.jpg", "t": 207.39, "where": "right-center, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "324KΩ"], "category": "Resistor", "frame": "k_0292.jpg", "t": 207.39, "where": "right, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "200KΩ"], "category": "Resistor", "frame": "k_0293.jpg", "t": 208.69, "where": "left, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "324KΩ"], "category": "Resistor", "frame": "k_0293.jpg", "t": 208.69, "where": "center, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "475KΩ"], "category": "Resistor", "frame": "k_0293.jpg", "t": 208.69, "where": "center-right, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "200KΩ"], "category": "Resistor", "frame": "k_0294.jpg", "t": 209.56, "where": "far left, black reel orange label", "confidence": 0.9}
+{"lines": ["0603", "475KΩ"], "category": "Resistor", "frame": "k_0294.jpg", "t": 209.56, "where": "left-center, black reel orange label", "confidence": 0.85}
+{"lines": ["0603", "825KΩ"], "category": "Resistor", "frame": "k_0294.jpg", "t": 209.56, "where": "center, black reel orange label", "confidence": 0.9}
+{"lines": ["4022"], "category": null, "frame": "k_0300.jpg", "t": 212.88, "where": "small parts drawer cabinet, lower-left", "confidence": 0.6}
+{"lines": ["4023"], "category": null, "frame": "k_0300.jpg", "t": 212.88, "where": "small parts drawer cabinet, lower-middle", "confidence": 0.5}
+{"lines": ["4050"], "category": null, "frame": "k_0300.jpg", "t": 212.88, "where": "small parts drawer cabinet, bottom-left", "confidence": 0.75}
+{"lines": ["4013"], "category": null, "frame": "k_0301.jpg", "t": 213.43, "where": "small parts drawer cabinet, top row middle", "confidence": 0.85}
+{"lines": ["4016"], "category": null, "frame": "k_0301.jpg", "t": 213.43, "where": "small parts drawer cabinet, top row right", "confidence": 0.85}
+{"lines": ["4023"], "category": null, "frame": "k_0301.jpg", "t": 213.43, "where": "small parts drawer cabinet, middle row center", "confidence": 0.85}
+{"lines": ["4025"], "category": null, "frame": "k_0301.jpg", "t": 213.43, "where": "small parts drawer cabinet, middle row right", "confidence": 0.85}
+{"lines": ["4022"], "category": null, "frame": "k_0301.jpg", "t": 213.43, "where": "small parts drawer cabinet, left edge, middle row", "confidence": 0.7}
+{"lines": ["4050"], "category": null, "frame": "k_0301.jpg", "t": 213.43, "where": "small parts drawer cabinet, bottom-left", "confidence": 0.6}
+{"lines": ["4012"], "category": null, "frame": "k_0302.jpg", "t": 213.75, "where": "small parts drawer cabinet, top row left", "confidence": 0.85}
+{"lines": ["4013"], "category": null, "frame": "k_0302.jpg", "t": 213.75, "where": "small parts drawer cabinet, top row middle", "confidence": 0.75}
+{"lines": ["4016"], "category": null, "frame": "k_0302.jpg", "t": 213.75, "where": "small parts drawer cabinet, top row right", "confidence": 0.75}
+{"lines": ["4022"], "category": null, "frame": "k_0302.jpg", "t": 213.75, "where": "small parts drawer cabinet, middle row left", "confidence": 0.75}
+{"lines": ["4023"], "category": null, "frame": "k_0302.jpg", "t": 213.75, "where": "small parts drawer cabinet, middle row middle", "confidence": 0.75}
+{"lines": ["4025"], "category": null, "frame": "k_0302.jpg", "t": 213.75, "where": "small parts drawer cabinet, middle row right", "confidence": 0.75}
+{"lines": ["4010"], "category": null, "frame": "k_0302.jpg", "t": 213.75, "where": "small parts drawer cabinet, bottom row left, red text", "confidence": 0.55}
+{"lines": ["4012"], "category": null, "frame": "k_0303.jpg", "t": 214.26, "where": "small parts drawer cabinet, top row left", "confidence": 0.8}
+{"lines": ["4013"], "category": null, "frame": "k_0303.jpg", "t": 214.26, "where": "small parts drawer cabinet, top row middle", "confidence": 0.75}
+{"lines": ["4016"], "category": null, "frame": "k_0303.jpg", "t": 214.26, "where": "small parts drawer cabinet, top row right", "confidence": 0.75}
+{"lines": ["4022"], "category": null, "frame": "k_0303.jpg", "t": 214.26, "where": "small parts drawer cabinet, middle row left", "confidence": 0.8}
+{"lines": ["4023"], "category": null, "frame": "k_0303.jpg", "t": 214.26, "where": "small parts drawer cabinet, middle row middle", "confidence": 0.75}
+{"lines": ["4025"], "category": null, "frame": "k_0303.jpg", "t": 214.26, "where": "small parts drawer cabinet, middle row right", "confidence": 0.75}
+{"lines": ["4050"], "category": null, "frame": "k_0303.jpg", "t": 214.26, "where": "small parts drawer cabinet, bottom row left, red text", "confidence": 0.85}
+{"lines": ["4013"], "category": null, "frame": "k_0304.jpg", "t": 214.66, "where": "small parts drawer cabinet, top row middle", "confidence": 0.6}
+{"lines": ["4016"], "category": null, "frame": "k_0304.jpg", "t": 214.66, "where": "small parts drawer cabinet, top row right", "confidence": 0.6}
+{"lines": ["4023"], "category": null, "frame": "k_0304.jpg", "t": 214.66, "where": "small parts drawer cabinet, middle row middle", "confidence": 0.55}
+{"lines": ["4025"], "category": null, "frame": "k_0304.jpg", "t": 214.66, "where": "small parts drawer cabinet, middle row right", "confidence": 0.55}
+{"lines": ["JUMPERS 2.54MM"], "category": "Jumper", "frame": "k_0307.jpg", "t": 216.35, "where": "left drawer, printed label", "confidence": 0.95}
+{"lines": ["LM353"], "category": null, "frame": "k_0308.jpg", "t": 217.63, "where": "center drawer, handwritten label", "confidence": 0.85}

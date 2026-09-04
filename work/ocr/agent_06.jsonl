@@ -1,0 +1,262 @@
+{"lines": ["LM733H", "Differential", "Amplifier"], "category": "Amplifier", "frame": "k_0090.jpg", "t": 69.07, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["SL521C", "Wideband", "Log", "Amplifier"], "category": "Amplifier", "frame": "k_0090.jpg", "t": 69.07, "where": "row 1, right (partially cut)", "confidence": 0.7}
+{"lines": ["SN75150", "DUAL LINE DRIVER", "SN75154", "QUAD LINE RECEIVER"], "category": null, "frame": "k_0090.jpg", "t": 69.07, "where": "row 2, middle", "confidence": 0.85}
+{"lines": ["LM339", "Quad", "differential", "comparator"], "category": "comparator", "frame": "k_0090.jpg", "t": 69.07, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["EL2003CN", "Video", "Line", "Driver"], "category": null, "frame": "k_0090.jpg", "t": 69.07, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["LM556", "Timer"], "category": "Timer", "frame": "k_0090.jpg", "t": 69.07, "where": "row 4, left (partially cut)", "confidence": 0.8}
+{"lines": ["NE555"], "category": null, "frame": "k_0090.jpg", "t": 69.07, "where": "row 4, middle", "confidence": 0.95}
+{"lines": ["LM311N", "Voltage", "Comparator"], "category": "Comparator", "frame": "k_0090.jpg", "t": 69.07, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["MC10102", "Quad 2-Input", "NOR GATE"], "category": "NOR GATE", "frame": "k_0090.jpg", "t": 69.07, "where": "row 5, left (partially cut)", "confidence": 0.85}
+{"lines": ["MC10111", "Dual 3-In/Out", "NOR Gate"], "category": "NOR Gate", "frame": "k_0090.jpg", "t": 69.07, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["MC1488P", "MC1489A", "Quad Line", "Driver", "Receiver"], "category": null, "frame": "k_0090.jpg", "t": 69.07, "where": "row 5, right", "confidence": 0.75}
+{"lines": ["LTC485", "Low power", "RS485 interf", "transceiver"], "category": null, "frame": "k_0090.jpg", "t": 69.07, "where": "row 6, left (partially cut)", "confidence": 0.75}
+{"lines": ["MC3441A", "Quad interface", "Bus", "Transceiver"], "category": null, "frame": "k_0090.jpg", "t": 69.07, "where": "row 6, middle", "confidence": 0.6}
+{"lines": ["SL521C", "Wideband", "Log", "Amplifier"], "category": "Amplifier", "frame": "k_0091.jpg", "t": 70.55, "where": "top-left", "confidence": 0.9}
+{"lines": ["MC10116", "Triple", "Line Reciever"], "category": null, "frame": "k_0091.jpg", "t": 70.55, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["EL2003CN", "Video", "Line", "Driver"], "category": null, "frame": "k_0091.jpg", "t": 70.55, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["LM311N", "Voltage", "Comparator"], "category": "Comparator", "frame": "k_0091.jpg", "t": 70.55, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["CNY75G", "CNY17-2", "Optocoupler"], "category": "Optocoupler", "frame": "k_0091.jpg", "t": 70.55, "where": "row 4, right", "confidence": 0.6}
+{"lines": ["MC1488P", "MC1489A", "Quad Line", "Driver", "Reciever"], "category": null, "frame": "k_0091.jpg", "t": 70.55, "where": "row 5, left", "confidence": 0.75}
+{"lines": ["TBP18S030", "Programmable", "READ-ONLY", "Memory"], "category": null, "frame": "k_0091.jpg", "t": 70.55, "where": "row 5, right", "confidence": 0.8}
+{"lines": ["SL521C", "Wideband", "Log", "Amplifier"], "category": "Amplifier", "frame": "k_0092.jpg", "t": 71.92, "where": "top-left", "confidence": 0.9}
+{"lines": ["MC10116", "Triple", "Line Reciever"], "category": null, "frame": "k_0092.jpg", "t": 71.92, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["EL2003CN", "Video", "Line", "Driver"], "category": null, "frame": "k_0092.jpg", "t": 71.92, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["LM311N", "Voltage", "Comparator"], "category": "Comparator", "frame": "k_0092.jpg", "t": 71.92, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["CNY75G", "CNY17-2", "Optocoupler"], "category": "Optocoupler", "frame": "k_0092.jpg", "t": 71.92, "where": "row 4, right", "confidence": 0.6}
+{"lines": ["MC1488P", "MC1489A", "Quad Line", "Driver", "Reciever"], "category": null, "frame": "k_0092.jpg", "t": 71.92, "where": "row 5, left", "confidence": 0.75}
+{"lines": ["TBP18S030", "Programmable", "READ-ONLY", "Memory"], "category": null, "frame": "k_0092.jpg", "t": 71.92, "where": "row 5, right", "confidence": 0.8}
+{"lines": ["IRFB130", "P-CH"], "category": null, "frame": "k_0094.jpg", "t": 73.31, "where": "top row, left cabinet", "confidence": 0.85}
+{"lines": ["BUK45G", "B11NW", "N6LG", "N-CH"], "category": null, "frame": "k_0094.jpg", "t": 73.31, "where": "row 2, left cabinet", "confidence": 0.75}
+{"lines": ["Seven", "Darlington", "Array"], "category": null, "frame": "k_0094.jpg", "t": 73.31, "where": "row 3, left cabinet, far left (partially cut)", "confidence": 0.6}
+{"lines": ["BUJ302F", "DM Pwr", "transistor"], "category": "transistor", "frame": "k_0094.jpg", "t": 73.31, "where": "row 3, left cabinet, middle", "confidence": 0.75}
+{"lines": ["TIL111", "Optocoupler"], "category": "Optocoupler", "frame": "k_0094.jpg", "t": 73.31, "where": "row 4, left cabinet, middle", "confidence": 0.8}
+{"lines": ["SL611C"], "category": null, "frame": "k_0094.jpg", "t": 73.31, "where": "top row, right cabinet (partially cut)", "confidence": 0.65}
+{"lines": ["LM219H", "HIGH-Speed", "Dual", "Comparator"], "category": "Comparator", "frame": "k_0094.jpg", "t": 73.31, "where": "row 3, right cabinet", "confidence": 0.8}
+{"lines": ["LM556", "Timer"], "category": "Timer", "frame": "k_0094.jpg", "t": 73.31, "where": "row 4, right cabinet", "confidence": 0.85}
+{"lines": ["MC10102", "Quad 2-Input", "NOR GATE"], "category": "NOR GATE", "frame": "k_0094.jpg", "t": 73.31, "where": "row 5, right cabinet", "confidence": 0.85}
+{"lines": ["LTC485", "Low power", "RS485 interf", "transceiver"], "category": null, "frame": "k_0094.jpg", "t": 73.31, "where": "row 6, right cabinet", "confidence": 0.75}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0095.jpg", "t": 74.58, "where": "row 1, left", "confidence": 0.85}
+{"lines": ["IRF9130", "P-CH"], "category": null, "frame": "k_0095.jpg", "t": 74.58, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["IRFD9210", "P-CH"], "category": null, "frame": "k_0095.jpg", "t": 74.58, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["BUK45G", "B11NM", "N6LG", "N-CH"], "category": null, "frame": "k_0095.jpg", "t": 74.58, "where": "row 2, right", "confidence": 0.75}
+{"lines": ["ULN2004", "Seven", "Darlington", "Arrays"], "category": null, "frame": "k_0095.jpg", "t": 74.58, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["BU508DF", "Diff. Pwr.", "transistor"], "category": "transistor", "frame": "k_0095.jpg", "t": 74.58, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["ILQ-1", "Quad", "Optocoupler"], "category": "Optocoupler", "frame": "k_0095.jpg", "t": 74.58, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["TIL111", "Optocoupler"], "category": "Optocoupler", "frame": "k_0095.jpg", "t": 74.58, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["TCDT1102G", "Optocoupler"], "category": "Optocoupler", "frame": "k_0095.jpg", "t": 74.58, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["MCP3010", "Triac", "Optocoupler"], "category": "Optocoupler", "frame": "k_0095.jpg", "t": 74.58, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0096.jpg", "t": 75.26, "where": "top row, left (partially cut)", "confidence": 0.8}
+{"lines": ["IRF9130", "P-CH"], "category": null, "frame": "k_0096.jpg", "t": 75.26, "where": "top row, right (partially cut)", "confidence": 0.75}
+{"lines": ["IRFD9210", "P-CH"], "category": null, "frame": "k_0096.jpg", "t": 75.26, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["BUK45G", "B11NM", "N6LG", "N-CH"], "category": null, "frame": "k_0096.jpg", "t": 75.26, "where": "row 2, right", "confidence": 0.8}
+{"lines": ["ULN2004", "Seven", "Darlington", "Arrays"], "category": null, "frame": "k_0096.jpg", "t": 75.26, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["BU508DF", "Diff. Pwr.", "transistor"], "category": "transistor", "frame": "k_0096.jpg", "t": 75.26, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["ILQ-1", "Quad", "Optocoupler"], "category": "Optocoupler", "frame": "k_0096.jpg", "t": 75.26, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["TIL111", "Optocoupler"], "category": "Optocoupler", "frame": "k_0096.jpg", "t": 75.26, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["TCDT1102G", "Optocoupler"], "category": "Optocoupler", "frame": "k_0096.jpg", "t": 75.26, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["MCP3010", "Triac", "Optocoupler"], "category": "Optocoupler", "frame": "k_0096.jpg", "t": 75.26, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0097.jpg", "t": 76.26, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0097.jpg", "t": 76.26, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0097.jpg", "t": 76.26, "where": "row 2, left", "confidence": 0.85}
+{"lines": ["IRFD9210", "P-CH"], "category": null, "frame": "k_0097.jpg", "t": 76.26, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["TIP127", "PNP-Darlington"], "category": null, "frame": "k_0097.jpg", "t": 76.26, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["ULN2004", "Seven", "Darlington", "Arrays"], "category": null, "frame": "k_0097.jpg", "t": 76.26, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["ILQ-1", "Quad", "Optocoupler"], "category": "Optocoupler", "frame": "k_0097.jpg", "t": 76.26, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["6N137", "Optocoupler"], "category": "Optocoupler", "frame": "k_0097.jpg", "t": 76.26, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["TCDT1102G", "Optocoupler"], "category": "Optocoupler", "frame": "k_0097.jpg", "t": 76.26, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["MOC3063", "Triac-", "Optocoupler"], "category": "Optocoupler", "frame": "k_0097.jpg", "t": 76.26, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["MCP3010", "Triac-", "Optocoupler"], "category": "Optocoupler", "frame": "k_0097.jpg", "t": 76.26, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0098.jpg", "t": 76.99, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0098.jpg", "t": 76.99, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["GBC40F", "IGBT-NCH."], "category": null, "frame": "k_0098.jpg", "t": 76.99, "where": "row 2, left", "confidence": 0.85}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0098.jpg", "t": 76.99, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["L201", "NPN-", "Darlington array"], "category": null, "frame": "k_0098.jpg", "t": 76.99, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["TIP127", "PNP-Darlington"], "category": null, "frame": "k_0098.jpg", "t": 76.99, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["ULN2004"], "category": null, "frame": "k_0098.jpg", "t": 76.99, "where": "row 3, right (partially cut)", "confidence": 0.8}
+{"lines": ["ILQ-1", "Quad", "Optocoupler"], "category": "Optocoupler", "frame": "k_0098.jpg", "t": 76.99, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["PC817", "Optocoupler"], "category": "Optocoupler", "frame": "k_0098.jpg", "t": 76.99, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["6N137", "Optocoupler"], "category": "Optocoupler", "frame": "k_0098.jpg", "t": 76.99, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["TCDT1102G", "Optocoupler"], "category": "Optocoupler", "frame": "k_0098.jpg", "t": 76.99, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["MOC3010", "Triac-", "Optocoupler"], "category": "Optocoupler", "frame": "k_0098.jpg", "t": 76.99, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["MOC3063", "Triac-", "Optocoupler"], "category": "Optocoupler", "frame": "k_0098.jpg", "t": 76.99, "where": "row 6, middle", "confidence": 0.9}
+{"lines": ["MCP3010", "Triac-", "Optocoupler"], "category": "Optocoupler", "frame": "k_0098.jpg", "t": 76.99, "where": "row 6, right", "confidence": 0.85}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0099.jpg", "t": 77.91, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0099.jpg", "t": 77.91, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["GBC40F", "IGBT-NCH."], "category": null, "frame": "k_0099.jpg", "t": 77.91, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0099.jpg", "t": 77.91, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["L201", "NPN-", "Darlington array"], "category": null, "frame": "k_0099.jpg", "t": 77.91, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["TIP127", "PNP-Darlington"], "category": null, "frame": "k_0099.jpg", "t": 77.91, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["PC817", "Optocoupler"], "category": "Optocoupler", "frame": "k_0099.jpg", "t": 77.91, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["6N137", "Optocoupler"], "category": "Optocoupler", "frame": "k_0099.jpg", "t": 77.91, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["MOC3010", "Triac-", "Optocoupler"], "category": "Optocoupler", "frame": "k_0099.jpg", "t": 77.91, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["MOC3063", "Triac-", "Optocoupler"], "category": "Optocoupler", "frame": "k_0099.jpg", "t": 77.91, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "top row, left", "confidence": 0.85}
+{"lines": ["BC327", "PNP"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "top row, middle", "confidence": 0.85}
+{"lines": ["BFT80", "PNP"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 2, left", "confidence": 0.85}
+{"lines": ["BD234", "PNP"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 2, middle", "confidence": 0.8}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 3, left", "confidence": 0.85}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 3, middle", "confidence": 0.85}
+{"lines": ["GBC40F", "IGBT-NCH"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 4, left", "confidence": 0.85}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 4, middle", "confidence": 0.85}
+{"lines": ["L201", "NPN-", "Darlington array"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 5, left", "confidence": 0.85}
+{"lines": ["TIP127", "PNP-Darlington"], "category": null, "frame": "k_0100.jpg", "t": 78.59, "where": "row 5, middle", "confidence": 0.85}
+{"lines": ["PC817", "Optocoupler"], "category": "Optocoupler", "frame": "k_0100.jpg", "t": 78.59, "where": "row 7, left", "confidence": 0.8}
+{"lines": ["6N137", "Optocoupler"], "category": "Optocoupler", "frame": "k_0100.jpg", "t": 78.59, "where": "row 7, middle", "confidence": 0.8}
+{"lines": ["BFT40", "NPN"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 1, left", "confidence": 0.85}
+{"lines": ["BC301", "NPN"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 1, middle", "confidence": 0.85}
+{"lines": ["2N3738", "NPN"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["BC327", "PNP"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 3, right (partially cut)", "confidence": 0.75}
+{"lines": ["BFT80", "PNP"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["BD234", "PNP"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 4, middle", "confidence": 0.85}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 5, left", "confidence": 0.85}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 5, middle", "confidence": 0.85}
+{"lines": ["GBC40F", "IGBT-NCH."], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 6, middle", "confidence": 0.85}
+{"lines": ["L201", "NPN-", "Darlington array"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["TIP127", "PNP-Darlington"], "category": null, "frame": "k_0101.jpg", "t": 79.15, "where": "row 7, middle", "confidence": 0.85}
+{"lines": ["2N6292", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["BDY16", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["BDY15", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 1, right (partially cut)", "confidence": 0.75}
+{"lines": ["BFT40", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["BC301", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["MJ3001", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["2N3738", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["BD413", "NPN"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["BC327", "PNP"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 4, right (partially cut)", "confidence": 0.75}
+{"lines": ["BFT80", "PNP"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["BD234", "PNP"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 5, middle", "confidence": 0.85}
+{"lines": ["MJE15031", "PNP"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 5, right", "confidence": 0.75}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 6, middle", "confidence": 0.85}
+{"lines": ["RFP4N100", "IRF740", "19N20L"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 6, right (partially cut)", "confidence": 0.75}
+{"lines": ["GBC40F", "IGBT-NCH."], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 7, middle", "confidence": 0.85}
+{"lines": ["IRFD921", "P-CH"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 7, right", "confidence": 0.7}
+{"lines": ["L201", "NPN-", "Darlington array"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 8, left", "confidence": 0.85}
+{"lines": ["TIP127", "PNP-Darlington"], "category": null, "frame": "k_0102.jpg", "t": 79.68, "where": "row 8, middle", "confidence": 0.85}
+{"lines": ["BC107", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["BC337", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["BC547B", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 1, right", "confidence": 0.85}
+{"lines": ["2N6292", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["BDY16", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["BDY15", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["BFT40", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["BC301", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["MJ3001", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["2N3738", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["BD413", "NPN"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["BC327", "PNP"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 5, right (partially cut)", "confidence": 0.75}
+{"lines": ["BFT80", "PNP"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["BD234", "PNP"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 6, middle", "confidence": 0.85}
+{"lines": ["MJE15031", "PNP"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 6, right", "confidence": 0.8}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 7, middle", "confidence": 0.85}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 7, right", "confidence": 0.8}
+{"lines": ["GBC40F", "IGBT-NCH."], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 8, left (partially cut)", "confidence": 0.75}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 8, middle (partially cut)", "confidence": 0.75}
+{"lines": ["IRFD9210", "P-CH"], "category": null, "frame": "k_0103.jpg", "t": 80.58, "where": "row 8, right (partially cut)", "confidence": 0.75}
+{"lines": ["BC107", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["BC337", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["BC547B", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 1, right", "confidence": 0.85}
+{"lines": ["2N6292", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["BDY16", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["BDY15", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["BFT40", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["BC301", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["MJ3001", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["2N3738", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["BD413", "NPN"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["BC327", "PNP"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 5, right", "confidence": 0.85}
+{"lines": ["BFT80", "PNP"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["BD234", "PNP"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 6, middle", "confidence": 0.85}
+{"lines": ["MJE15031", "PNP"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 6, right", "confidence": 0.8}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 7, middle", "confidence": 0.85}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 7, right", "confidence": 0.8}
+{"lines": ["GBC40F", "IGBT-NCH."], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 8, left (partially cut)", "confidence": 0.75}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 8, middle (partially cut)", "confidence": 0.75}
+{"lines": ["IRFD9210", "P-CH"], "category": null, "frame": "k_0104.jpg", "t": 81.21, "where": "row 8, right (partially cut)", "confidence": 0.7}
+{"lines": ["BC107", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 1, left (partially cut)", "confidence": 0.85}
+{"lines": ["BC337", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["BC547B", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["2N6292", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 2, left (partially cut)", "confidence": 0.8}
+{"lines": ["BDY16", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["BDY15", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["BFT40", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 3, left (partially cut)", "confidence": 0.8}
+{"lines": ["BC301", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["MJ3001", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["2N3738", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 4, left (partially cut)", "confidence": 0.8}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["BD413", "NPN"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 5, left (partially cut)", "confidence": 0.75}
+{"lines": ["BC327", "PNP"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["BD234", "PNP"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 6, middle", "confidence": 0.85}
+{"lines": ["MJE15031", "PNP"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 6, right", "confidence": 0.85}
+{"lines": ["IRFP250", "N-CH"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 7, middle", "confidence": 0.9}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 7, right", "confidence": 0.85}
+{"lines": ["U1899E", "JFET N-CH"], "category": null, "frame": "k_0105.jpg", "t": 81.68, "where": "row 8, middle (partially cut)", "confidence": 0.7}
+{"lines": ["BC547B", "NPN"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["BC639", "NPN"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["BDY15", "NPN"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["BUT90", "NPN"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["MJ3001", "NPN"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["BD413", "NPN"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["MJE3055T"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["BD950", "PNP"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["MJE15031", "PNP"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 8, left (partially cut)", "confidence": 0.8}
+{"lines": ["IRF9130", "P-CH"], "category": null, "frame": "k_0106.jpg", "t": 82.75, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["BC547B", "NPN"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["BC639", "NPN"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["BDY15", "NPN"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["BUT90", "NPN"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["MJ3001", "NPN"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["BD413", "NPN"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["MJE3055T"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["BD950", "PNP"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["MJE15031", "PNP"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["RFP4N100", "IRF740", "19N20L", "N-CH"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 8, left", "confidence": 0.85}
+{"lines": ["IRF9130", "P-CH"], "category": null, "frame": "k_0107.jpg", "t": 83.77, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["BC107", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 1, left (blurred)", "confidence": 0.5}
+{"lines": ["BC337", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 1, middle (blurred)", "confidence": 0.5}
+{"lines": ["BC547B", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 1, right (blurred)", "confidence": 0.5}
+{"lines": ["2N6292", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 2, left (blurred)", "confidence": 0.5}
+{"lines": ["BDY16", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 2, middle (blurred)", "confidence": 0.5}
+{"lines": ["BDY15", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 2, right (blurred)", "confidence": 0.5}
+{"lines": ["BFT40", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 3, left (blurred)", "confidence": 0.5}
+{"lines": ["BC301", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 3, middle (blurred)", "confidence": 0.5}
+{"lines": ["MJ3001", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 3, right (blurred)", "confidence": 0.5}
+{"lines": ["2N3738", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 4, left (blurred)", "confidence": 0.5}
+{"lines": ["2N3055", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 4, middle (blurred)", "confidence": 0.5}
+{"lines": ["BD413", "NPN"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 4, right (blurred)", "confidence": 0.45}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 5, left (blurred)", "confidence": 0.5}
+{"lines": ["BC327", "PNP"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 5, middle (blurred)", "confidence": 0.5}
+{"lines": ["557B", "PNP"], "category": null, "frame": "k_0108.jpg", "t": 84.62, "where": "row 5, right (blurred)", "confidence": 0.5}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0109.jpg", "t": 85.2, "where": "top-left", "confidence": 0.9}
+{"lines": ["1N6267A", "Zener"], "category": "Zener", "frame": "k_0109.jpg", "t": 85.2, "where": "middle-left", "confidence": 0.85}
+{"lines": ["1N6921B", "Zener"], "category": "Zener", "frame": "k_0109.jpg", "t": 85.2, "where": "lower-left", "confidence": 0.85}
+{"lines": ["BC107", "NPN"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "top row, right cabinet, left col", "confidence": 0.85}
+{"lines": ["2N6292", "NPN"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "row 2, right cabinet, left col", "confidence": 0.9}
+{"lines": ["BFT40", "NPN"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "row 3, right cabinet, left col", "confidence": 0.9}
+{"lines": ["2N3738", "NPN"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "row 4, right cabinet, left col", "confidence": 0.9}
+{"lines": ["BC640", "PNP"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "row 5, right cabinet, left col", "confidence": 0.9}
+{"lines": ["BFT80", "PNP"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "row 6, right cabinet, left col", "confidence": 0.9}
+{"lines": ["IRFD120", "N-CH"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "row 7, right cabinet, left col", "confidence": 0.9}
+{"lines": ["GBC40F", "IGBT-NCH"], "category": null, "frame": "k_0109.jpg", "t": 85.2, "where": "row 8, right cabinet, left col (partially cut)", "confidence": 0.8}

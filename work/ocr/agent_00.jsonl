@@ -1,0 +1,213 @@
+{"lines": ["TRACI SPACE", "DIV. TRANSISTOR", "MONT. TILBEHØR"], "category": "Transistor", "frame": "k_0000.jpg", "t": 0.98, "where": "row 1, top-left", "confidence": 0.7}
+{"lines": ["Klemmuffer"], "category": null, "frame": "k_0000.jpg", "t": 0.98, "where": "row 1, top-middle", "confidence": 0.9}
+{"lines": ["TMS9901NL", "Programm. sys.", "interface"], "category": null, "frame": "k_0000.jpg", "t": 0.98, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["LH0002", "Buffer"], "category": "Buffer", "frame": "k_0000.jpg", "t": 0.98, "where": "row 3, left", "confidence": 0.95}
+{"lines": ["UA78S40", "Uni. Sw.", "Reg. Subsystem"], "category": null, "frame": "k_0000.jpg", "t": 0.98, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0000.jpg", "t": 0.98, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["KM4164B", "TMS4256", "DRAM"], "category": "DRAM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["ISD1016AP", "Voice", "Record/", "Playback"], "category": null, "frame": "k_0000.jpg", "t": 0.98, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0000.jpg", "t": 0.98, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["24C16", "EEPROM"], "category": "EEPROM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 5, left", "confidence": 0.95}
+{"lines": ["93C56", "EEPROM"], "category": "EEPROM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 5, middle", "confidence": 0.95}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 5, right", "confidence": 0.85}
+{"lines": ["AMD", "AM6688", "4BIT Quantiziser"], "category": null, "frame": "k_0000.jpg", "t": 0.98, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["MM5290-2", "DRAM"], "category": "DRAM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 6, middle", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["DS1225Y", "RAM"], "category": "RAM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 7, middle", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0000.jpg", "t": 0.98, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["M80C154", "8-bit", "microcontroller", "MCU"], "category": "MCU", "frame": "k_0000.jpg", "t": 0.98, "where": "row 8, left", "confidence": 0.85}
+{"lines": ["Intel/NEC", "D8749HD", "8-bit", "CPU"], "category": "CPU", "frame": "k_0000.jpg", "t": 0.98, "where": "row 8, middle", "confidence": 0.85}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0000.jpg", "t": 0.98, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["TRACI SPACE", "DIV. TRANSISTOR", "MONT. TILBEHØR"], "category": "Transistor", "frame": "k_0001.jpg", "t": 2.1, "where": "row 1, top-left", "confidence": 0.7}
+{"lines": ["Klemmuffer"], "category": null, "frame": "k_0001.jpg", "t": 2.1, "where": "row 1, top-middle", "confidence": 0.9}
+{"lines": ["TMS9901NL", "Programm. sys.", "interface"], "category": null, "frame": "k_0001.jpg", "t": 2.1, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["LH0002", "Buffer"], "category": "Buffer", "frame": "k_0001.jpg", "t": 2.1, "where": "row 3, left", "confidence": 0.95}
+{"lines": ["UA78S40", "Uni. Sw.", "Reg. Subsystem"], "category": null, "frame": "k_0001.jpg", "t": 2.1, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0001.jpg", "t": 2.1, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["KM4164B", "TMS4256", "DRAM"], "category": "DRAM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["ISD1016AP", "Voice", "Record/", "Playback"], "category": null, "frame": "k_0001.jpg", "t": 2.1, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0001.jpg", "t": 2.1, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["24C16", "EEPROM"], "category": "EEPROM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 5, left", "confidence": 0.95}
+{"lines": ["93C56", "EEPROM"], "category": "EEPROM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 5, middle", "confidence": 0.95}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 5, right", "confidence": 0.85}
+{"lines": ["AMD", "AM6688", "4BIT Quantiziser"], "category": null, "frame": "k_0001.jpg", "t": 2.1, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["MM5290-2", "DRAM"], "category": "DRAM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 6, middle", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["DS1225Y", "RAM"], "category": "RAM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 7, middle", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0001.jpg", "t": 2.1, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["M80C154", "8-bit", "microcontroller", "MCU"], "category": "MCU", "frame": "k_0001.jpg", "t": 2.1, "where": "row 8, left", "confidence": 0.85}
+{"lines": ["Intel/NEC", "D8749HD", "8-bit", "CPU"], "category": "CPU", "frame": "k_0001.jpg", "t": 2.1, "where": "row 8, middle", "confidence": 0.85}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0001.jpg", "t": 2.1, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["DC motor"], "category": null, "frame": "k_0002.jpg", "t": 2.52, "where": "top row, right", "confidence": 0.8}
+{"lines": ["Klemmuffer"], "category": null, "frame": "k_0002.jpg", "t": 2.52, "where": "row 2, middle", "confidence": 0.75}
+{"lines": ["DC motor"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["Solenoid", "valves"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 1, right", "confidence": 0.85}
+{"lines": ["Klemmuffer"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 2, left-middle", "confidence": 0.9}
+{"lines": ["Batteryholder", "CR2032 x 1"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["UA78S40", "Uni. Sw.", "Reg. Subsystem"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 4, left-middle", "confidence": 0.75}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 4, middle", "confidence": 0.8}
+{"lines": ["ISD1016AP", "Voice", "Record/", "Playback"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 5, left-middle", "confidence": 0.7}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 5, middle", "confidence": 0.75}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0003.jpg", "t": 3.02, "where": "row 5, right", "confidence": 0.7}
+{"lines": ["93C56", "EEPROM"], "category": "EEPROM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 6, left-middle", "confidence": 0.9}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 6, middle", "confidence": 0.7}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 6, right", "confidence": 0.5}
+{"lines": ["MM5290-2", "DRAM"], "category": "DRAM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 7, left-middle", "confidence": 0.7}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 7, middle", "confidence": 0.75}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 7, right", "confidence": 0.7}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 8, left-middle", "confidence": 0.7}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 8, middle", "confidence": 0.65}
+{"lines": ["UPD4116C-2", "RAM"], "category": "RAM", "frame": "k_0003.jpg", "t": 3.02, "where": "row 8, right", "confidence": 0.65}
+{"lines": ["DC motor"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 1, middle", "confidence": 0.95}
+{"lines": ["Solenoid", "valves"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["Klemmuffer"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 2, far left"," confidence": 0.9}
+{"lines": ["Batteryholder", "CR2032 x 1"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["UA78S40", "Uni. Sw.", "Reg. Subsystem"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["MAYBE!", "MAX6383-", "XR16D3", "µP Reset", "Circuit"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 4, right", "confidence": 0.75}
+{"lines": ["ISD1016AP", "Voice", "Record/", "Playback"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0004.jpg", "t": 3.75, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["93C56", "EEPROM"], "category": "EEPROM", "frame": "k_0004.jpg", "t": 3.75, "where": "row 6, left", "confidence": 0.95}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0004.jpg", "t": 3.75, "where": "row 6, middle", "confidence": 0.9}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0004.jpg", "t": 3.75, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["MM5290-2", "DRAM"], "category": "DRAM", "frame": "k_0004.jpg", "t": 3.75, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0004.jpg", "t": 3.75, "where": "row 7, middle", "confidence": 0.9}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0004.jpg", "t": 3.75, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["XX6116", "RAM"], "category": "RAM", "frame": "k_0004.jpg", "t": 3.75, "where": "row 8, left (cut off)", "confidence": 0.6}
+{"lines": ["DC motor"], "category": null, "frame": "k_0005.jpg", "t": 4.69, "where": "row 1, middle", "confidence": 0.95}
+{"lines": ["Solenoid", "valves"], "category": null, "frame": "k_0005.jpg", "t": 4.69, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["Batteryholder", "CR2032 x 1"], "category": null, "frame": "k_0005.jpg", "t": 4.69, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0005.jpg", "t": 4.69, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["MAYBE!", "MAX6383-", "XR16D3", "µP Reset", "Circuit"], "category": null, "frame": "k_0005.jpg", "t": 4.69, "where": "row 4, right", "confidence": 0.75}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0005.jpg", "t": 4.69, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0005.jpg", "t": 4.69, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0005.jpg", "t": 4.69, "where": "row 6, middle", "confidence": 0.9}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0005.jpg", "t": 4.69, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0005.jpg", "t": 4.69, "where": "row 7, middle", "confidence": 0.9}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0005.jpg", "t": 4.69, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0005.jpg", "t": 4.69, "where": "row 8, left", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0005.jpg", "t": 4.69, "where": "row 8, middle", "confidence": 0.85}
+{"lines": ["UPD416C-2", "RAM"], "category": "RAM", "frame": "k_0005.jpg", "t": 4.69, "where": "row 8, right", "confidence": 0.85}
+{"lines": ["Batteryholder", "CR2032 x 1"], "category": null, "frame": "k_0006.jpg", "t": 5.46, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0006.jpg", "t": 5.46, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["MAYBE!", "MAX6383-", "XR16D3", "µP Reset", "Circuit"], "category": null, "frame": "k_0006.jpg", "t": 5.46, "where": "row 4, right", "confidence": 0.8}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0006.jpg", "t": 5.46, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0006.jpg", "t": 5.46, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0006.jpg", "t": 5.46, "where": "row 6, middle", "confidence": 0.9}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0006.jpg", "t": 5.46, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0006.jpg", "t": 5.46, "where": "row 7, middle", "confidence": 0.9}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0006.jpg", "t": 5.46, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0006.jpg", "t": 5.46, "where": "row 8, left", "confidence": 0.85}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0006.jpg", "t": 5.46, "where": "row 8, middle", "confidence": 0.9}
+{"lines": ["UPD416C-2", "RAM"], "category": "RAM", "frame": "k_0006.jpg", "t": 5.46, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0006.jpg", "t": 5.46, "where": "row 9, middle", "confidence": 0.85}
+{"lines": ["Zilog", "Z80A", "CPU"], "category": "CPU", "frame": "k_0006.jpg", "t": 5.46, "where": "row 9, right", "confidence": 0.85}
+{"lines": ["Batteryholder", "CR2032 x 1"], "category": null, "frame": "k_0007.jpg", "t": 5.84, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0007.jpg", "t": 5.84, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["MAYBE!", "MAX6383-", "XR16D3", "µP Reset", "Circuit"], "category": null, "frame": "k_0007.jpg", "t": 5.84, "where": "row 4, right", "confidence": 0.8}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0007.jpg", "t": 5.84, "where": "row 5, middle", "confidence": 0.9}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0007.jpg", "t": 5.84, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0007.jpg", "t": 5.84, "where": "row 6, middle", "confidence": 0.9}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0007.jpg", "t": 5.84, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0007.jpg", "t": 5.84, "where": "row 7, middle", "confidence": 0.9}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0007.jpg", "t": 5.84, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0007.jpg", "t": 5.84, "where": "row 8, middle", "confidence": 0.9}
+{"lines": ["UPD416C-2", "RAM"], "category": "RAM", "frame": "k_0007.jpg", "t": 5.84, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0007.jpg", "t": 5.84, "where": "row 9, middle", "confidence": 0.85}
+{"lines": ["Zilog", "Z80A", "CPU"], "category": "CPU", "frame": "k_0007.jpg", "t": 5.84, "where": "row 9, right", "confidence": 0.85}
+{"lines": ["Batteryholder", "CR2032 x 1"], "category": null, "frame": "k_0008.jpg", "t": 6.52, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0008.jpg", "t": 6.52, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["MAYBE!", "MAX6383-", "XR16D3", "µP Reset", "Circuit"], "category": null, "frame": "k_0008.jpg", "t": 6.52, "where": "row 4, right", "confidence": 0.8}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0008.jpg", "t": 6.52, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0008.jpg", "t": 6.52, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0008.jpg", "t": 6.52, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0008.jpg", "t": 6.52, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0008.jpg", "t": 6.52, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0008.jpg", "t": 6.52, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0008.jpg", "t": 6.52, "where": "row 8, left", "confidence": 0.9}
+{"lines": ["UPD416C-2", "RAM"], "category": "RAM", "frame": "k_0008.jpg", "t": 6.52, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0008.jpg", "t": 6.52, "where": "row 9, left", "confidence": 0.85}
+{"lines": ["Zilog", "Z80A", "CPU"], "category": "CPU", "frame": "k_0008.jpg", "t": 6.52, "where": "row 9, right", "confidence": 0.85}
+{"lines": ["Batteryholder", "CR2032 x 1"], "category": null, "frame": "k_0009.jpg", "t": 6.94, "where": "top row, right", "confidence": 0.9}
+{"lines": ["10124N", "Quad", "TTL-ECL", "Translator"], "category": null, "frame": "k_0009.jpg", "t": 6.94, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["MAYBE!", "MAX6383-", "XR16D3", "µP Reset", "Circuit"], "category": null, "frame": "k_0009.jpg", "t": 6.94, "where": "row 2, right", "confidence": 0.8}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0009.jpg", "t": 6.94, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0009.jpg", "t": 6.94, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0009.jpg", "t": 6.94, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0009.jpg", "t": 6.94, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0009.jpg", "t": 6.94, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0009.jpg", "t": 6.94, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0009.jpg", "t": 6.94, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["UPD416C-2", "RAM"], "category": "RAM", "frame": "k_0009.jpg", "t": 6.94, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0009.jpg", "t": 6.94, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["Zilog", "Z80A", "CPU"], "category": "CPU", "frame": "k_0009.jpg", "t": 6.94, "where": "row 7, right", "confidence": 0.85}
+{"lines": ["XR2211", "Tone", "Decoder"], "category": null, "frame": "k_0010.jpg", "t": 7.46, "where": "top row, left-middle", "confidence": 0.85}
+{"lines": ["LM567", "Tone", "Decoder"], "category": null, "frame": "k_0010.jpg", "t": 7.46, "where": "top row, right", "confidence": 0.85}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0010.jpg", "t": 7.46, "where": "row 2, middle", "confidence": 0.85}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0010.jpg", "t": 7.46, "where": "row 2, right", "confidence": 0.8}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0010.jpg", "t": 7.46, "where": "row 3, middle", "confidence": 0.85}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0010.jpg", "t": 7.46, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0010.jpg", "t": 7.46, "where": "row 4, left", "confidence": 0.85}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0010.jpg", "t": 7.46, "where": "row 4, middle", "confidence": 0.85}
+{"lines": ["UPD416C-2", "RAM"], "category": "RAM", "frame": "k_0010.jpg", "t": 7.46, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["Intel/NEC", "D8749HD", "8-bit", "CPU"], "category": "CPU", "frame": "k_0010.jpg", "t": 7.46, "where": "row 5, left", "confidence": 0.75}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0010.jpg", "t": 7.46, "where": "row 5, middle", "confidence": 0.85}
+{"lines": ["Zilog", "Z80A", "CPU"], "category": "CPU", "frame": "k_0010.jpg", "t": 7.46, "where": "row 5, right", "confidence": 0.85}
+{"lines": ["50Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0010.jpg", "t": 7.46, "where": "row 7, left", "confidence": 0.75}
+{"lines": ["100Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0010.jpg", "t": 7.46, "where": "row 7, middle", "confidence": 0.75}
+{"lines": ["200Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0010.jpg", "t": 7.46, "where": "row 7, right", "confidence": 0.7}
+{"lines": ["1K Multiturn", "Trim Pot"], "category": null, "frame": "k_0010.jpg", "t": 7.46, "where": "row 8, left (bottom, cut off)", "confidence": 0.6}
+{"lines": ["93C56", "EEPROM"], "category": "EEPROM", "frame": "k_0011.jpg", "t": 7.62, "where": "top row, left", "confidence": 0.7}
+{"lines": ["HN58064", "p-25", "EEPROM"], "category": "EEPROM", "frame": "k_0011.jpg", "t": 7.62, "where": "top row, middle", "confidence": 0.75}
+{"lines": ["JBP18S030", "32X8 Bi-Polar", "PROM"], "category": "PROM", "frame": "k_0011.jpg", "t": 7.62, "where": "top row, right", "confidence": 0.65}
+{"lines": ["MM5290-2", "DRAM"], "category": "DRAM", "frame": "k_0011.jpg", "t": 7.62, "where": "row 2, left", "confidence": 0.8}
+{"lines": ["93L415-PC", "SRAM"], "category": "SRAM", "frame": "k_0011.jpg", "t": 7.62, "where": "row 2, middle", "confidence": 0.85}
+{"lines": ["MN2114-3", "SRAM"], "category": "SRAM", "frame": "k_0011.jpg", "t": 7.62, "where": "row 2, right", "confidence": 0.75}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0011.jpg", "t": 7.62, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0011.jpg", "t": 7.62, "where": "row 3, middle", "confidence": 0.85}
+{"lines": ["UPD416C-2", "RAM"], "category": "RAM", "frame": "k_0011.jpg", "t": 7.62, "where": "row 3, right", "confidence": 0.8}
+{"lines": ["Intel/NEC", "D8749HD", "8-bit", "CPU"], "category": "CPU", "frame": "k_0011.jpg", "t": 7.62, "where": "row 4, left", "confidence": 0.8}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0011.jpg", "t": 7.62, "where": "row 4, middle", "confidence": 0.85}
+{"lines": ["Zilog", "Z80A", "CPU"], "category": "CPU", "frame": "k_0011.jpg", "t": 7.62, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["50Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0011.jpg", "t": 7.62, "where": "row 6, left", "confidence": 0.7}
+{"lines": ["100Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0011.jpg", "t": 7.62, "where": "row 6, middle", "confidence": 0.7}
+{"lines": ["200Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0011.jpg", "t": 7.62, "where": "row 6, right", "confidence": 0.65}
+{"lines": ["1K Multiturn", "Trim Pot"], "category": null, "frame": "k_0011.jpg", "t": 7.62, "where": "row 7, left", "confidence": 0.7}
+{"lines": ["XX6116", "XX6264", "RAM"], "category": "RAM", "frame": "k_0012.jpg", "t": 8.07, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["AMD", "AM29700PC", "RAM"], "category": "RAM", "frame": "k_0012.jpg", "t": 8.07, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["Intel/NEC", "D8749HD", "8-bit", "CPU"], "category": "CPU", "frame": "k_0012.jpg", "t": 8.07, "where": "row 2, left", "confidence": 0.85}
+{"lines": ["Intel 8080A", "8-bit", "CPU"], "category": "CPU", "frame": "k_0012.jpg", "t": 8.07, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["Zilog", "Z80A"], "category": "CPU", "frame": "k_0012.jpg", "t": 8.07, "where": "row 2, right (partially cut off)", "confidence": 0.8}
+{"lines": ["50Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 4, left", "confidence": 0.8}
+{"lines": ["100Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 4, middle", "confidence": 0.8}
+{"lines": ["200Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 4, right", "confidence": 0.7}
+{"lines": ["1K Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 5, left", "confidence": 0.85}
+{"lines": ["1KΩ Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 5, middle", "confidence": 0.75}
+{"lines": ["2KΩ Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 5, right", "confidence": 0.65}
+{"lines": ["10KΩ Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["20KΩ Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 6, middle", "confidence": 0.85}
+{"lines": ["100K Multiturn", "Trim Pot"], "category": null, "frame": "k_0012.jpg", "t": 8.07, "where": "row 6, right", "confidence": 0.75}
+{"lines": ["100Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "row 2, middle", "confidence": 0.8}
+{"lines": ["200Ω Multiturn", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "row 2, right", "confidence": 0.8}
+{"lines": ["1KΩ Multiturn", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "row 3, middle", "confidence": 0.85}
+{"lines": ["2KΩ Multiturn", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["20KΩ Multiturn", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "row 4, middle", "confidence": 0.85}
+{"lines": ["100K Multiturn", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["470Ω", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "bottom row, left", "confidence": 0.7}
+{"lines": ["500Ω", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "bottom row, middle", "confidence": 0.7}
+{"lines": ["1K", "Trim Pot"], "category": null, "frame": "k_0013.jpg", "t": 8.64, "where": "bottom row, right", "confidence": 0.75}
+{"lines": ["100Ω Multiturn", "Trim Pot."], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 2, middle", "confidence": 0.9}
+{"lines": ["200Ω Multiturn", "Trim Pot."], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["1KΩ Multiturn", "Trim Pot."], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 3, middle", "confidence": 0.9}
+{"lines": ["2KΩ Multiturn", "Trim Pot."], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["10KΩ Multiturn", "Trim Pot."], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 4, left", "confidence": 0.85}
+{"lines": ["20KΩ Multiturn", "Trim Pot."], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 4, middle", "confidence": 0.9}
+{"lines": ["100K Multiturn", "Trim Pot."], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["470Ω", "Trim Pot"], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 6, left", "confidence": 0.75}
+{"lines": ["500Ω", "Trim Pot"], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 6, middle", "confidence": 0.75}
+{"lines": ["1K", "Trim Pot"], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 6, right", "confidence": 0.8}
+{"lines": ["1K", "Trim Pot"], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 7, left", "confidence": 0.75}
+{"lines": ["1.5KΩ", "Trim Pot"], "category": null, "frame": "k_0014.jpg", "t": 9.66, "where": "row 7, middle", "confidence": 0.6}

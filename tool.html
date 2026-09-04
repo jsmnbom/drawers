@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Drawer verify</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@3.4.38/dist/vue.global.prod.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  a { color: #7cb4ff; }
+  html, body { margin: 0; height: 100%; font: 14px/1.4 system-ui, sans-serif; background: #1e1e1e; color: #eee; }
+  #app { display: grid; grid-template-columns: 300px 1fr 380px; grid-template-rows: 36px 1fr; height: 100vh; }
+  header { grid-column: 1 / -1; display: flex; gap: 14px; align-items: center; padding: 0 10px; background: #2a2a2a; border-bottom: 1px solid #444; white-space: nowrap; overflow: hidden; }
+  header b { color: #fff; }
+  .col { overflow: auto; min-height: 0; }
+  /* queue */
+  #queue { border-right: 1px solid #444; display: flex; flex-direction: column; }
+  #filters { padding: 6px; display: flex; flex-direction: column; gap: 4px; border-bottom: 1px solid #444; }
+  #filters input, #filters select { width: 100%; background: #111; color: #eee; border: 1px solid #555; padding: 3px 4px; font: inherit; }
+  #filters .row { display: flex; gap: 4px; }
+  #list { flex: 1; overflow: auto; }
+  .item { padding: 3px 6px; cursor: pointer; display: flex; gap: 6px; align-items: baseline; border-bottom: 1px solid #2a2a2a; }
+  .item:hover { background: #2c2c2c; }
+  .item.cur { background: #354a6b; }
+  .item .id { color: #aaa; width: 38px; flex: none; font-variant-numeric: tabular-nums; }
+  .item .txt { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .item .cat { color: #bbb; font-size: 11px; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; background: #555; }
+  .dot.ok { background: #4c4; } .dot.wrong { background: #e55; } .dot.not_drawer { background: #999; }
+  .dot.duplicate { background: #48f; } .dot.unsure { background: #fc3; }
+  .flag { color: #ffd54a; font-size: 11px; }
+  /* viewer */
+  #viewer { position: relative; overflow: hidden; background: #000; user-select: none; }
+  #viewer .bar { position: absolute; top: 0; left: 0; right: 0; z-index: 2; background: rgba(30,30,30,.85); padding: 4px 8px; display: flex; gap: 10px; align-items: center; }
+  #viewer .bar button { min-width: 26px; }
+  #stage { position: absolute; inset: 0; cursor: grab; touch-action: none; }
+  #stage img { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; image-rendering: auto; user-select: none; -webkit-user-select: none; -webkit-user-drag: none; pointer-events: none; }
+  /* edit panel */
+  #edit { border-left: 1px solid #444; padding: 8px; display: flex; flex-direction: column; gap: 6px; }
+  #edit label { display: block; color: #bbb; font-size: 11px; margin-top: 4px; }
+  #edit input, #edit textarea, #edit select { width: 100%; background: #111; color: #eee; border: 1px solid #555; padding: 4px; font: inherit; }
+  #edit textarea { resize: vertical; font-family: ui-monospace, monospace; }
+  #edit .ro { background: #262626; padding: 4px 6px; border-radius: 3px; white-space: pre-wrap; font-family: ui-monospace, monospace; }
+  .kv { display: grid; grid-template-columns: 90px 1fr; gap: 2px 6px; font-size: 12px; }
+  .kv div:nth-child(odd) { color: #bbb; }
+  .status { display: flex; gap: 4px; flex-wrap: wrap; }
+  button { background: #333; color: #eee; border: 1px solid #666; padding: 3px 8px; cursor: pointer; font: inherit; border-radius: 3px; }
+  button:hover { background: #444; }
+  button.on.ok { background: #274; border-color: #4c4; } button.on.wrong { background: #722; border-color: #e55; }
+  button.on.not_drawer { background: #555; border-color: #aaa; } button.on.duplicate { background: #236; border-color: #48f; }
+  button.on.unsure { background: #663; border-color: #fc3; }
+  .cand { cursor: pointer; padding: 2px 4px; background: #262626; margin: 2px 0; border-radius: 3px; }
+  .cand:hover { background: #354a6b; }
+  .variants { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+  .citem { display: grid; grid-template-columns: 1fr 1fr 26px; gap: 4px; margin-bottom: 3px; }
+  .muted { color: #b0b0b0; }
+  .saved { color: #4c4; } .saving { color: #fc3; } .err { color: #e55; }
+  kbd { background: #333; border: 1px solid #555; border-radius: 3px; padding: 0 3px; font-size: 11px; }
+  .help { font-size: 11px; color: #aaa; margin-top: auto; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <b>Drawer verify</b>
+    <span>{{ filtered.length }} shown / {{ entries.length }} total</span>
+    <span>done <b>{{ counts.done }}</b></span>
+    <span class="dot ok"></span>{{ counts.ok }}
+    <span class="dot wrong"></span>{{ counts.wrong }}
+    <span class="dot not_drawer"></span>{{ counts.not_drawer }}
+    <span class="dot duplicate"></span>{{ counts.duplicate }}
+    <span class="dot unsure"></span>{{ counts.unsure }}
+    <span style="margin-left:auto" :class="saveState">{{ saveMsg }}</span>
+  </header>
+
+  <div id="queue" class="col">
+    <div id="filters">
+      <input ref="search" v-model="f.q" placeholder="search lines / part_key / #id   (/)">
+      <div class="row">
+        <select v-model="f.kind"><option value="">any kind</option><option v-for="k in kinds" :value="k">{{ kindName(k) }}</option></select>
+        <select v-model="f.status"><option value="">any status</option><option value="none">unreviewed</option>
+          <option v-for="s in statuses" :value="s">{{ s }}</option></select>
+      </div>
+      <div class="row">
+        <select v-model="f.cat"><option value="">any category</option><option v-for="c in categories" :value="c">{{ c }}</option></select>
+      </div>
+      <div class="row">
+        <select v-model="f.flag"><option value="">any flag</option><option value="any">flagged</option><option value="clean">clean</option>
+          <option value="single read">single read</option><option value="variants">variants</option><option value="low-confidence category">low-conf category</option><option value="multi-item">multi-item</option><option value="possible duplicate">possible duplicate</option></select>
+        <select v-model="f.sort"><option value="queue">sort: queue</option><option value="t">sort: time</option><option value="cat">sort: category</option></select>
+      </div>
+      <label style="display:flex;gap:4px;align-items:center"><input type="checkbox" v-model="f.hideDone" style="width:auto">hide done</label>
+    </div>
+    <div id="list" ref="list">
+      <div v-for="e in filtered" :key="e.id" class="item" :class="{cur: cur && cur.id === e.id}" :data-id="e.id" @click="select(e)">
+        <span class="dot" :class="st(e)"></span>
+        <span class="id">#{{ e.id }}</span>
+        <span class="txt">{{ shown(e).lines.join(' / ') }}</span>
+        <span class="flag" v-if="e.review.length">⚑</span>
+        <span class="muted" v-if="(edits[e.key]||{}).contents" :title="(edits[e.key].contents.map(c=>c.label).join(', '))">×{{ edits[e.key].contents.length }}</span>
+        <span class="muted" v-else-if="e.items" :title="e.items.map(c=>c.label).join(', ')">×{{ e.items.length }}</span>
+        <span class="cat">{{ shown(e).category }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="viewer" class="col">
+    <div class="bar" v-if="cur">
+      <button @click="frameIdx--" :disabled="frameIdx <= 0" title="[">‹</button>
+      <span>frame {{ frameIdx + 1 }}/{{ cur.frames.length }} · {{ cur.frames[frameIdx] }} · t={{ cur.t_first }}s</span>
+      <button @click="frameIdx++" :disabled="frameIdx >= cur.frames.length - 1" title="]">›</button>
+      <span class="muted">where:</span> <span>{{ (cur.where_by_frame || {})[cur.frames[frameIdx]] || cur.where || '—' }}</span>
+      <span class="muted" v-if="cur.where && !(cur.where_by_frame || {})[cur.frames[frameIdx]]">(from another frame)</span>
+      <span style="margin-left:auto" class="muted">zoom {{ view.s.toFixed(2) }}× · wheel zoom · drag pan · dblclick reset</span>
+    </div>
+    <div id="stage" ref="stage" @wheel.prevent="wheel" @pointerdown="pdown" @dragstart.prevent @selectstart.prevent @pointermove="pmove" @pointerup="pup" @pointercancel="pup" @dblclick="resetView">
+      <img v-if="cur" :src="'/frames/' + cur.frames[frameIdx]" :style="imgStyle" draggable="false" @load="onImgLoad">
+    </div>
+  </div>
+
+  <div id="edit" class="col" v-if="cur">
+    <div class="kv">
+      <div>entry</div><div><b>#{{ cur.id }}</b> · {{ kindName(cur.kind) }} · <span :class="'dot ' + st(cur)" style="display:inline-block"></span> {{ st(cur) || 'unreviewed' }}</div>
+      <div>part_key</div><div class="ro">{{ cur.part_key }}</div>
+      <div>OCR category</div><div>{{ cur.category }} <span class="muted">({{ cur.category_source }}, {{ cur.category_confidence }})</span></div>
+      <div>description</div><div>{{ cur.description || '—' }}</div>
+      <div>reads</div><div>{{ cur.reads_agreeing }}/{{ cur.reads_total }} agree (conf {{ cur.confidence }})</div>
+      <div v-if="cur.label_category">label cat</div><div v-if="cur.label_category">{{ cur.label_category }}</div>
+      <div v-if="cur.note">OCR note</div><div v-if="cur.note">{{ cur.note }}</div>
+      <div v-if="cur.review.length">flags</div><div v-if="cur.review.length" class="flag">{{ cur.review.join(', ') }}</div>
+    </div>
+
+    <div v-if="cur.variants" class="variants">
+      <div><label>canonical lines</label><div class="ro">{{ cur.lines.join('\n') }}</div></div>
+      <div><label>variants (reads)</label><div class="ro">{{ Object.entries(cur.variants).map(([k,n]) => k + '  ×' + n).join('\n') }}</div></div>
+    </div>
+
+    <label>lines (one per line) <kbd>e</kbd> <span v-if="ed.lines" class="muted">— edited, <a href="#" @click.prevent="ed.lines = undefined; save()">revert</a></span></label>
+    <textarea ref="lines" rows="3" :value="(ed.lines || cur.lines).join('\n')" @change="setLines($event.target.value)"></textarea>
+
+    <label>category <span v-if="ed.category" class="muted">— edited, <a href="#" @click.prevent="ed.category = undefined; save()">revert</a></span></label>
+    <input list="cats" :value="ed.category || cur.category" @change="setCat($event.target.value)">
+    <datalist id="cats"><option v-for="c in categories" :value="c"></option></datalist>
+
+    <label>status</label>
+    <div class="status">
+      <button v-for="s in statuses" :class="[s, {on: ed.status === s}]" @click="setStatus(s)">{{ s }} <kbd>{{ keyFor[s] }}</kbd></button>
+      <button @click="setStatus(undefined)" title="clear status">clear</button>
+    </div>
+
+    <label>same as entry # <kbd>d</kbd></label>
+    <input ref="sameAs" type="number" :value="ed.same_as" @change="setSameAs($event.target.value)" placeholder="id of the other entry">
+    <div v-if="ed.same_as != null && entries[ed.same_as]" class="muted">→ #{{ ed.same_as }} {{ shown(entries[ed.same_as]).lines.join(' / ') }} @ {{ entries[ed.same_as].t_first }}s
+      <a href="#" @click.prevent="select(entries[ed.same_as])">go</a></div>
+    <div v-if="candidates.length">
+      <label>same part_key elsewhere <kbd>s</kbd> <span class="muted">= duplicate of earliest + next</span></label>
+      <div v-for="c in candidates" class="cand" @click="pickSame(c)">#{{ c.id }} · t={{ c.t_first }}s · {{ c.frames[0] }} · <span :class="'dot ' + st(c)" style="display:inline-block"></span> {{ st(c) || '' }}</div>
+    </div>
+    <div v-if="referrers.length" class="muted">referenced as duplicate by: <span v-for="r in referrers"><a href="#" @click.prevent="select(r)">#{{ r.id }}</a> </span></div>
+
+    <div v-if="cur.items">
+      <label>auto-detected items ({{ cur.items.length }}) <a href="#" v-if="!ed.contents" @click.prevent="useItems">copy to contents to edit</a></label>
+      <div class="ro" style="font-family:inherit"><div v-for="it in cur.items">{{ it.label }} <span class="muted">— {{ it.category }}<span v-if="it.description">: {{ it.description }}</span></span></div></div>
+    </div>
+    <label>contents (several things in this drawer) <kbd>m</kbd> <a href="#" @click.prevent="addItem">+ add item</a></label>
+    <div v-for="(it, i) in (ed.contents || [])" :key="i" class="citem">
+      <input :value="it.label" placeholder="item / part" @change="setItem(i, 'label', $event.target.value)" :ref="el => { if (el) itemRefs[i] = el }">
+      <input list="cats" :value="it.category" placeholder="category" @change="setItem(i, 'category', $event.target.value)">
+      <button @click="delItem(i)" title="remove">×</button>
+    </div>
+
+    <label>note</label>
+    <textarea rows="2" :value="ed.note || ''" @change="setNote($event.target.value)"></textarea>
+
+    <div class="help">
+      <kbd>j</kbd>/<kbd>k</kbd> next/prev · <kbd>a</kbd> ok+next · <kbd>w</kbd> wrong (edit lines) · <kbd>x</kbd> not a drawer+next ·
+      <kbd>d</kbd> duplicate · <kbd>s</kbd> same as earliest+next · <kbd>m</kbd> add item · <kbd>u</kbd> unsure+next · <kbd>[</kbd>/<kbd>]</kbd> frames · <kbd>e</kbd> edit lines · <kbd>/</kbd> search · <kbd>Esc</kbd> blur
+    </div>
+  </div>
+  <div id="edit" class="col" v-else><span class="muted">select an entry</span></div>
+</div>
+
+<script>
+const { createApp, reactive, ref, computed, watch, nextTick, onMounted } = Vue;
+const STATUSES = ['ok', 'wrong', 'not_drawer', 'duplicate', 'unsure'];
+const KEYFOR = { ok: 'a', wrong: 'w', not_drawer: 'x', duplicate: 'd', unsure: 'u' };
+const CONF = { low: 0, medium: 1, high: 2 };
+const KINDN = { drawer: 'drawer', reel: 'reel', bin: 'bin', column_label: 'column label', section_label: 'box' };
+
+createApp({
+  setup() {
+    const entries = ref([]), edits = reactive({}), categories = ref([]);
+    const cur = ref(null), frameIdx = ref(0);
+    const f = reactive({ q: '', kind: '', status: '', cat: '', flag: '', sort: 'queue', hideDone: false });
+    const saveState = ref(''), saveMsg = ref('');
+    const view = reactive({ s: 0.45, x: 0, y: 0 });
+    const stage = ref(null), list = ref(null), search = ref(null), lines = ref(null), sameAs = ref(null);
+
+    const ed = computed(() => cur.value ? (edits[cur.value.key] ||= {}) : {});
+    const st = e => (edits[e.key] || {}).status || '';
+    const shown = e => { const d = edits[e.key] || {}; return { lines: d.lines || e.lines, category: d.category || e.category }; };
+    const kindName = k => KINDN[k] || k;
+    const kinds = computed(() => [...new Set(entries.value.map(e => e.kind))]);
+
+    const filtered = computed(() => {
+      const q = f.q.trim().toLowerCase();
+      let r = entries.value.filter(e => {
+        if (f.kind && e.kind !== f.kind) return false;
+        const s = st(e);
+        if (f.status === 'none' ? s : (f.status && s !== f.status)) return false;
+        if (f.hideDone && s) return false;
+        if (f.cat && shown(e).category !== f.cat) return false;
+        if (f.flag === 'any' && !e.review.length) return false;
+        if (f.flag === 'clean' && e.review.length) return false;
+        if (f.flag && f.flag !== 'any' && f.flag !== 'clean' && !e.review.includes(f.flag)) return false;
+        if (q) {
+          if (q.startsWith('#')) return String(e.id) === q.slice(1);
+          const hay = (shown(e).lines.join(' ') + ' ' + e.part_key + ' ' + (e.description || '')).toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+      if (f.sort === 't') r.sort((a, b) => a.t_first - b.t_first || a.id - b.id);
+      else if (f.sort === 'cat') r.sort((a, b) => shown(a).category.localeCompare(shown(b).category) || a.t_first - b.t_first);
+      else r.sort((a, b) => (b.review.length > 0) - (a.review.length > 0) || CONF[a.category_confidence] - CONF[b.category_confidence] || a.t_first - b.t_first || a.id - b.id);
+      return r;
+    });
+
+    const counts = computed(() => {
+      const c = { ok: 0, wrong: 0, not_drawer: 0, duplicate: 0, unsure: 0, done: 0 };
+      for (const e of entries.value) { const s = st(e); if (s) { c[s]++; c.done++; } }
+      return c;
+    });
+
+    const candidates = computed(() => cur.value ? entries.value.filter(e => e.id !== cur.value.id && e.part_key === cur.value.part_key) : []);
+    const referrers = computed(() => cur.value ? entries.value.filter(e => (edits[e.key] || {}).same_as === cur.value.id) : []);
+
+    // ---- saving
+    let timer = null;
+    function save() {
+      if (!cur.value) return;
+      const key = cur.value.key, d = edits[key] || {};
+      const clean = {};
+      for (const [k, v] of Object.entries(d)) if (v !== undefined && v !== null && v !== '') clean[k] = v;
+      if (clean.contents) { clean.contents = clean.contents.filter(c => c.label || c.category); if (!clean.contents.length) delete clean.contents; }
+      if (Object.keys(clean).length) clean.edited_at = new Date().toISOString().slice(0, 19);
+      saveState.value = 'saving'; saveMsg.value = 'saving…';
+      clearTimeout(timer);
+      timer = setTimeout(async () => {
+        try {
+          const r = await fetch('/api/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ key, edit: Object.keys(clean).length ? clean : null }) });
+          if (!r.ok) throw new Error(await r.text());
+          saveState.value = 'saved'; saveMsg.value = 'saved';
+        } catch (e) { saveState.value = 'err'; saveMsg.value = 'SAVE FAILED: ' + e.message; }
+      }, 150);
+    }
+    function setLines(v) { const ls = v.split('\n').map(s => s.trim()).filter(Boolean); ed.value.lines = ls.join('\n') === cur.value.lines.join('\n') ? undefined : ls; save(); }
+    function setCat(v) { v = v.trim(); ed.value.category = (!v || v === cur.value.category) ? undefined : v; save(); }
+    function setStatus(s) { ed.value.status = s; save(); }
+    function setNote(v) { ed.value.note = v.trim() || undefined; save(); }
+    function setSameAs(v) { ed.value.same_as = v === '' ? undefined : +v; if (v !== '' && !ed.value.status) ed.value.status = 'duplicate'; save(); }
+    function pickSame(c) { ed.value.same_as = c.id; ed.value.status = 'duplicate'; save(); }
+    // 's': duplicate of the earliest same-part_key entry, then advance
+    function sameAsEarliest() { const c = candidates.value.slice().sort((a, b) => a.t_first - b.t_first || a.id - b.id)[0]; if (c) { pickSame(c); nextAfterMark(); } }
+    const itemRefs = ref([]);
+    function addItem() { (ed.value.contents ||= []).push({ label: '', category: '' }); const i = ed.value.contents.length - 1; nextTick(() => itemRefs.value[i] && itemRefs.value[i].focus()); }
+    function useItems() { ed.value.contents = cur.value.items.map(it => ({ label: it.label, category: it.category })); save(); }
+    function setItem(i, k, v) { ed.value.contents[i][k] = v.trim(); save(); }
+    function delItem(i) { ed.value.contents.splice(i, 1); if (!ed.value.contents.length) ed.value.contents = undefined; save(); }
+
+    // ---- navigation
+    function select(e) { cur.value = e; frameIdx.value = 0; nextTick(scrollToCur); }
+    function scrollToCur() {
+      const el = list.value && list.value.querySelector(`.item[data-id="${cur.value.id}"]`);
+      if (el) el.scrollIntoView({ block: 'nearest' });
+    }
+    function move(d) {
+      const arr = filtered.value; if (!arr.length) return;
+      let i = cur.value ? arr.findIndex(e => e.id === cur.value.id) : -1;
+      i = i < 0 ? 0 : Math.min(arr.length - 1, Math.max(0, i + d));
+      select(arr[i]);
+    }
+    function nextAfterMark() {
+      // if the current entry vanished from the list (hideDone), stay at same index
+      const arr = filtered.value;
+      const i = cur.value ? arr.findIndex(e => e.id === cur.value.id) : -1;
+      if (i < 0) { const j = Math.min(arr.length - 1, lastIdx); if (arr[j]) select(arr[j]); } else move(1);
+    }
+    let lastIdx = 0;
+    watch(cur, () => { const i = filtered.value.findIndex(e => e.id === (cur.value || {}).id); if (i >= 0) lastIdx = i; });
+
+    function key(ev) {
+      const tag = (ev.target.tagName || '').toLowerCase();
+      if (ev.key === 'Escape') { ev.target.blur(); return; }
+      if (tag === 'input' || tag === 'textarea' || tag === 'select' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+      const k = ev.key;
+      if (k === 'j' || k === 'ArrowDown') { ev.preventDefault(); move(1); }
+      else if (k === 'k' || k === 'ArrowUp') { ev.preventDefault(); move(-1); }
+      else if (k === '/') { ev.preventDefault(); search.value.focus(); search.value.select(); }
+      else if (!cur.value) return;
+      else if (k === 'a') { setStatus('ok'); nextAfterMark(); }
+      else if (k === 'x') { setStatus('not_drawer'); nextAfterMark(); }
+      else if (k === 'u') { setStatus('unsure'); nextAfterMark(); }
+      else if (k === 'w') { setStatus('wrong'); nextTick(() => lines.value && lines.value.focus()); }
+      else if (k === 'd') { setStatus('duplicate'); nextTick(() => sameAs.value && sameAs.value.focus()); }
+      else if (k === 's') { sameAsEarliest(); }
+      else if (k === 'm') { ev.preventDefault(); addItem(); }
+      else if (k === 'e') { ev.preventDefault(); lines.value && lines.value.focus(); }
+      else if (k === '[') { if (frameIdx.value > 0) frameIdx.value--; }
+      else if (k === ']') { if (frameIdx.value < cur.value.frames.length - 1) frameIdx.value++; }
+    }
+
+    // ---- image viewer (zoom/pan persists across entries)
+    const imgStyle = computed(() => ({ transform: `translate(${view.x}px, ${view.y}px) scale(${view.s})` }));
+    let drag = null, fitted = false;
+    function fit() {
+      const r = stage.value.getBoundingClientRect();
+      view.s = Math.min(r.width / 1125, r.height / 2000);
+      view.x = (r.width - 1125 * view.s) / 2; view.y = (r.height - 2000 * view.s) / 2;
+    }
+    function onImgLoad() { if (!fitted) { fit(); fitted = true; } }
+    function resetView() { fit(); }
+    function wheel(ev) {
+      const r = stage.value.getBoundingClientRect();
+      const mx = ev.clientX - r.left, my = ev.clientY - r.top;
+      const k = Math.exp(-ev.deltaY * 0.0015);
+      const ns = Math.min(6, Math.max(0.1, view.s * k)), q = ns / view.s;
+      view.x = mx - (mx - view.x) * q; view.y = my - (my - view.y) * q; view.s = ns;
+    }
+    function pdown(ev) { if (ev.button !== 0) return; ev.preventDefault(); drag = { x: ev.clientX, y: ev.clientY, vx: view.x, vy: view.y }; stage.value.setPointerCapture(ev.pointerId); }
+    function pmove(ev) { if (!drag) return; view.x = drag.vx + ev.clientX - drag.x; view.y = drag.vy + ev.clientY - drag.y; }
+    function pup() { drag = null; }
+
+    onMounted(async () => {
+      const d = await (await fetch('/api/data')).json();
+      entries.value = d.entries; categories.value = d.categories;
+      Object.assign(edits, d.edits);
+      window.addEventListener('keydown', key);
+      window.addEventListener('resize', () => { if (!fitted) fit(); });
+      if (filtered.value.length) select(filtered.value[0]);
+    });
+
+    return { entries, edits, categories, cur, frameIdx, f, filtered, counts, candidates, referrers, ed, st, shown, kindName, kinds,
+      statuses: STATUSES, keyFor: KEYFOR, saveState, saveMsg, view, imgStyle, stage, list, search, lines, sameAs,
+      select, save, setLines, setCat, setStatus, setNote, setSameAs, pickSame, itemRefs, addItem, useItems, setItem, delItem, onImgLoad, resetView, wheel, pdown, pmove, pup };
+  }
+}).mount('#app');
+</script>
+</body>
+</html>

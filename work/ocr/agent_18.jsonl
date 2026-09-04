@@ -1,0 +1,47 @@
+{"lines": ["4012"], "category": null, "frame": "k_0330.jpg", "t": 235.63, "where": "top row, center", "confidence": 0.9}
+{"lines": ["4022"], "category": null, "frame": "k_0330.jpg", "t": 235.63, "where": "middle row, center", "confidence": 0.9}
+{"lines": ["4050"], "category": null, "frame": "k_0330.jpg", "t": 235.63, "where": "lower row, center", "confidence": 0.9}
+{"lines": ["4013"], "category": null, "frame": "k_0331.jpg", "t": 237.5, "where": "top row, left", "confidence": 0.9}
+{"lines": ["4023"], "category": null, "frame": "k_0331.jpg", "t": 237.5, "where": "middle row, left", "confidence": 0.9}
+{"lines": ["4016"], "category": null, "frame": "k_0332.jpg", "t": 238.22, "where": "top row, right", "confidence": 0.9}
+{"lines": ["4025"], "category": null, "frame": "k_0332.jpg", "t": 238.22, "where": "lower row, right", "confidence": 0.9}
+{"lines": ["4025"], "category": null, "frame": "k_0333.jpg", "t": 238.85, "where": "top-left area", "confidence": 0.9}
+{"lines": ["7805"], "category": null, "frame": "k_0335.jpg", "t": 239.87, "where": "top-right, yellow box", "confidence": 0.85}
+{"lines": ["Spoler", "1,0uH 1S82/13", "1,5uH 1S82/15"], "category": "Spoler", "frame": "k_0336.jpg", "t": 240.71, "where": "lower-middle row, right", "confidence": 0.75}
+{"lines": ["BC 182"], "category": null, "frame": "k_0336.jpg", "t": 240.71, "where": "bottom row, left", "confidence": 0.85}
+{"lines": ["Spoler", "1,0uH 1S82/13", "1,5uH 1S82/15"], "category": "Spoler", "frame": "k_0337.jpg", "t": 241.66, "where": "middle row, right", "confidence": 0.75}
+{"lines": ["BC 182"], "category": null, "frame": "k_0337.jpg", "t": 241.66, "where": "lower row, left", "confidence": 0.85}
+{"lines": ["EFFEKTMODS"], "category": null, "frame": "k_0337.jpg", "t": 241.66, "where": "bottom edge label, cut off", "confidence": 0.6}
+{"lines": ["Spoler", "1,0uH 1S82/13", "1,5uH 1S82/15"], "category": "Spoler", "frame": "k_0338.jpg", "t": 242.91, "where": "middle row, right", "confidence": 0.8}
+{"lines": ["BC 182"], "category": null, "frame": "k_0338.jpg", "t": 242.91, "where": "lower row, left-center", "confidence": 0.85}
+{"lines": ["EFFEKTMOD"], "category": null, "frame": "k_0338.jpg", "t": 242.91, "where": "bottom cabinet label, cut off", "confidence": 0.65}
+{"lines": ["Spoler", "0,47uH 1S82/9", "0,68uH 1S82/11"], "category": "Spoler", "frame": "k_0339.jpg", "t": 245.13, "where": "row 3, left", "confidence": 0.85}
+{"lines": ["Spole", "100 - 220 uH"], "category": "Spole", "frame": "k_0339.jpg", "t": 245.13, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["Spole", "4,7 - 10 uH"], "category": "Spole", "frame": "k_0339.jpg", "t": 245.13, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["Spole", "4,7 - 10 uH"], "category": "Spole", "frame": "k_0340.jpg", "t": 246.03, "where": "bottom row, center", "confidence": 0.6}
+{"lines": ["1500pF"], "category": null, "frame": "k_0342.jpg", "t": 246.91, "where": "upper row, center", "confidence": 0.75}
+{"lines": ["220pF"], "category": null, "frame": "k_0342.jpg", "t": 246.91, "where": "middle row, center", "confidence": 0.75}
+{"lines": ["2200pF"], "category": null, "frame": "k_0342.jpg", "t": 246.91, "where": "lower row, center", "confidence": 0.7}
+{"lines": ["2,2uF"], "category": null, "frame": "k_0343.jpg", "t": 247.68, "where": "row 2, right", "confidence": 0.8}
+{"lines": ["470uF"], "category": null, "frame": "k_0343.jpg", "t": 247.68, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["3300uF"], "category": null, "frame": "k_0343.jpg", "t": 247.68, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["6800uF"], "category": null, "frame": "k_0343.jpg", "t": 247.68, "where": "bottom row, right", "confidence": 0.7}
+{"lines": ["2200uF"], "category": null, "frame": "k_0343.jpg", "t": 247.68, "where": "bottom row, left", "confidence": 0.7}
+{"lines": ["1500uF"], "category": null, "frame": "k_0344.jpg", "t": 249.12, "where": "row 3, left", "confidence": 0.85}
+{"lines": ["220uF"], "category": null, "frame": "k_0344.jpg", "t": 249.12, "where": "row 4, left", "confidence": 0.85}
+{"lines": ["2200uF"], "category": null, "frame": "k_0344.jpg", "t": 249.12, "where": "bottom row, left", "confidence": 0.8}
+{"lines": ["1500uF"], "category": null, "frame": "k_0345.jpg", "t": 250.38, "where": "row 2, left", "confidence": 0.85}
+{"lines": ["220uF"], "category": null, "frame": "k_0345.jpg", "t": 250.38, "where": "row 3, left", "confidence": 0.85}
+{"lines": ["2200uF"], "category": null, "frame": "k_0345.jpg", "t": 250.38, "where": "row 4, left", "confidence": 0.85}
+{"lines": ["3300uF"], "category": null, "frame": "k_0345.jpg", "t": 250.38, "where": "row 3, right", "confidence": 0.7}
+{"lines": ["6800uF"], "category": null, "frame": "k_0345.jpg", "t": 250.38, "where": "row 4, right", "confidence": 0.7}
+{"lines": ["MODSTANDE"], "category": null, "frame": "k_0345.jpg", "t": 250.38, "where": "bottom cabinet label", "confidence": 0.9}
+{"lines": ["4700uF"], "category": null, "frame": "k_0346.jpg", "t": 251.92, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["10.000uF"], "category": null, "frame": "k_0346.jpg", "t": 251.92, "where": "row 4, right", "confidence": 0.8}
+{"lines": ["330uF"], "category": null, "frame": "k_0347.jpg", "t": 252.64, "where": "top row, right", "confidence": 0.8}
+{"lines": ["4700uF"], "category": null, "frame": "k_0347.jpg", "t": 252.64, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["10.000uF"], "category": null, "frame": "k_0347.jpg", "t": 252.64, "where": "bottom row, right", "confidence": 0.8}
+{"lines": ["330uF"], "category": null, "frame": "k_0348.jpg", "t": 253.15, "where": "row 2, center", "confidence": 0.85}
+{"lines": ["4700uF"], "category": null, "frame": "k_0348.jpg", "t": 253.15, "where": "row 4, center", "confidence": 0.85}
+{"lines": ["10.000uF"], "category": null, "frame": "k_0348.jpg", "t": 253.15, "where": "bottom row, center", "confidence": 0.75}
+{"lines": ["330uF"], "category": null, "frame": "k_0349.jpg", "t": 253.92, "where": "lower row, center", "confidence": 0.8}

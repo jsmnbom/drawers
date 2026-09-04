@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drawer inventory</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@3.4.38/dist/vue.global.prod.js"></script>
+<style>
+  :root {
+    --bg: #ffffff; --bg2: #f3f3f3; --bg3: #e6e6e6; --fg: #1a1a1a; --fg2: #555; --line: #cfcfcf;
+    --link: #0b57d0; --sel: #dce8ff; --hover: #f0f4ff;
+    --ok: #1e7e34; --ok-bg: #d9f2df; --wrong: #a15c00; --wrong-bg: #ffe9c7; --unsure: #7a6a00; --unsure-bg: #fff3b0;
+    --none: #555; --none-bg: #e8e8e8; --dup: #1c4fb5; --dup-bg: #dbe6ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b1b1b; --bg2: #262626; --bg3: #333; --fg: #ececec; --fg2: #b8b8b8; --line: #4a4a4a;
+      --link: #8ab4f8; --sel: #2f4470; --hover: #2a2f3a;
+      --ok: #7ee095; --ok-bg: #1f3d27; --wrong: #ffc266; --wrong-bg: #4a3512; --unsure: #ffe066; --unsure-bg: #4a4212;
+      --none: #cfcfcf; --none-bg: #3a3a3a; --dup: #9db8ff; --dup-bg: #22335c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, sans-serif; }
+  a { color: var(--link); }
+  #app { display: flex; flex-direction: column; height: 100%; }
+  header { padding: 8px 14px; border-bottom: 1px solid var(--line); background: var(--bg2); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
+  header h1 { font-size: 18px; margin: 0; }
+  header .muted { color: var(--fg2); font-size: 13px; }
+  #controls { padding: 8px 14px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  input, select, button { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px; }
+  input:focus, select:focus, button:focus-visible { outline: 2px solid var(--link); outline-offset: 1px; }
+  input[type=search] { min-width: 260px; flex: 1; }
+  button { cursor: pointer; background: var(--bg2); }
+  button:hover { background: var(--bg3); }
+  button.on { background: var(--sel); border-color: var(--link); }
+  .seg { display: inline-flex; }
+  .seg button { border-radius: 0; margin-left: -1px; }
+  .seg button:first-child { border-radius: 4px 0 0 4px; margin-left: 0; }
+  .seg button:last-child { border-radius: 0 4px 4px 0; }
+  #main { flex: 1; min-height: 0; display: flex; }
+  #list { flex: 1; overflow: auto; padding: 0 14px 40px; }
+  #detail { width: 460px; flex: none; border-left: 1px solid var(--line); overflow: auto; padding: 12px 14px; background: var(--bg2); }
+  @media (max-width: 900px) {
+    #main { position: relative; }
+    #detail { position: absolute; inset: 0; width: auto; border: 0; }
+  }
+  h2.cat { font-size: 15px; margin: 18px 0 4px; padding-bottom: 3px; border-bottom: 1px solid var(--line); display: flex; gap: 8px; align-items: baseline; position: sticky; top: 0; background: var(--bg); }
+  h2.cat .n { color: var(--fg2); font-weight: normal; font-size: 13px; }
+  h2.cat a { font-weight: normal; font-size: 12px; }
+  table { border-collapse: collapse; width: 100%; table-layout: fixed; }
+  col.c-lbl { width: 34%; } col.c-cat { width: 18%; } col.c-kind { width: 90px; } col.c-st { width: 100px; } col.c-time { width: 60px; }
+  td { overflow: hidden; text-overflow: ellipsis; }
+  th { text-align: left; font-weight: 600; color: var(--fg2); font-size: 12px; padding: 6px 8px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--bg); cursor: pointer; user-select: none; }
+  th.on { color: var(--fg); }
+  td { padding: 4px 8px; border-bottom: 1px solid var(--bg3); vertical-align: top; }
+  tr.row { cursor: pointer; }
+  tr.row:hover td { background: var(--hover); }
+  tr.row.sel td { background: var(--sel); }
+  td.lbl { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  td.desc { color: var(--fg2); }
+  td.time { color: var(--fg2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .badge { display: inline-block; font-size: 11px; line-height: 1; padding: 3px 6px; border-radius: 10px; white-space: nowrap; font-weight: 600; }
+  .badge.ok { color: var(--ok); background: var(--ok-bg); }
+  .badge.wrong { color: var(--wrong); background: var(--wrong-bg); }
+  .badge.unsure { color: var(--unsure); background: var(--unsure-bg); }
+  .badge.none { color: var(--none); background: var(--none-bg); font-weight: normal; }
+  .badge.duplicate { color: var(--dup); background: var(--dup-bg); }
+  .kind { font-size: 11px; color: var(--fg2); border: 1px solid var(--line); border-radius: 3px; padding: 1px 4px; white-space: nowrap; }
+  .sub { color: var(--fg2); font-size: 12px; }
+  .empty { color: var(--fg2); padding: 40px 0; text-align: center; }
+  /* detail */
+  #detail .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  #detail h3 { margin: 0; font-size: 18px; word-break: break-word; }
+  #detail .lines div { font-size: 16px; }
+  .kv { display: grid; grid-template-columns: 96px 1fr; gap: 4px 10px; margin: 10px 0; }
+  .kv > div:nth-child(odd) { color: var(--fg2); font-size: 12px; padding-top: 2px; }
+  .kv .strike { text-decoration: line-through; color: var(--fg2); }
+  .contents div { padding: 2px 0; }
+  .frame { margin-top: 12px; }
+  .frame .bar { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; font-size: 12px; color: var(--fg2); }
+  .frame img { width: 100%; display: block; border: 1px solid var(--line); border-radius: 4px; background: #000; }
+  .frame .hint { font-size: 12px; color: var(--fg2); margin-top: 4px; }
+  .flags { color: var(--fg2); font-size: 12px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Drawer inventory</h1>
+    <span class="muted">{{ entries.length }} entries · {{ counts.drawer }} drawers, {{ counts.reel }} reels, {{ counts.bin }} bins, {{ counts.column_label + counts.section_label }} labels</span>
+    <span class="muted">verified {{ counts.done }} / {{ entries.length }}</span>
+    <span class="muted" style="margin-left:auto">built {{ built }}</span>
+  </header>
+
+  <div id="controls">
+    <input type="search" v-model.trim="f.q" placeholder="search label, category, description, contents…" autofocus>
+    <select v-model="f.cat">
+      <option value="">all categories ({{ entries.length }})</option>
+      <option v-for="c in catList" :value="c.name">{{ c.name }} ({{ c.n }})</option>
+    </select>
+    <select v-model="f.kind">
+      <option value="">any kind</option>
+      <option v-for="k in kindList" :value="k">{{ kindName(k) }}</option>
+    </select>
+    <select v-model="f.status">
+      <option value="">any status</option>
+      <option value="reviewed">reviewed (any)</option>
+      <option value="ok">verified</option>
+      <option value="wrong">corrected</option>
+      <option value="unsure">unsure</option>
+      <option value="none">unreviewed</option>
+    </select>
+    <span class="seg">
+      <button :class="{on: view==='grouped'}" @click="view='grouped'">by category</button>
+      <button :class="{on: view==='table'}" @click="view='table'">table</button>
+    </span>
+    <span class="seg" title="sort order">
+      <button :class="{on: sort==='value'}" @click="sort='value'">value</button>
+      <button :class="{on: sort==='label'}" @click="sort='label'">label</button>
+      <button :class="{on: sort==='time'}" @click="sort='time'">video order</button>
+    </span>
+    <button v-if="f.q || f.cat || f.kind || f.status" @click="reset">clear</button>
+    <span class="sub">{{ filtered.length }} shown</span>
+  </div>
+
+  <div id="main">
+    <div id="list">
+      <div v-if="!filtered.length" class="empty">Nothing matches.</div>
+
+      <template v-if="view==='grouped'">
+        <section v-for="g in groups" :key="g.name">
+          <h2 class="cat">{{ g.name }} <span class="n">{{ g.rows.length }}</span>
+            <a href="#" v-if="!f.cat" @click.prevent="f.cat = g.name">only this</a></h2>
+          <table>
+            <colgroup><col class="c-lbl"><col><col class="c-kind"><col class="c-st"></colgroup>
+            <tr class="row" v-for="e in g.rows" :key="e.id" :class="{sel: sel && sel.id===e.id}" @click="select(e)">
+              <td class="lbl">{{ label(e) }}</td>
+              <td class="desc">{{ short(e) }}</td>
+              <td><span class="kind" v-if="e.kind!=='drawer'">{{ kindName(e.kind) }}</span></td>
+              <td><span class="badge" :class="e.status || 'none'">{{ statusName(e.status) }}</span></td>
+            </tr>
+          </table>
+        </section>
+      </template>
+
+      <table v-else-if="filtered.length">
+        <colgroup><col class="c-lbl"><col class="c-cat"><col><col class="c-kind"><col class="c-st"><col class="c-time"></colgroup>
+        <thead><tr>
+          <th :class="{on: sort==='label'}" @click="sort='label'">Label</th>
+          <th :class="{on: sort==='cat'}" @click="sort='cat'">Category</th>
+          <th>Description</th>
+          <th>Kind</th>
+          <th>Status</th>
+          <th :class="{on: sort==='time'}" @click="sort='time'">Video</th>
+        </tr></thead>
+        <tbody>
+          <tr class="row" v-for="e in filtered" :key="e.id" :class="{sel: sel && sel.id===e.id}" @click="select(e)">
+            <td class="lbl">{{ label(e) }}</td>
+            <td>{{ e.category }}</td>
+            <td class="desc">{{ short(e) }}</td>
+            <td><span class="kind" v-if="e.kind!=='drawer'">{{ kindName(e.kind) }}</span></td>
+            <td><span class="badge" :class="e.status || 'none'">{{ statusName(e.status) }}</span></td>
+            <td class="time">{{ mmss(e.t_first) }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <aside id="detail" v-if="sel">
+      <div class="top">
+        <span class="badge" :class="sel.status || 'none'">{{ statusName(sel.status) }}<span v-if="sel.edited_at"> · {{ sel.edited_at }}</span></span>
+        <button @click="select(null)" title="close (Esc)">✕ close</button>
+      </div>
+      <div class="lines"><div v-for="l in sel.lines">{{ l }}</div></div>
+      <div class="kv">
+        <div>category</div><div>{{ sel.category }} <span class="sub" v-if="sel.cat_human">(set by hand)</span></div>
+        <div>kind</div><div>{{ kindName(sel.kind) }}</div>
+        <template v-if="sel.description"><div>description</div><div>{{ sel.description }}</div></template>
+        <template v-if="sel.note"><div>note</div><div>{{ sel.note }}</div></template>
+        <template v-if="sel.contents"><div>contents</div><div class="contents">
+          <div v-for="c in sel.contents"><b>{{ c.label }}</b> <span class="sub" v-if="c.category">— {{ c.category }}</span></div>
+        </div></template>
+        <template v-if="sel.ocr_lines"><div>OCR read</div><div><span class="strike">{{ sel.ocr_lines.join(' / ') }}</span> <span class="sub">(corrected by hand)</span></div></template>
+        <div>in video</div><div>{{ mmss(sel.t_first) }}<span v-if="sel.also_seen_at"> (also {{ sel.also_seen_at.map(mmss).join(', ') }})</span></div>
+        <template v-if="!sel.status && sel.review && sel.review.length"><div>OCR flags</div><div class="flags">{{ sel.review.join(', ') }}</div></template>
+      </div>
+      <div class="frame" v-if="sel.frames && sel.frames.length">
+        <div class="bar">
+          <button @click="fi--" :disabled="fi<=0">‹</button>
+          <span>frame {{ fi+1 }} / {{ sel.frames.length }}</span>
+          <button @click="fi++" :disabled="fi>=sel.frames.length-1">›</button>
+          <a :href="'frames/' + sel.frames[fi]" target="_blank" rel="noopener" style="margin-left:auto">open image</a>
+        </div>
+        <img :src="'frames/' + sel.frames[fi]" :alt="'keyframe ' + sel.frames[fi]" loading="lazy">
+        <div class="hint">Keyframe the label was read from. The drawer is somewhere in this frame; the photo is only a hint.</div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+const { createApp, reactive, ref, computed, watch, onMounted } = Vue;
+
+const KIND = { drawer: 'drawer', reel: 'SMD reel', bin: 'bin', column_label: 'column label', section_label: 'box label' };
+const STATUS = { '': 'unreviewed', ok: 'verified', wrong: 'corrected', unsure: 'unsure', duplicate: 'duplicate' };
+
+// value parsing for numeric sort: resistors (Ω) and capacitors (F)
+const R_RE = /^(\d+(?:[.,]\d+)?)\s*(R|K|M)?\s*Ω?$/i;
+const C_RE = /^(\d+(?:[.,]\d+)?)\s*(p|n|u|µ|m)?F(?:\s*[\/ ].*)?$/i;
+function parseValue(line) {
+  let m = R_RE.exec(line);
+  if (m && (m[2] || /Ω/.test(line))) return { kind: 0, v: parseFloat(m[1].replace(',', '.')) * ({ R: 1, K: 1e3, M: 1e6 }[(m[2] || 'R').toUpperCase()]) };
+  m = C_RE.exec(line);
+  if (m) return { kind: 1, v: parseFloat(m[1].replace(',', '.')) * ({ p: 1e-12, n: 1e-9, u: 1e-6, 'µ': 1e-6, m: 1e-3 }[(m[2] || '').toLowerCase()] ?? 1) };
+  return null;
+}
+function valueKey(e) {
+  for (const l of e.lines) { const p = parseValue(l); if (p) return p.kind * 1e30 + p.v; }
+  return Infinity;
+}
+
+const coll = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
+
+createApp({
+  setup() {
+    const entries = DATA.entries.map(e => ({ ...e, _vk: valueKey(e),
+      _hay: (e.lines.join(' ') + ' ' + e.category + ' ' + (e.description || '') + ' ' + (e.note || '') + ' ' +
+             (e.contents || []).map(c => c.label + ' ' + (c.category || '')).join(' ') + ' ' + (e.ocr_lines || []).join(' ')).toLowerCase() }));
+    const byId = new Map(entries.map(e => [e.id, e]));
+    const f = reactive({ q: '', cat: '', kind: '', status: '' });
+    const view = ref('grouped'), sort = ref('value'), sel = ref(null), fi = ref(0);
+
+    const counts = computed(() => {
+      const c = { drawer: 0, reel: 0, bin: 0, column_label: 0, section_label: 0, done: 0 };
+      for (const e of entries) { c[e.kind] = (c[e.kind] || 0) + 1; if (e.status) c.done++; }
+      return c;
+    });
+    const catList = computed(() => {
+      const m = new Map();
+      for (const e of entries) m.set(e.category, (m.get(e.category) || 0) + 1);
+      return [...m].map(([name, n]) => ({ name, n })).sort((a, b) => coll.compare(a.name, b.name));
+    });
+    const kindList = computed(() => Object.keys(KIND).filter(k => counts.value[k]));
+
+    function cmp(a, b) {
+      if (sort.value === 'time') return a.t_first - b.t_first;
+      if (sort.value === 'label') return coll.compare(a.lines[0], b.lines[0]) || a.t_first - b.t_first;
+      if (sort.value === 'cat') return coll.compare(a.category, b.category) || a._vk - b._vk || coll.compare(a.lines[0], b.lines[0]);
+      return (a._vk - b._vk) || coll.compare(a.lines[0], b.lines[0]) || a.t_first - b.t_first; // value
+    }
+    const filtered = computed(() => {
+      const q = f.q.toLowerCase().split(/\s+/).filter(Boolean);
+      return entries.filter(e =>
+        (!f.cat || e.category === f.cat) &&
+        (!f.kind || e.kind === f.kind) &&
+        (!f.status || (f.status === 'none' ? !e.status : f.status === 'reviewed' ? !!e.status : e.status === f.status)) &&
+        q.every(w => e._hay.includes(w))
+      ).sort(cmp);
+    });
+    const groups = computed(() => {
+      const m = new Map();
+      for (const e of filtered.value) { if (!m.has(e.category)) m.set(e.category, []); m.get(e.category).push(e); }
+      return [...m].map(([name, rows]) => ({ name, rows })).sort((a, b) => coll.compare(a.name, b.name));
+    });
+
+    function select(e) { sel.value = e; fi.value = 0; }
+    function reset() { f.q = f.cat = f.kind = f.status = ''; }
+    const label = e => e.lines.join(' / ');
+    const short = e => e.contents && e.contents.length ? e.contents.map(c => c.label).join(', ') + (e.description ? ' — ' + e.description : '') : (e.description || '');
+    const mmss = t => { t = Math.round(t); return Math.floor(t / 60) + ':' + String(t % 60).padStart(2, '0'); };
+    const kindName = k => KIND[k] || k;
+    const statusName = s => STATUS[s] || s;
+
+    // shareable URL: #q=…&cat=…&id=…
+    function writeHash() {
+      const p = new URLSearchParams();
+      for (const k of ['q', 'cat', 'kind', 'status']) if (f[k]) p.set(k, f[k]);
+      if (view.value !== 'grouped') p.set('view', view.value);
+      if (sort.value !== 'value') p.set('sort', sort.value);
+      if (sel.value) p.set('id', sel.value.id);
+      const h = p.toString();
+      if (h !== location.hash.slice(1)) history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+    }
+    function readHash() {
+      const p = new URLSearchParams(location.hash.slice(1));
+      for (const k of ['q', 'cat', 'kind', 'status']) f[k] = p.get(k) || '';
+      view.value = p.get('view') || 'grouped';
+      sort.value = p.get('sort') || 'value';
+      const id = p.get('id');
+      sel.value = id !== null && byId.has(+id) ? byId.get(+id) : null;
+    }
+    readHash();
+    watch([f, view, sort, sel], writeHash, { deep: true });
+    onMounted(() => {
+      window.addEventListener('hashchange', readHash);
+      window.addEventListener('keydown', ev => { if (ev.key === 'Escape') select(null); });
+    });
+
+    return { entries, f, view, sort, sel, fi, counts, catList, kindList, filtered, groups, built: DATA.built,
+             select, reset, label, short, mmss, kindName, statusName };
+  }
+}).mount('#app');
+</script>
+</body>
+</html>

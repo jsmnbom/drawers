@@ -1,0 +1,70 @@
+{"lines": ["181"], "category": null, "frame": "k_0470.jpg", "t": 345.73, "where": "top area, bin on shelf", "confidence": 0.7}
+{"lines": ["2764", "EPROM"], "category": "EPROM", "frame": "k_0470.jpg", "t": 345.73, "where": "lower area, second column left, cut off at edge", "confidence": 0.7}
+{"lines": ["27128 EPROM"], "category": "EPROM", "frame": "k_0470.jpg", "t": 345.73, "where": "lower area, right column", "confidence": 0.9}
+{"lines": ["M5L8251AP"], "category": null, "frame": "k_0470.jpg", "t": 345.73, "where": "bottom row, left-center", "confidence": 0.9}
+{"lines": ["D8251AFC"], "category": null, "frame": "k_0470.jpg", "t": 345.73, "where": "bottom row, right-center", "confidence": 0.8}
+{"lines": ["2516-30"], "category": null, "frame": "k_0471.jpg", "t": 346.31, "where": "top row, left column", "confidence": 0.6}
+{"lines": ["2516-45"], "category": null, "frame": "k_0471.jpg", "t": 346.31, "where": "top row, middle column", "confidence": 0.6}
+{"lines": ["27128-20"], "category": null, "frame": "k_0471.jpg", "t": 346.31, "where": "second row, left column", "confidence": 0.6}
+{"lines": ["27128-25"], "category": null, "frame": "k_0471.jpg", "t": 346.31, "where": "second row, middle column", "confidence": 0.5}
+{"lines": ["2764 ERROM"], "category": "EPROM", "frame": "k_0471.jpg", "t": 346.31, "where": "lower area, second column left", "confidence": 0.9}
+{"lines": ["27128 EPROM"], "category": "EPROM", "frame": "k_0471.jpg", "t": 346.31, "where": "lower area, middle column", "confidence": 0.9}
+{"lines": ["M5L8251AP"], "category": null, "frame": "k_0471.jpg", "t": 346.31, "where": "bottom row, left-center", "confidence": 0.9}
+{"lines": ["D8251AFC"], "category": null, "frame": "k_0471.jpg", "t": 346.31, "where": "bottom row, middle", "confidence": 0.8}
+{"lines": ["2516-30"], "category": null, "frame": "k_0472.jpg", "t": 346.8, "where": "top row, middle column", "confidence": 0.6}
+{"lines": ["2516-45"], "category": null, "frame": "k_0472.jpg", "t": 346.8, "where": "top row, right column", "confidence": 0.6}
+{"lines": ["27128-20"], "category": null, "frame": "k_0472.jpg", "t": 346.8, "where": "second row, middle column", "confidence": 0.6}
+{"lines": ["2716 EPROM"], "category": "EPROM", "frame": "k_0472.jpg", "t": 346.8, "where": "row of white labels, left column, partially cut off", "confidence": 0.7}
+{"lines": ["2764 ERROM"], "category": "EPROM", "frame": "k_0472.jpg", "t": 346.8, "where": "row of white labels, middle column", "confidence": 0.9}
+{"lines": ["27128 EPROM"], "category": "EPROM", "frame": "k_0472.jpg", "t": 346.8, "where": "row of white labels, right column", "confidence": 0.9}
+{"lines": ["M5M5165P"], "category": null, "frame": "k_0472.jpg", "t": 346.8, "where": "bottom white-label row, left column, partially cut off", "confidence": 0.75}
+{"lines": ["M5L8251AP"], "category": null, "frame": "k_0472.jpg", "t": 346.8, "where": "bottom white-label row, middle column", "confidence": 0.9}
+{"lines": ["D8251AFC"], "category": null, "frame": "k_0472.jpg", "t": 346.8, "where": "bottom white-label row, right column", "confidence": 0.8}
+{"lines": ["2764"], "category": null, "frame": "k_0472.jpg", "t": 346.8, "where": "third row, left column, tan label", "confidence": 0.6}
+{"lines": ["2516-30"], "category": null, "frame": "k_0473.jpg", "t": 347.08, "where": "top row, middle column", "confidence": 0.6}
+{"lines": ["27128-20"], "category": null, "frame": "k_0473.jpg", "t": 347.08, "where": "second row, middle column", "confidence": 0.6}
+{"lines": ["2764"], "category": null, "frame": "k_0473.jpg", "t": 347.08, "where": "third row, left column, tan label", "confidence": 0.6}
+{"lines": ["2716 EPROM"], "category": "EPROM", "frame": "k_0473.jpg", "t": 347.08, "where": "white-label row, left column, partially cut off", "confidence": 0.75}
+{"lines": ["2764 ERROM"], "category": "EPROM", "frame": "k_0473.jpg", "t": 347.08, "where": "white-label row, middle column", "confidence": 0.9}
+{"lines": ["M5M5165P"], "category": null, "frame": "k_0473.jpg", "t": 347.08, "where": "bottom white-label row, left column", "confidence": 0.8}
+{"lines": ["M5L8251AP"], "category": null, "frame": "k_0473.jpg", "t": 347.08, "where": "bottom white-label row, middle column", "confidence": 0.9}
+{"lines": ["2732"], "category": null, "frame": "k_0474.jpg", "t": 347.43, "where": "top row, left column, tan label, partially cut off", "confidence": 0.6}
+{"lines": ["27128-20"], "category": null, "frame": "k_0474.jpg", "t": 347.43, "where": "top row, right column, tan label", "confidence": 0.6}
+{"lines": ["2764"], "category": null, "frame": "k_0474.jpg", "t": 347.43, "where": "second row, left column, tan label", "confidence": 0.7}
+{"lines": ["2716 EPROM"], "category": "EPROM", "frame": "k_0474.jpg", "t": 347.43, "where": "white-label row, left column, partially cut off", "confidence": 0.8}
+{"lines": ["2764 ERROM"], "category": "EPROM", "frame": "k_0474.jpg", "t": 347.43, "where": "white-label row, right column", "confidence": 0.9}
+{"lines": ["M5M5165P"], "category": null, "frame": "k_0474.jpg", "t": 347.43, "where": "bottom white-label row, left column, partially cut off", "confidence": 0.85}
+{"lines": ["M5L8251AP"], "category": null, "frame": "k_0474.jpg", "t": 347.43, "where": "bottom white-label row, right column", "confidence": 0.9}
+{"lines": ["2764"], "category": null, "frame": "k_0475.jpg", "t": 348.08, "where": "top area, left column, tan label", "confidence": 0.7}
+{"lines": ["2716 EPROM"], "category": "EPROM", "frame": "k_0475.jpg", "t": 348.08, "where": "middle white-label row, left column", "confidence": 0.85}
+{"lines": ["M5M5165P"], "category": null, "frame": "k_0475.jpg", "t": 348.08, "where": "lower white-label row, left column", "confidence": 0.85}
+{"lines": ["2764"], "category": null, "frame": "k_0476.jpg", "t": 349.32, "where": "top row, left column, tan label", "confidence": 0.7}
+{"lines": ["2716 EPROM"], "category": "EPROM", "frame": "k_0476.jpg", "t": 349.32, "where": "middle white-label row, left column", "confidence": 0.85}
+{"lines": ["2764 ERROM"], "category": "EPROM", "frame": "k_0476.jpg", "t": 349.32, "where": "middle white-label row, right column, partially cut off", "confidence": 0.8}
+{"lines": ["M5M5165P"], "category": null, "frame": "k_0476.jpg", "t": 349.32, "where": "lower white-label row, left column", "confidence": 0.85}
+{"lines": ["M5L8251A"], "category": null, "frame": "k_0476.jpg", "t": 349.32, "where": "lower white-label row, right column, partially cut off", "confidence": 0.85}
+{"lines": ["2764 ERROM"], "category": "EPROM", "frame": "k_0477.jpg", "t": 350.7, "where": "upper white-label row, left column, partially cut off", "confidence": 0.8}
+{"lines": ["27128 EPROM"], "category": "EPROM", "frame": "k_0477.jpg", "t": 350.7, "where": "upper white-label row, right column", "confidence": 0.9}
+{"lines": ["M5L8251AP"], "category": null, "frame": "k_0477.jpg", "t": 350.7, "where": "lower white-label row, left column, partially cut off", "confidence": 0.85}
+{"lines": ["D8251AFC"], "category": null, "frame": "k_0477.jpg", "t": 350.7, "where": "lower white-label row, right column", "confidence": 0.85}
+{"lines": ["27512"], "category": null, "frame": "k_0478.jpg", "t": 351.47, "where": "top row, right column, tan label", "confidence": 0.6}
+{"lines": ["27128 EPROM"], "category": "EPROM", "frame": "k_0478.jpg", "t": 351.47, "where": "middle white-label row, left column", "confidence": 0.9}
+{"lines": ["D8251AFC"], "category": null, "frame": "k_0478.jpg", "t": 351.47, "where": "lower white-label row, left column", "confidence": 0.9}
+{"lines": ["M5L8253"], "category": null, "frame": "k_0478.jpg", "t": 351.47, "where": "lower white-label row, right column, partially cut off", "confidence": 0.6}
+{"lines": ["27512"], "category": null, "frame": "k_0479.jpg", "t": 352.44, "where": "top area, tan label", "confidence": 0.6}
+{"lines": ["M5L8253P"], "category": null, "frame": "k_0479.jpg", "t": 352.44, "where": "middle white-label row", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0479.jpg", "t": 352.44, "where": "right side, separate cabinet section, plastic bin", "confidence": 0.7}
+{"lines": ["M5L8253P"], "category": null, "frame": "k_0480.jpg", "t": 352.72, "where": "left column, middle area, white label", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0480.jpg", "t": 352.72, "where": "right side, separate cabinet section, plastic bin", "confidence": 0.7}
+{"lines": ["Red Led"], "category": "LED", "frame": "k_0483.jpg", "t": 353.79, "where": "lower row, left bin", "confidence": 0.9}
+{"lines": ["Green Led"], "category": "LED", "frame": "k_0483.jpg", "t": 353.79, "where": "lower row, middle bin", "confidence": 0.9}
+{"lines": ["yellow led"], "category": "LED", "frame": "k_0484.jpg", "t": 354.59, "where": "left bin, partially cut off", "confidence": 0.9}
+{"lines": ["Red Led"], "category": "LED", "frame": "k_0484.jpg", "t": 354.59, "where": "middle bin", "confidence": 0.9}
+{"lines": ["yellow led"], "category": "LED", "frame": "k_0485.jpg", "t": 355.74, "where": "top row, left bin", "confidence": 0.9}
+{"lines": ["Red Led"], "category": "LED", "frame": "k_0485.jpg", "t": 355.74, "where": "top row, right bin", "confidence": 0.9}
+{"lines": ["Led"], "category": "LED", "frame": "k_0486.jpg", "t": 357.46, "where": "second row, middle bin", "confidence": 0.9}
+{"lines": ["Led"], "category": "LED", "frame": "k_0486.jpg", "t": 357.46, "where": "second row, left bin, partially cut off (green Led)", "confidence": 0.7}
+{"lines": ["7-seg."], "category": null, "frame": "k_0487.jpg", "t": 359.46, "where": "top row, right bin", "confidence": 0.9}
+{"lines": ["40HC-XX & 74HC-XX"], "category": null, "frame": "k_0487.jpg", "t": 359.46, "where": "second row, middle bin, handwritten tan card", "confidence": 0.45}
+{"lines": ["Led"], "category": "LED", "frame": "k_0488.jpg", "t": 359.84, "where": "lower row, left bin", "confidence": 0.9}
+{"lines": ["7-seg."], "category": null, "frame": "k_0488.jpg", "t": 359.84, "where": "top row, right bin", "confidence": 0.9}

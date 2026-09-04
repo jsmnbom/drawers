@@ -1,0 +1,105 @@
+{"lines": ["20Ω Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["50Ω Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "row 1, middle", "confidence": 0.9}
+{"lines": ["500Ω Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["1K Multiturn", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "row 2, middle (blue bin)", "confidence": 0.9}
+{"lines": ["5KΩ Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "row 3, left", "confidence": 0.6}
+{"lines": ["10KΩ Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "row 3, middle", "confidence": 0.6}
+{"lines": ["1MΩ Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["20Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "lower section, row 5, left", "confidence": 0.75}
+{"lines": ["470Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "lower section, row 5, middle", "confidence": 0.75}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "lower section, row 6, left", "confidence": 0.8}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0015.jpg", "t": 10.86, "where": "lower section, row 6, middle", "confidence": 0.8}
+{"lines": ["20Ω Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["50Ω Multiturn", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "row 1, right", "confidence": 0.95}
+{"lines": ["500Ω Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["1K Multiturn", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "row 2, right (blue bin)", "confidence": 0.9}
+{"lines": ["5KΩ Multitum", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["10KΩ Multiturn", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["1MΩ Multiturn", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["20Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "lower section, row 5, left", "confidence": 0.9}
+{"lines": ["470Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "lower section, row 5, right", "confidence": 0.9}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "lower section, row 6, left", "confidence": 0.9}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0016.jpg", "t": 11.68, "where": "lower section, row 6, right", "confidence": 0.9}
+{"lines": ["200Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0018.jpg", "t": 12.98, "where": "upper area, row 1, left", "confidence": 0.85}
+{"lines": ["470Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0018.jpg", "t": 12.98, "where": "upper area, row 1, right (partially cut)", "confidence": 0.8}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0018.jpg", "t": 12.98, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0018.jpg", "t": 12.98, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["2MΩ", "Trim Pot."], "category": "Trim Pot", "frame": "k_0018.jpg", "t": 12.98, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["PRME-15005B", "Reed Relay", "5v"], "category": "Reed Relay", "frame": "k_0018.jpg", "t": 12.98, "where": "lower shelf, left", "confidence": 0.75}
+{"lines": ["SWITCH", "SPST", "DIL"], "category": "Switch", "frame": "k_0018.jpg", "t": 12.98, "where": "lower shelf, right", "confidence": 0.7}
+{"lines": ["200Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0019.jpg", "t": 14.38, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["470Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0019.jpg", "t": 14.38, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0019.jpg", "t": 14.38, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0019.jpg", "t": 14.38, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["2MΩ", "Trim Pot."], "category": "Trim Pot", "frame": "k_0019.jpg", "t": 14.38, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["PRME-15005B", "Reed Relay", "5v"], "category": "Reed Relay", "frame": "k_0019.jpg", "t": 14.38, "where": "lower shelf, left", "confidence": 0.85}
+{"lines": ["SWITCH", "SPST", "DIL"], "category": "Switch", "frame": "k_0019.jpg", "t": 14.38, "where": "lower shelf, middle", "confidence": 0.75}
+{"lines": ["500Ω", "Trim Pot."], "category": "Trim Pot", "frame": "k_0020.jpg", "t": 16.15, "where": "top row, left", "confidence": 0.9}
+{"lines": ["1K", "Trim Pot."], "category": "Trim Pot", "frame": "k_0020.jpg", "t": 16.15, "where": "top row, right", "confidence": 0.9}
+{"lines": ["1.5KΩ", "Trim Pot."], "category": "Trim Pot", "frame": "k_0020.jpg", "t": 16.15, "where": "second row, left", "confidence": 0.9}
+{"lines": ["2KΩ", "Trim Pot."], "category": "Trim Pot", "frame": "k_0020.jpg", "t": 16.15, "where": "second row, right", "confidence": 0.9}
+{"lines": ["3573 123 051", "Reed Relay", "5v"], "category": "Reed Relay", "frame": "k_0020.jpg", "t": 16.15, "where": "lower shelf, left", "confidence": 0.85}
+{"lines": ["0.82Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["0.91Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["8.2Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["9.1Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["82Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["91Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["820Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["910Ω"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["8.2KΩ"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["9.1KΩ"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["82KΩ"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["91KΩ"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["820KΩ"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 7, left (bottom, partially cut)", "confidence": 0.75}
+{"lines": ["910KΩ"], "category": "Resistor", "frame": "k_0024.jpg", "t": 18.68, "where": "row 7, right (bottom, partially cut)", "confidence": 0.7}
+{"lines": ["0.82Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 1, left-middle", "confidence": 0.9}
+{"lines": ["0.91Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["8.2Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 2, left-middle", "confidence": 0.9}
+{"lines": ["9.1Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["82Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 3, left-middle", "confidence": 0.9}
+{"lines": ["91Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["820Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 4, left-middle", "confidence": 0.9}
+{"lines": ["910Ω"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["8.2KΩ"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 5, left-middle", "confidence": 0.85}
+{"lines": ["9.1KΩ"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 5, right (partly occluded)", "confidence": 0.6}
+{"lines": ["82KΩ"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 6, left-middle", "confidence": 0.85}
+{"lines": ["91KΩ"], "category": "Resistor", "frame": "k_0025.jpg", "t": 19.2, "where": "row 6, right", "confidence": 0.85}
+{"lines": ["0.75Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 1, left", "confidence": 0.8}
+{"lines": ["0.82Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 1, middle", "confidence": 0.8}
+{"lines": ["7.5Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 2, left", "confidence": 0.8}
+{"lines": ["8.2Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 2, middle", "confidence": 0.8}
+{"lines": ["750Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 3, left", "confidence": 0.8}
+{"lines": ["820Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 3, middle", "confidence": 0.8}
+{"lines": ["7500Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 4, left", "confidence": 0.75}
+{"lines": ["8200Ω"], "category": "Resistor", "frame": "k_0026.jpg", "t": 19.64, "where": "row 4, middle", "confidence": 0.75}
+{"lines": ["0.68Ω"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["0.75Ω"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["6.8Ω"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["7.5Ω"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["75Ω"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["680Ω"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["750Ω"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["6.8KΩ"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["7.5KΩ"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["75KΩ"], "category": "Resistor", "frame": "k_0027.jpg", "t": 20.6, "where": "row 6, right", "confidence": 0.85}
+{"lines": ["0.68Ω"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["6.8Ω"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["7.5Ω"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["75Ω"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["680Ω"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["750Ω"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["6.8KΩ"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["7.5KΩ"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["68KΩ"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["75KΩ"], "category": "Resistor", "frame": "k_0028.jpg", "t": 20.97, "where": "row 6, right", "confidence": 0.8}
+{"lines": ["0.68Ω"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["6.8Ω"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["7.5Ω"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["75Ω"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["680Ω"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["750Ω"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["6.8KΩ"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["7.5KΩ"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["68KΩ"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["75KΩ"], "category": "Resistor", "frame": "k_0029.jpg", "t": 21.25, "where": "row 6, right", "confidence": 0.8}

@@ -1,0 +1,224 @@
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0110.jpg", "t": 85.55, "where": "top-left area", "confidence": 0.95}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0110.jpg", "t": 85.55, "where": "top area, second from left", "confidence": 0.95}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0110.jpg", "t": 85.55, "where": "second row, left", "confidence": 0.9}
+{"lines": ["BY229", "Diode"], "category": "Diode", "frame": "k_0110.jpg", "t": 85.55, "where": "second row, second from left", "confidence": 0.92}
+{"lines": ["1N6267A", "Zener"], "category": "Zener", "frame": "k_0110.jpg", "t": 85.55, "where": "middle-left, second column", "confidence": 0.92}
+{"lines": ["1N5921B", "Zener"], "category": "Zener", "frame": "k_0110.jpg", "t": 85.55, "where": "lower-left, second column", "confidence": 0.92}
+{"lines": ["967B", "974B", "979B", "Zener"], "category": "Zener", "frame": "k_0110.jpg", "t": 85.55, "where": "lower-left, first column, partially cut off", "confidence": 0.5}
+{"lines": ["BC107", "NPN"], "category": "Transistor", "frame": "k_0110.jpg", "t": 85.55, "where": "top-right column", "confidence": 0.9}
+{"lines": ["2N6292", "NPN"], "category": "Transistor", "frame": "k_0110.jpg", "t": 85.55, "where": "right column, second from top", "confidence": 0.92}
+{"lines": ["BFT40", "NPN"], "category": "Transistor", "frame": "k_0110.jpg", "t": 85.55, "where": "right column, third from top", "confidence": 0.9}
+{"lines": ["2N3738", "NPN"], "category": "Transistor", "frame": "k_0110.jpg", "t": 85.55, "where": "right column, fourth from top", "confidence": 0.92}
+{"lines": ["BC640", "PNP"], "category": "Transistor", "frame": "k_0110.jpg", "t": 85.55, "where": "right column, fifth from top", "confidence": 0.9}
+{"lines": ["BFT80", "PNP"], "category": "Transistor", "frame": "k_0110.jpg", "t": 85.55, "where": "right column, sixth from top", "confidence": 0.92}
+{"lines": ["IRFD120", "N-CH"], "category": "MOSFET", "frame": "k_0110.jpg", "t": 85.55, "where": "right column, near bottom", "confidence": 0.9}
+{"lines": ["GBC40F", "IGBT NCH"], "category": "IGBT", "frame": "k_0110.jpg", "t": 85.55, "where": "bottom-right, partially cut off", "confidence": 0.4}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0111.jpg", "t": 86.29, "where": "top area, second from left", "confidence": 0.95}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0111.jpg", "t": 86.29, "where": "top-right area", "confidence": 0.95}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0111.jpg", "t": 86.29, "where": "second row, left-center", "confidence": 0.9}
+{"lines": ["BY229", "Diode"], "category": "Diode", "frame": "k_0111.jpg", "t": 86.29, "where": "second row, right-center", "confidence": 0.92}
+{"lines": ["BZX79", "C2V4PH", "Zener"], "category": "Zener", "frame": "k_0111.jpg", "t": 86.29, "where": "lower-left, first column", "confidence": 0.85}
+{"lines": ["1N6267A", "Zener"], "category": "Zener", "frame": "k_0111.jpg", "t": 86.29, "where": "lower area, second column", "confidence": 0.92}
+{"lines": ["1N967B", "1N974B", "1N979B", "Zener"], "category": "Zener", "frame": "k_0111.jpg", "t": 86.29, "where": "bottom-left, first column", "confidence": 0.85}
+{"lines": ["1N5921B", "Zener"], "category": "Zener", "frame": "k_0111.jpg", "t": 86.29, "where": "bottom area, second column", "confidence": 0.92}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0112.jpg", "t": 87.12, "where": "top row, left", "confidence": 0.95}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0112.jpg", "t": 87.12, "where": "top row, middle", "confidence": 0.95}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0112.jpg", "t": 87.12, "where": "top row, right", "confidence": 0.95}
+{"lines": ["RGP10G", "Diode"], "category": "Diode", "frame": "k_0112.jpg", "t": 87.12, "where": "second row, left", "confidence": 0.92}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0112.jpg", "t": 87.12, "where": "second row, middle", "confidence": 0.9}
+{"lines": ["BY229", "Diode"], "category": "Diode", "frame": "k_0112.jpg", "t": 87.12, "where": "second row, right", "confidence": 0.92}
+{"lines": ["BZX79", "C5V6PH", "Zener"], "category": "Zener", "frame": "k_0112.jpg", "t": 87.12, "where": "middle area, left", "confidence": 0.92}
+{"lines": ["BZX79", "C2V4PH", "Zener"], "category": "Zener", "frame": "k_0112.jpg", "t": 87.12, "where": "middle area, center", "confidence": 0.92}
+{"lines": ["1N6267A", "Zener"], "category": "Zener", "frame": "k_0112.jpg", "t": 87.12, "where": "middle area, right, partially cut off", "confidence": 0.85}
+{"lines": ["1N748A", "Zener"], "category": "Zener", "frame": "k_0112.jpg", "t": 87.12, "where": "lower area, left", "confidence": 0.92}
+{"lines": ["1N967B", "1N974B", "1N979B", "Zener"], "category": "Zener", "frame": "k_0112.jpg", "t": 87.12, "where": "lower area, center", "confidence": 0.9}
+{"lines": ["1N5921B", "Zener"], "category": "Zener", "frame": "k_0112.jpg", "t": 87.12, "where": "lower area, right, partially cut off", "confidence": 0.7}
+{"lines": ["ZD27", "Zener"], "category": "Zener", "frame": "k_0112.jpg", "t": 87.12, "where": "bottom-left area", "confidence": 0.85}
+{"lines": ["1N4942", "Diode"], "category": "Diode", "frame": "k_0113.jpg", "t": 88.57, "where": "top-left, partially cut off", "confidence": 0.75}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0113.jpg", "t": 88.57, "where": "top row, middle-left", "confidence": 0.95}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0113.jpg", "t": 88.57, "where": "top row, middle-right", "confidence": 0.95}
+{"lines": ["1N5624", "Diode"], "category": "Diode", "frame": "k_0113.jpg", "t": 88.57, "where": "second row, left", "confidence": 0.9}
+{"lines": ["RGP10G", "Diode"], "category": "Diode", "frame": "k_0113.jpg", "t": 88.57, "where": "second row, middle", "confidence": 0.92}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0113.jpg", "t": 88.57, "where": "second row, right", "confidence": 0.9}
+{"lines": ["BY359", "Diode"], "category": "Diode", "frame": "k_0113.jpg", "t": 88.57, "where": "third row, left, partially cut off", "confidence": 0.6}
+{"lines": ["AAZ18", "Signal"], "category": "Signal", "frame": "k_0113.jpg", "t": 88.57, "where": "left side, below third row, partially cut off", "confidence": 0.6}
+{"lines": ["X55C12", "Zener"], "category": "Zener", "frame": "k_0113.jpg", "t": 88.57, "where": "middle area, left, partially cut off", "confidence": 0.5}
+{"lines": ["BZX79", "C5V6PH", "Zener"], "category": "Zener", "frame": "k_0113.jpg", "t": 88.57, "where": "middle area, center", "confidence": 0.92}
+{"lines": ["BZX79", "C2V4PH", "Zener"], "category": "Zener", "frame": "k_0113.jpg", "t": 88.57, "where": "middle area, right", "confidence": 0.92}
+{"lines": ["1N748A", "Zener"], "category": "Zener", "frame": "k_0113.jpg", "t": 88.57, "where": "lower area, middle", "confidence": 0.92}
+{"lines": ["1N967B", "1N974B", "1N979B", "Zener"], "category": "Zener", "frame": "k_0113.jpg", "t": 88.57, "where": "lower area, right", "confidence": 0.9}
+{"lines": ["ZD27", "Zener"], "category": "Zener", "frame": "k_0113.jpg", "t": 88.57, "where": "bottom row, middle-left", "confidence": 0.85}
+{"lines": ["1N4942", "Diode"], "category": "Diode", "frame": "k_0114.jpg", "t": 89.54, "where": "top row, left", "confidence": 0.92}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0114.jpg", "t": 89.54, "where": "top row, middle", "confidence": 0.95}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0114.jpg", "t": 89.54, "where": "top row, right, partially cut off", "confidence": 0.85}
+{"lines": ["1N5624", "Diode"], "category": "Diode", "frame": "k_0114.jpg", "t": 89.54, "where": "second row, left", "confidence": 0.92}
+{"lines": ["RGP10G", "Diode"], "category": "Diode", "frame": "k_0114.jpg", "t": 89.54, "where": "second row, middle", "confidence": 0.92}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0114.jpg", "t": 89.54, "where": "second row, right, partially cut off", "confidence": 0.7}
+{"lines": ["BY359", "Diode"], "category": "Diode", "frame": "k_0114.jpg", "t": 89.54, "where": "third row, left", "confidence": 0.92}
+{"lines": ["AAZ18", "Signal"], "category": "Signal", "frame": "k_0114.jpg", "t": 89.54, "where": "fourth row, left", "confidence": 0.9}
+{"lines": ["BZX55C12", "Zener"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "fifth row, left", "confidence": 0.92}
+{"lines": ["BZX79", "C5V6PH", "Zener"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "fifth row, middle", "confidence": 0.92}
+{"lines": ["BZX79", "C2V4PH", "Zener"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "fifth row, right, partially cut off", "confidence": 0.75}
+{"lines": ["1N749A", "Zener"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "sixth row, left", "confidence": 0.92}
+{"lines": ["1N748A", "Zener"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "sixth row, middle", "confidence": 0.92}
+{"lines": ["1N967B", "1N974B", "1N979B"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "sixth row, right, partially cut off", "confidence": 0.55}
+{"lines": ["1N972B", "1N973B", "Zener"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "seventh row, left", "confidence": 0.92}
+{"lines": ["ZD27", "Zener"], "category": "Zener", "frame": "k_0114.jpg", "t": 89.54, "where": "seventh row, middle", "confidence": 0.92}
+{"lines": ["1N5818"], "category": null, "frame": "k_0114.jpg", "t": 89.54, "where": "bottom-left, partially cut off", "confidence": 0.7}
+{"lines": ["1N5624", "Diode"], "category": "Diode", "frame": "k_0115.jpg", "t": 90.22, "where": "top row, left", "confidence": 0.92}
+{"lines": ["RGP10G", "Diode"], "category": "Diode", "frame": "k_0115.jpg", "t": 90.22, "where": "top row, middle", "confidence": 0.92}
+{"lines": ["BY359", "Diode"], "category": "Diode", "frame": "k_0115.jpg", "t": 90.22, "where": "second row, left", "confidence": 0.92}
+{"lines": ["AAZ18", "Signal"], "category": "Signal", "frame": "k_0115.jpg", "t": 90.22, "where": "third row, left", "confidence": 0.92}
+{"lines": ["BZX55C12", "Zener"], "category": "Zener", "frame": "k_0115.jpg", "t": 90.22, "where": "fourth row, left", "confidence": 0.92}
+{"lines": ["BZX79", "C5V6PH", "Zener"], "category": "Zener", "frame": "k_0115.jpg", "t": 90.22, "where": "fourth row, middle", "confidence": 0.92}
+{"lines": ["1N749A", "Zener"], "category": "Zener", "frame": "k_0115.jpg", "t": 90.22, "where": "fifth row, left", "confidence": 0.92}
+{"lines": ["1N748A", "Zener"], "category": "Zener", "frame": "k_0115.jpg", "t": 90.22, "where": "fifth row, middle", "confidence": 0.92}
+{"lines": ["1N972B", "1N973B", "Zener"], "category": "Zener", "frame": "k_0115.jpg", "t": 90.22, "where": "sixth row, left", "confidence": 0.92}
+{"lines": ["ZD27", "Zener"], "category": "Zener", "frame": "k_0115.jpg", "t": 90.22, "where": "sixth row, middle", "confidence": 0.92}
+{"lines": ["1N5818", "Schottky"], "category": "Schottky", "frame": "k_0115.jpg", "t": 90.22, "where": "bottom-left", "confidence": 0.9}
+{"lines": ["BY359", "Diode"], "category": "Diode", "frame": "k_0116.jpg", "t": 90.94, "where": "top-left, partially cut off", "confidence": 0.85}
+{"lines": ["AAZ18", "Signal"], "category": "Signal", "frame": "k_0116.jpg", "t": 90.94, "where": "second row, left", "confidence": 0.92}
+{"lines": ["BZX55C12", "Zener"], "category": "Zener", "frame": "k_0116.jpg", "t": 90.94, "where": "third row, left", "confidence": 0.92}
+{"lines": ["BZX79", "C5V6PH", "Zener"], "category": "Zener", "frame": "k_0116.jpg", "t": 90.94, "where": "third row, middle", "confidence": 0.92}
+{"lines": ["1N749A", "Zener"], "category": "Zener", "frame": "k_0116.jpg", "t": 90.94, "where": "fourth row, left", "confidence": 0.92}
+{"lines": ["1N748A", "Zener"], "category": "Zener", "frame": "k_0116.jpg", "t": 90.94, "where": "fourth row, middle", "confidence": 0.92}
+{"lines": ["1N972B", "1N973B", "Zener"], "category": "Zener", "frame": "k_0116.jpg", "t": 90.94, "where": "fifth row, left", "confidence": 0.92}
+{"lines": ["ZD27", "Zener"], "category": "Zener", "frame": "k_0116.jpg", "t": 90.94, "where": "fifth row, middle", "confidence": 0.92}
+{"lines": ["1N5818", "Schottky"], "category": "Schottky", "frame": "k_0116.jpg", "t": 90.94, "where": "sixth row, left", "confidence": 0.92}
+{"lines": ["BZX79", "C5V6PH", "Zener"], "category": "Zener", "frame": "k_0117.jpg", "t": 91.42, "where": "top area, middle", "confidence": 0.8}
+{"lines": ["BZX79", "C2V4PH", "Zener"], "category": "Zener", "frame": "k_0117.jpg", "t": 91.42, "where": "top area, right", "confidence": 0.85}
+{"lines": ["1N748A", "Zener"], "category": "Zener", "frame": "k_0117.jpg", "t": 91.42, "where": "middle area, center", "confidence": 0.92}
+{"lines": ["1N967B", "1N974B", "1N979B", "Zener"], "category": "Zener", "frame": "k_0117.jpg", "t": 91.42, "where": "middle area, right", "confidence": 0.85}
+{"lines": ["ZD27", "Zener"], "category": "Zener", "frame": "k_0117.jpg", "t": 91.42, "where": "lower area, center", "confidence": 0.9}
+{"lines": ["BZX79", "C2V4PH", "Zener"], "category": "Zener", "frame": "k_0118.jpg", "t": 92.43, "where": "top row, middle", "confidence": 0.9}
+{"lines": ["1N6267A", "Zener"], "category": "Zener", "frame": "k_0118.jpg", "t": 92.43, "where": "top row, right", "confidence": 0.9}
+{"lines": ["1N967B", "1N974B", "1N979B", "Zener"], "category": "Zener", "frame": "k_0118.jpg", "t": 92.43, "where": "second row, middle", "confidence": 0.9}
+{"lines": ["1N5921B", "Zener"], "category": "Zener", "frame": "k_0118.jpg", "t": 92.43, "where": "second row, right", "confidence": 0.9}
+{"lines": ["BZX79", "C2V4PH", "Zener"], "category": "Zener", "frame": "k_0119.jpg", "t": 93.01, "where": "top row, left", "confidence": 0.9}
+{"lines": ["1N6267A", "Zener"], "category": "Zener", "frame": "k_0119.jpg", "t": 93.01, "where": "top row, right", "confidence": 0.9}
+{"lines": ["1N967B", "1N974B", "1N979B", "Zener"], "category": "Zener", "frame": "k_0119.jpg", "t": 93.01, "where": "second row, left", "confidence": 0.9}
+{"lines": ["1N5921B", "Zener"], "category": "Zener", "frame": "k_0119.jpg", "t": 93.01, "where": "second row, right", "confidence": 0.9}
+{"lines": ["1N6267A", "Zener"], "category": "Zener", "frame": "k_0120.jpg", "t": 93.28, "where": "top row, right", "confidence": 0.85}
+{"lines": ["1N967B", "1N974B", "1N979B", "Zener"], "category": "Zener", "frame": "k_0120.jpg", "t": 93.28, "where": "second row, left", "confidence": 0.85}
+{"lines": ["1N5921B", "Zener"], "category": "Zener", "frame": "k_0120.jpg", "t": 93.28, "where": "second row, right", "confidence": 0.85}
+{"lines": ["Bridge", "Rectifiers"], "category": "Bridge Rectifier", "frame": "k_0122.jpg", "t": 93.91, "where": "bottom row, right", "confidence": 0.85}
+{"lines": ["BZW04.13", "TVS"], "category": "TVS", "frame": "k_0123.jpg", "t": 94.29, "where": "middle row, left", "confidence": 0.7}
+{"lines": ["Bridge", "Rectifiers"], "category": "Bridge Rectifier", "frame": "k_0123.jpg", "t": 94.29, "where": "middle row, right", "confidence": 0.88}
+{"lines": ["0.12Ω"], "category": null, "frame": "k_0123.jpg", "t": 94.29, "where": "lower row, left, resistor value label", "confidence": 0.85}
+{"lines": ["0.13Ω"], "category": null, "frame": "k_0123.jpg", "t": 94.29, "where": "lower row, right, resistor value label", "confidence": 0.85}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0123.jpg", "t": 94.29, "where": "bottom row, left, partially cut off", "confidence": 0.7}
+{"lines": ["1.3Ω"], "category": null, "frame": "k_0123.jpg", "t": 94.29, "where": "bottom row, right, partially cut off", "confidence": 0.7}
+{"lines": ["BZW04.13", "TVS"], "category": "TVS", "frame": "k_0124.jpg", "t": 94.54, "where": "middle row, left", "confidence": 0.75}
+{"lines": ["Bridge", "Rectifiers"], "category": "Bridge Rectifier", "frame": "k_0124.jpg", "t": 94.54, "where": "middle row, right", "confidence": 0.9}
+{"lines": ["0.12Ω"], "category": null, "frame": "k_0124.jpg", "t": 94.54, "where": "lower row, left, resistor value label", "confidence": 0.88}
+{"lines": ["0.13Ω"], "category": null, "frame": "k_0124.jpg", "t": 94.54, "where": "lower row, right, resistor value label", "confidence": 0.88}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0124.jpg", "t": 94.54, "where": "row below, left", "confidence": 0.85}
+{"lines": ["1.3Ω"], "category": null, "frame": "k_0124.jpg", "t": 94.54, "where": "row below, right", "confidence": 0.85}
+{"lines": ["12Ω"], "category": null, "frame": "k_0124.jpg", "t": 94.54, "where": "bottom row, left, partially cut off", "confidence": 0.5}
+{"lines": ["BZW04.13", "TVS"], "category": "TVS", "frame": "k_0125.jpg", "t": 94.73, "where": "upper row, left", "confidence": 0.6}
+{"lines": ["Bridge", "Rectifiers"], "category": "Bridge Rectifier", "frame": "k_0125.jpg", "t": 94.73, "where": "upper row, right", "confidence": 0.8}
+{"lines": ["0.12Ω"], "category": null, "frame": "k_0125.jpg", "t": 94.73, "where": "middle row, left, resistor value label", "confidence": 0.8}
+{"lines": ["0.13Ω"], "category": null, "frame": "k_0125.jpg", "t": 94.73, "where": "middle row, right, resistor value label", "confidence": 0.8}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0125.jpg", "t": 94.73, "where": "lower row, left", "confidence": 0.75}
+{"lines": ["1.3Ω"], "category": null, "frame": "k_0125.jpg", "t": 94.73, "where": "lower row, right", "confidence": 0.75}
+{"lines": ["0.11Ω"], "category": null, "frame": "k_0126.jpg", "t": 95.13, "where": "top row, left-center", "confidence": 0.6}
+{"lines": ["0.12Ω"], "category": null, "frame": "k_0126.jpg", "t": 95.13, "where": "top row, right-center", "confidence": 0.6}
+{"lines": ["0.13Ω"], "category": null, "frame": "k_0126.jpg", "t": 95.13, "where": "top row, right", "confidence": 0.6}
+{"lines": ["1.1Ω"], "category": null, "frame": "k_0126.jpg", "t": 95.13, "where": "second row, left-center", "confidence": 0.55}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0126.jpg", "t": 95.13, "where": "second row, right-center", "confidence": 0.55}
+{"lines": ["1.3Ω"], "category": null, "frame": "k_0126.jpg", "t": 95.13, "where": "second row, right", "confidence": 0.55}
+{"lines": ["0.11Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "top row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["0.12Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "top row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.0Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "second row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["1.1Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "second row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "second row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.3Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "second row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["10Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "third row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["11Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "third row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["12Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "third row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["13Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "third row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["100Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fourth row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["110Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fourth row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["120Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fourth row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["130Ω"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fourth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["1.0KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fifth row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["1.1KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fifth row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.2KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fifth row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.3KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "fifth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["10KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "sixth row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["11KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "sixth row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["12KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "sixth row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["13KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "sixth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["100KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "seventh row, left, pink resistor label", "confidence": 0.75}
+{"lines": ["110KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "seventh row, left-center, pink resistor label", "confidence": 0.75}
+{"lines": ["120KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "seventh row, right-center, pink resistor label", "confidence": 0.75}
+{"lines": ["130KΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "seventh row, right, pink resistor label", "confidence": 0.75}
+{"lines": ["1.0MΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "eighth row, left, pink resistor label", "confidence": 0.85}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "eighth row, left-center, pink resistor label", "confidence": 0.85}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "eighth row, right-center, pink resistor label", "confidence": 0.85}
+{"lines": ["1.3MΩ"], "category": null, "frame": "k_0127.jpg", "t": 95.63, "where": "eighth row, right, pink resistor label", "confidence": 0.85}
+{"lines": ["0.11Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "top row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["0.12Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "top row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["0.13Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "top row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["1.1Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "second row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "second row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.3Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "second row, right, pink resistor label", "confidence": 0.92}
+{"lines": ["11Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "third row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["12Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "third row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["13Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "third row, right, pink resistor label", "confidence": 0.92}
+{"lines": ["100Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fourth row, left, pink resistor label", "confidence": 0.92}
+{"lines": ["110Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fourth row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["120Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fourth row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["130Ω"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fourth row, right, pink resistor label", "confidence": 0.92}
+{"lines": ["1.0KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fifth row, left, pink resistor label", "confidence": 0.92}
+{"lines": ["1.1KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fifth row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.2KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fifth row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.3KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "fifth row, right, pink resistor label", "confidence": 0.92}
+{"lines": ["10KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "sixth row, left, pink resistor label", "confidence": 0.92}
+{"lines": ["11KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "sixth row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["12KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "sixth row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["13KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "sixth row, right, pink resistor label", "confidence": 0.92}
+{"lines": ["100KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "seventh row, left, pink resistor label", "confidence": 0.85}
+{"lines": ["110KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "seventh row, left-center, pink resistor label", "confidence": 0.85}
+{"lines": ["120KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "seventh row, right-center, pink resistor label", "confidence": 0.85}
+{"lines": ["130KΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "seventh row, right, pink resistor label", "confidence": 0.85}
+{"lines": ["1.0MΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "eighth row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "eighth row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "eighth row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.3MΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "eighth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "ninth row, left-center, pink resistor label", "confidence": 0.75}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "ninth row, right-center, pink resistor label", "confidence": 0.75}
+{"lines": ["13MΩ"], "category": null, "frame": "k_0128.jpg", "t": 96.03, "where": "ninth row, right, pink resistor label", "confidence": 0.75}
+{"lines": ["0.11Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "top row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["0.12Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "top row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.0Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "second row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["1.1Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "second row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "second row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.3Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "second row, right, pink resistor label", "confidence": 0.85}
+{"lines": ["10Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "third row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["11Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "third row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["12Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "third row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["13Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "third row, right, pink resistor label", "confidence": 0.85}
+{"lines": ["100Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fourth row, left, pink resistor label", "confidence": 0.92}
+{"lines": ["110Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fourth row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["120Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fourth row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["130Ω"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fourth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["1.0KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fifth row, left, pink resistor label", "confidence": 0.92}
+{"lines": ["1.1KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fifth row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.2KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fifth row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["1.3KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "fifth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["10KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "sixth row, left, pink resistor label", "confidence": 0.92}
+{"lines": ["11KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "sixth row, left-center, pink resistor label", "confidence": 0.92}
+{"lines": ["12KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "sixth row, right-center, pink resistor label", "confidence": 0.92}
+{"lines": ["13KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "sixth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["100KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "seventh row, left, pink resistor label", "confidence": 0.8}
+{"lines": ["110KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "seventh row, left-center, pink resistor label", "confidence": 0.85}
+{"lines": ["120KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "seventh row, right-center, pink resistor label", "confidence": 0.85}
+{"lines": ["130KΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "seventh row, right, pink resistor label", "confidence": 0.8}
+{"lines": ["1.0MΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "eighth row, left, pink resistor label", "confidence": 0.9}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "eighth row, left-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "eighth row, right-center, pink resistor label", "confidence": 0.9}
+{"lines": ["1.3MΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "eighth row, right, pink resistor label", "confidence": 0.9}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "ninth row, left-center, pink resistor label", "confidence": 0.75}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "ninth row, right-center, pink resistor label", "confidence": 0.75}
+{"lines": ["13MΩ"], "category": null, "frame": "k_0129.jpg", "t": 96.68, "where": "ninth row, right, pink resistor label", "confidence": 0.75}

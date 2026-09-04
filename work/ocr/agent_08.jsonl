@@ -1,0 +1,428 @@
+{"lines": ["1.0Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "top row, far left, partially cut off", "confidence": 0.75}
+{"lines": ["1.1Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "top row, second from left", "confidence": 0.9}
+{"lines": ["1.2Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "top row, third from left", "confidence": 0.9}
+{"lines": ["10Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["11Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["12Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 2, third from left", "confidence": 0.9}
+{"lines": ["100Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["110Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["120Ω"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 3, third from left", "confidence": 0.9}
+{"lines": ["1.0KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["1.1KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["1.2KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 4, third from left", "confidence": 0.9}
+{"lines": ["10KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["11KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["12KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 5, third from left", "confidence": 0.9}
+{"lines": ["13KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 5, far right, partially cut off", "confidence": 0.7}
+{"lines": ["100KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["110KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["120KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 6, third from left", "confidence": 0.9}
+{"lines": ["130KΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 6, far right", "confidence": 0.8}
+{"lines": ["1.0MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 7, far left", "confidence": 0.9}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 7, second from left", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 7, third from left", "confidence": 0.9}
+{"lines": ["1.3MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 7, far right", "confidence": 0.85}
+{"lines": ["10MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 8, far left, label partially cut off", "confidence": 0.65}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 8, second from left", "confidence": 0.9}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 8, third from left", "confidence": 0.9}
+{"lines": ["13MΩ"], "category": null, "frame": "k_0130.jpg", "t": 97.26, "where": "row 8, far right", "confidence": 0.85}
+{"lines": ["10Ω"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "top row, far left", "confidence": 0.9}
+{"lines": ["11Ω"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "top row, second from left", "confidence": 0.9}
+{"lines": ["12Ω"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "top row, third from left", "confidence": 0.9}
+{"lines": ["100Ω"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["110Ω"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["120Ω"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 2, third from left", "confidence": 0.9}
+{"lines": ["1.0KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["1.1KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["1.2KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 3, third from left", "confidence": 0.9}
+{"lines": ["10KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["11KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["12KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 4, third from left", "confidence": 0.9}
+{"lines": ["100KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["110KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["120KΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 5, third from left", "confidence": 0.9}
+{"lines": ["1.0MΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 6, third from left", "confidence": 0.9}
+{"lines": ["10MΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 7, far left, partially cut off", "confidence": 0.65}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 7, second from left", "confidence": 0.9}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 7, third from left", "confidence": 0.9}
+{"lines": ["0.10Ω", "1.0Ω", "POWER"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 8, far left, white label", "confidence": 0.85}
+{"lines": ["0.11Ω", "1.1Ω", "POWER"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 8, second from left, white label", "confidence": 0.6}
+{"lines": ["0.12Ω", "1.2Ω", "POWER"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 8, third from left, white label", "confidence": 0.8}
+{"lines": ["0.13Ω", "1.3Ω", "POWER"], "category": null, "frame": "k_0131.jpg", "t": 97.46, "where": "row 8, far right, white label", "confidence": 0.7}
+{"lines": ["10KΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "top row, far left", "confidence": 0.85}
+{"lines": ["11KΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "top row, second from left", "confidence": 0.9}
+{"lines": ["12KΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "top row, third from left", "confidence": 0.9}
+{"lines": ["100KΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["110KΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["120KΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 2, third from left", "confidence": 0.9}
+{"lines": ["1.0MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 3, third from left", "confidence": 0.9}
+{"lines": ["10MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 4, far left", "confidence": 0.85}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 4, third from left", "confidence": 0.9}
+{"lines": ["0.10Ω", "1.0Ω", "POWER"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 5, far left, white label", "confidence": 0.85}
+{"lines": ["0.11Ω", "1.1Ω", "POWER"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 5, second from left, white label", "confidence": 0.85}
+{"lines": ["0.12Ω", "1.2Ω", "POWER"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 5, third from left, white label", "confidence": 0.85}
+{"lines": ["10Ω", "100Ω", "POWER"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 6, far left, white label", "confidence": 0.9}
+{"lines": ["11Ω", "110Ω", "POWER"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 6, second from left, white label", "confidence": 0.9}
+{"lines": ["12Ω", "120Ω", "POWER"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 6, third from left, white label", "confidence": 0.9}
+{"lines": ["1.0KΩ", "10KΩ", "100KΩ/1.0MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 7, far left, white label", "confidence": 0.8}
+{"lines": ["1.1KΩ", "11KΩ", "110KΩ/1.1MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 7, second from left, white label", "confidence": 0.75}
+{"lines": ["1.2KΩ", "12KΩ", "120KΩ/1.2MΩ"], "category": null, "frame": "k_0132.jpg", "t": 98.0, "where": "row 7, third from left, white label", "confidence": 0.75}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "upper area, left of center", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "upper area, right of center", "confidence": 0.9}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "row below 1.1M/1.2M, left", "confidence": 0.9}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "row below 1.1M/1.2M, right", "confidence": 0.9}
+{"lines": ["0.11Ω", "1.1Ω", "POWER"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "middle row, white label, center-left", "confidence": 0.9}
+{"lines": ["0.12Ω", "1.2Ω", "POWER"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "middle row, white label, center-right", "confidence": 0.9}
+{"lines": ["11Ω", "110Ω", "POWER"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "row below middle, white label, center-left", "confidence": 0.9}
+{"lines": ["12Ω", "120Ω", "POWER"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "row below middle, white label, center-right", "confidence": 0.9}
+{"lines": ["1.1KΩ", "11KΩ", "110KΩ/1.1MΩ"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "lower row, white label, center-left", "confidence": 0.75}
+{"lines": ["1.2KΩ", "12KΩ", "120KΩ/1.2MΩ"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "lower row, white label, center-right", "confidence": 0.75}
+{"lines": ["68pF/500V", "82pF/500V", "100pF/500V"], "category": null, "frame": "k_0133.jpg", "t": 98.73, "where": "bottom row, far left, handwritten label", "confidence": 0.8}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "top row, center", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "top row, right", "confidence": 0.9}
+{"lines": ["10MΩ"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 2, far left, partially cut off", "confidence": 0.75}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["0.10Ω", "1.0Ω", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 3, left, white label", "confidence": 0.9}
+{"lines": ["0.11Ω", "1.1Ω", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 3, center, white label", "confidence": 0.9}
+{"lines": ["0.12Ω", "1.2Ω", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 3, right, white label", "confidence": 0.9}
+{"lines": ["10Ω", "100Ω", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 4, left, white label", "confidence": 0.9}
+{"lines": ["11Ω", "110Ω", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 4, center, white label", "confidence": 0.9}
+{"lines": ["12Ω", "120Ω", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 4, right, white label", "confidence": 0.9}
+{"lines": ["1.0KΩ", "10KΩ", "100KΩ/1.0MΩ", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 5, left, white label", "confidence": 0.85}
+{"lines": ["1.1KΩ", "11KΩ", "110KΩ/1.1MΩ", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 5, center, white label", "confidence": 0.85}
+{"lines": ["1.2KΩ", "12KΩ", "120KΩ/1.2MΩ", "POWER"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "row 5, right, white label", "confidence": 0.85}
+{"lines": ["68pF/500V", "82pF/500V", "100pF/500V"], "category": null, "frame": "k_0134.jpg", "t": 100.05, "where": "bottom shelf, far left, handwritten label", "confidence": 0.8}
+{"lines": ["1.1MΩ"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "top row, left", "confidence": 0.9}
+{"lines": ["1.2MΩ"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "top row, right", "confidence": 0.9}
+{"lines": ["11MΩ"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["0.11Ω", "1.1Ω", "POWER"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 3, left, white label", "confidence": 0.9}
+{"lines": ["0.12Ω", "1.2Ω", "POWER"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 3, right, white label", "confidence": 0.9}
+{"lines": ["11Ω", "110Ω", "POWER"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 4, left, white label", "confidence": 0.9}
+{"lines": ["12Ω", "120Ω", "POWER"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 4, right, white label", "confidence": 0.9}
+{"lines": ["1.1KΩ", "11KΩ", "110KΩ/1.1MΩ", "POWER"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 5, left, white label", "confidence": 0.8}
+{"lines": ["1.2KΩ", "12KΩ", "120KΩ/1.2MΩ", "POWER"], "category": null, "frame": "k_0135.jpg", "t": 100.63, "where": "row 5, right, white label", "confidence": 0.8}
+{"lines": ["13KΩ"], "category": null, "frame": "k_0136.jpg", "t": 101.15, "where": "top row, center-left", "confidence": 0.8}
+{"lines": ["130KΩ"], "category": null, "frame": "k_0136.jpg", "t": 101.15, "where": "row 2, center-left", "confidence": 0.8}
+{"lines": ["150KΩ"], "category": null, "frame": "k_0136.jpg", "t": 101.15, "where": "row 2, far right, partially cut off", "confidence": 0.6}
+{"lines": ["1.3MΩ"], "category": null, "frame": "k_0136.jpg", "t": 101.15, "where": "row 3, center-left", "confidence": 0.75}
+{"lines": ["1.5MΩ"], "category": null, "frame": "k_0136.jpg", "t": 101.15, "where": "row 3, far right, partially cut off", "confidence": 0.55}
+{"lines": ["12MΩ"], "category": null, "frame": "k_0136.jpg", "t": 101.15, "where": "row 4, far left, partially cut off", "confidence": 0.55}
+{"lines": ["13MΩ"], "category": null, "frame": "k_0136.jpg", "t": 101.15, "where": "row 4, center-left", "confidence": 0.7}
+{"lines": ["15KΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "top row, left", "confidence": 0.9}
+{"lines": ["16KΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "top row, right", "confidence": 0.9}
+{"lines": ["150KΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["160KΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["1.5MΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["1.6MΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["15MΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["16MΩ"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 4, right", "confidence": 0.85}
+{"lines": ["0.15Ω", "1.5Ω", "POWER"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 5, left, white label", "confidence": 0.85}
+{"lines": ["0.16Ω", "1.6Ω", "POWER"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 5, right, white label", "confidence": 0.85}
+{"lines": ["15Ω", "150Ω", "POWER"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 6, left, white label", "confidence": 0.7}
+{"lines": ["16Ω", "160Ω", "POWER"], "category": null, "frame": "k_0137.jpg", "t": 101.97, "where": "row 6, right, white label", "confidence": 0.7}
+{"lines": ["16KΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "top row, center", "confidence": 0.9}
+{"lines": ["18KΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "top row, right", "confidence": 0.9}
+{"lines": ["160KΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["180KΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["1.6MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["1.8MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["15MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["16MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["18MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["0.15Ω", "1.5Ω", "POWER"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 5, left, white label", "confidence": 0.9}
+{"lines": ["0.16Ω", "1.6Ω", "POWER"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 5, center, white label", "confidence": 0.9}
+{"lines": ["0.18Ω", "1.8Ω", "POWER"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 5, right, white label", "confidence": 0.9}
+{"lines": ["15Ω", "150Ω", "POWER"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 6, left, white label", "confidence": 0.9}
+{"lines": ["16Ω", "160Ω", "POWER"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 6, center, white label", "confidence": 0.9}
+{"lines": ["18Ω", "180Ω", "POWER"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 6, right, white label", "confidence": 0.9}
+{"lines": ["15KΩ", "150KΩ/1.5MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 7, far left, white label", "confidence": 0.65}
+{"lines": ["1.6KΩ", "16KΩ", "160KΩ/1.6MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 7, center, white label", "confidence": 0.75}
+{"lines": ["1.8KΩ", "18KΩ", "180KΩ/1.8MΩ"], "category": null, "frame": "k_0138.jpg", "t": 102.55, "where": "row 7, right, white label", "confidence": 0.75}
+{"lines": ["1.6KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "top row, left", "confidence": 0.9}
+{"lines": ["1.8KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "top row, center", "confidence": 0.9}
+{"lines": ["2.0KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "top row, right", "confidence": 0.9}
+{"lines": ["16KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["18KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["20KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["160KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["180KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["200KΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["1.6MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["1.8MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["2.0MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["16MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["18MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["20MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["0.16Ω", "1.6Ω", "POWER"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 6, left, white label", "confidence": 0.9}
+{"lines": ["0.18Ω", "1.8Ω", "POWER"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 6, center, white label", "confidence": 0.9}
+{"lines": ["0.20Ω", "2.0Ω", "POWER"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 6, right, white label", "confidence": 0.9}
+{"lines": ["16Ω", "160Ω", "POWER"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 7, left, white label", "confidence": 0.9}
+{"lines": ["18Ω", "180Ω", "POWER"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 7, center, white label", "confidence": 0.9}
+{"lines": ["20Ω", "200Ω", "POWER"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 7, right, white label", "confidence": 0.9}
+{"lines": ["1.6KΩ", "16KΩ", "160KΩ/1.6MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 8, left, white label", "confidence": 0.7}
+{"lines": ["1.8KΩ", "18KΩ", "180KΩ/1.8MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 8, center, white label", "confidence": 0.7}
+{"lines": ["2.0KΩ", "20KΩ", "200KΩ/2.0MΩ"], "category": null, "frame": "k_0139.jpg", "t": 103.35, "where": "row 8, right, white label", "confidence": 0.7}
+{"lines": ["18Ω"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "top row, left, partially cut off", "confidence": 0.75}
+{"lines": ["20Ω"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "top row, right, partially cut off", "confidence": 0.75}
+{"lines": ["180Ω"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["200Ω"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["1.8KΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["2.0KΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["18KΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["20KΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["180KΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["200KΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["1.8MΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["2.0MΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["18MΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["20MΩ"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["0.18Ω", "1.8Ω", "POWER"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 8, left, white label", "confidence": 0.85}
+{"lines": ["0.20Ω", "2.0Ω", "POWER"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 8, right, white label", "confidence": 0.85}
+{"lines": ["18Ω", "180Ω", "POWER"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 9, left, white label", "confidence": 0.6}
+{"lines": ["20Ω", "200Ω", "POWER"], "category": null, "frame": "k_0140.jpg", "t": 104.02, "where": "row 9, right, white label", "confidence": 0.6}
+{"lines": ["1.8Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "top row, left, partially cut off", "confidence": 0.6}
+{"lines": ["2.0Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "top row, center, partially cut off", "confidence": 0.6}
+{"lines": ["2.2Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "top row, far right, partially cut off", "confidence": 0.55}
+{"lines": ["18Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 2, left", "confidence": 0.8}
+{"lines": ["20Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 2, center", "confidence": 0.8}
+{"lines": ["22Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 2, right", "confidence": 0.8}
+{"lines": ["180Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 3, left", "confidence": 0.85}
+{"lines": ["200Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 3, center", "confidence": 0.8}
+{"lines": ["220Ω"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["1.8KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 4, left", "confidence": 0.85}
+{"lines": ["2.0KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 4, center", "confidence": 0.85}
+{"lines": ["2.2KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 4, right", "confidence": 0.75}
+{"lines": ["18KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 5, left", "confidence": 0.85}
+{"lines": ["20KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 5, center", "confidence": 0.85}
+{"lines": ["22KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 5, right", "confidence": 0.8}
+{"lines": ["180KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 6, left", "confidence": 0.85}
+{"lines": ["200KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 6, center", "confidence": 0.85}
+{"lines": ["220KΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 6, right", "confidence": 0.8}
+{"lines": ["1.8MΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["2.0MΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["2.2MΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 7, right", "confidence": 0.8}
+{"lines": ["18MΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 8, left", "confidence": 0.8}
+{"lines": ["20MΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 8, center", "confidence": 0.8}
+{"lines": ["22MΩ"], "category": null, "frame": "k_0141.jpg", "t": 104.54, "where": "row 8, right", "confidence": 0.8}
+{"lines": ["4071"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "top of cabinet, blue tape label", "confidence": 0.7}
+{"lines": ["0.15Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["0.16Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 1, center", "confidence": 0.9}
+{"lines": ["0.18Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["1.5Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["1.6Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["1.8Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["15Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["16Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["18Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["150Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["160Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["180Ω"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["1.5KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["1.6KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["1.8KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["15KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["16KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 6, center", "confidence": 0.9}
+{"lines": ["18KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["150KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 7, left", "confidence": 0.85}
+{"lines": ["160KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 7, center", "confidence": 0.85}
+{"lines": ["180KΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 7, right", "confidence": 0.85}
+{"lines": ["1.5MΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 8, left", "confidence": 0.85}
+{"lines": ["1.6MΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 8, center", "confidence": 0.85}
+{"lines": ["1.8MΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 8, right", "confidence": 0.85}
+{"lines": ["15MΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 9, left, partially cut off", "confidence": 0.7}
+{"lines": ["16MΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 9, center, partially cut off", "confidence": 0.7}
+{"lines": ["18MΩ"], "category": null, "frame": "k_0143.jpg", "t": 105.72, "where": "row 9, right, partially cut off", "confidence": 0.65}
+{"lines": ["0.15Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 1, far left", "confidence": 0.9}
+{"lines": ["0.16Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 1, second from left", "confidence": 0.9}
+{"lines": ["0.18Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 1, third from left", "confidence": 0.9}
+{"lines": ["0.20Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 1, far right", "confidence": 0.85}
+{"lines": ["1.5Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["1.6Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["1.8Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 2, third from left", "confidence": 0.9}
+{"lines": ["2.0Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 2, far right", "confidence": 0.85}
+{"lines": ["15Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["16Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["18Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 3, third from left", "confidence": 0.9}
+{"lines": ["20Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 3, far right", "confidence": 0.85}
+{"lines": ["150Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["160Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["180Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 4, third from left", "confidence": 0.9}
+{"lines": ["200Ω"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 4, far right", "confidence": 0.8}
+{"lines": ["1.5KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["1.6KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["1.8KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 5, third from left", "confidence": 0.9}
+{"lines": ["2.0KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["15KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["16KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["18KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 6, third from left", "confidence": 0.9}
+{"lines": ["20KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 6, far right", "confidence": 0.85}
+{"lines": ["150KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["160KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["180KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 7, third from left", "confidence": 0.85}
+{"lines": ["200KΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 7, far right", "confidence": 0.8}
+{"lines": ["1.5MΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["1.6MΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 8, second from left", "confidence": 0.75}
+{"lines": ["1.8MΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 8, third from left", "confidence": 0.75}
+{"lines": ["2.0MΩ"], "category": null, "frame": "k_0144.jpg", "t": 106.22, "where": "row 8, far right", "confidence": 0.8}
+{"lines": ["0.16Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["0.18Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 1, center", "confidence": 0.9}
+{"lines": ["0.20Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["1.6Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["1.8Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["2.0Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["16Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 3, left", "confidence": 0.85}
+{"lines": ["18Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 3, center", "confidence": 0.8}
+{"lines": ["20Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 3, right", "confidence": 0.85}
+{"lines": ["160Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 4, left", "confidence": 0.8}
+{"lines": ["180Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 4, center", "confidence": 0.8}
+{"lines": ["200Ω"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 4, right", "confidence": 0.7}
+{"lines": ["1.6KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 5, left", "confidence": 0.75}
+{"lines": ["1.8KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 5, center", "confidence": 0.75}
+{"lines": ["2.0KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 5, right", "confidence": 0.75}
+{"lines": ["16KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 6, left", "confidence": 0.7}
+{"lines": ["18KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 6, center", "confidence": 0.7}
+{"lines": ["20KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 6, right", "confidence": 0.75}
+{"lines": ["160KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 7, center-left", "confidence": 0.65}
+{"lines": ["200KΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 7, right", "confidence": 0.7}
+{"lines": ["2.0MΩ"], "category": null, "frame": "k_0145.jpg", "t": 106.62, "where": "row 8, right", "confidence": 0.6}
+{"lines": ["0.20Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "far left column, row 1", "confidence": 0.85}
+{"lines": ["2.0Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "far left column, row 2", "confidence": 0.85}
+{"lines": ["20Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "far left column, row 3", "confidence": 0.8}
+{"lines": ["200Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "far left column, row 4", "confidence": 0.7}
+{"lines": ["2.0KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "far left column, row 5", "confidence": 0.7}
+{"lines": ["20KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "far left column, row 6", "confidence": 0.7}
+{"lines": ["200KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "far left column, row 7", "confidence": 0.65}
+{"lines": ["0.22Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 1", "confidence": 0.85}
+{"lines": ["2.2Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 2", "confidence": 0.85}
+{"lines": ["22Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 3", "confidence": 0.8}
+{"lines": ["220Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 4", "confidence": 0.8}
+{"lines": ["2.2KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 5", "confidence": 0.7}
+{"lines": ["22KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 6", "confidence": 0.75}
+{"lines": ["220KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 7", "confidence": 0.7}
+{"lines": ["2.2MΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 8", "confidence": 0.65}
+{"lines": ["22MΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "second column from left, row 9", "confidence": 0.6}
+{"lines": ["0.24Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "third column from left, row 1", "confidence": 0.8}
+{"lines": ["2.4Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "third column from left, row 2", "confidence": 0.8}
+{"lines": ["24Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "third column from left, row 3", "confidence": 0.75}
+{"lines": ["240Ω"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "third column from left, row 4", "confidence": 0.75}
+{"lines": ["2.4KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "third column from left, row 5", "confidence": 0.6}
+{"lines": ["24KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "third column from left, row 6", "confidence": 0.65}
+{"lines": ["240KΩ"], "category": null, "frame": "k_0146.jpg", "t": 107.44, "where": "third column from left, row 7", "confidence": 0.6}
+{"lines": ["2.2Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 1, far left, partially cut off", "confidence": 0.7}
+{"lines": ["0.24Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 1, second from left", "confidence": 0.9}
+{"lines": ["0.27Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 1, third from left", "confidence": 0.9}
+{"lines": ["0.30Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 1, far right", "confidence": 0.9}
+{"lines": ["22Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 2, far left, partially cut off", "confidence": 0.6}
+{"lines": ["2.4Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 2, second from left", "confidence": 0.9}
+{"lines": ["2.7Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 2, third from left", "confidence": 0.9}
+{"lines": ["3.0Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 2, far right", "confidence": 0.9}
+{"lines": ["220Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 3, far left, partially cut off", "confidence": 0.65}
+{"lines": ["24Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 3, second from left", "confidence": 0.9}
+{"lines": ["27Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 3, third from left", "confidence": 0.9}
+{"lines": ["30Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["220Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 4, far left", "confidence": 0.85}
+{"lines": ["240Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["270Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 4, third from left", "confidence": 0.9}
+{"lines": ["300Ω"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 4, far right", "confidence": 0.9}
+{"lines": ["2.2KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 5, far left", "confidence": 0.7}
+{"lines": ["2.4KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["2.7KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 5, third from left", "confidence": 0.9}
+{"lines": ["3.0KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 5, far right", "confidence": 0.9}
+{"lines": ["22KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["24KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["27KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 6, third from left", "confidence": 0.9}
+{"lines": ["30KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 6, far right", "confidence": 0.9}
+{"lines": ["220KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["240KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 7, second from left", "confidence": 0.9}
+{"lines": ["270KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 7, third from left", "confidence": 0.9}
+{"lines": ["300KΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 7, far right", "confidence": 0.9}
+{"lines": ["2.2MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 8, far left", "confidence": 0.75}
+{"lines": ["2.4MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 8, second from left", "confidence": 0.85}
+{"lines": ["2.7MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 8, third from left", "confidence": 0.85}
+{"lines": ["3.0MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 8, far right", "confidence": 0.85}
+{"lines": ["22MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 9, far left, partially cut off", "confidence": 0.6}
+{"lines": ["24MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 9, second from left, partially cut off", "confidence": 0.65}
+{"lines": ["27MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 9, third from left, partially cut off", "confidence": 0.65}
+{"lines": ["30MΩ"], "category": null, "frame": "k_0147.jpg", "t": 108.29, "where": "row 9, far right, partially cut off", "confidence": 0.6}
+{"lines": ["0.24Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["0.27Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 1, center", "confidence": 0.9}
+{"lines": ["0.30Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["2.4Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["2.7Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["3.0Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["24Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["27Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["30Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["240Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["270Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["300Ω"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["2.4KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["2.7KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["3.0KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["22KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 6, far left", "confidence": 0.85}
+{"lines": ["24KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["27KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 6, center", "confidence": 0.9}
+{"lines": ["30KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["220KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["240KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["270KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 7, center", "confidence": 0.9}
+{"lines": ["300KΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["2.2MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["2.4MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 8, left", "confidence": 0.9}
+{"lines": ["2.7MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 8, center", "confidence": 0.9}
+{"lines": ["3.0MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["22MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 9, far left", "confidence": 0.85}
+{"lines": ["24MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 9, left", "confidence": 0.85}
+{"lines": ["27MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 9, center", "confidence": 0.85}
+{"lines": ["30MΩ"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row 9, right", "confidence": 0.85}
+{"lines": ["0.22Ω", "2.2Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "bottom row, far left, white label", "confidence": 0.85}
+{"lines": ["0.24Ω", "2.4Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "bottom row, left, white label", "confidence": 0.85}
+{"lines": ["0.27Ω", "2.7Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "bottom row, center, white label", "confidence": 0.85}
+{"lines": ["0.30Ω", "3.0Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "bottom row, right, white label", "confidence": 0.85}
+{"lines": ["22Ω", "220Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row below bottom, far left, white label", "confidence": 0.7}
+{"lines": ["24Ω", "240Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row below bottom, left, white label", "confidence": 0.7}
+{"lines": ["27Ω", "270Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row below bottom, center, white label", "confidence": 0.7}
+{"lines": ["30Ω", "300Ω", "POWER"], "category": null, "frame": "k_0148.jpg", "t": 108.81, "where": "row below bottom, right, white label", "confidence": 0.7}
+{"lines": ["2.4Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 1, left", "confidence": 0.9}
+{"lines": ["2.7Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 1, center", "confidence": 0.9}
+{"lines": ["3.0Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 1, right", "confidence": 0.9}
+{"lines": ["24Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 2, left", "confidence": 0.9}
+{"lines": ["27Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["30Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 2, right", "confidence": 0.9}
+{"lines": ["240Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 3, left", "confidence": 0.9}
+{"lines": ["270Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["300Ω"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["2.4KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["2.7KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["3.0KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["22KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["24KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["27KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["30KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 5, right", "confidence": 0.9}
+{"lines": ["220KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["240KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["270KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 6, center", "confidence": 0.9}
+{"lines": ["300KΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["2.2MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 7, far left", "confidence": 0.9}
+{"lines": ["2.4MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["2.7MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 7, center", "confidence": 0.9}
+{"lines": ["3.0MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 7, right", "confidence": 0.9}
+{"lines": ["22MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 8, far left", "confidence": 0.9}
+{"lines": ["24MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 8, left", "confidence": 0.9}
+{"lines": ["27MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 8, center", "confidence": 0.9}
+{"lines": ["30MΩ"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 8, right", "confidence": 0.9}
+{"lines": ["0.22Ω", "2.2Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 9, far left, white label", "confidence": 0.85}
+{"lines": ["0.24Ω", "2.4Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 9, left, white label", "confidence": 0.85}
+{"lines": ["0.27Ω", "2.7Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 9, center, white label", "confidence": 0.85}
+{"lines": ["0.30Ω", "3.0Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 9, right, white label", "confidence": 0.85}
+{"lines": ["220Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 10, far left, white label", "confidence": 0.6}
+{"lines": ["24Ω", "240Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 10, left, white label", "confidence": 0.75}
+{"lines": ["27Ω", "270Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 10, center, white label", "confidence": 0.75}
+{"lines": ["30Ω", "300Ω", "POWER"], "category": null, "frame": "k_0149.jpg", "t": 109.68, "where": "row 10, right, white label", "confidence": 0.75}

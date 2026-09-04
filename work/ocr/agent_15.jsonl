@@ -1,0 +1,95 @@
+{"lines": ["0603", "2.05KΩ"], "category": "Resistor", "frame": "k_0270.jpg", "t": 192.93, "where": "row of red labels, far left", "confidence": 0.9}
+{"lines": ["0603", "2.21KΩ"], "category": "Resistor", "frame": "k_0270.jpg", "t": 192.93, "where": "row of red labels, 2nd from left", "confidence": 0.9}
+{"lines": ["0603", "2.74KΩ"], "category": "Resistor", "frame": "k_0270.jpg", "t": 192.93, "where": "row of red labels, middle", "confidence": 0.9}
+{"lines": ["0603", "2.94KΩ"], "category": "Resistor", "frame": "k_0270.jpg", "t": 192.93, "where": "row of red labels, right of middle", "confidence": 0.9}
+{"lines": ["0603", "3.01KΩ"], "category": "Resistor", "frame": "k_0270.jpg", "t": 192.93, "where": "row of red labels, far right", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0270.jpg", "t": 192.93, "where": "bottom, wide red divider label", "confidence": 0.9}
+{"lines": ["UA79HG", "Negative Voltage regulator"], "category": null, "frame": "k_0270.jpg", "t": 192.93, "where": "bottom row, drawer below right", "confidence": 0.85}
+{"lines": ["0603", "2.21KΩ"], "category": "Resistor", "frame": "k_0271.jpg", "t": 193.48, "where": "row of red labels, left area", "confidence": 0.9}
+{"lines": ["0603", "2.74KΩ"], "category": "Resistor", "frame": "k_0271.jpg", "t": 193.48, "where": "row of red labels, middle-left", "confidence": 0.9}
+{"lines": ["0603", "2.94KΩ"], "category": "Resistor", "frame": "k_0271.jpg", "t": 193.48, "where": "row of red labels, middle-right", "confidence": 0.9}
+{"lines": ["0603", "3.01KΩ"], "category": "Resistor", "frame": "k_0271.jpg", "t": 193.48, "where": "row of red labels, right", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0271.jpg", "t": 193.48, "where": "bottom, wide red divider label", "confidence": 0.9}
+{"lines": ["UA79HG", "Negative Voltage regulator"], "category": null, "frame": "k_0271.jpg", "t": 193.48, "where": "bottom row, drawer below right", "confidence": 0.85}
+{"lines": ["2.74KΩ"], "category": "Resistor", "frame": "k_0272.jpg", "t": 193.81, "where": "row of red labels, left edge (partially cut)", "confidence": 0.6}
+{"lines": ["0603", "2.94KΩ"], "category": "Resistor", "frame": "k_0272.jpg", "t": 193.81, "where": "row of red labels, left-center", "confidence": 0.8}
+{"lines": ["3.01KΩ"], "category": "Resistor", "frame": "k_0272.jpg", "t": 193.81, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["UA79HG", "Negative Voltage regulator"], "category": null, "frame": "k_0272.jpg", "t": 193.81, "where": "bottom row, drawer", "confidence": 0.85}
+{"lines": ["0603", "3.09KΩ"], "category": "Resistor", "frame": "k_0273.jpg", "t": 194.14, "where": "row of red labels, left", "confidence": 0.85}
+{"lines": ["3.83KΩ"], "category": "Resistor", "frame": "k_0273.jpg", "t": 194.14, "where": "row of red labels, right", "confidence": 0.9}
+{"lines": ["79MGT3C", "Negative Voltage regulator"], "category": null, "frame": "k_0273.jpg", "t": 194.14, "where": "bottom row, right drawer", "confidence": 0.85}
+{"lines": ["Negative Voltage regulator"], "category": null, "frame": "k_0273.jpg", "t": 194.14, "where": "bottom row, left drawer (part number cut off)", "confidence": 0.75}
+{"lines": ["3.32KΩ"], "category": "Resistor", "frame": "k_0274.jpg", "t": 194.84, "where": "row of red labels, far left (partially cut)", "confidence": 0.6}
+{"lines": ["0603", "3.57KΩ"], "category": "Resistor", "frame": "k_0274.jpg", "t": 194.84, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "3.83KΩ"], "category": "Resistor", "frame": "k_0274.jpg", "t": 194.84, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["79MGT3C", "Negative Voltage regulator"], "category": null, "frame": "k_0274.jpg", "t": 194.84, "where": "bottom row, left drawer", "confidence": 0.9}
+{"lines": ["0603", "3.92KΩ"], "category": "Resistor", "frame": "k_0275.jpg", "t": 195.25, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603"], "category": "Resistor", "frame": "k_0275.jpg", "t": 195.25, "where": "row of red labels, far right (value cut off)", "confidence": 0.5}
+{"lines": ["9MGT3C", "Negative Voltage regulator"], "category": null, "frame": "k_0275.jpg", "t": 195.25, "where": "bottom row, left drawer (left-cropped)", "confidence": 0.85}
+{"lines": ["0603", "4.75KΩ"], "category": "Resistor", "frame": "k_0276.jpg", "t": 196.03, "where": "row of red labels, left", "confidence": 0.9}
+{"lines": ["0603", "5.10KΩ"], "category": "Resistor", "frame": "k_0276.jpg", "t": 196.03, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["TAA761", "TAA765", "OP. AMP."], "category": null, "frame": "k_0276.jpg", "t": 196.03, "where": "bottom row, drawer", "confidence": 0.9}
+{"lines": ["4.99KΩ"], "category": "Resistor", "frame": "k_0277.jpg", "t": 196.78, "where": "row of red labels, far left (cut off)", "confidence": 0.6}
+{"lines": ["0603", "5.10KΩ"], "category": "Resistor", "frame": "k_0277.jpg", "t": 196.78, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "5.62KΩ"], "category": "Resistor", "frame": "k_0277.jpg", "t": 196.78, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["0603", "7.50KΩ"], "category": "Resistor", "frame": "k_0277.jpg", "t": 196.78, "where": "row of red labels, right-center", "confidence": 0.9}
+{"lines": ["0603", "8.25KΩ"], "category": "Resistor", "frame": "k_0277.jpg", "t": 196.78, "where": "row of red labels, far right", "confidence": 0.9}
+{"lines": ["TAA761", "TAA765", "OP. AMP."], "category": null, "frame": "k_0277.jpg", "t": 196.78, "where": "bottom row, left drawer", "confidence": 0.9}
+{"lines": ["MC14", "OP A"], "category": null, "frame": "k_0277.jpg", "t": 196.78, "where": "bottom row, far right drawer (cut off)", "confidence": 0.5}
+{"lines": ["0603", "5.62KΩ"], "category": "Resistor", "frame": "k_0278.jpg", "t": 197.15, "where": "row of red labels, left", "confidence": 0.9}
+{"lines": ["0603", "7.50KΩ"], "category": "Resistor", "frame": "k_0278.jpg", "t": 197.15, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "8.25KΩ"], "category": "Resistor", "frame": "k_0278.jpg", "t": 197.15, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["0603", "9.09KΩ"], "category": "Resistor", "frame": "k_0278.jpg", "t": 197.15, "where": "row of red labels, right-center", "confidence": 0.9}
+{"lines": ["MC1439G", "OP. AMP."], "category": null, "frame": "k_0278.jpg", "t": 197.15, "where": "bottom row, right drawer", "confidence": 0.9}
+{"lines": ["0603", "7.50KΩ"], "category": "Resistor", "frame": "k_0279.jpg", "t": 197.88, "where": "row of red labels, far left", "confidence": 0.9}
+{"lines": ["0603", "8.25KΩ"], "category": "Resistor", "frame": "k_0279.jpg", "t": 197.88, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "9.09KΩ"], "category": "Resistor", "frame": "k_0279.jpg", "t": 197.88, "where": "row of red labels, center-left", "confidence": 0.9}
+{"lines": ["0603", "10.7KΩ"], "category": "Resistor", "frame": "k_0279.jpg", "t": 197.88, "where": "row of red labels, center-right", "confidence": 0.9}
+{"lines": ["0603", "11.0KΩ"], "category": "Resistor", "frame": "k_0279.jpg", "t": 197.88, "where": "row of red labels, right (partially cut)", "confidence": 0.8}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0279.jpg", "t": 197.88, "where": "bottom, wide red divider label", "confidence": 0.9}
+{"lines": ["MC1439G", "OP. AMP."], "category": null, "frame": "k_0279.jpg", "t": 197.88, "where": "bottom row, drawer", "confidence": 0.9}
+{"lines": ["9.09KΩ"], "category": "Resistor", "frame": "k_0280.jpg", "t": 198.66, "where": "row of red labels, far left (partially cut)", "confidence": 0.7}
+{"lines": ["0603", "10.7KΩ"], "category": "Resistor", "frame": "k_0280.jpg", "t": 198.66, "where": "row of red labels, center-left", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0280.jpg", "t": 198.66, "where": "bottom, wide red divider label (partially cut)", "confidence": 0.85}
+{"lines": ["MC1439G", "OP. AMP."], "category": null, "frame": "k_0280.jpg", "t": 198.66, "where": "bottom row, left drawer (partially cut)", "confidence": 0.75}
+{"lines": ["EL2020CN", "OP. AMP."], "category": null, "frame": "k_0280.jpg", "t": 198.66, "where": "bottom row, right drawer", "confidence": 0.9}
+{"lines": ["11.0KΩ"], "category": "Resistor", "frame": "k_0281.jpg", "t": 200.25, "where": "row of red labels, left area", "confidence": 0.85}
+{"lines": ["0603", "17.4KΩ"], "category": "Resistor", "frame": "k_0281.jpg", "t": 200.25, "where": "row of red labels, right area", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0281.jpg", "t": 200.25, "where": "bottom, wide red divider label (partially cut)", "confidence": 0.8}
+{"lines": ["EL2020CN", "OP AMP"], "category": null, "frame": "k_0281.jpg", "t": 200.25, "where": "bottom row, left-center drawer", "confidence": 0.9}
+{"lines": ["12.1KΩ"], "category": "Resistor", "frame": "k_0282.jpg", "t": 201.18, "where": "row of red labels, far left", "confidence": 0.85}
+{"lines": ["0603", "17.4KΩ"], "category": "Resistor", "frame": "k_0282.jpg", "t": 201.18, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["0603", "18.2KΩ"], "category": "Resistor", "frame": "k_0282.jpg", "t": 201.18, "where": "row of red labels, right-center", "confidence": 0.9}
+{"lines": ["0603", "18.7KΩ"], "category": "Resistor", "frame": "k_0282.jpg", "t": 201.18, "where": "row of red labels, right", "confidence": 0.85}
+{"lines": ["EL2020CN", "OP. AMP."], "category": null, "frame": "k_0282.jpg", "t": 201.18, "where": "bottom row, left drawer", "confidence": 0.9}
+{"lines": ["LF353-N", "Dual JFET", "OP. AMP."], "category": null, "frame": "k_0282.jpg", "t": 201.18, "where": "bottom row, right drawer", "confidence": 0.9}
+{"lines": ["0603", "17.4KΩ"], "category": "Resistor", "frame": "k_0283.jpg", "t": 201.77, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "18.2KΩ"], "category": "Resistor", "frame": "k_0283.jpg", "t": 201.77, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["0603", "18.7KΩ"], "category": "Resistor", "frame": "k_0283.jpg", "t": 201.77, "where": "row of red labels, right-center", "confidence": 0.85}
+{"lines": ["0603", "22.1KΩ"], "category": "Resistor", "frame": "k_0283.jpg", "t": 201.77, "where": "row of red labels, far right", "confidence": 0.9}
+{"lines": ["LF353-N", "Dual JFET", "OP. AMP."], "category": null, "frame": "k_0283.jpg", "t": 201.77, "where": "bottom row, drawer", "confidence": 0.9}
+{"lines": ["0603", "18.2KΩ"], "category": "Resistor", "frame": "k_0284.jpg", "t": 202.55, "where": "row of red labels, far left", "confidence": 0.9}
+{"lines": ["0603", "18.7KΩ"], "category": "Resistor", "frame": "k_0284.jpg", "t": 202.55, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "22.1KΩ"], "category": "Resistor", "frame": "k_0284.jpg", "t": 202.55, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["0603", "24.3KΩ"], "category": "Resistor", "frame": "k_0284.jpg", "t": 202.55, "where": "row of red labels, right", "confidence": 0.9}
+{"lines": ["LF353-N", "Dual JFET", "OP. AMP."], "category": null, "frame": "k_0284.jpg", "t": 202.55, "where": "bottom row, left drawer", "confidence": 0.9}
+{"lines": ["0603", "18.7KΩ"], "category": "Resistor", "frame": "k_0285.jpg", "t": 202.9, "where": "row of red labels, far left", "confidence": 0.85}
+{"lines": ["0603", "22.1KΩ"], "category": "Resistor", "frame": "k_0285.jpg", "t": 202.9, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "24.3KΩ"], "category": "Resistor", "frame": "k_0285.jpg", "t": 202.9, "where": "row of red labels, center-right", "confidence": 0.9}
+{"lines": ["0603", "29.4KΩ"], "category": "Resistor", "frame": "k_0285.jpg", "t": 202.9, "where": "row of red labels, far right", "confidence": 0.9}
+{"lines": ["22.1KΩ"], "category": "Resistor", "frame": "k_0286.jpg", "t": 203.2, "where": "row of red labels, far left (partially cut)", "confidence": 0.7}
+{"lines": ["0603", "24.3KΩ"], "category": "Resistor", "frame": "k_0286.jpg", "t": 203.2, "where": "row of red labels, center-left", "confidence": 0.9}
+{"lines": ["0603", "30.1KΩ"], "category": "Resistor", "frame": "k_0286.jpg", "t": 203.2, "where": "row of red labels, center-right", "confidence": 0.9}
+{"lines": ["0603", "30.1KΩ"], "category": "Resistor", "frame": "k_0287.jpg", "t": 203.9, "where": "row of red labels, far left", "confidence": 0.9}
+{"lines": ["0603", "32.4KΩ"], "category": "Resistor", "frame": "k_0287.jpg", "t": 203.9, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "38.3KΩ"], "category": "Resistor", "frame": "k_0287.jpg", "t": 203.9, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["0603", "51.1KΩ"], "category": "Resistor", "frame": "k_0287.jpg", "t": 203.9, "where": "row of red labels, right-center", "confidence": 0.9}
+{"lines": ["0603"], "category": "Resistor", "frame": "k_0287.jpg", "t": 203.9, "where": "row of red labels, far right (value cut off)", "confidence": 0.5}
+{"lines": ["0603", "32.4KΩ"], "category": "Resistor", "frame": "k_0288.jpg", "t": 204.55, "where": "row of red labels, far left", "confidence": 0.9}
+{"lines": ["0603", "38.3KΩ"], "category": "Resistor", "frame": "k_0288.jpg", "t": 204.55, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["0603", "51.1KΩ"], "category": "Resistor", "frame": "k_0288.jpg", "t": 204.55, "where": "row of red labels, center", "confidence": 0.9}
+{"lines": ["0603"], "category": "Resistor", "frame": "k_0288.jpg", "t": 204.55, "where": "row of red labels, right-center (value obscured by tape)", "confidence": 0.4}
+{"lines": ["SMD-0"], "category": null, "frame": "k_0288.jpg", "t": 204.55, "where": "bottom right, wide red divider label (cut off)", "confidence": 0.6}
+{"lines": ["0603", "38.3KΩ"], "category": "Resistor", "frame": "k_0289.jpg", "t": 205.06, "where": "row of red labels, far left", "confidence": 0.9}
+{"lines": ["0603", "51.1KΩ"], "category": "Resistor", "frame": "k_0289.jpg", "t": 205.06, "where": "row of red labels, left-center", "confidence": 0.9}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0289.jpg", "t": 205.06, "where": "bottom, wide red divider label", "confidence": 0.9}

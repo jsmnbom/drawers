@@ -1,0 +1,244 @@
+{"lines": ["3x13 TX10 A2"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 1, far left", "confidence": 0.9}
+{"lines": ["M3"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 2, far left", "confidence": 0.95}
+{"lines": ["M3 LÅS"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 2, second from left", "confidence": 0.95}
+{"lines": ["?"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 2, third from left", "confidence": 0.9}
+{"lines": ["M4 lås"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 2, far right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 3, far left", "confidence": 0.95}
+{"lines": ["M5 LÅS"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 3, second from left", "confidence": 0.95}
+{"lines": ["M6"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 3, third from left", "confidence": 0.95}
+{"lines": ["M5 U.SÆNK."], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["M8"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 4, far left", "confidence": 0.95}
+{"lines": ["M8 lås"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M8 M. SKIVE"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 4, far right", "confidence": 0.9}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["T NUT M5"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 5, third from left", "confidence": 0.85}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["T NUT M6"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["T NUT M4"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 6, far right", "confidence": 0.9}
+{"lines": ["VINGEMØTRIK"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["FIRKANTEDE"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["HÆTTEMØTRIKKER"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 7, third from left", "confidence": 0.85}
+{"lines": ["FLADE"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 7, right of center", "confidence": 0.8}
+{"lines": ["USORTEREDE MØTRIKK"], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["HALVSMA USORT."], "category": null, "frame": "k_0510.jpg", "t": 378.06, "where": "row 8, middle", "confidence": 0.75}
+{"lines": ["3x13 TX10 A2"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 1, far left", "confidence": 0.9}
+{"lines": ["M3"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 2, far left", "confidence": 0.95}
+{"lines": ["M3 LÅS"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 2, second from left", "confidence": 0.95}
+{"lines": ["?"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 2, third from left", "confidence": 0.9}
+{"lines": ["M4 lås"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 2, far right", "confidence": 0.9}
+{"lines": ["M5"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 3, far left", "confidence": 0.95}
+{"lines": ["M5 LÅS"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 3, second from left", "confidence": 0.95}
+{"lines": ["M6"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 3, third from left", "confidence": 0.95}
+{"lines": ["M5 U.SÆNK."], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 3, far right", "confidence": 0.9}
+{"lines": ["M8"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 4, far left", "confidence": 0.95}
+{"lines": ["M8 lås"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 4, second from left", "confidence": 0.9}
+{"lines": ["M8 M. SKIVE"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 4, far right", "confidence": 0.9}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["T NUT M5"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 5, second from left", "confidence": 0.9}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 5, third from left", "confidence": 0.85}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["T NUT M6"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["T NUT M4"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 6, second from left", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 6, far right", "confidence": 0.9}
+{"lines": ["VINGEMØTRIK"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["FIRKANTEDE"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 7, second from left", "confidence": 0.85}
+{"lines": ["HÆTTEMØTRIKKER"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 7, third from left", "confidence": 0.85}
+{"lines": ["FLADE"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 7, right of center", "confidence": 0.8}
+{"lines": ["USORTEREDE MØTRIKK"], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["HALVSMÅ USORT."], "category": null, "frame": "k_0511.jpg", "t": 379.51, "where": "row 8, middle", "confidence": 0.8}
+{"lines": ["?"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 2, left-center", "confidence": 0.9}
+{"lines": ["M4 lås"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 2, center", "confidence": 0.9}
+{"lines": ["M4"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 2, right", "confidence": 0.95}
+{"lines": ["M6"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 3, left-center", "confidence": 0.9}
+{"lines": ["M5 U.SÆNK."], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["M6 lås"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["M8 M. SKIVE"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 4, center", "confidence": 0.9}
+{"lines": ["M12"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 4, right", "confidence": 0.95}
+{"lines": ["T NUT M5"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 5, left-center", "confidence": 0.9}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 5, right-center", "confidence": 0.9}
+{"lines": ["t-nut"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 5, right", "confidence": 0.85}
+{"lines": ["T NUT M4"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 6, right-center", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["FIRKANTEDE"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 7, far left", "confidence": 0.85}
+{"lines": ["HÆTTEMØTRIKKER"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 7, left-center", "confidence": 0.85}
+{"lines": ["FLADE"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 7, right-center", "confidence": 0.85}
+{"lines": ["EKSTRA FLADE"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 7, right", "confidence": 0.85}
+{"lines": ["HALVSMÅ USORT."], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "row 8, left-center", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0512.jpg", "t": 380.9, "where": "far right, adjacent cabinet, upper row", "confidence": 0.7}
+{"lines": ["M4 lås"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 2, left cabinet", "confidence": 0.9}
+{"lines": ["M4"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 2, left cabinet right", "confidence": 0.95}
+{"lines": ["M6"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 3, left cabinet, far left", "confidence": 0.9}
+{"lines": ["M5 U.SÆNK."], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 3, left cabinet center", "confidence": 0.9}
+{"lines": ["M6 lås"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 3, left cabinet right", "confidence": 0.9}
+{"lines": ["M8 M. SKIVE"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 4, left cabinet center", "confidence": 0.9}
+{"lines": ["M12"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 4, left cabinet right", "confidence": 0.95}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 5, left cabinet left", "confidence": 0.9}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 5, left cabinet center", "confidence": 0.9}
+{"lines": ["t-nut"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 5, left cabinet right", "confidence": 0.85}
+{"lines": ["M10"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 6, left cabinet center", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 6, left cabinet right", "confidence": 0.9}
+{"lines": ["HÆTTEMØTRIKKER"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 7, left cabinet left", "confidence": 0.85}
+{"lines": ["FLADE"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 7, left cabinet center", "confidence": 0.85}
+{"lines": ["EKSTRA FLADE"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 7, left cabinet right", "confidence": 0.85}
+{"lines": ["HALVSMÅ USORT."], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "row 8, left cabinet left", "confidence": 0.85}
+{"lines": ["MEGET SMÅ"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "top of right blue cabinet", "confidence": 0.85}
+{"lines": ["4.4mm"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "right blue cabinet, row 2", "confidence": 0.9}
+{"lines": ["5.4x10"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "right blue cabinet, row 3", "confidence": 0.9}
+{"lines": ["6.4x12"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "right blue cabinet, row 4", "confidence": 0.9}
+{"lines": ["10.4x20"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "right blue cabinet, row 6", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "right blue cabinet, row 7", "confidence": 0.8}
+{"lines": ["USORTEREDE SKIVER"], "category": null, "frame": "k_0513.jpg", "t": 381.73, "where": "right blue cabinet, row 8", "confidence": 0.85}
+{"lines": ["RTC"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "top right, separate cabinet", "confidence": 0.8}
+{"lines": ["M4 lås"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 2, left cabinet left", "confidence": 0.9}
+{"lines": ["M4"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 2, left cabinet right", "confidence": 0.95}
+{"lines": ["M5 U.SÆNK."], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 3, left cabinet left", "confidence": 0.9}
+{"lines": ["M6 lås"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 3, left cabinet right", "confidence": 0.9}
+{"lines": ["M8 M. SKIVE"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 4, left cabinet left", "confidence": 0.9}
+{"lines": ["M12"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 4, left cabinet right", "confidence": 0.95}
+{"lines": ["1-nut"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 5, left cabinet right", "confidence": 0.65}
+{"lines": ["T NUT M8"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 5, left cabinet center", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 6, left cabinet left", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 6, left cabinet right", "confidence": 0.9}
+{"lines": ["FLADE"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 7, left cabinet center", "confidence": 0.85}
+{"lines": ["EKSTRA FLADE"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "row 7, left cabinet right", "confidence": 0.85}
+{"lines": ["MEGET SMÅ USORT."], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "top of right blue cabinet", "confidence": 0.85}
+{"lines": ["4.4mm"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 2 left", "confidence": 0.9}
+{"lines": ["5.4x10"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 3", "confidence": 0.9}
+{"lines": ["6.4x12"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 4 left", "confidence": 0.9}
+{"lines": ["8.4x16"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 5 right", "confidence": 0.85}
+{"lines": ["10.4x20"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 6", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 7 left", "confidence": 0.85}
+{"lines": ["GUMMISKIVER"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 7 right", "confidence": 0.85}
+{"lines": ["USORTEREDE SKIVER"], "category": null, "frame": "k_0514.jpg", "t": 382.18, "where": "right blue cabinet, row 8", "confidence": 0.85}
+{"lines": ["MM58274"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "top area, IC drawer, left", "confidence": 0.9}
+{"lines": ["DS26C31"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "top area, IC drawer, right", "confidence": 0.9}
+{"lines": ["RTC"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "below MM58274 label", "confidence": 0.85}
+{"lines": ["MEGET SMÅ USORT."], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 1 blue cabinet, far left", "confidence": 0.9}
+{"lines": ["SMÅ USORT."], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 1 blue cabinet, second", "confidence": 0.9}
+{"lines": ["4.4mm"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["fjederskive M4"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 2, second", "confidence": 0.9}
+{"lines": ["5.4x10"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["fjederskive M5"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 3, third", "confidence": 0.85}
+{"lines": ["6.4x12"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["6.4x18"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 4, second", "confidence": 0.9}
+{"lines": ["6.4x30"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 4, third", "confidence": 0.9}
+{"lines": ["8.4x16"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["8.4x30"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 5, second", "confidence": 0.9}
+{"lines": ["8.4x40"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 5, third", "confidence": 0.9}
+{"lines": ["10.4x20"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["TALLERKENSKIVE"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 6, third", "confidence": 0.85}
+{"lines": ["FJEDERSKIVER"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 6, fourth", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 7, far left", "confidence": 0.9}
+{"lines": ["GUMMISKIVER"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 7, second", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 7, right", "confidence": 0.85}
+{"lines": ["USORTEREDE SKIVER"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["GEVINDINDSATSER"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "row 8, middle-right", "confidence": 0.8}
+{"lines": ["FLADE"], "category": null, "frame": "k_0515.jpg", "t": 383.3, "where": "far left edge, adjacent cabinet", "confidence": 0.8}
+{"lines": ["MEGET SMÅ USORT."], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 1, far left", "confidence": 0.85}
+{"lines": ["SMÅ USORT."], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 1, second", "confidence": 0.9}
+{"lines": ["4.4mm"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["fjederskive M4"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 2, second", "confidence": 0.9}
+{"lines": ["4.4x30"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 2, fourth", "confidence": 0.9}
+{"lines": ["5.4x10"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 3, far left", "confidence": 0.9}
+{"lines": ["fjederskive M5"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 3, third", "confidence": 0.9}
+{"lines": ["SKÆRESKIVER M5"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 3, fourth", "confidence": 0.85}
+{"lines": ["6.4x12"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["6.4x18"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 4, second", "confidence": 0.9}
+{"lines": ["6.4x30"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 4, third", "confidence": 0.9}
+{"lines": ["fjederskive M6"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 4, fourth", "confidence": 0.9}
+{"lines": ["INDSLAGSM"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 4, far right, cut off", "confidence": 0.5}
+{"lines": ["8.4x16"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["8.4x30"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 5, second", "confidence": 0.9}
+{"lines": ["8.4x40"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 5, third", "confidence": 0.9}
+{"lines": ["10.4x20"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["fjederskive M8"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 6, far right", "confidence": 0.85}
+{"lines": ["M6"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 7, far left", "confidence": 0.9}
+{"lines": ["GUMMISKIVER"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 7, second", "confidence": 0.9}
+{"lines": ["TALLERKENSKIVE"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 7, third", "confidence": 0.9}
+{"lines": ["FJEDERSKIVER"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 7, fourth", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 7, far right", "confidence": 0.85}
+{"lines": ["USORTEREDE SKIVER"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 8, far left", "confidence": 0.85}
+{"lines": ["GEVINDINDSATSER"], "category": null, "frame": "k_0516.jpg", "t": 384.6, "where": "row 8, second", "confidence": 0.85}
+{"lines": ["fjederskive M4"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 2, far left", "confidence": 0.9}
+{"lines": ["4.4x30"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 2, third", "confidence": 0.9}
+{"lines": ["fjederskive M5"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 3, second", "confidence": 0.9}
+{"lines": ["SKÆRESKIVER M5"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 3, third", "confidence": 0.85}
+{"lines": ["6.4x18"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["6.4x30"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 4, second", "confidence": 0.9}
+{"lines": ["fjederskive M6"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 4, third", "confidence": 0.9}
+{"lines": ["INDSLAGSMØTRIK"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 4, far right", "confidence": 0.85}
+{"lines": ["8.4x16"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["8.4x30"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 5, second", "confidence": 0.9}
+{"lines": ["8.4x40"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 5, third", "confidence": 0.9}
+{"lines": ["fjederskive M8"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 5, far right", "confidence": 0.85}
+{"lines": ["TALLERKENSKIVE"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 6, second", "confidence": 0.9}
+{"lines": ["FJEDERSKIVER"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 6, third", "confidence": 0.9}
+{"lines": ["GUMMISKIVER"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 7, far left", "confidence": 0.9}
+{"lines": ["M10"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 7, right", "confidence": 0.85}
+{"lines": ["GEVINDINDSATSER"], "category": null, "frame": "k_0517.jpg", "t": 385.6, "where": "row 8, second", "confidence": 0.85}
+{"lines": ["4.4x30"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 2, center", "confidence": 0.85}
+{"lines": ["fjederskive M5"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 3, left-center", "confidence": 0.85}
+{"lines": ["SKÆRESKIVER M5"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 3, right-center", "confidence": 0.8}
+{"lines": ["6.4x30"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 4, left-center", "confidence": 0.85}
+{"lines": ["fjederskive M6"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 4, right-center", "confidence": 0.85}
+{"lines": ["INDSLAGSMØTRIK"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 4, far right", "confidence": 0.85}
+{"lines": ["8.4x30"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 5, left-center", "confidence": 0.85}
+{"lines": ["8.4x40"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 5, right-center", "confidence": 0.85}
+{"lines": ["fjederskive M8"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 5, far right", "confidence": 0.8}
+{"lines": ["TALLERKENSKIVE"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 6, left-center", "confidence": 0.8}
+{"lines": ["FJEDERSKIVER"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 6, right-center", "confidence": 0.8}
+{"lines": ["GUMMISKIVER"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 7, far left", "confidence": 0.8}
+{"lines": ["M10"], "category": null, "frame": "k_0518.jpg", "t": 386.04, "where": "row 7, right", "confidence": 0.75}
+{"lines": ["MB81C4256-10P"], "category": null, "frame": "k_0522.jpg", "t": 387.45, "where": "row 4, far left", "confidence": 0.9}
+{"lines": ["MC14071AL"], "category": null, "frame": "k_0522.jpg", "t": 387.45, "where": "row 4, second", "confidence": 0.9}
+{"lines": ["TSC 7107CPL"], "category": null, "frame": "k_0522.jpg", "t": 387.45, "where": "row 4, third", "confidence": 0.85}
+{"lines": ["TL081 082CP"], "category": null, "frame": "k_0522.jpg", "t": 387.45, "where": "row 4, far right", "confidence": 0.85}
+{"lines": ["BC337"], "category": "Transistor", "frame": "k_0522.jpg", "t": 387.45, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["BC557B"], "category": "Transistor", "frame": "k_0522.jpg", "t": 387.45, "where": "row 6, third", "confidence": 0.9}
+{"lines": ["BD 738"], "category": "Transistor", "frame": "k_0522.jpg", "t": 387.45, "where": "row 6, far right", "confidence": 0.7}
+{"lines": ["DS26C31"], "category": null, "frame": "k_0522.jpg", "t": 387.45, "where": "row 7, second", "confidence": 0.9}
+{"lines": ["1N4148"], "category": "Diode", "frame": "k_0522.jpg", "t": 387.45, "where": "row 7, third", "confidence": 0.9}
+{"lines": ["10uF 25V"], "category": null, "frame": "k_0522.jpg", "t": 387.45, "where": "row 7, far right", "confidence": 0.85}
+{"lines": ["TSC 7107CPL"], "category": null, "frame": "k_0523.jpg", "t": 388.52, "where": "row 4, left", "confidence": 0.9}
+{"lines": ["TL081 082CP"], "category": null, "frame": "k_0523.jpg", "t": 388.52, "where": "row 4, right", "confidence": 0.9}
+{"lines": ["BC557B"], "category": "Transistor", "frame": "k_0523.jpg", "t": 388.52, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["BD 138", "6000101 0"], "category": "Transistor", "frame": "k_0523.jpg", "t": 388.52, "where": "row 6, right, handwritten label", "confidence": 0.8}
+{"lines": ["1N4148"], "category": "Diode", "frame": "k_0523.jpg", "t": 388.52, "where": "row 7, left", "confidence": 0.9}
+{"lines": ["10uF 25V"], "category": null, "frame": "k_0523.jpg", "t": 388.52, "where": "row 7, right", "confidence": 0.85}
+{"lines": ["MC14071AL"], "category": null, "frame": "k_0524.jpg", "t": 389.79, "where": "row 3, far left", "confidence": 0.85}
+{"lines": ["TSC 7107CPL"], "category": null, "frame": "k_0524.jpg", "t": 389.79, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["TL081 082CP"], "category": null, "frame": "k_0524.jpg", "t": 389.79, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["BC557B"], "category": "Transistor", "frame": "k_0524.jpg", "t": 389.79, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["BD 138", "6000101 0"], "category": "Transistor", "frame": "k_0524.jpg", "t": 389.79, "where": "row 5, right, handwritten label", "confidence": 0.8}
+{"lines": ["DS26C31"], "category": null, "frame": "k_0524.jpg", "t": 389.79, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["1N4148"], "category": "Diode", "frame": "k_0524.jpg", "t": 389.79, "where": "row 6, center", "confidence": 0.9}
+{"lines": ["10uF 25V"], "category": null, "frame": "k_0524.jpg", "t": 389.79, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["V53C256P80L"], "category": null, "frame": "k_0525.jpg", "t": 392.79, "where": "row 3, far left", "confidence": 0.85}
+{"lines": ["MB81C4256-10P"], "category": null, "frame": "k_0525.jpg", "t": 392.79, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["MC14071AL"], "category": null, "frame": "k_0525.jpg", "t": 392.79, "where": "row 3, right", "confidence": 0.9}
+{"lines": ["BC327"], "category": "Transistor", "frame": "k_0525.jpg", "t": 392.79, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["BC337"], "category": "Transistor", "frame": "k_0525.jpg", "t": 392.79, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["MM58274"], "category": null, "frame": "k_0525.jpg", "t": 392.79, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["DS26C31"], "category": null, "frame": "k_0525.jpg", "t": 392.79, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["V53C256P80L"], "category": null, "frame": "k_0526.jpg", "t": 394.56, "where": "row 3, far left", "confidence": 0.85}
+{"lines": ["MB81C4256-10P"], "category": null, "frame": "k_0526.jpg", "t": 394.56, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["BC327"], "category": "Transistor", "frame": "k_0526.jpg", "t": 394.56, "where": "row 5, far left", "confidence": 0.9}
+{"lines": ["BC337"], "category": "Transistor", "frame": "k_0526.jpg", "t": 394.56, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["MM58274"], "category": null, "frame": "k_0526.jpg", "t": 394.56, "where": "row 6, far left", "confidence": 0.9}
+{"lines": ["DS26C31"], "category": null, "frame": "k_0526.jpg", "t": 394.56, "where": "row 6, right", "confidence": 0.9}
+{"lines": ["MEGET SMÅ USORT."], "category": null, "frame": "k_0526.jpg", "t": 394.56, "where": "bottom row, blue cabinet", "confidence": 0.85}
+{"lines": ["SMÅ USORT."], "category": null, "frame": "k_0526.jpg", "t": 394.56, "where": "bottom row, blue cabinet, right", "confidence": 0.85}
+{"lines": ["V53C256P80L"], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "row 3, left", "confidence": 0.85}
+{"lines": ["MB81C4256-10P"], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "row 3, center", "confidence": 0.9}
+{"lines": ["BC327"], "category": "Transistor", "frame": "k_0527.jpg", "t": 395.64, "where": "row 5, left", "confidence": 0.9}
+{"lines": ["BC337"], "category": "Transistor", "frame": "k_0527.jpg", "t": 395.64, "where": "row 5, center", "confidence": 0.9}
+{"lines": ["MM58274"], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "row 6, left", "confidence": 0.9}
+{"lines": ["DS26C31"], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "row 6, right, partially cut off", "confidence": 0.75}
+{"lines": ["MEGET SMÅ USORT."], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "bottom row, blue cabinet, left", "confidence": 0.85}
+{"lines": ["SMÅ USORT."], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "bottom row, blue cabinet, center", "confidence": 0.85}
+{"lines": ["4.4mm"], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "bottom, second row, left, partly cut off", "confidence": 0.8}
+{"lines": ["fjederskive M4"], "category": null, "frame": "k_0527.jpg", "t": 395.64, "where": "bottom, second row, center, partly cut off", "confidence": 0.8}

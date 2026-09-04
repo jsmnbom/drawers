@@ -1,0 +1,174 @@
+{"lines": ["ULN 2003"], "category": null, "frame": "k_0410.jpg", "t": 301.88, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["CDP 6402"], "category": null, "frame": "k_0410.jpg", "t": 301.88, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["NE 5520"], "category": null, "frame": "k_0410.jpg", "t": 301.88, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["AM 7910"], "category": null, "frame": "k_0410.jpg", "t": 301.88, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["AM 7911"], "category": null, "frame": "k_0410.jpg", "t": 301.88, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["SL 6270"], "category": null, "frame": "k_0410.jpg", "t": 301.88, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["MT 8870"], "category": null, "frame": "k_0410.jpg", "t": 301.88, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["ULN 2003"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "top row, middle column", "confidence": 0.9}
+{"lines": ["ULN 2803"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["NE 5520"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["NE5521"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "row 3, right column", "confidence": 0.75}
+{"lines": ["AM 7911"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["AD 7506", "MUX 16"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["MT 8870"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "row 5, middle column", "confidence": 0.9}
+{"lines": ["MK 5380"], "category": null, "frame": "k_0411.jpg", "t": 303.17, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["ULN 2003"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "top row, left-middle column", "confidence": 0.9}
+{"lines": ["ULN 2803"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["NE 5520"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "row 3, left-middle column", "confidence": 0.9}
+{"lines": ["NE5521"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "row 3, right column", "confidence": 0.75}
+{"lines": ["AM 7911"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "row 4, left-middle column", "confidence": 0.9}
+{"lines": ["AD 7506", "MUX 16"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["MT 8870"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "row 5, left-middle column", "confidence": 0.9}
+{"lines": ["MK 5380"], "category": null, "frame": "k_0412.jpg", "t": 303.82, "where": "row 5, right column", "confidence": 0.85}
+{"lines": ["ULN 2803"], "category": null, "frame": "k_0413.jpg", "t": 304.77, "where": "top row, left column", "confidence": 0.9}
+{"lines": ["ULN 2804"], "category": null, "frame": "k_0413.jpg", "t": 304.77, "where": "top row, middle column", "confidence": 0.9}
+{"lines": ["NE5521"], "category": null, "frame": "k_0413.jpg", "t": 304.77, "where": "row 3, left column", "confidence": 0.75}
+{"lines": ["MSM 58321"], "category": null, "frame": "k_0413.jpg", "t": 304.77, "where": "row 3, middle column", "confidence": 0.85}
+{"lines": ["AD 7506", "MUX 16"], "category": null, "frame": "k_0413.jpg", "t": 304.77, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["MK 5380"], "category": null, "frame": "k_0413.jpg", "t": 304.77, "where": "row 5, left column", "confidence": 0.85}
+{"lines": ["ULN 2804"], "category": null, "frame": "k_0414.jpg", "t": 305.45, "where": "top row, left-middle column", "confidence": 0.9}
+{"lines": ["ULN 2823"], "category": null, "frame": "k_0414.jpg", "t": 305.45, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["MSM 58321"], "category": null, "frame": "k_0414.jpg", "t": 305.45, "where": "row 3, left-middle column", "confidence": 0.9}
+{"lines": ["TDA 4718"], "category": null, "frame": "k_0414.jpg", "t": 305.45, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["ULN 2804"], "category": null, "frame": "k_0415.jpg", "t": 305.92, "where": "top row, left column", "confidence": 0.9}
+{"lines": ["ULN 2823"], "category": null, "frame": "k_0415.jpg", "t": 305.92, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["MSM 58321"], "category": null, "frame": "k_0415.jpg", "t": 305.92, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["TDA 4718"], "category": null, "frame": "k_0415.jpg", "t": 305.92, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["ULN 2823"], "category": null, "frame": "k_0416.jpg", "t": 306.67, "where": "top row, far left", "confidence": 0.85}
+{"lines": ["TDA 4718"], "category": null, "frame": "k_0416.jpg", "t": 306.67, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4001"], "category": null, "frame": "k_0416.jpg", "t": 306.67, "where": "top row, right column", "confidence": 0.85}
+{"lines": ["CD 4012"], "category": null, "frame": "k_0416.jpg", "t": 306.67, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4020"], "category": null, "frame": "k_0416.jpg", "t": 306.67, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4028"], "category": null, "frame": "k_0416.jpg", "t": 306.67, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4042"], "category": null, "frame": "k_0416.jpg", "t": 306.67, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["CD 4001"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "top row, left column", "confidence": 0.9}
+{"lines": ["CD 4002"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["CD 4012"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4013"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4020"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4022"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4028"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 4029"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4042"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["CD 4043"], "category": null, "frame": "k_0417.jpg", "t": 307.71, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["CD 4001"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "top row, left column", "confidence": 0.9}
+{"lines": ["CD 4002"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["CD 4012"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4013"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4020"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4022"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4028"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 4029"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4042"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["CD 4043"], "category": null, "frame": "k_0418.jpg", "t": 308.23, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["CD 4002"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "top row, left column", "confidence": 0.9}
+{"lines": ["CD 4009"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["CD 4013"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4015"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4022"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4023"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4029"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 4030"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4043"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["CD 4044"], "category": null, "frame": "k_0419.jpg", "t": 309.07, "where": "row 5, right column", "confidence": 0.85}
+{"lines": ["CD 4002"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "top row, far left, cut off", "confidence": 0.7}
+{"lines": ["CD 4009"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "top row, middle column", "confidence": 0.9}
+{"lines": ["CD 4010"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["CD 4013"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 2, far left, cut off", "confidence": 0.6}
+{"lines": ["CD 4015"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 2, middle column", "confidence": 0.9}
+{"lines": ["CD 4017"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["CD 4022"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 3, far left, cut off", "confidence": 0.6}
+{"lines": ["CD 4023"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["CD 4024"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4029"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 4, far left, cut off", "confidence": 0.6}
+{"lines": ["CD 4030"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["CD 4035"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["CD 4043"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 5, far left, cut off", "confidence": 0.6}
+{"lines": ["CD 4044"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 5, middle column", "confidence": 0.9}
+{"lines": ["CD 4046"], "category": null, "frame": "k_0420.jpg", "t": 310.03, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["CD 4017"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4019"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["CD 4024"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["CD 4025"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4030"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 4, left column", "confidence": 0.85}
+{"lines": ["CD 4035"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["CD 4040"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 4, right column", "confidence": 0.8}
+{"lines": ["CD 4046"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 5, middle column", "confidence": 0.9}
+{"lines": ["CD 4047"], "category": null, "frame": "k_0421.jpg", "t": 311.09, "where": "row 5, right column", "confidence": 0.85}
+{"lines": ["CD 4010"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "top row, left column, cut off", "confidence": 0.75}
+{"lines": ["CD 4011"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "top row, right column, cut off", "confidence": 0.75}
+{"lines": ["CD 4017"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["CD 4019"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["CD 4024"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["CD 4025"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4035"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["CD 4040"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 4, right column", "confidence": 0.85}
+{"lines": ["CD 4046"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 5, left column", "confidence": 0.85}
+{"lines": ["CD 4047"], "category": null, "frame": "k_0422.jpg", "t": 311.63, "where": "row 5, right column", "confidence": 0.85}
+{"lines": ["CD 4011"], "category": null, "frame": "k_0423.jpg", "t": 311.91, "where": "top row, left column, cut off", "confidence": 0.7}
+{"lines": ["CD 4019"], "category": null, "frame": "k_0423.jpg", "t": 311.91, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["CD 4025"], "category": null, "frame": "k_0423.jpg", "t": 311.91, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["CD 4040"], "category": null, "frame": "k_0423.jpg", "t": 311.91, "where": "row 4, right column", "confidence": 0.85}
+{"lines": ["CD 4047"], "category": null, "frame": "k_0423.jpg", "t": 311.91, "where": "row 5, right column", "confidence": 0.8}
+{"lines": ["CD 4019"], "category": null, "frame": "k_0424.jpg", "t": 312.19, "where": "left column, row 2", "confidence": 0.6}
+{"lines": ["CD 4025"], "category": null, "frame": "k_0424.jpg", "t": 312.19, "where": "left column, row 3", "confidence": 0.85}
+{"lines": ["8,2k"], "category": null, "frame": "k_0424.jpg", "t": 312.19, "where": "right column, small drawer, middle", "confidence": 0.7}
+{"lines": ["560"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "top row, left column", "confidence": 0.85}
+{"lines": ["820"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "top row, right column", "confidence": 0.8}
+{"lines": ["1,5k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["2,2k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["3,9k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["4,7k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["5,6k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["10k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["12k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["27k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["33k"], "category": "Resistor", "frame": "k_0426.jpg", "t": 313.2, "where": "row 5, middle column", "confidence": 0.9}
+{"lines": ["150R"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 2, second column, handwritten", "confidence": 0.85}
+{"lines": ["560"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 3, second column", "confidence": 0.85}
+{"lines": ["820"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 3, fourth column", "confidence": 0.85}
+{"lines": ["1k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 3, fifth column", "confidence": 0.8}
+{"lines": ["1,5k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 4, second column", "confidence": 0.9}
+{"lines": ["2,2k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 4, fourth column", "confidence": 0.9}
+{"lines": ["2,7k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 4, fifth column", "confidence": 0.85}
+{"lines": ["3,9k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 5, second column", "confidence": 0.9}
+{"lines": ["4,7k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 5, third column", "confidence": 0.9}
+{"lines": ["5,6k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 5, fourth column", "confidence": 0.9}
+{"lines": ["6,8k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 5, fifth column", "confidence": 0.9}
+{"lines": ["10k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 6, second column", "confidence": 0.9}
+{"lines": ["12k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 6, third column", "confidence": 0.9}
+{"lines": ["18k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 6, fifth column", "confidence": 0.85}
+{"lines": ["27k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 7, second column", "confidence": 0.9}
+{"lines": ["33k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 7, third column", "confidence": 0.9}
+{"lines": ["47k"], "category": "Resistor", "frame": "k_0427.jpg", "t": 314.65, "where": "row 7, fifth column", "confidence": 0.85}
+{"lines": ["150R"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 2, second column, handwritten", "confidence": 0.85}
+{"lines": ["560"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 3, second column", "confidence": 0.85}
+{"lines": ["820"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 3, fourth column", "confidence": 0.85}
+{"lines": ["1k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 3, fifth column", "confidence": 0.8}
+{"lines": ["1,5k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 4, second column", "confidence": 0.9}
+{"lines": ["2,2k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 4, fourth column", "confidence": 0.9}
+{"lines": ["2,7k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 4, fifth column", "confidence": 0.85}
+{"lines": ["3,9k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 5, second column", "confidence": 0.9}
+{"lines": ["4,7k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 5, third column", "confidence": 0.9}
+{"lines": ["5,6k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 5, fourth column", "confidence": 0.9}
+{"lines": ["6,8k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 5, fifth column", "confidence": 0.9}
+{"lines": ["10k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 6, second column", "confidence": 0.9}
+{"lines": ["12k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 6, third column", "confidence": 0.9}
+{"lines": ["18k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 6, fifth column", "confidence": 0.85}
+{"lines": ["27k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 7, second column", "confidence": 0.9}
+{"lines": ["33k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 7, third column", "confidence": 0.9}
+{"lines": ["47k"], "category": "Resistor", "frame": "k_0428.jpg", "t": 315.0, "where": "row 7, fifth column", "confidence": 0.85}
+{"lines": ["150R"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "top row, first column, handwritten", "confidence": 0.7}
+{"lines": ["1,5k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 3, first column", "confidence": 0.85}
+{"lines": ["2,2k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 3, third column", "confidence": 0.8}
+{"lines": ["2,7k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 3, fourth column", "confidence": 0.75}
+{"lines": ["3,9k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 4, first column", "confidence": 0.85}
+{"lines": ["4,7k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 4, second column", "confidence": 0.85}
+{"lines": ["5,6k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 4, third column", "confidence": 0.85}
+{"lines": ["6,8k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 4, fourth column", "confidence": 0.8}
+{"lines": ["10k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 5, first column", "confidence": 0.85}
+{"lines": ["12k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 5, second column", "confidence": 0.85}
+{"lines": ["27k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 6, first column", "confidence": 0.85}
+{"lines": ["33k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 6, second column", "confidence": 0.85}
+{"lines": ["47k"], "category": "Resistor", "frame": "k_0429.jpg", "t": 315.21, "where": "row 6, fourth column", "confidence": 0.8}

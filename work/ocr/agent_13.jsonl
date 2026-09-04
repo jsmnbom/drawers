@@ -1,0 +1,135 @@
+{"lines": ["1.2MΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "middle area, row with MΩ labels, left", "confidence": 0.75}
+{"lines": ["1.3MΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "middle area, row with MΩ labels, right", "confidence": 0.7}
+{"lines": ["12KΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "left column, row below 1.2MΩ", "confidence": 0.85}
+{"lines": ["13KΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "right column, row below 1.3MΩ", "confidence": 0.8}
+{"lines": ["120KΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "left column, middle rows", "confidence": 0.85}
+{"lines": ["130KΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "right column, middle rows", "confidence": 0.8}
+{"lines": ["1.2MΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "left column, lower rows", "confidence": 0.8}
+{"lines": ["1.3MΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "right column, lower rows", "confidence": 0.75}
+{"lines": ["12MΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "left column, near bottom", "confidence": 0.75}
+{"lines": ["13MΩ"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "right column, near bottom", "confidence": 0.7}
+{"lines": ["0.12Ω", "1.2Ω", "POWER"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "bottom section, middle column", "confidence": 0.85}
+{"lines": ["0.13Ω", "1.3Ω", "POWER"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "bottom section, right column", "confidence": 0.85}
+{"lines": ["1.2Ω", "12Ω", "POWER"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "bottom-most row, middle column", "confidence": 0.75}
+{"lines": ["1.3Ω", "13Ω", "POWER"], "category": "Resistor", "frame": "k_0232.jpg", "t": 171.87, "where": "bottom-most row, right column", "confidence": 0.75}
+{"lines": ["1N4004", "Diode"], "category": "Diode", "frame": "k_0239.jpg", "t": 173.61, "where": "top-right area", "confidence": 0.9}
+{"lines": ["RHC8-16", "Diode"], "category": "Diode", "frame": "k_0239.jpg", "t": 173.61, "where": "second row, left", "confidence": 0.7}
+{"lines": ["BY329", "Diode"], "category": "Diode", "frame": "k_0239.jpg", "t": 173.61, "where": "second row, right", "confidence": 0.75}
+{"lines": ["1N4987A", "Diode"], "category": "Diode", "frame": "k_0238.jpg", "t": 173.36, "where": "bottom area, right column", "confidence": 0.7}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, red tags", "confidence": 0.8}
+{"lines": ["0603", "33.0Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, red tags", "confidence": 0.8}
+{"lines": ["0603", "39.2Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, red tags", "confidence": 0.8}
+{"lines": ["0603", "47.5Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, red tags", "confidence": 0.75}
+{"lines": ["0603", "49.9Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, red tags", "confidence": 0.75}
+{"lines": ["0603", "51.1Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, red tags", "confidence": 0.75}
+{"lines": ["0603", "54.9Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, red tags", "confidence": 0.75}
+{"lines": ["0603", "68.1Ω"], "category": null, "frame": "k_0240.jpg", "t": 173.97, "where": "top row of SMD reel labels, right area", "confidence": 0.65}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0240.jpg", "t": 173.97, "where": "second row of drawers, middle-left", "confidence": 0.9}
+{"lines": ["1N5404", "Diode"], "category": "Diode", "frame": "k_0240.jpg", "t": 173.97, "where": "second row of drawers, right", "confidence": 0.9}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0240.jpg", "t": 173.97, "where": "third row of drawers, middle-left", "confidence": 0.85}
+{"lines": ["BY229", "Diode"], "category": "Diode", "frame": "k_0240.jpg", "t": 173.97, "where": "third row of drawers, right", "confidence": 0.85}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "top row SMD reel labels, red tags", "confidence": 0.85}
+{"lines": ["0603", "33.0Ω"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "top row SMD reel labels, red tags", "confidence": 0.85}
+{"lines": ["0603", "39.2Ω"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "top row SMD reel labels, red tags", "confidence": 0.85}
+{"lines": ["0603", "47.5Ω"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "top row SMD reel labels, red tags", "confidence": 0.8}
+{"lines": ["0603", "49.9Ω"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "top row SMD reel labels, red tags", "confidence": 0.8}
+{"lines": ["0603", "51.1Ω"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "top row SMD reel labels, red tags", "confidence": 0.8}
+{"lines": ["0603", "54.9Ω"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "top row SMD reel labels, red tags", "confidence": 0.8}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0241.jpg", "t": 174.31, "where": "bottom of reel shelf, red tag on wooden ledge", "confidence": 0.85}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0241.jpg", "t": 174.31, "where": "second row of drawers, middle", "confidence": 0.9}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0241.jpg", "t": 174.31, "where": "third row of drawers, middle", "confidence": 0.85}
+{"lines": ["0603", "18.2Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, red tags", "confidence": 0.9}
+{"lines": ["0603", "22.0Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, red tags", "confidence": 0.85}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, red tags", "confidence": 0.9}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, red tags", "confidence": 0.9}
+{"lines": ["0603", "33.0Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, red tags", "confidence": 0.9}
+{"lines": ["0603", "39.2Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, red tags", "confidence": 0.9}
+{"lines": ["0603", "47.5Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, red tags", "confidence": 0.85}
+{"lines": ["0603", "49.9Ω"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, right edge", "confidence": 0.8}
+{"lines": ["0603"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "top row SMD reel labels, far right, value cut off", "confidence": 0.6}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0242.jpg", "t": 174.79, "where": "shelf ledge label, center", "confidence": 0.9}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0242.jpg", "t": 174.79, "where": "drawer row below shelf, left", "confidence": 0.9}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0242.jpg", "t": 174.79, "where": "drawer row below shelf, right", "confidence": 0.9}
+{"lines": ["RGP10G", "Diode"], "category": "Diode", "frame": "k_0242.jpg", "t": 174.79, "where": "bottom row, left", "confidence": 0.9}
+{"lines": ["RHC5-15", "Diode"], "category": "Diode", "frame": "k_0242.jpg", "t": 174.79, "where": "bottom row, right", "confidence": 0.85}
+{"lines": ["4.75Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels, far left, partially cut off", "confidence": 0.6}
+{"lines": ["0603", "10.0Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels, left", "confidence": 0.9}
+{"lines": ["0603", "18.2Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels", "confidence": 0.9}
+{"lines": ["0603", "22.0Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels", "confidence": 0.85}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels, right-middle", "confidence": 0.9}
+{"lines": ["0603", "33.0Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels, right", "confidence": 0.9}
+{"lines": ["0603", "39.2Ω"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "top row SMD reel labels, far right", "confidence": 0.85}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0243.jpg", "t": 175.62, "where": "shelf ledge label, center-right", "confidence": 0.9}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0243.jpg", "t": 175.62, "where": "drawer row below shelf, middle", "confidence": 0.9}
+{"lines": ["RGP10G", "Diode"], "category": "Diode", "frame": "k_0243.jpg", "t": 175.62, "where": "bottom row, middle", "confidence": 0.9}
+{"lines": ["2.21Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, far left, cut off", "confidence": 0.6}
+{"lines": ["0603", "4.7Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, left", "confidence": 0.9}
+{"lines": ["4.75Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, left-middle", "confidence": 0.75}
+{"lines": ["0603", "10.0Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "18.2Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "22.0Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, right-middle", "confidence": 0.9}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, right", "confidence": 0.85}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, right", "confidence": 0.85}
+{"lines": ["0603"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "top row SMD reel labels, far right, value cut off", "confidence": 0.6}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0244.jpg", "t": 176.04, "where": "shelf ledge label, right", "confidence": 0.9}
+{"lines": ["1N4942", "Diode"], "category": "Diode", "frame": "k_0244.jpg", "t": 176.04, "where": "drawer row below shelf, left", "confidence": 0.9}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0244.jpg", "t": 176.04, "where": "drawer row below shelf, right", "confidence": 0.9}
+{"lines": ["1N5624", "Diode"], "category": "Diode", "frame": "k_0244.jpg", "t": 176.04, "where": "bottom row, left", "confidence": 0.9}
+{"lines": ["RGP10G", "Diode"], "category": "Diode", "frame": "k_0244.jpg", "t": 176.04, "where": "bottom row, right", "confidence": 0.9}
+{"lines": ["0.0Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, far left", "confidence": 0.75}
+{"lines": ["0603", "2.21Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, left", "confidence": 0.9}
+{"lines": ["0603", "4.7Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, left-middle", "confidence": 0.9}
+{"lines": ["4.75Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, middle", "confidence": 0.7}
+{"lines": ["0603", "10.0Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "18.2Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, right-middle", "confidence": 0.9}
+{"lines": ["0603", "22.0Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, right-middle", "confidence": 0.9}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0245.jpg", "t": 177.11, "where": "top row SMD reel labels, far right, partially cut off", "confidence": 0.75}
+{"lines": ["1N4942", "Diode"], "category": "Diode", "frame": "k_0245.jpg", "t": 177.11, "where": "drawer row below shelf, left", "confidence": 0.9}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0245.jpg", "t": 177.11, "where": "drawer row below shelf, right", "confidence": 0.9}
+{"lines": ["1N5624", "Diode"], "category": "Diode", "frame": "k_0245.jpg", "t": 177.11, "where": "bottom row, left", "confidence": 0.9}
+{"lines": ["RGP10", "Diode"], "category": "Diode", "frame": "k_0245.jpg", "t": 177.11, "where": "bottom row, right, cut off", "confidence": 0.7}
+{"lines": ["0603", "2.21Ω"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, left", "confidence": 0.9}
+{"lines": ["0603", "4.7Ω"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, left-middle", "confidence": 0.9}
+{"lines": ["4.75Ω"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, middle", "confidence": 0.75}
+{"lines": ["0603", "10.0Ω"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "18.2Ω"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, middle-right", "confidence": 0.9}
+{"lines": ["0603", "22.0Ω"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, right-middle", "confidence": 0.9}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, right", "confidence": 0.9}
+{"lines": ["0603"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "top row SMD reel labels, far right, value cut off", "confidence": 0.6}
+{"lines": ["SMD-06"], "category": null, "frame": "k_0246.jpg", "t": 177.79, "where": "shelf ledge label, right edge, cut off", "confidence": 0.7}
+{"lines": ["1N4942", "Diode"], "category": "Diode", "frame": "k_0246.jpg", "t": 177.79, "where": "drawer row below shelf, left", "confidence": 0.9}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0246.jpg", "t": 177.79, "where": "drawer row below shelf, right", "confidence": 0.9}
+{"lines": ["1N5624"], "category": "Diode", "frame": "k_0246.jpg", "t": 177.79, "where": "bottom-left corner, partially cut off", "confidence": 0.7}
+{"lines": ["RGP10G"], "category": "Diode", "frame": "k_0246.jpg", "t": 177.79, "where": "bottom-right corner, partially cut off", "confidence": 0.7}
+{"lines": ["0603", "4.7Ω"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, left", "confidence": 0.9}
+{"lines": ["4.75Ω"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, left-middle", "confidence": 0.75}
+{"lines": ["0603", "10.0Ω"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "18.2Ω"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "22.0Ω"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, right-middle", "confidence": 0.9}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, right", "confidence": 0.9}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, right", "confidence": 0.9}
+{"lines": ["0603"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "top row SMD reel labels, far right, value cut off", "confidence": 0.6}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0247.jpg", "t": 178.28, "where": "shelf ledge label, right", "confidence": 0.9}
+{"lines": ["N4942", "ode"], "category": "Diode", "frame": "k_0247.jpg", "t": 178.28, "where": "drawer row below shelf, left, cut off", "confidence": 0.7}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0247.jpg", "t": 178.28, "where": "drawer row below shelf, right", "confidence": 0.9}
+{"lines": ["0603", "22.0Ω"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "top row SMD reel labels, left", "confidence": 0.9}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "top row SMD reel labels, left-middle", "confidence": 0.9}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "33.0Ω"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "39.2Ω"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "top row SMD reel labels, middle-right", "confidence": 0.9}
+{"lines": ["0603", "47.5Ω"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "top row SMD reel labels, right", "confidence": 0.9}
+{"lines": ["0603"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "top row SMD reel labels, far right, value cut off", "confidence": 0.6}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0248.jpg", "t": 179.01, "where": "shelf ledge label, center", "confidence": 0.9}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0248.jpg", "t": 179.01, "where": "drawer row below shelf, left", "confidence": 0.9}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0248.jpg", "t": 179.01, "where": "drawer row below shelf, right", "confidence": 0.9}
+{"lines": ["0603", "22.1Ω"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "top row SMD reel labels, left", "confidence": 0.85}
+{"lines": ["0603", "30.1Ω"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "top row SMD reel labels, left-middle", "confidence": 0.9}
+{"lines": ["0603", "33.0Ω"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "39.2Ω"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "top row SMD reel labels, middle", "confidence": 0.9}
+{"lines": ["0603", "47.5Ω"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "top row SMD reel labels, middle-right", "confidence": 0.9}
+{"lines": ["0603", "49.9Ω"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "top row SMD reel labels, right", "confidence": 0.9}
+{"lines": ["0603", "51.1Ω"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "top row SMD reel labels, far right", "confidence": 0.85}
+{"lines": ["SMD-0603"], "category": null, "frame": "k_0249.jpg", "t": 179.51, "where": "shelf ledge label, left-center", "confidence": 0.9}
+{"lines": ["1N5062", "Diode"], "category": "Diode", "frame": "k_0249.jpg", "t": 179.51, "where": "drawer row below shelf, left, cut off", "confidence": 0.75}
+{"lines": ["1N5401", "Diode"], "category": "Diode", "frame": "k_0249.jpg", "t": 179.51, "where": "drawer row below shelf, right", "confidence": 0.9}

@@ -1,0 +1,1795 @@
+{
+ "0.0Ω|177.1": {
+  "edited_at": "2026-09-04T13:15:26",
+  "status": "ok"
+ },
+ "0.10Ω/1.0Ω/POWER|97.5": {
+  "edited_at": "2026-09-04T12:32:01",
+  "status": "ok"
+ },
+ "0.11Ω/1.1Ω/POWER|97.5": {
+  "edited_at": "2026-09-04T12:32:02",
+  "status": "ok"
+ },
+ "0.12Ω/1.2Ω/POWER|171.9": {
+  "edited_at": "2026-09-04T13:13:57",
+  "status": "ok"
+ },
+ "0.12Ω/1.2Ω/POWER|97.5": {
+  "edited_at": "2026-09-04T12:32:02",
+  "status": "ok"
+ },
+ "0.13Ω/1.3Ω/POWER|171.9": {
+  "edited_at": "2026-09-04T13:13:58",
+  "status": "ok"
+ },
+ "0.13Ω/1.3Ω/POWER|97.5": {
+  "edited_at": "2026-09-04T12:32:04",
+  "status": "ok"
+ },
+ "0.15Ω/1.5Ω/POWER|102.0": {
+  "edited_at": "2026-09-04T12:32:56",
+  "status": "ok"
+ },
+ "0.16Ω/1.6Ω/POWER|102.0": {
+  "edited_at": "2026-09-04T12:32:56",
+  "status": "ok"
+ },
+ "0.18Ω/1.8Ω/POWER|102.5": {
+  "edited_at": "2026-09-04T12:32:58",
+  "status": "ok"
+ },
+ "0.1UF/25V/0.22UF/35V/0.47UF/63V|164.2": {
+  "edited_at": "2026-09-04T13:13:08",
+  "status": "unsure"
+ },
+ "0.20Ω/2.0Ω/POWER|103.3": {
+  "edited_at": "2026-09-04T12:33:06",
+  "status": "ok"
+ },
+ "0.22Ω/2.2Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:15",
+  "status": "ok"
+ },
+ "0.24Ω/2.4Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:16",
+  "status": "ok"
+ },
+ "0.27Ω/2.7Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:18",
+  "status": "ok"
+ },
+ "0.30Ω/3.0Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:19",
+  "status": "ok"
+ },
+ "0.33Ω/3.3Ω/POWER|111.2": {
+  "edited_at": "2026-09-04T12:41:04",
+  "status": "ok"
+ },
+ "0.36Ω/3.6Ω/POWER|112.6": {
+  "edited_at": "2026-09-04T12:41:06",
+  "status": "ok"
+ },
+ "0.39Ω/3.9Ω/POWER|112.6": {
+  "edited_at": "2026-09-04T12:41:06",
+  "status": "ok"
+ },
+ "0.43Ω/4.3Ω/POWER|113.2": {
+  "edited_at": "2026-09-04T12:41:14",
+  "status": "ok"
+ },
+ "0.47Ω/4.7Ω/POWER|119.3": {
+  "edited_at": "2026-09-04T12:59:46",
+  "same_as": 140,
+  "status": "duplicate"
+ },
+ "0.47Ω/4.7Ω/POWER|33.2": {
+  "edited_at": "2026-09-04T12:27:29",
+  "status": "ok"
+ },
+ "0.47Ω|35.9": {
+  "edited_at": "2026-09-04T13:20:17",
+  "status": "ok"
+ },
+ "0.51Ω/5.1Ω/POWER|120.5": {
+  "edited_at": "2026-09-04T12:59:48",
+  "same_as": 135,
+  "status": "duplicate"
+ },
+ "0.51Ω/5.1Ω/POWER|31.8": {
+  "edited_at": "2026-09-04T12:27:25",
+  "status": "ok"
+ },
+ "0.51Ω|35.9": {
+  "edited_at": "2026-09-04T13:20:17",
+  "status": "ok"
+ },
+ "0.56Ω/5.6Ω/POWER|120.5": {
+  "edited_at": "2026-09-04T12:59:51",
+  "same_as": 127,
+  "status": "duplicate"
+ },
+ "0.56Ω/5.6Ω/POWER|30.4": {
+  "edited_at": "2026-09-04T12:26:59",
+  "status": "ok"
+ },
+ "0.56Ω|37.5": {
+  "edited_at": "2026-09-04T13:20:17",
+  "status": "ok"
+ },
+ "0.62Ω/6.2Ω/POWER|121.0": {
+  "edited_at": "2026-09-04T12:59:54",
+  "same_as": 128,
+  "status": "duplicate"
+ },
+ "0.62Ω/6.2Ω/POWER|30.4": {
+  "edited_at": "2026-09-04T12:27:00",
+  "status": "ok"
+ },
+ "0.62Ω|37.5": {
+  "edited_at": "2026-09-04T13:20:19",
+  "status": "ok"
+ },
+ "0.68Ω/6.8Ω/POWER|23.6": {
+  "edited_at": "2026-09-04T12:23:54",
+  "status": "ok"
+ },
+ "0.68Ω|20.6": {
+  "edited_at": "2026-09-04T12:08:46",
+  "status": "ok"
+ },
+ "0.75Ω/7.5Ω/POWER|23.6": {
+  "edited_at": "2026-09-04T12:24:02",
+  "status": "ok"
+ },
+ "0.75Ω|19.6": {
+  "edited_at": "2026-09-04T12:07:20",
+  "status": "ok"
+ },
+ "0.82Ω/8.2Ω/POWER|25.9": {
+  "edited_at": "2026-09-04T12:39:40",
+  "status": "ok"
+ },
+ "0.82Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:44",
+  "status": "ok"
+ },
+ "0.91Ω/9.1Ω/POWER|27.3": {
+  "edited_at": "2026-09-04T12:26:50",
+  "status": "ok"
+ },
+ "0.91Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:45",
+  "status": "ok"
+ },
+ "1.0KΩ/10KΩ/100KΩ/1.0MΩ/POWER|100.0": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:39:56",
+  "status": "ok"
+ },
+ "1.0KΩ/10KΩ/100KΩ/1.0MΩ|98.0": {
+  "category": "Resistor (power)",
+  "contents": [
+   {
+    "category": "Resistor (power)",
+    "label": "1.0KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "10KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "100KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "1.0MΩ"
+   }
+  ],
+  "edited_at": "2026-09-04T12:32:37",
+  "lines": [
+   "1.0KΩ",
+   "10KΩ",
+   "100KΩ",
+   "1.0MΩ"
+  ],
+  "status": "ok"
+ },
+ "1.1KΩ/11KΩ/110KΩ/1.1MΩ/POWER|100.0": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:39:58",
+  "status": "ok"
+ },
+ "1.1KΩ/11KΩ/110KΩ/1.1MΩ|98.0": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:39:53",
+  "status": "ok"
+ },
+ "1.2KΩ/12KΩ/120KΩ/1.2MΩ/POWER|100.0": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:39:59",
+  "status": "ok"
+ },
+ "1.2KΩ/12KΩ/120KΩ/1.2MΩ|98.0": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:39:55",
+  "status": "ok"
+ },
+ "1.2Ω/12Ω/POWER|171.9": {
+  "edited_at": "2026-09-04T12:46:15",
+  "status": "unsure"
+ },
+ "1.3Ω/13Ω/POWER|171.9": {
+  "edited_at": "2026-09-04T12:46:17",
+  "status": "unsure"
+ },
+ "1.5KΩ/15KΩ/150KΩ/1.5MΩ/POWER|146.5": {
+  "edited_at": "2026-09-04T12:43:40",
+  "status": "ok"
+ },
+ "1.5KΩ/TRIMPOT|9.7": {
+  "edited_at": "2026-09-04T12:02:53",
+  "status": "ok"
+ },
+ "1.5UF/250V/2.2UF/100V/2.2UF/250V|154.6": {
+  "edited_at": "2026-09-04T13:12:58",
+  "status": "unsure"
+ },
+ "1.6KΩ/16KΩ/160KΩ/1.6MΩ/POWER|146.5": {
+  "edited_at": "2026-09-04T12:43:41",
+  "status": "ok"
+ },
+ "1.6KΩ/16KΩ/160KΩ/1.6MΩ|102.5": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:40:05",
+  "status": "ok"
+ },
+ "1.8KΩ/18KΩ/180KΩ/1.8MΩ|102.5": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:40:07",
+  "status": "ok"
+ },
+ "1000UF/16V/16V/63V|168.1": {
+  "edited_at": "2026-09-04T13:13:32",
+  "status": "ok"
+ },
+ "1000UF16V/1000UF25V/1000UF35V|169.7": {
+  "edited_at": "2026-09-04T13:14:33",
+  "status": "unsure"
+ },
+ "100KMULTITURN/TRIMPOT|8.1": {
+  "edited_at": "2026-09-04T12:02:36",
+  "status": "ok"
+ },
+ "100UF/250V/100UF/630V/150UF/250V|148.1": {
+  "edited_at": "2026-09-04T13:10:50",
+  "status": "unsure"
+ },
+ "100UF/63V/82UF/63V|159.2": {
+  "edited_at": "2026-09-04T13:13:07",
+  "status": "unsure"
+ },
+ "100ΩMULTITURN/TRIMPOT|7.5": {
+  "edited_at": "2026-09-04T12:01:49",
+  "status": "ok"
+ },
+ "10124N/QUAD/TTL-ECL/TRANSLATOR|1.0": {
+  "edited_at": "2026-09-04T11:42:34",
+  "status": "ok"
+ },
+ "10KΩMULTITUM/TRIMPOT|10.9": {
+  "edited_at": "2026-09-04T12:03:36",
+  "status": "ok"
+ },
+ "10KΩMULTITURN/TRIMPOT|8.1": {
+  "edited_at": "2026-09-04T12:02:34",
+  "status": "ok"
+ },
+ "10UF/63V/100V/400V/10UF/25V|159.2": {
+  "edited_at": "2026-09-04T13:13:07",
+  "status": "unsure"
+ },
+ "10Ω/100Ω/POWER|98.0": {
+  "edited_at": "2026-09-04T12:32:05",
+  "status": "ok"
+ },
+ "11Ω/110Ω/POWER|98.0": {
+  "edited_at": "2026-09-04T12:32:05",
+  "status": "ok"
+ },
+ "12Ω/120Ω/POWER|98.0": {
+  "edited_at": "2026-09-04T12:32:12",
+  "status": "ok"
+ },
+ "150UF/630V/220UF/100V/220UF/250V|155.9": {
+  "edited_at": "2026-09-04T13:12:59",
+  "status": "unsure"
+ },
+ "150UF/630V/820UF/100V/220UF/250V|150.4": {
+  "edited_at": "2026-09-04T13:10:53",
+  "status": "unsure"
+ },
+ "15Ω/150Ω/POWER|102.0": {
+  "edited_at": "2026-09-04T12:32:57",
+  "status": "ok"
+ },
+ "15Ω/150Ω/POWER|146.5": {
+  "edited_at": "2026-09-04T13:00:57",
+  "same_as": 380,
+  "status": "duplicate"
+ },
+ "16Ω/160Ω/POWER|102.0": {
+  "edited_at": "2026-09-04T12:32:57",
+  "status": "ok"
+ },
+ "16Ω/160Ω/POWER|146.5": {
+  "edited_at": "2026-09-04T13:00:57",
+  "same_as": 381,
+  "status": "duplicate"
+ },
+ "180UF/250V/180UF/400V/220UF/250V|153.5": {
+  "edited_at": "2026-09-04T13:12:44",
+  "status": "unsure"
+ },
+ "181|345.5": {
+  "edited_at": "2026-09-04T12:23:24",
+  "note": "empty, not in grid",
+  "status": "not_drawer"
+ },
+ "18Ω/180Ω/POWER|102.5": {
+  "edited_at": "2026-09-04T12:33:00",
+  "status": "ok"
+ },
+ "19.1UF/19.6UF/11.7UF|150.4": {
+  "contents": [
+   {
+    "category": "Capacitor (electrolytic)",
+    "label": "9.1uF"
+   },
+   {
+    "category": "Capacitor (electrolytic)",
+    "label": "9.6uF"
+   },
+   {
+    "category": "Capacitor (electrolytic)",
+    "label": "11.7uF"
+   }
+  ],
+  "edited_at": "2026-09-04T13:10:52",
+  "lines": [
+   "9.1uF",
+   "9.6uF",
+   "11.7uF"
+  ],
+  "status": "unsure"
+ },
+ "196/TM69995|298.9": {
+  "edited_at": "2026-09-04T13:19:09",
+  "lines": [
+   "196"
+  ]
+ },
+ "1K/TRIMPOT|8.6": {
+  "edited_at": "2026-09-04T12:02:52",
+  "status": "ok"
+ },
+ "1KMULTITURN/TRIMPOT|7.5": {
+  "edited_at": "2026-09-04T12:02:26",
+  "status": "ok"
+ },
+ "1KΩMULTITURN/TRIMPOT|8.1": {
+  "edited_at": "2026-09-04T12:02:33",
+  "status": "ok"
+ },
+ "1MΩMULTITUM/TRIMPOT|10.9": {
+  "edited_at": "2026-09-04T12:03:50",
+  "status": "ok"
+ },
+ "1MΩMULTITURN/TRIMPOT|11.7": {
+  "edited_at": "2026-09-04T12:04:46",
+  "same_as": 49,
+  "status": "duplicate"
+ },
+ "1UF/100V/1UF/250V/1.5UF/100V|151.4": {
+  "edited_at": "2026-09-04T13:12:43",
+  "status": "unsure"
+ },
+ "1UF/63V/100V|159.2": {
+  "edited_at": "2026-09-04T13:13:06",
+  "status": "unsure"
+ },
+ "2.0KΩ/20KΩ/200KΩ/2.0MΩ|103.3": {
+  "category": "Resistor (power)",
+  "edited_at": "2026-09-04T12:40:13",
+  "status": "ok"
+ },
+ "2.2KΩ/22KΩ/220KΩ/2.2MΩ|110.0": {
+  "edited_at": "2026-09-04T12:40:58",
+  "status": "ok"
+ },
+ "2.4KΩ/24KΩ/240KΩ/2.4MΩ|110.0": {
+  "edited_at": "2026-09-04T12:40:58",
+  "status": "ok"
+ },
+ "2.7KΩ/27KΩ/270KΩ/2.7MΩ|110.0": {
+  "edited_at": "2026-09-04T12:40:59",
+  "status": "ok"
+ },
+ "200Ω/TRIMPOT|13.0": {
+  "edited_at": "2026-09-04T12:04:57",
+  "status": "ok"
+ },
+ "200ΩMULTITURN/TRIMPOT|7.5": {
+  "edited_at": "2026-09-04T12:01:50",
+  "status": "ok"
+ },
+ "20KΩMULTITURN/TRIMPOT|8.1": {
+  "edited_at": "2026-09-04T12:02:35",
+  "status": "ok"
+ },
+ "20Ω/200Ω/POWER|103.3": {
+  "edited_at": "2026-09-04T12:33:07",
+  "status": "ok"
+ },
+ "20Ω/TRIMPOT|10.9": {
+  "edited_at": "2026-09-04T12:04:27",
+  "status": "unsure"
+ },
+ "20ΩMULTITUM/TRIMPOT|10.9": {
+  "edited_at": "2026-09-04T12:03:02",
+  "status": "ok"
+ },
+ "2200UF/16V/63V|168.1": {
+  "edited_at": "2026-09-04T13:13:32",
+  "status": "ok"
+ },
+ "220UF/250V/330UF/100V/330UF/250V|149.1": {
+  "edited_at": "2026-09-04T13:10:51",
+  "same_as": 612,
+  "status": "unsure"
+ },
+ "220UF/630V/330UF/100V/330UF/250V|150.4": {
+  "edited_at": "2026-09-04T13:10:53",
+  "status": "unsure"
+ },
+ "220UF/63V|165.4": {
+  "edited_at": "2026-09-04T13:13:09",
+  "status": "unsure"
+ },
+ "22UF/50V-63V/27UF/50V/33UF/50V|150.4": {
+  "edited_at": "2026-09-04T13:10:53",
+  "status": "unsure"
+ },
+ "22Ω/220Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:20",
+  "status": "ok"
+ },
+ "24C16/EEPROM|1.0": {
+  "edited_at": "2026-09-04T11:53:31",
+  "status": "ok"
+ },
+ "24Ω/240Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:39",
+  "status": "ok"
+ },
+ "27Ω/270Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:54",
+  "status": "ok"
+ },
+ "2KΩ/TRIMPOT|16.1": {
+  "edited_at": "2026-09-04T12:06:01",
+  "status": "ok"
+ },
+ "2KΩMULTITURN/TRIMPOT|8.1": {
+  "edited_at": "2026-09-04T12:02:33",
+  "status": "ok"
+ },
+ "2MΩ/TRIMPOT|13.0": {
+  "edited_at": "2026-09-04T12:05:04",
+  "status": "ok"
+ },
+ "3.0KΩ/30KΩ/300KΩ/3.0MΩ|110.0": {
+  "edited_at": "2026-09-04T12:40:59",
+  "status": "ok"
+ },
+ "3.3UF/100V/4.7UF/100V/6.8UF/100V|155.9": {
+  "edited_at": "2026-09-04T13:12:59",
+  "status": "unsure"
+ },
+ "3.3UF/250V/3.3UF/630V/4.7UF/250V|155.9": {
+  "edited_at": "2026-09-04T13:13:00",
+  "status": "unsure"
+ },
+ "3.3Ω/330Ω/POWER|116.4": {
+  "edited_at": "2026-09-04T12:41:15",
+  "status": "ok"
+ },
+ "3.3Ω/33Ω/POWER|115.7": {
+  "edited_at": "2026-09-04T12:41:14",
+  "status": "ok"
+ },
+ "3.6KΩ/36KΩ/360KΩ/3.6MΩ|112.6": {
+  "edited_at": "2026-09-04T12:41:11",
+  "status": "ok"
+ },
+ "3.9KΩ/39KΩ/390KΩ/3.9MΩ|112.6": {
+  "edited_at": "2026-09-04T12:41:11",
+  "status": "ok"
+ },
+ "30Ω/300Ω/POWER|108.8": {
+  "edited_at": "2026-09-04T12:40:54",
+  "status": "ok"
+ },
+ "320KΩ|29.2": {
+  "edited_at": "2026-09-04T12:51:38",
+  "lines": [
+   "820KΩ"
+  ],
+  "status": "ok"
+ },
+ "3300UF/50V/16V|168.1": {
+  "edited_at": "2026-09-04T13:13:33",
+  "status": "ok"
+ },
+ "330UF/35V/6.3V/16V|169.7": {
+  "edited_at": "2026-09-04T13:14:30",
+  "status": "unsure"
+ },
+ "330UF/630V/470UF/100V/470UF/250V|151.4": {
+  "edited_at": "2026-09-04T13:12:42",
+  "status": "unsure"
+ },
+ "33UF/250V/33UF/630V/47UF/250V|153.5": {
+  "edited_at": "2026-09-04T13:12:44",
+  "status": "unsure"
+ },
+ "33Ω/330Ω/POWER|111.2": {
+  "edited_at": "2026-09-04T12:41:05",
+  "status": "ok"
+ },
+ "3573123051/REEDRELAY/5V|16.1": {
+  "edited_at": "2026-09-04T12:06:21",
+  "status": "unsure"
+ },
+ "36Ω/360Ω/POWER|111.7": {
+  "edited_at": "2026-09-04T12:41:05",
+  "status": "ok"
+ },
+ "380KΩ|22.6": {
+  "edited_at": "2026-09-04T12:10:54",
+  "same_as": 85,
+  "status": "duplicate"
+ },
+ "39Ω/390Ω/POWER|112.6": {
+  "edited_at": "2026-09-04T12:41:06",
+  "status": "ok"
+ },
+ "4.3KΩ/43KΩ/430KΩ/4.3MΩ|112.6": {
+  "edited_at": "2026-09-04T12:41:11",
+  "status": "ok"
+ },
+ "4.7KΩ/47KΩ/470KΩ/4.7MΩ|33.2": {
+  "category": "Resistor (power)",
+  "contents": [
+   {
+    "category": "Resistor (power)",
+    "label": "4.7KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "47KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "470KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "4.7MΩ"
+   }
+  ],
+  "edited_at": "2026-09-04T12:28:44",
+  "lines": [
+   "4.7KΩ",
+   "47KΩ",
+   "470KΩ",
+   "4.7MΩ"
+  ],
+  "status": "ok"
+ },
+ "4.7KΩ|34.5": {
+  "edited_at": "2026-09-04T13:20:12",
+  "status": "ok"
+ },
+ "4.7Ω|35.5": {
+  "edited_at": "2026-09-04T13:20:14",
+  "status": "ok"
+ },
+ "420UF/630V/630UF/100V/680UF/250V|153.5": {
+  "edited_at": "2026-09-04T13:12:45",
+  "status": "unsure"
+ },
+ "43Ω/430Ω/POWER|112.6": {
+  "edited_at": "2026-09-04T12:41:07",
+  "status": "ok"
+ },
+ "4700UF/16V/63V|168.1": {
+  "edited_at": "2026-09-04T13:13:39",
+  "status": "ok"
+ },
+ "4700UF/50-63V|169.7": {
+  "edited_at": "2026-09-04T13:14:10",
+  "status": "unsure"
+ },
+ "47016V|165.4": {
+  "edited_at": "2026-09-04T12:59:27",
+  "status": "unsure"
+ },
+ "470UF/16V/63V/470250V|166.2": {
+  "edited_at": "2026-09-04T13:13:10",
+  "status": "unsure"
+ },
+ "470UF/630V/680UF/100V/680UF/250V|149.1": {
+  "edited_at": "2026-09-04T13:10:52",
+  "status": "unsure"
+ },
+ "470UF/63V/16V|169.7": {
+  "edited_at": "2026-09-04T13:14:31",
+  "status": "unsure"
+ },
+ "470Ω/TRIMPOT|8.6": {
+  "edited_at": "2026-09-04T12:02:51",
+  "status": "ok"
+ },
+ "470Ω|34.5": {
+  "edited_at": "2026-09-04T13:20:09",
+  "status": "ok"
+ },
+ "47KΩ|33.8": {
+  "edited_at": "2026-09-04T13:20:07",
+  "status": "ok"
+ },
+ "47UF/630V/68UF/250V/68UF/630V|151.4": {
+  "edited_at": "2026-09-04T13:12:41",
+  "status": "unsure"
+ },
+ "47Ω/470Ω/POWER|33.2": {
+  "edited_at": "2026-09-04T12:27:30",
+  "status": "ok"
+ },
+ "47Ω|34.9": {
+  "edited_at": "2026-09-04T13:20:13",
+  "status": "ok"
+ },
+ "480UF/630V/680UF/100V/680UF/250V|154.6": {
+  "edited_at": "2026-09-04T13:12:46",
+  "status": "unsure"
+ },
+ "5.1KΩ/51KΩ/510KΩ/5.1MΩ/POWER|122.3": {
+  "edited_at": "2026-09-04T12:42:20",
+  "status": "ok"
+ },
+ "5.1KΩ|34.5": {
+  "edited_at": "2026-09-04T13:20:13",
+  "status": "ok"
+ },
+ "5.1Ω|35.5": {
+  "edited_at": "2026-09-04T13:20:15",
+  "status": "ok"
+ },
+ "5.6KΩ/56KΩ/560KΩ/5.6MΩ/POWER|122.3": {
+  "edited_at": "2026-09-04T12:42:30",
+  "status": "ok"
+ },
+ "5.6KΩ/56KΩ/560KΩ/5.6MΩ|33.2": {
+  "category": "Resistor (power)",
+  "contents": [
+   {
+    "category": "Resistor (power)",
+    "label": "5.6KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "56KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "560KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "5.6MΩ"
+   }
+  ],
+  "edited_at": "2026-09-04T12:28:50",
+  "lines": [
+   "5.6KΩ",
+   "56KΩ",
+   "560KΩ",
+   "5.6MΩ"
+  ],
+  "status": "ok"
+ },
+ "5.6KΩ|35.5": {
+  "edited_at": "2026-09-04T13:20:16",
+  "status": "ok"
+ },
+ "5.6Ω|37.5": {
+  "edited_at": "2026-09-04T13:20:20",
+  "status": "ok"
+ },
+ "500Ω/TRIMPOT|8.6": {
+  "edited_at": "2026-09-04T12:02:52",
+  "status": "ok"
+ },
+ "500ΩMULTITUM/TRIMPOT|10.9": {
+  "edited_at": "2026-09-04T12:03:21",
+  "status": "ok"
+ },
+ "50ΩMULTITUM/TRIMPOT|10.9": {
+  "edited_at": "2026-09-04T12:03:09",
+  "same_as": 31,
+  "status": "duplicate"
+ },
+ "50ΩMULTITURN/TRIMPOT|7.5": {
+  "edited_at": "2026-09-04T12:01:48",
+  "status": "ok"
+ },
+ "510Ω|34.5": {
+  "edited_at": "2026-09-04T13:20:10",
+  "status": "ok"
+ },
+ "51KΩ|31.8": {
+  "edited_at": "2026-09-04T13:19:27",
+  "same_as": 530,
+  "status": "duplicate"
+ },
+ "51Ω/510Ω/POWER|120.5": {
+  "edited_at": "2026-09-04T12:59:53",
+  "same_as": 136,
+  "status": "duplicate"
+ },
+ "51Ω/510Ω/POWER|31.8": {
+  "edited_at": "2026-09-04T12:27:26",
+  "status": "ok"
+ },
+ "51Ω|34.9": {
+  "edited_at": "2026-09-04T13:20:14",
+  "status": "ok"
+ },
+ "560KΩ|30.4": {
+  "edited_at": "2026-09-04T12:54:51",
+  "same_as": 534,
+  "status": "ok"
+ },
+ "560Ω|35.5": {
+  "edited_at": "2026-09-04T13:20:15",
+  "status": "ok"
+ },
+ "56KΩ|30.4": {
+  "edited_at": "2026-09-04T12:54:35",
+  "same_as": 531,
+  "status": "duplicate"
+ },
+ "56Ω/560Ω/POWER|121.0": {
+  "edited_at": "2026-09-04T12:59:56",
+  "same_as": 129,
+  "status": "duplicate"
+ },
+ "56Ω/560Ω/POWER|30.4": {
+  "edited_at": "2026-09-04T12:27:13",
+  "status": "ok"
+ },
+ "56Ω|37.5": {
+  "edited_at": "2026-09-04T13:20:21",
+  "status": "ok"
+ },
+ "5KΩMULTITUM/TRIMPOT|10.9": {
+  "edited_at": "2026-09-04T12:03:36",
+  "status": "ok"
+ },
+ "6.2KΩ/62KΩ/620KΩ/6.2MΩ/POWER|122.3": {
+  "edited_at": "2026-09-04T12:42:31",
+  "status": "ok"
+ },
+ "6.2KΩ|30.4": {
+  "edited_at": "2026-09-04T12:51:13",
+  "status": "ok"
+ },
+ "6.2Ω|37.5": {
+  "edited_at": "2026-09-04T13:20:20",
+  "status": "ok"
+ },
+ "6.8KΩ/68KΩ/680KΩ/6.8MΩ/POWER|24.6": {
+  "edited_at": "2026-09-04T12:25:42",
+  "same_as": 97,
+  "status": "duplicate"
+ },
+ "6.8KΩ/68KΩ/680KΩ/6.8MΩ|23.6": {
+  "contents": [
+   {
+    "category": "Resistor (power)",
+    "label": "6.8KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "68KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "680KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "6.8MΩ"
+   }
+  ],
+  "edited_at": "2026-09-04T12:25:15",
+  "lines": [
+   "6.8KΩ",
+   "68KΩ",
+   "680KΩ",
+   "6.8MΩ"
+  ],
+  "status": "ok"
+ },
+ "6.8KΩ|20.6": {
+  "edited_at": "2026-09-04T12:09:09",
+  "status": "ok"
+ },
+ "6.8MΩ|21.9": {
+  "edited_at": "2026-09-04T12:09:48",
+  "status": "ok"
+ },
+ "6.8Ω|20.6": {
+  "edited_at": "2026-09-04T12:08:56",
+  "status": "ok"
+ },
+ "60001596|132.7": {
+  "edited_at": "2026-09-04T12:19:25",
+  "status": "ok"
+ },
+ "620KΩ|30.4": {
+  "edited_at": "2026-09-04T12:54:52",
+  "same_as": 547,
+  "status": "ok"
+ },
+ "620Ω|37.5": {
+  "edited_at": "2026-09-04T13:20:22",
+  "status": "ok"
+ },
+ "62KΩ|30.4": {
+  "edited_at": "2026-09-04T12:54:51",
+  "same_as": 546,
+  "status": "ok"
+ },
+ "62Ω/620Ω/POWER|121.0": {
+  "edited_at": "2026-09-04T12:59:57",
+  "same_as": 130,
+  "status": "duplicate"
+ },
+ "62Ω/620Ω/POWER|30.4": {
+  "edited_at": "2026-09-04T12:27:15",
+  "status": "ok"
+ },
+ "62Ω|37.5": {
+  "edited_at": "2026-09-04T13:20:21",
+  "status": "ok"
+ },
+ "6800UF/16V|168.1": {
+  "edited_at": "2026-09-04T13:13:39",
+  "status": "ok"
+ },
+ "680KΩ|21.9": {
+  "edited_at": "2026-09-04T12:09:40",
+  "status": "ok"
+ },
+ "680UF/50V|168.1": {
+  "edited_at": "2026-09-04T13:13:14",
+  "status": "unsure"
+ },
+ "680Ω|20.6": {
+  "edited_at": "2026-09-04T12:09:08",
+  "status": "ok"
+ },
+ "68KΩ|21.0": {
+  "edited_at": "2026-09-04T12:09:13",
+  "status": "ok"
+ },
+ "68MΩ|21.9": {
+  "edited_at": "2026-09-04T12:09:53",
+  "status": "ok"
+ },
+ "68Ω/680Ω/POWER|23.6": {
+  "edited_at": "2026-09-04T12:24:02",
+  "status": "ok"
+ },
+ "7.5KΩ/75KΩ/750KΩ/7.5KΩ/POWER|24.6": {
+  "edited_at": "2026-09-04T12:25:46",
+  "same_as": 98,
+  "status": "duplicate"
+ },
+ "7.5KΩ/75KΩ/750KΩ/7.5MΩ|23.6": {
+  "contents": [
+   {
+    "category": "Resistor (power)",
+    "label": "7.5KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "75KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "750KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "7.5MΩ"
+   }
+  ],
+  "edited_at": "2026-09-04T12:25:34",
+  "lines": [
+   "7.5KΩ",
+   "75KΩ",
+   "750KΩ",
+   "7.5MΩ"
+  ],
+  "status": "ok"
+ },
+ "7.5KΩ|20.6": {
+  "edited_at": "2026-09-04T12:09:10",
+  "status": "ok"
+ },
+ "7.5MΩ|21.9": {
+  "edited_at": "2026-09-04T12:09:50",
+  "status": "ok"
+ },
+ "7.5Ω|19.6": {
+  "edited_at": "2026-09-04T12:07:21",
+  "status": "ok"
+ },
+ "74X00/74X01|277.4": {
+  "edited_at": "2026-09-04T12:47:56",
+  "status": "ok"
+ },
+ "74X02/74X03|277.0": {
+  "edited_at": "2026-09-04T12:47:41",
+  "status": "ok"
+ },
+ "74X04/74X05|277.0": {
+  "edited_at": "2026-09-04T12:47:41",
+  "status": "ok"
+ },
+ "74X06/74X07|277.0": {
+  "edited_at": "2026-09-04T12:47:41",
+  "status": "ok"
+ },
+ "74X08/74X09|282.8": {
+  "edited_at": "2026-09-04T12:48:26",
+  "status": "ok"
+ },
+ "74X10/74X11|277.4": {
+  "edited_at": "2026-09-04T12:47:56",
+  "status": "ok"
+ },
+ "74X12/74X13|277.0": {
+  "edited_at": "2026-09-04T12:47:41",
+  "status": "ok"
+ },
+ "74X130/74X131/74X132|285.2": {
+  "edited_at": "2026-09-04T12:48:26",
+  "status": "ok"
+ },
+ "74X133/74X134/74X135|285.2": {
+  "edited_at": "2026-09-04T12:48:32",
+  "status": "ok"
+ },
+ "74X136/74X137/74X138|288.6": {
+  "edited_at": "2026-09-04T12:48:34",
+  "status": "ok"
+ },
+ "74X139/74X140/74X141|289.4": {
+  "edited_at": "2026-09-04T12:48:37",
+  "status": "ok"
+ },
+ "74X14/74X15|276.6": {
+  "edited_at": "2026-09-04T12:46:36",
+  "status": "ok"
+ },
+ "74X142/74X143/74X144|291.1": {
+  "edited_at": "2026-09-04T12:48:38",
+  "status": "ok"
+ },
+ "74X145/74X146/74X147|285.2": {
+  "edited_at": "2026-09-04T12:48:32",
+  "status": "ok"
+ },
+ "74X148/74X149/74X150|285.2": {
+  "edited_at": "2026-09-04T12:48:33",
+  "status": "ok"
+ },
+ "74X151/74X152/74X153|288.6": {
+  "edited_at": "2026-09-04T12:48:35",
+  "status": "ok"
+ },
+ "74X154/74X155/74X156|289.4": {
+  "edited_at": "2026-09-04T12:48:37",
+  "status": "ok"
+ },
+ "74X157/74X158/74X159|291.1": {
+  "edited_at": "2026-09-04T12:48:38",
+  "status": "ok"
+ },
+ "74X16/74X17|276.6": {
+  "edited_at": "2026-09-04T12:46:37",
+  "status": "ok"
+ },
+ "74X160/74X161/74X162|285.2": {
+  "edited_at": "2026-09-04T12:48:33",
+  "status": "ok"
+ },
+ "74X163/74X164/74X165|285.2": {
+  "edited_at": "2026-09-04T12:48:33",
+  "status": "ok"
+ },
+ "74X166/74X167/74X168|288.6": {
+  "edited_at": "2026-09-04T12:48:35",
+  "status": "ok"
+ },
+ "74X172/74X173/74X174|291.1": {
+  "edited_at": "2026-09-04T12:48:39",
+  "status": "ok"
+ },
+ "74X175/74X176/74X177|285.2": {
+  "edited_at": "2026-09-04T12:48:34",
+  "status": "ok"
+ },
+ "74X178/74X179/74X180|285.2": {
+  "edited_at": "2026-09-04T12:48:34",
+  "status": "ok"
+ },
+ "74X18/74X19|276.6": {
+  "edited_at": "2026-09-04T12:46:37",
+  "status": "ok"
+ },
+ "74X181/74X182/74X183|288.6": {
+  "edited_at": "2026-09-04T12:48:35",
+  "status": "ok"
+ },
+ "74X184/74X185/74X186|289.4": {
+  "edited_at": "2026-09-04T12:48:37",
+  "status": "ok"
+ },
+ "74X187/74X188/74X189|291.1": {
+  "edited_at": "2026-09-04T12:48:39",
+  "status": "ok"
+ },
+ "74X190/74X191/74X192|285.2": {
+  "edited_at": "2026-09-04T12:48:34",
+  "status": "ok"
+ },
+ "74X193/74X194/74X195|285.2": {
+  "edited_at": "2026-09-04T12:48:34",
+  "status": "ok"
+ },
+ "74X196/74X197/74X198|288.6": {
+  "edited_at": "2026-09-04T12:48:37",
+  "status": "ok"
+ },
+ "74X20/74X21|277.4": {
+  "edited_at": "2026-09-04T12:47:56",
+  "status": "ok"
+ },
+ "74X202/74X203/74X204|291.1": {
+  "edited_at": "2026-09-04T12:48:39",
+  "status": "ok"
+ },
+ "74X24/74X25|276.6": {
+  "edited_at": "2026-09-04T12:46:38",
+  "status": "ok"
+ },
+ "74X26/74X27|276.6": {
+  "edited_at": "2026-09-04T12:46:39",
+  "status": "ok"
+ },
+ "74X262/74X263/74X264|293.2": {
+  "edited_at": "2026-09-04T12:48:40",
+  "status": "ok"
+ },
+ "74X28/74X29|276.6": {
+  "edited_at": "2026-09-04T12:46:39",
+  "status": "ok"
+ },
+ "74X32/74X33|277.0": {
+  "edited_at": "2026-09-04T12:47:41",
+  "status": "ok"
+ },
+ "74X34/74X35|276.6": {
+  "edited_at": "2026-09-04T12:46:39",
+  "status": "ok"
+ },
+ "74X36/74X37|276.6": {
+  "edited_at": "2026-09-04T12:46:40",
+  "status": "ok"
+ },
+ "74X38/74X39|276.6": {
+  "edited_at": "2026-09-04T12:46:40",
+  "status": "ok"
+ },
+ "74X40/74X41|277.4": {
+  "edited_at": "2026-09-04T12:47:56",
+  "status": "ok"
+ },
+ "74X42/74X43|277.0": {
+  "edited_at": "2026-09-04T12:47:42",
+  "status": "ok"
+ },
+ "74X44/74X45|276.6": {
+  "edited_at": "2026-09-04T12:46:40",
+  "status": "ok"
+ },
+ "74X46/74X47|276.6": {
+  "edited_at": "2026-09-04T12:46:41",
+  "status": "ok"
+ },
+ "74X48/74X49|276.6": {
+  "edited_at": "2026-09-04T12:46:41",
+  "status": "ok"
+ },
+ "74X50/74X51|277.4": {
+  "edited_at": "2026-09-04T12:47:57",
+  "status": "ok"
+ },
+ "74X52/74X53|277.0": {
+  "edited_at": "2026-09-04T12:47:55",
+  "status": "ok"
+ },
+ "74X54/74X55|276.6": {
+  "edited_at": "2026-09-04T12:47:07",
+  "status": "ok"
+ },
+ "74X56/74X57|276.6": {
+  "edited_at": "2026-09-04T12:47:08",
+  "status": "ok"
+ },
+ "74X58/74X59|276.6": {
+  "edited_at": "2026-09-04T12:47:20",
+  "status": "ok"
+ },
+ "74X60|277.4": {
+  "edited_at": "2026-09-04T12:48:27",
+  "status": "unsure"
+ },
+ "74X62/74X63|276.6": {
+  "edited_at": "2026-09-04T12:47:22",
+  "status": "ok"
+ },
+ "74X64/74X65|276.6": {
+  "edited_at": "2026-09-04T12:47:24",
+  "status": "ok"
+ },
+ "74X66/74X67|276.6": {
+  "edited_at": "2026-09-04T12:47:24",
+  "status": "ok"
+ },
+ "74X68/74X69|276.6": {
+  "edited_at": "2026-09-04T12:47:25",
+  "status": "ok"
+ },
+ "74X72/74X73|276.6": {
+  "edited_at": "2026-09-04T12:47:25",
+  "status": "ok"
+ },
+ "74X74/74X75|276.6": {
+  "edited_at": "2026-09-04T12:47:25",
+  "status": "ok"
+ },
+ "74X76/74X77|276.6": {
+  "edited_at": "2026-09-04T12:47:25",
+  "status": "ok"
+ },
+ "74X82/74X83|276.6": {
+  "edited_at": "2026-09-04T12:47:26",
+  "status": "ok"
+ },
+ "74X84/74X85|276.6": {
+  "edited_at": "2026-09-04T12:47:26",
+  "status": "ok"
+ },
+ "74X86/74X87|276.6": {
+  "edited_at": "2026-09-04T12:47:26",
+  "status": "ok"
+ },
+ "74X88/74X89|276.6": {
+  "edited_at": "2026-09-04T12:47:27",
+  "status": "ok"
+ },
+ "74X92/74X93|276.6": {
+  "edited_at": "2026-09-04T12:47:28",
+  "status": "ok"
+ },
+ "74X94/74X95|276.6": {
+  "edited_at": "2026-09-04T12:47:28",
+  "status": "ok"
+ },
+ "74X96/74X97|276.6": {
+  "edited_at": "2026-09-04T12:47:28",
+  "status": "ok"
+ },
+ "7500Ω|19.6": {
+  "edited_at": "2026-09-04T12:08:03",
+  "lines": [
+   "7.5KΩ"
+  ],
+  "status": "wrong"
+ },
+ "750KΩ|21.9": {
+  "edited_at": "2026-09-04T12:09:43",
+  "status": "ok"
+ },
+ "750Ω|19.6": {
+  "edited_at": "2026-09-04T12:07:30",
+  "status": "ok"
+ },
+ "75KΩ|20.6": {
+  "edited_at": "2026-09-04T12:09:10",
+  "status": "ok"
+ },
+ "75MΩ|21.9": {
+  "edited_at": "2026-09-04T12:09:54",
+  "status": "ok"
+ },
+ "75Ω/750Ω/POWER|23.6": {
+  "edited_at": "2026-09-04T12:24:03",
+  "status": "ok"
+ },
+ "75Ω|20.6": {
+  "edited_at": "2026-09-04T12:08:57",
+  "status": "ok"
+ },
+ "7638/10148/8A|134.5": {
+  "edited_at": "2026-09-04T12:22:11",
+  "status": "unsure"
+ },
+ "79M0T3C/NEGATIVE/VOLTAGE/REGULATOR|58.2": {
+  "edited_at": "2026-09-04T13:26:58",
+  "lines": [
+   "79MGT3C",
+   "Negative",
+   "Voltage",
+   "regulator"
+  ],
+  "status": "ok"
+ },
+ "7ED6/10148/8A|134.0": {
+  "edited_at": "2026-09-04T12:22:09",
+  "status": "unsure"
+ },
+ "8.2KΩ/82KΩ/820KΩ/8.2MΩ/POWER|25.9": {
+  "edited_at": "2026-09-04T12:39:15",
+  "same_as": 97,
+  "status": "ok"
+ },
+ "8.2KΩ|18.7": {
+  "edited_at": "2026-09-04T12:07:01",
+  "status": "ok"
+ },
+ "8.2MΩ|27.8": {
+  "edited_at": "2026-09-04T12:50:02",
+  "status": "ok"
+ },
+ "8.2Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:46",
+  "status": "ok"
+ },
+ "8.8MΩ|22.6": {
+  "edited_at": "2026-09-04T12:11:27",
+  "same_as": 87,
+  "status": "duplicate"
+ },
+ "81LS95/81LS97/3-STATEOCTALBUFFER|49.4": {
+  "edited_at": "2026-09-04T13:24:25",
+  "status": "ok"
+ },
+ "8200Ω|19.6": {
+  "edited_at": "2026-09-04T12:08:32",
+  "same_as": 70,
+  "status": "duplicate"
+ },
+ "820KΩ|18.7": {
+  "edited_at": "2026-09-04T12:07:13",
+  "status": "ok"
+ },
+ "820KΩ|28.7": {
+  "edited_at": "2026-09-04T13:19:29",
+  "same_as": 70,
+  "status": "duplicate"
+ },
+ "820UF/250V/820UF/400V/1UF/250V|151.4": {
+  "edited_at": "2026-09-04T13:12:42",
+  "status": "unsure"
+ },
+ "820Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:54",
+  "status": "ok"
+ },
+ "82KΩ|18.7": {
+  "edited_at": "2026-09-04T12:07:02",
+  "status": "ok"
+ },
+ "82KΩ|28.7": {
+  "edited_at": "2026-09-04T13:19:32",
+  "same_as": 68,
+  "status": "duplicate"
+ },
+ "82MΩ|25.9": {
+  "edited_at": "2026-09-04T12:49:55",
+  "status": "ok"
+ },
+ "82UF/50/100UF/12V/100UF/50V|150.4": {
+  "edited_at": "2026-09-04T13:10:53",
+  "status": "unsure"
+ },
+ "82Ω/820Ω/POWER|25.9": {
+  "edited_at": "2026-09-04T12:39:43",
+  "status": "ok"
+ },
+ "82Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:48",
+  "status": "ok"
+ },
+ "9.1KΩ/91KΩ/910KΩ/9.1MΩ/POWER|25.9": {
+  "category": "Resistor (power)",
+  "contents": [
+   {
+    "category": "Resistor (power)",
+    "label": "9.1KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "91KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "910KΩ"
+   },
+   {
+    "category": "Resistor (power)",
+    "label": "9.1MΩ"
+   }
+  ],
+  "edited_at": "2026-09-04T12:30:53",
+  "lines": [
+   "9.1KΩ",
+   "91KΩ",
+   "910KΩ",
+   "9.1MΩ",
+   "POWER"
+  ],
+  "status": "ok"
+ },
+ "9.1KΩ|18.7": {
+  "edited_at": "2026-09-04T12:07:02",
+  "status": "ok"
+ },
+ "9.1KΩ|28.4": {
+  "edited_at": "2026-09-04T13:19:36",
+  "same_as": 67,
+  "status": "duplicate"
+ },
+ "9.1MΩ|27.3": {
+  "edited_at": "2026-09-04T12:49:51",
+  "status": "ok"
+ },
+ "9.1Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:47",
+  "status": "ok"
+ },
+ "910KΩ|18.7": {
+  "edited_at": "2026-09-04T12:07:13",
+  "status": "ok"
+ },
+ "910KΩ|28.4": {
+  "edited_at": "2026-09-04T13:19:36",
+  "same_as": 71,
+  "status": "duplicate"
+ },
+ "910Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:59",
+  "status": "ok"
+ },
+ "91KΩ|18.7": {
+  "edited_at": "2026-09-04T12:07:03",
+  "status": "ok"
+ },
+ "91KΩ|28.4": {
+  "edited_at": "2026-09-04T13:19:36",
+  "same_as": 69,
+  "status": "duplicate"
+ },
+ "91MΩ|27.3": {
+  "edited_at": "2026-09-04T12:49:52",
+  "status": "ok"
+ },
+ "91Ω/910Ω/POWER|25.9": {
+  "edited_at": "2026-09-04T12:31:16",
+  "status": "ok"
+ },
+ "91Ω|18.7": {
+  "edited_at": "2026-09-04T12:06:48",
+  "status": "ok"
+ },
+ "93C56/EEPROM|1.0": {
+  "edited_at": "2026-09-04T11:53:35",
+  "status": "ok"
+ },
+ "93L415-PC/SRAM|1.0": {
+  "edited_at": "2026-09-04T11:54:43",
+  "status": "ok"
+ },
+ "?|378.1": {
+  "edited_at": "2026-09-04T12:23:38",
+  "status": "unsure"
+ },
+ "AMD/AM29700PC/RAM|1.0": {
+  "edited_at": "2026-09-04T11:56:04",
+  "status": "unsure"
+ },
+ "AMD/AM6688/4BITQUANTIZISER|1.0": {
+  "edited_at": "2026-09-04T11:54:26",
+  "status": "ok"
+ },
+ "BATTERYHOLDER/CR2032X1|3.0": {
+  "edited_at": "2026-09-04T11:56:53",
+  "status": "ok"
+ },
+ "CA3140/MOSFET-/OPAMP|53.4": {
+  "edited_at": "2026-09-04T13:24:51",
+  "status": "ok"
+ },
+ "CNY75A/H11A1/OPAMP|54.5": {
+  "edited_at": "2026-09-04T13:25:18",
+  "note": "Needs label fix",
+  "status": "ok"
+ },
+ "DCMOTOR|2.5": {
+  "edited_at": "2026-09-04T11:56:43",
+  "status": "ok"
+ },
+ "DS1225Y/RAM|1.0": {
+  "edited_at": "2026-09-04T11:55:13",
+  "status": "ok"
+ },
+ "DS75492/MOS-TO-LED/HEXDIGITDRIVER|49.4": {
+  "edited_at": "2026-09-04T13:24:14",
+  "status": "ok"
+ },
+ "EL2020CN/OPAMP|54.5": {
+  "edited_at": "2026-09-04T13:24:52",
+  "status": "ok"
+ },
+ "HC191|293.7": {
+  "edited_at": "2026-09-04T12:48:48",
+  "status": "ok"
+ },
+ "HC243|293.7": {
+  "edited_at": "2026-09-04T12:48:46",
+  "status": "ok"
+ },
+ "HC260|293.7": {
+  "edited_at": "2026-09-04T12:48:46",
+  "status": "ok"
+ },
+ "HN58064/P-25/EEPROM|1.0": {
+  "edited_at": "2026-09-04T11:54:18",
+  "status": "unsure"
+ },
+ "INTEL/NEC/D8749HD/8-BIT/CPU|1.0": {
+  "edited_at": "2026-09-04T11:56:33",
+  "status": "ok"
+ },
+ "INTEL8080A/8-BIT/CPU|1.0": {
+  "edited_at": "2026-09-04T11:56:36",
+  "status": "ok"
+ },
+ "ISD1016AP/VOICE/RECORD//PLAYBACK|1.0": {
+  "edited_at": "2026-09-04T11:51:47",
+  "status": "ok"
+ },
+ "JBP18S030/32X8BI-POLAR/PROM|3.0": {
+  "edited_at": "2026-09-04T11:58:55",
+  "status": "ok"
+ },
+ "KLEMMUFFER|1.0": {
+  "edited_at": "2026-09-04T11:43:55",
+  "status": "ok"
+ },
+ "KM4164B/TMS4256/DRAM|1.0": {
+  "edited_at": "2026-09-04T11:51:34",
+  "status": "ok"
+ },
+ "LF156H/OPAMP|52.4": {
+  "edited_at": "2026-09-04T13:24:29",
+  "status": "ok"
+ },
+ "LF353-N/DUALJFET/OPAMP|55.7": {
+  "edited_at": "2026-09-04T13:25:37",
+  "status": "ok"
+ },
+ "LH0002/BUFFER|1.0": {
+  "edited_at": "2026-09-04T11:42:12",
+  "status": "ok"
+ },
+ "LH0021CK/POWER/OPAMP|52.4": {
+  "edited_at": "2026-09-04T13:24:34",
+  "status": "ok"
+ },
+ "LH0032CG/OPAMP|52.4": {
+  "edited_at": "2026-09-04T13:24:31",
+  "status": "ok"
+ },
+ "LH0033CG/FETINPUT/VOLTAGEFOLLOWER/BUFFER|49.4": {
+  "edited_at": "2026-09-04T13:24:04",
+  "status": "ok"
+ },
+ "LM208/OPAMP|54.5": {
+  "edited_at": "2026-09-04T13:24:53",
+  "status": "ok"
+ },
+ "LM308T/OPAMP|52.4": {
+  "edited_at": "2026-09-04T13:24:33",
+  "status": "ok"
+ },
+ "LM324/OPAMP|55.7": {
+  "edited_at": "2026-09-04T13:25:38",
+  "status": "ok"
+ },
+ "LM353|217.6": {
+  "edited_at": "2026-09-04T13:18:20",
+  "note": "Possibly 1µF electrolytic caps?",
+  "status": "wrong"
+ },
+ "LM567/TONE/DECODER|3.0": {
+  "edited_at": "2026-09-04T11:58:21",
+  "status": "ok"
+ },
+ "M80C154/8-BIT/MICROCONTROLLER/MCU|1.0": {
+  "edited_at": "2026-09-04T11:56:16",
+  "status": "ok"
+ },
+ "MAA4001/MAA4004/MAA4051|233.8": {
+  "contents": [
+   {
+    "category": "Logic (CMOS 4000)",
+    "label": "MAA4001"
+   },
+   {
+    "category": "Logic (CMOS 4000)",
+    "label": "MAA4004"
+   },
+   {
+    "category": "Logic (CMOS 4000)",
+    "label": "MAA4051"
+   }
+  ],
+  "edited_at": "2026-09-04T12:22:45",
+  "status": "ok"
+ },
+ "MAYBE!/MAX6383-/XR16D3/ΜPRESET/CIRCUIT|3.8": {
+  "edited_at": "2026-09-04T12:00:04",
+  "status": "unsure"
+ },
+ "MC1439G/OPAMP|53.4": {
+  "edited_at": "2026-09-04T13:24:37",
+  "status": "ok"
+ },
+ "MC3361BP/LOWPOWER/NARROWBAND/FMIF|43.2": {
+  "edited_at": "2026-09-04T13:21:28",
+  "status": "ok"
+ },
+ "ML1008|134.0": {
+  "edited_at": "2026-09-04T12:21:27",
+  "status": "unsure"
+ },
+ "MM5290-2/DRAM|1.0": {
+  "edited_at": "2026-09-04T11:54:33",
+  "status": "ok"
+ },
+ "MN2114-3/SRAM|3.0": {
+  "edited_at": "2026-09-04T11:59:08",
+  "status": "ok"
+ },
+ "MPID1603/470G|132.7": {
+  "category": "Resistor network",
+  "edited_at": "2026-09-04T12:21:16",
+  "lines": [
+   "MPD1603-470g"
+  ],
+  "status": "wrong"
+ },
+ "NCP1200/PWMI-MODE/CTRLFORLOW/POWER|45.6": {
+  "edited_at": "2026-09-04T13:22:09",
+  "status": "ok"
+ },
+ "PICO-10.5K125M6A|132.7": {
+  "edited_at": "2026-09-04T12:19:42",
+  "status": "unsure"
+ },
+ "PRME-15005B/REEDRELAY/5V|13.0": {
+  "edited_at": "2026-09-04T12:05:28",
+  "status": "ok"
+ },
+ "RC4559/DUAL/OPAMP|52.4": {
+  "edited_at": "2026-09-04T13:24:32",
+  "status": "ok"
+ },
+ "SAA1280/SAA1282/SAA1283/TV/CRT/ICS|43.2": {
+  "edited_at": "2026-09-04T13:21:45",
+  "status": "ok"
+ },
+ "SAA1283SAA1294/SAA1291SAA1296/SAA1292TV/CRTICS|45.6": {
+  "edited_at": "2026-09-04T13:22:24",
+  "status": "ok"
+ },
+ "SAA5020/SAA5050/SAA5030/SAA5052/SAA5041/SAA5053|39.6": {
+  "edited_at": "2026-09-04T13:20:56",
+  "status": "ok"
+ },
+ "SAA5051/SAA5243/TELETEXT/IC|39.6": {
+  "edited_at": "2026-09-04T13:21:00",
+  "status": "ok"
+ },
+ "SL1430/TV/CRT/IF/PREAMP|45.6": {
+  "edited_at": "2026-09-04T13:22:36",
+  "status": "ok"
+ },
+ "SMD-0603|174.3": {
+  "edited_at": "2026-09-04T13:15:38",
+  "status": "not_drawer"
+ },
+ "SMD-0603|190.8": {
+  "edited_at": "2026-09-04T13:15:46",
+  "status": "not_drawer"
+ },
+ "SN55115/SN75115/DUALDIFFERENTIAL/RECEIVERS|49.4": {
+  "edited_at": "2026-09-04T13:24:20",
+  "status": "ok"
+ },
+ "SN75172N/SN75173N/QUADDIFF/LINEDRIVER//RECIEVER|39.6": {
+  "edited_at": "2026-09-04T13:20:42",
+  "status": "ok"
+ },
+ "SN75189/MC1489/QUADLINERECEIVER|45.6": {
+  "edited_at": "2026-09-04T13:22:41",
+  "status": "ok"
+ },
+ "SN75189/MC1489/QUADLINERECIEVER|47.5": {
+  "edited_at": "2026-09-04T13:23:43",
+  "same_as": 176,
+  "status": "duplicate"
+ },
+ "SN75491/MOS-TO-LED/QUADSEGMENTDRIVER|45.6": {
+  "edited_at": "2026-09-04T13:22:32",
+  "status": "ok"
+ },
+ "SOLENOID/VALVES|3.0": {
+  "edited_at": "2026-09-04T11:56:53",
+  "status": "ok"
+ },
+ "SPC/3624RC/25B|134.5": {
+  "edited_at": "2026-09-04T12:22:16",
+  "status": "unsure"
+ },
+ "SPU2220/SPU2221/TV/CRT/SECAM/PROCESSOR|43.2": {
+  "edited_at": "2026-09-04T13:21:10",
+  "status": "ok"
+ },
+ "STAG|375.5": {
+  "edited_at": "2026-09-04T12:23:33",
+  "status": "unsure"
+ },
+ "SWITCH/SPST/DIL|13.0": {
+  "edited_at": "2026-09-04T12:05:36",
+  "status": "ok"
+ },
+ "TAA761/TAA765/OPAMP|53.4": {
+  "edited_at": "2026-09-04T13:24:36",
+  "status": "ok"
+ },
+ "TDA1001/TDA1005/TDA1013|137.5": {
+  "edited_at": "2026-09-04T12:42:53",
+  "status": "ok"
+ },
+ "TDA1074/TDA1170/TDA1432|142.7": {
+  "edited_at": "2026-09-04T12:43:14",
+  "status": "ok"
+ },
+ "TDA1512/TDA1514/TDA1521/TDA1524|137.5": {
+  "edited_at": "2026-09-04T12:43:01",
+  "status": "ok"
+ },
+ "TDA1670/TDA1675/TDA1701/TDA1940|137.5": {
+  "edited_at": "2026-09-04T12:43:02",
+  "status": "ok"
+ },
+ "TDA2040/2030/TDA2140/TDA2161/TDA2503|142.7": {
+  "edited_at": "2026-09-04T12:43:14",
+  "status": "ok"
+ },
+ "TDA2522/TDA2525/TDA2530/TDA2532|137.5": {
+  "edited_at": "2026-09-04T12:43:02",
+  "status": "ok"
+ },
+ "TDA2541/TDA2560/TDA2545/TDA2574/TDA2549/TDA2556|137.5": {
+  "edited_at": "2026-09-04T12:43:02",
+  "status": "ok"
+ },
+ "TDA2730/TDA2740/TDA3566/TDA3571|142.7": {
+  "edited_at": "2026-09-04T12:43:15",
+  "status": "ok"
+ },
+ "TDA2780/TDA2910/TDA3301/TDA3505|137.5": {
+  "edited_at": "2026-09-04T12:43:13",
+  "status": "ok"
+ },
+ "TDA3506/TDA3560/TDA3561/TDA3640|137.5": {
+  "edited_at": "2026-09-04T12:43:14",
+  "status": "ok"
+ },
+ "TDA3590/TDA3640/TDA3653/TDA3780|142.7": {
+  "edited_at": "2026-09-04T12:43:16",
+  "status": "ok"
+ },
+ "TDA3630TDA4442/TDA3950TDA4505/TDA4420/TDA4427|142.7": {
+  "edited_at": "2026-09-04T12:43:15",
+  "status": "ok"
+ },
+ "TEA1507P/GREENCHIP2/SMPSCTRL/IC|45.6": {
+  "edited_at": "2026-09-04T13:21:56",
+  "status": "ok"
+ },
+ "TL084/FET-/OPAMP|55.7": {
+  "edited_at": "2026-09-04T13:25:42",
+  "status": "ok"
+ },
+ "TMS9901NL/PROGRAMMSYS/INTERFACE|1.0": {
+  "edited_at": "2026-09-04T11:42:07",
+  "status": "ok"
+ },
+ "TRACISPACE/DIVTRANSISTOR/MONTTILBEHØR|1.0": {
+  "edited_at": "2026-09-04T11:41:41",
+  "status": "ok"
+ },
+ "UA78S40/UNISW/REGSUBSYSTEM|1.0": {
+  "edited_at": "2026-09-04T11:42:18",
+  "status": "ok"
+ },
+ "UPD4116C-2/RAM|3.0": {
+  "edited_at": "2026-09-04T11:59:39",
+  "status": "ok"
+ },
+ "UPD416C-2/RAM|4.7": {
+  "edited_at": "2026-09-04T12:00:44",
+  "same_as": 27,
+  "status": "duplicate"
+ },
+ "VCU2100/VCU2133/VCU2136/TV/CRT/IC|43.2": {
+  "edited_at": "2026-09-04T13:21:13",
+  "status": "ok"
+ },
+ "XR2211/TONE/DECODER|1.0": {
+  "edited_at": "2026-09-04T11:52:48",
+  "status": "unsure"
+ },
+ "XX6116/XX6264/RAM|1.0": {
+  "edited_at": "2026-09-04T11:55:27",
+  "status": "ok"
+ },
+ "ZILOG/Z80A/CPU|5.5": {
+  "edited_at": "2026-09-04T12:01:17",
+  "status": "ok"
+ }
+}

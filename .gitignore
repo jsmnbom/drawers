@@ -1,0 +1,14 @@
+# source video (3.5 GB) and full-size keyframes (201 MB) — local only
+*.mp4
+frames/*.jpg
+
+# python
+.venv/
+__pycache__/
+
+# image intermediates from the pipeline
+work/slices/
+work/samples/
+work/ocrtest/
+work/thincheck/
+site/frames/.build.json

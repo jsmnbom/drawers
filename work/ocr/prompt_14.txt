@@ -1,0 +1,78 @@
+
+MANDATORY FIRST LINE of your final report: "MODEL: <exact model id>" copied from your system prompt; reports without it are discarded.
+
+You are an OCR agent reading electronic-component drawer labels from video keyframes (a camera panning across drawer cabinets).
+
+Process these image files IN ORDER, one at a time (timestamps for each file are listed below):
+
+/home/jas/dev/tests/drawers/frames/k_0250.jpg
+/home/jas/dev/tests/drawers/frames/k_0251.jpg
+/home/jas/dev/tests/drawers/frames/k_0252.jpg
+/home/jas/dev/tests/drawers/frames/k_0253.jpg
+/home/jas/dev/tests/drawers/frames/k_0254.jpg
+/home/jas/dev/tests/drawers/frames/k_0255.jpg
+/home/jas/dev/tests/drawers/frames/k_0256.jpg
+/home/jas/dev/tests/drawers/frames/k_0257.jpg
+/home/jas/dev/tests/drawers/frames/k_0258.jpg
+/home/jas/dev/tests/drawers/frames/k_0259.jpg
+/home/jas/dev/tests/drawers/frames/k_0260.jpg
+/home/jas/dev/tests/drawers/frames/k_0261.jpg
+/home/jas/dev/tests/drawers/frames/k_0262.jpg
+/home/jas/dev/tests/drawers/frames/k_0263.jpg
+/home/jas/dev/tests/drawers/frames/k_0264.jpg
+/home/jas/dev/tests/drawers/frames/k_0265.jpg
+/home/jas/dev/tests/drawers/frames/k_0266.jpg
+/home/jas/dev/tests/drawers/frames/k_0267.jpg
+/home/jas/dev/tests/drawers/frames/k_0268.jpg
+/home/jas/dev/tests/drawers/frames/k_0269.jpg
+
+For EACH image: Read it, find every drawer label with legible text, and record one JSON object per label. After finishing each image, APPEND its records to /home/jas/dev/tests/drawers/work/ocr/agent_14.jsonl as JSONL (one compact JSON object per line) using a Bash heredoc:
+
+    cat >> /home/jas/dev/tests/drawers/work/ocr/agent_14.jsonl <<'JSONL'
+    {"lines": [...], ...}
+    {"lines": [...], ...}
+    JSONL
+
+Do not wait until the end to write; append after each image so no work is lost.
+
+JSON object schema (one per drawer label per frame):
+{"lines": ["1N972B", "1N973B", "Zener"], "category": "Zener", "frame": "k_t0093.0.jpg", "t": 93.0, "where": "row 3, second from left", "confidence": 0.9}
+
+Rules:
+- "lines": every text line on the label, verbatim, top to bottom. Transcribe exactly what you see; do NOT normalize, expand, or correct part numbers.
+- "category": the component-category word if the label carries one (e.g. Diode, Zener, Schottky, Transistor), else null.
+- "frame": the image's basename; "t": its timestamp from the filename.
+- "where": a short human-findable location hint within the frame (e.g. "top-left area", "row ~4, middle").
+- "confidence": your 0-1 confidence in this transcription.
+- Skip labels too blurred/small/cut-off to read reliably — do NOT guess whole labels. If you can read most characters but are unsure of one or two, include the record with lower confidence.
+- The same drawer appears in multiple overlapping frames — expected. Report each frame independently; do NOT dedup across frames.
+- Some frames are motion-blurred transitions with nothing legible; write no records for those and move on.
+
+Efficiency rules (strict):
+- Read each image exactly once. You may additionally crop/zoom (via Bash + Read of the crop) ONLY when a specific label is genuinely ambiguous.
+- NEVER re-read or "validate" the output JSONL file; append and move on.
+- No summary prose in the final report beyond the two required lines.
+
+Final report: just the MODEL line plus one line: "<N> records written for <M> of <K> frames".
+
+Timestamps (use for the "t" field):
+k_0250.jpg: t=180.5
+k_0251.jpg: t=180.91
+k_0252.jpg: t=181.3
+k_0253.jpg: t=181.7
+k_0254.jpg: t=182.52
+k_0255.jpg: t=183.43
+k_0256.jpg: t=184.13
+k_0257.jpg: t=185.12
+k_0258.jpg: t=185.85
+k_0259.jpg: t=186.37
+k_0260.jpg: t=187.04
+k_0261.jpg: t=187.69
+k_0262.jpg: t=188.02
+k_0263.jpg: t=188.29
+k_0264.jpg: t=188.85
+k_0265.jpg: t=189.54
+k_0266.jpg: t=190.22
+k_0267.jpg: t=190.82
+k_0268.jpg: t=191.22
+k_0269.jpg: t=192.16

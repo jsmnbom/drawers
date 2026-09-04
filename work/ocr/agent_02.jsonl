@@ -1,0 +1,140 @@
+{"lines": ["680Ω"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["750Ω"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["6.8KΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["7.5KΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["68KΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["75KΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 4, right column", "confidence": 0.85}
+{"lines": ["680KΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 5, left column", "confidence": 0.5}
+{"lines": ["750KΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 5, right column", "confidence": 0.85}
+{"lines": ["6.8MΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 6, left column", "confidence": 0.75}
+{"lines": ["7.5MΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 6, right column", "confidence": 0.85}
+{"lines": ["68MΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 7, left column", "confidence": 0.85}
+{"lines": ["75MΩ"], "category": null, "frame": "k_0030.jpg", "t": 21.95, "where": "row 7, right column", "confidence": 0.85}
+{"lines": ["6.8KΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 2 (of visible), left column", "confidence": 0.9}
+{"lines": ["7.5KΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 2 (of visible), right column", "confidence": 0.9}
+{"lines": ["68KΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 3 (of visible), left column", "confidence": 0.9}
+{"lines": ["75KΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 3 (of visible), right column", "confidence": 0.9}
+{"lines": ["380KΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 4 (of visible), left column", "confidence": 0.75}
+{"lines": ["750KΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 4 (of visible), right column", "confidence": 0.9}
+{"lines": ["8.8MΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 5 (of visible), left column", "confidence": 0.6}
+{"lines": ["7.5MΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 5 (of visible), right column", "confidence": 0.9}
+{"lines": ["68MΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 6 (of visible), left column", "confidence": 0.9}
+{"lines": ["75MΩ"], "category": null, "frame": "k_0031.jpg", "t": 22.56, "where": "row 6 (of visible), right column", "confidence": 0.9}
+{"lines": ["6.8KΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "top row, left column", "confidence": 0.9}
+{"lines": ["7.5KΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["68KΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["75KΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["380KΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 3, left column", "confidence": 0.8}
+{"lines": ["750KΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["8.8MΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 4, left column", "confidence": 0.65}
+{"lines": ["7.5MΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["68MΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["75MΩ"], "category": null, "frame": "k_0032.jpg", "t": 22.86, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["380KΩ"], "category": null, "frame": "k_0033.jpg", "t": 23.62, "where": "top row, left column", "confidence": 0.8}
+{"lines": ["750KΩ"], "category": null, "frame": "k_0033.jpg", "t": 23.62, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["8.8MΩ"], "category": null, "frame": "k_0033.jpg", "t": 23.62, "where": "row 2, left column", "confidence": 0.65}
+{"lines": ["7.5MΩ"], "category": null, "frame": "k_0033.jpg", "t": 23.62, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["68MΩ"], "category": null, "frame": "k_0033.jpg", "t": 23.62, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["75MΩ"], "category": null, "frame": "k_0033.jpg", "t": 23.62, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["0.68Ω", "6.8Ω", "POWER"], "category": "Power", "frame": "k_0033.jpg", "t": 23.62, "where": "row 4 (white label), left column", "confidence": 0.6}
+{"lines": ["0.75Ω", "7.5Ω", "POWER"], "category": "Power", "frame": "k_0033.jpg", "t": 23.62, "where": "row 4 (white label), right column", "confidence": 0.55}
+{"lines": ["68Ω", "680Ω", "POWER"], "category": "Power", "frame": "k_0033.jpg", "t": 23.62, "where": "row 5 (white label), left column", "confidence": 0.6}
+{"lines": ["75Ω", "750Ω", "POWER"], "category": "Power", "frame": "k_0033.jpg", "t": 23.62, "where": "row 5 (white label), right column", "confidence": 0.6}
+{"lines": ["6.8KΩ", "68KΩ", "680KΩ / 6.8MΩ"], "category": "Power", "frame": "k_0033.jpg", "t": 23.62, "where": "row 6 (white label, bottom edge), left column", "confidence": 0.4}
+{"lines": ["7.5KΩ", "75KΩ", "750KΩ / 7.5MΩ"], "category": "Power", "frame": "k_0033.jpg", "t": 23.62, "where": "row 6 (white label, bottom edge), right column", "confidence": 0.4}
+{"lines": ["68MΩ"], "category": null, "frame": "k_0034.jpg", "t": 24.61, "where": "top area, left column", "confidence": 0.9}
+{"lines": ["75MΩ"], "category": null, "frame": "k_0034.jpg", "t": 24.61, "where": "top area, right column", "confidence": 0.9}
+{"lines": ["0.68Ω", "6.8Ω", "POWER"], "category": "Power", "frame": "k_0034.jpg", "t": 24.61, "where": "row 2 (white label), left column", "confidence": 0.95}
+{"lines": ["0.75Ω", "7.5Ω", "POWER"], "category": "Power", "frame": "k_0034.jpg", "t": 24.61, "where": "row 2 (white label), right column", "confidence": 0.95}
+{"lines": ["68Ω", "680Ω", "POWER"], "category": "Power", "frame": "k_0034.jpg", "t": 24.61, "where": "row 3 (white label), left column", "confidence": 0.95}
+{"lines": ["75Ω", "750Ω", "POWER"], "category": "Power", "frame": "k_0034.jpg", "t": 24.61, "where": "row 3 (white label), right column", "confidence": 0.95}
+{"lines": ["6.8KΩ", "68KΩ", "680KΩ / 6.8MΩ", "POWER"], "category": "Power", "frame": "k_0034.jpg", "t": 24.61, "where": "row 4 (white label), left column", "confidence": 0.9}
+{"lines": ["7.5KΩ", "75KΩ", "750KΩ / 7.5KΩ", "POWER"], "category": "Power", "frame": "k_0034.jpg", "t": 24.61, "where": "row 4 (white label), right column", "confidence": 0.85}
+{"lines": ["KDS8C", "32.768KHz"], "category": "Crystal", "frame": "k_0034.jpg", "t": 24.61, "where": "bottom row, left column", "confidence": 0.7}
+{"lines": ["82MΩ"], "category": null, "frame": "k_0035.jpg", "t": 25.89, "where": "top row, middle column", "confidence": 0.9}
+{"lines": ["0.75Ω", "7.5Ω", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 2 (white label), left column", "confidence": 0.95}
+{"lines": ["0.82Ω", "8.2Ω", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 2 (white label), middle column", "confidence": 0.95}
+{"lines": ["75Ω", "750Ω", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 3 (white label), left column", "confidence": 0.95}
+{"lines": ["82Ω", "820Ω", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 3 (white label), middle column", "confidence": 0.95}
+{"lines": ["91Ω", "910Ω", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 3 (white label), right column", "confidence": 0.85}
+{"lines": ["7.5KΩ", "75KΩ", "750KΩ / 7.5KΩ", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 4 (white label), left column", "confidence": 0.9}
+{"lines": ["8.2KΩ", "82KΩ", "820KΩ / 8.2MΩ", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 4 (white label), middle column", "confidence": 0.9}
+{"lines": ["9.1KΩ", "91KΩ", "910KΩ / 9.1MΩ", "POWER"], "category": "Power", "frame": "k_0035.jpg", "t": 25.89, "where": "row 4 (white label), right column", "confidence": 0.85}
+{"lines": ["9.1MΩ"], "category": null, "frame": "k_0036.jpg", "t": 27.28, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["91MΩ"], "category": null, "frame": "k_0036.jpg", "t": 27.28, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["0.82Ω", "8.2Ω", "POWER"], "category": "Power", "frame": "k_0036.jpg", "t": 27.28, "where": "row 3 (white label), left column", "confidence": 0.95}
+{"lines": ["0.91Ω", "9.1Ω", "POWER"], "category": "Power", "frame": "k_0036.jpg", "t": 27.28, "where": "row 3 (white label), right column", "confidence": 0.95}
+{"lines": ["82Ω", "820Ω", "POWER"], "category": "Power", "frame": "k_0036.jpg", "t": 27.28, "where": "row 4 (white label), left column", "confidence": 0.95}
+{"lines": ["91Ω", "910Ω", "POWER"], "category": "Power", "frame": "k_0036.jpg", "t": 27.28, "where": "row 4 (white label), right column", "confidence": 0.95}
+{"lines": ["8.2KΩ", "82KΩ", "820KΩ / 8.2MΩ", "POWER"], "category": "Power", "frame": "k_0036.jpg", "t": 27.28, "where": "row 5 (white label), left column", "confidence": 0.9}
+{"lines": ["9.1KΩ", "91KΩ", "910KΩ / 9.1MΩ", "POWER"], "category": "Power", "frame": "k_0036.jpg", "t": 27.28, "where": "row 5 (white label), right column", "confidence": 0.9}
+{"lines": ["8.2MΩ"], "category": null, "frame": "k_0037.jpg", "t": 27.78, "where": "top row, left column", "confidence": 0.85}
+{"lines": ["9.1MΩ"], "category": null, "frame": "k_0037.jpg", "t": 27.78, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["82MΩ"], "category": null, "frame": "k_0037.jpg", "t": 27.78, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["91MΩ"], "category": null, "frame": "k_0037.jpg", "t": 27.78, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["0.82Ω", "8.2Ω", "POWER"], "category": "Power", "frame": "k_0037.jpg", "t": 27.78, "where": "row 3 (white label), left column", "confidence": 0.85}
+{"lines": ["0.91Ω", "9.1Ω", "POWER"], "category": "Power", "frame": "k_0037.jpg", "t": 27.78, "where": "row 3 (white label), right column", "confidence": 0.85}
+{"lines": ["82Ω", "820Ω", "POWER"], "category": "Power", "frame": "k_0037.jpg", "t": 27.78, "where": "row 4 (white label), left column", "confidence": 0.85}
+{"lines": ["91Ω", "910Ω", "POWER"], "category": "Power", "frame": "k_0037.jpg", "t": 27.78, "where": "row 4 (white label), right column", "confidence": 0.85}
+{"lines": ["8.2KΩ", "82KΩ", "820KΩ / 8.2MΩ", "POWER"], "category": "Power", "frame": "k_0037.jpg", "t": 27.78, "where": "row 5 (white label), left column", "confidence": 0.6}
+{"lines": ["9.1KΩ", "91KΩ", "910KΩ / 9.1MΩ", "POWER"], "category": "Power", "frame": "k_0037.jpg", "t": 27.78, "where": "row 5 (white label), right column", "confidence": 0.6}
+{"lines": ["9.1KΩ"], "category": null, "frame": "k_0038.jpg", "t": 28.45, "where": "top row, right column", "confidence": 0.9}
+{"lines": ["91KΩ"], "category": null, "frame": "k_0038.jpg", "t": 28.45, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["910KΩ"], "category": null, "frame": "k_0038.jpg", "t": 28.45, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["8.2MΩ"], "category": null, "frame": "k_0038.jpg", "t": 28.45, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["9.1MΩ"], "category": null, "frame": "k_0038.jpg", "t": 28.45, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["82MΩ"], "category": null, "frame": "k_0038.jpg", "t": 28.45, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["91MΩ"], "category": null, "frame": "k_0038.jpg", "t": 28.45, "where": "row 5, right column", "confidence": 0.9}
+{"lines": ["0.82Ω", "8.2Ω", "POWER"], "category": "Power", "frame": "k_0038.jpg", "t": 28.45, "where": "row 6 (white label), left column", "confidence": 0.9}
+{"lines": ["0.91Ω", "9.1Ω", "POWER"], "category": "Power", "frame": "k_0038.jpg", "t": 28.45, "where": "row 6 (white label), right column", "confidence": 0.9}
+{"lines": ["82Ω", "820Ω", "POWER"], "category": "Power", "frame": "k_0038.jpg", "t": 28.45, "where": "row 7 (white label), left column", "confidence": 0.85}
+{"lines": ["91Ω", "910Ω", "POWER"], "category": "Power", "frame": "k_0038.jpg", "t": 28.45, "where": "row 7 (white label), right column", "confidence": 0.85}
+{"lines": ["82KΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "top row, left column", "confidence": 0.6}
+{"lines": ["91KΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "top row, right column", "confidence": 0.6}
+{"lines": ["820KΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "row 2, left column", "confidence": 0.55}
+{"lines": ["910KΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "row 2, right column", "confidence": 0.55}
+{"lines": ["8.2MΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "row 3, left column", "confidence": 0.55}
+{"lines": ["9.1MΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "row 3, right column", "confidence": 0.55}
+{"lines": ["82MΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "row 4, left column", "confidence": 0.6}
+{"lines": ["91MΩ"], "category": null, "frame": "k_0039.jpg", "t": 28.68, "where": "row 4, right column", "confidence": 0.6}
+{"lines": ["320KΩ"], "category": null, "frame": "k_0040.jpg", "t": 29.2, "where": "top row, middle column", "confidence": 0.85}
+{"lines": ["910KΩ"], "category": null, "frame": "k_0040.jpg", "t": 29.2, "where": "top row, right column", "confidence": 0.6}
+{"lines": ["8.2MΩ"], "category": null, "frame": "k_0040.jpg", "t": 29.2, "where": "row 2, middle column", "confidence": 0.85}
+{"lines": ["9.1MΩ"], "category": null, "frame": "k_0040.jpg", "t": 29.2, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["75MΩ"], "category": null, "frame": "k_0040.jpg", "t": 29.2, "where": "row 3, left column", "confidence": 0.85}
+{"lines": ["82MΩ"], "category": null, "frame": "k_0040.jpg", "t": 29.2, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["91MΩ"], "category": null, "frame": "k_0040.jpg", "t": 29.2, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["0.75Ω", "7.5Ω", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 4 (white label), left column", "confidence": 0.9}
+{"lines": ["0.82Ω", "8.2Ω", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 4 (white label), middle column", "confidence": 0.9}
+{"lines": ["0.91Ω", "9.1Ω", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 4 (white label), right column", "confidence": 0.9}
+{"lines": ["75Ω", "750Ω", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 5 (white label), left column", "confidence": 0.9}
+{"lines": ["82Ω", "820Ω", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 5 (white label), middle column", "confidence": 0.9}
+{"lines": ["91Ω", "910Ω", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 5 (white label), right column", "confidence": 0.9}
+{"lines": ["7.5KΩ", "75KΩ", "750KΩ / 7.5KΩ", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 6 (white label), left column", "confidence": 0.85}
+{"lines": ["8.2KΩ", "82KΩ", "820KΩ / 8.2MΩ", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 6 (white label), middle column", "confidence": 0.55}
+{"lines": ["9.1KΩ", "91KΩ", "910KΩ / 9.1MΩ", "POWER"], "category": "Power", "frame": "k_0040.jpg", "t": 29.2, "where": "row 6 (white label), right column", "confidence": 0.55}
+{"lines": ["6.2KΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "top row, middle column", "confidence": 0.9}
+{"lines": ["56KΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 2, left column", "confidence": 0.75}
+{"lines": ["62KΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 2, middle column", "confidence": 0.9}
+{"lines": ["560KΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 3, left column", "confidence": 0.8}
+{"lines": ["620KΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 3, middle column", "confidence": 0.85}
+{"lines": ["5.6MΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["6.2MΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 4, middle column", "confidence": 0.9}
+{"lines": ["56MΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 5, left column", "confidence": 0.9}
+{"lines": ["62MΩ"], "category": null, "frame": "k_0043.jpg", "t": 30.43, "where": "row 5, middle column", "confidence": 0.9}
+{"lines": ["0.56Ω", "5.6Ω", "POWER"], "category": "Power", "frame": "k_0043.jpg", "t": 30.43, "where": "row 6 (white label), left column", "confidence": 0.9}
+{"lines": ["0.62Ω", "6.2Ω", "POWER"], "category": "Power", "frame": "k_0043.jpg", "t": 30.43, "where": "row 6 (white label), middle column", "confidence": 0.9}
+{"lines": ["56Ω", "560Ω", "POWER"], "category": "Power", "frame": "k_0043.jpg", "t": 30.43, "where": "row 7 (white label), left column", "confidence": 0.8}
+{"lines": ["62Ω", "620Ω", "POWER"], "category": "Power", "frame": "k_0043.jpg", "t": 30.43, "where": "row 7 (white label), middle column", "confidence": 0.85}
+{"lines": ["56KΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 1, left column", "confidence": 0.9}
+{"lines": ["62KΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 1, right column", "confidence": 0.9}
+{"lines": ["560KΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["620KΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["5.6MΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 3, left column", "confidence": 0.9}
+{"lines": ["6.2MΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["56MΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 4, left column", "confidence": 0.9}
+{"lines": ["62MΩ"], "category": null, "frame": "k_0044.jpg", "t": 31.06, "where": "row 4, right column", "confidence": 0.9}
+{"lines": ["0.56Ω", "5.6Ω", "POWER"], "category": "Power", "frame": "k_0044.jpg", "t": 31.06, "where": "row 5 (white label), left column", "confidence": 0.95}
+{"lines": ["0.62Ω", "6.2Ω", "POWER"], "category": "Power", "frame": "k_0044.jpg", "t": 31.06, "where": "row 5 (white label), right column", "confidence": 0.95}
+{"lines": ["56Ω", "560Ω", "POWER"], "category": "Power", "frame": "k_0044.jpg", "t": 31.06, "where": "row 6 (white label), left column", "confidence": 0.8}
+{"lines": ["62Ω", "620Ω", "POWER"], "category": "Power", "frame": "k_0044.jpg", "t": 31.06, "where": "row 6 (white label), right column", "confidence": 0.85}

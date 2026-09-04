@@ -1,0 +1,95 @@
+{"lines": ["19.1uF", "19.6uF", "11.7uF"], "category": null, "frame": "k_0210.jpg", "t": 150.4, "where": "row 2, second column", "confidence": 0.6}
+{"lines": ["22uF/50V-63V", "27uF/50V", "33uF/50V"], "category": null, "frame": "k_0210.jpg", "t": 150.4, "where": "row 3, second column", "confidence": 0.85}
+{"lines": ["82uF/50", "100uF/12V", "100uF/50V"], "category": null, "frame": "k_0210.jpg", "t": 150.4, "where": "row 4, second column", "confidence": 0.85}
+{"lines": ["150uF/630V", "820uF/100V", "220uF/250V"], "category": null, "frame": "k_0210.jpg", "t": 150.4, "where": "row 5, second column", "confidence": 0.85}
+{"lines": ["220uF/630V", "330uF/100V", "330uF/250V"], "category": null, "frame": "k_0210.jpg", "t": 150.4, "where": "row 6, left column", "confidence": 0.6}
+{"lines": ["74LS05"], "category": null, "frame": "k_0210.jpg", "t": 150.4, "where": "right cabinet, upper area on cardboard tab", "confidence": 0.7}
+{"lines": ["898-1-R100", "Res. Network"], "category": "Res. Network", "frame": "k_0210.jpg", "t": 150.4, "where": "right cabinet, lower area", "confidence": 0.85}
+{"lines": ["22uF/50V-63V", "27uF/50V", "33uF/50V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 1, right column", "confidence": 0.85}
+{"lines": ["47uF/630V", "68uF/250V", "68uF/630V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 2, left column", "confidence": 0.85}
+{"lines": ["82uF/50", "100uF/12V", "100uF/50V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["150uF/630V", "820uF/100V", "220uF/250V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 3, right column", "confidence": 0.85}
+{"lines": ["220uF/630V", "330uF/100V", "330uF/250V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 4, left column", "confidence": 0.85}
+{"lines": ["330uF/630V", "470uF/100V", "470uF/250V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 4, right column", "confidence": 0.8}
+{"lines": ["820uF/250V", "820uF/400V", "1uF/250V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 5, left column", "confidence": 0.7}
+{"lines": ["1uF/100V", "1uF/250V", "1.5uF/100V"], "category": null, "frame": "k_0211.jpg", "t": 151.44, "where": "row 5, right column", "confidence": 0.6}
+{"lines": ["47uF/630V", "68uF/250V", "68uF/630V"], "category": null, "frame": "k_0212.jpg", "t": 152.25, "where": "row 2, left column", "confidence": 0.85}
+{"lines": ["82uF/50", "100uF/12V", "100uF/50V"], "category": null, "frame": "k_0212.jpg", "t": 152.25, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["150uF/630V", "820uF/100V", "220uF/250V"], "category": null, "frame": "k_0212.jpg", "t": 152.25, "where": "row 3, right column", "confidence": 0.85}
+{"lines": ["220uF/630V", "330uF/100V", "330uF/250V"], "category": null, "frame": "k_0212.jpg", "t": 152.25, "where": "row 4, left column", "confidence": 0.85}
+{"lines": ["330uF/630V", "470uF/100V", "470uF/250V"], "category": null, "frame": "k_0212.jpg", "t": 152.25, "where": "row 4, right column", "confidence": 0.8}
+{"lines": ["820uF/250V", "820uF/400V", "1uF/250V"], "category": null, "frame": "k_0212.jpg", "t": 152.25, "where": "row 5, left column", "confidence": 0.7}
+{"lines": ["1uF/100V", "1uF/250V", "1.5uF/100V"], "category": null, "frame": "k_0212.jpg", "t": 152.25, "where": "row 5, right column", "confidence": 0.6}
+{"lines": ["33uF/250V", "33uF/630V", "47uF/250V"], "category": null, "frame": "k_0213.jpg", "t": 153.47, "where": "row 1, left column", "confidence": 0.8}
+{"lines": ["100uF/250V", "100uF/630V", "150uF/250V"], "category": null, "frame": "k_0213.jpg", "t": 153.47, "where": "row 2, left column", "confidence": 0.85}
+{"lines": ["180uF/250V", "180uF/400V", "220uF/250V"], "category": null, "frame": "k_0213.jpg", "t": 153.47, "where": "row 3, left column", "confidence": 0.7}
+{"lines": ["220uF/630V", "330uF/100V", "330uF/250V"], "category": null, "frame": "k_0213.jpg", "t": 153.47, "where": "row 3, right column", "confidence": 0.6}
+{"lines": ["420uF/630V", "630uF/100V", "680uF/250V"], "category": null, "frame": "k_0213.jpg", "t": 153.47, "where": "row 4, left column", "confidence": 0.55}
+{"lines": ["820uF/250V", "820uF/400V", "1uF/250V"], "category": null, "frame": "k_0213.jpg", "t": 153.47, "where": "row 4, right column", "confidence": 0.65}
+{"lines": ["33uF/250V", "33uF/630V", "47uF/250V"], "category": null, "frame": "k_0214.jpg", "t": 154.59, "where": "row 1, left column", "confidence": 0.85}
+{"lines": ["100uF/250V", "100uF/630V", "150uF/250V"], "category": null, "frame": "k_0214.jpg", "t": 154.59, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["180uF/250V", "180uF/400V", "220uF/250V"], "category": null, "frame": "k_0214.jpg", "t": 154.59, "where": "row 3, left column", "confidence": 0.85}
+{"lines": ["220uF/630V", "330uF/100V", "330uF/250V"], "category": null, "frame": "k_0214.jpg", "t": 154.59, "where": "row 3, right column", "confidence": 0.5}
+{"lines": ["480uF/630V", "680uF/100V", "680uF/250V"], "category": null, "frame": "k_0214.jpg", "t": 154.59, "where": "row 4, left column", "confidence": 0.6}
+{"lines": ["820uF/250V", "820uF/400V", "1uF/250V"], "category": null, "frame": "k_0214.jpg", "t": 154.59, "where": "row 4, right column", "confidence": 0.8}
+{"lines": ["1.5uF/250V", "2.2uF/100V", "2.2uF/250V"], "category": null, "frame": "k_0214.jpg", "t": 154.59, "where": "row 5, left column", "confidence": 0.5}
+{"lines": ["150uF/630V", "220uF/100V", "220uF/250V"], "category": null, "frame": "k_0215.jpg", "t": 155.91, "where": "row 2, right column", "confidence": 0.9}
+{"lines": ["330uF/630V", "470uF/100V", "470uF/250V"], "category": null, "frame": "k_0215.jpg", "t": 155.91, "where": "row 3, right column", "confidence": 0.9}
+{"lines": ["1uF/100V", "1uF/250V", "1.5uF/100V"], "category": null, "frame": "k_0215.jpg", "t": 155.91, "where": "row 4, right column", "confidence": 0.85}
+{"lines": ["3.3uF/100V", "4.7uF/100V", "6.8uF/100V"], "category": null, "frame": "k_0215.jpg", "t": 155.91, "where": "row 5, left column", "confidence": 0.75}
+{"lines": ["3.3uF/250V", "3.3uF/630V", "4.7uF/250V"], "category": null, "frame": "k_0215.jpg", "t": 155.91, "where": "row 5, right column", "confidence": 0.8}
+{"lines": ["DIODER"], "category": "Diode", "frame": "k_0219.jpg", "t": 158.43, "where": "top edge header sign", "confidence": 0.9}
+{"lines": ["DIODER"], "category": "Diode", "frame": "k_0220.jpg", "t": 159.21, "where": "top edge header sign", "confidence": 0.95}
+{"lines": ["68pF/500V", "82pF/500V", "100pF/500V"], "category": null, "frame": "k_0220.jpg", "t": 159.21, "where": "row 1, left column", "confidence": 0.85}
+{"lines": ["1uF/63V/100V"], "category": null, "frame": "k_0220.jpg", "t": 159.21, "where": "row 1, right column", "confidence": 0.6}
+{"lines": ["47uF/63V/450V"], "category": null, "frame": "k_0220.jpg", "t": 159.21, "where": "row 2, left column", "confidence": 0.75}
+{"lines": ["10uF/63V/100V/400V", "10uF/25V"], "category": null, "frame": "k_0220.jpg", "t": 159.21, "where": "row 2, right column", "confidence": 0.65}
+{"lines": ["2.2uF/63V/450V"], "category": null, "frame": "k_0220.jpg", "t": 159.21, "where": "row 3, left column", "confidence": 0.55}
+{"lines": ["100uF/63V", "82uF/63V"], "category": null, "frame": "k_0220.jpg", "t": 159.21, "where": "row 3, right column", "confidence": 0.75}
+{"lines": ["68pF/500V", "82pF/500V", "100pF/500V"], "category": null, "frame": "k_0221.jpg", "t": 160.59, "where": "row 1, left column", "confidence": 0.9}
+{"lines": ["47uF/63V/450V"], "category": null, "frame": "k_0221.jpg", "t": 160.59, "where": "row 2, left column", "confidence": 0.85}
+{"lines": ["2.2uF/63V/450V"], "category": null, "frame": "k_0221.jpg", "t": 160.59, "where": "row 3, left column", "confidence": 0.75}
+{"lines": ["100uF/63V", "82uF/63V"], "category": null, "frame": "k_0221.jpg", "t": 160.59, "where": "row 3, right column", "confidence": 0.6}
+{"lines": ["DIODER"], "category": "Diode", "frame": "k_0222.jpg", "t": 162.29, "where": "top edge header sign", "confidence": 0.9}
+{"lines": ["1uF/63V/100V/450V"], "category": null, "frame": "k_0222.jpg", "t": 162.29, "where": "row 1, left column", "confidence": 0.5}
+{"lines": ["10uF/63V/100V/400V", "10uF/25V"], "category": null, "frame": "k_0222.jpg", "t": 162.29, "where": "row 2, left column", "confidence": 0.6}
+{"lines": ["100uF/63V", "82uF/63V"], "category": null, "frame": "k_0222.jpg", "t": 162.29, "where": "row 3, left column", "confidence": 0.75}
+{"lines": ["0.1uF/25V", "0.22uF/35V", "0.47uF/63V"], "category": null, "frame": "k_0223.jpg", "t": 164.21, "where": "row 1, left column", "confidence": 0.9}
+{"lines": ["22uF/63V"], "category": null, "frame": "k_0223.jpg", "t": 164.21, "where": "row 2, left column", "confidence": 0.9}
+{"lines": ["100uF/10V/63V"], "category": null, "frame": "k_0223.jpg", "t": 164.21, "where": "row 3, left column", "confidence": 0.85}
+{"lines": ["1uF/63V/100V/450V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 1, middle column", "confidence": 0.55}
+{"lines": ["0.1uF/25V", "0.22uF/35V", "0.47uF/63V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 1, right column", "confidence": 0.85}
+{"lines": ["10uF/63V/100V/400V", "10uF/25V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 2, middle column", "confidence": 0.65}
+{"lines": ["22uF/63V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["100uF/63V", "82uF/63V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 3, middle column", "confidence": 0.8}
+{"lines": ["100uF/10V/63V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 3, right column", "confidence": 0.8}
+{"lines": ["220uF/63V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 4, middle column", "confidence": 0.55}
+{"lines": ["470 16V"], "category": null, "frame": "k_0224.jpg", "t": 165.41, "where": "row 5, left column, yellow tag", "confidence": 0.7}
+{"lines": ["DIODER"], "category": "Diode", "frame": "k_0224.jpg", "t": 165.41, "where": "top edge header sign", "confidence": 0.9}
+{"lines": ["1uF/63V/100V/450V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 1, middle column", "confidence": 0.7}
+{"lines": ["0.1uF/25V", "0.22uF/35V", "0.47uF/63V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 1, right column", "confidence": 0.85}
+{"lines": ["10uF/63V/100V/400V", "10uF/25V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 2, middle column", "confidence": 0.85}
+{"lines": ["22uF/63V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 2, right column", "confidence": 0.85}
+{"lines": ["2.2uF/63V/450V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 3, left column", "confidence": 0.55}
+{"lines": ["100uF/63V", "82uF/63V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 3, middle column", "confidence": 0.9}
+{"lines": ["100uF/10V/63V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 3, right column", "confidence": 0.85}
+{"lines": ["220uF/63V/16V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 4, middle column", "confidence": 0.65}
+{"lines": ["470 16V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 5, left column, yellow tag", "confidence": 0.85}
+{"lines": ["470uF/16V/63V", "470 250V"], "category": null, "frame": "k_0225.jpg", "t": 166.2, "where": "row 5, middle column", "confidence": 0.6}
+{"lines": ["10uF/63V/100V/400V", "10uF/25V"], "category": null, "frame": "k_0226.jpg", "t": 166.8, "where": "row 1, middle column", "confidence": 0.75}
+{"lines": ["100uF/63V", "82uF/63V"], "category": null, "frame": "k_0226.jpg", "t": 166.8, "where": "row 2, middle column", "confidence": 0.85}
+{"lines": ["220uF/63V/16V"], "category": null, "frame": "k_0226.jpg", "t": 166.8, "where": "row 3, middle column", "confidence": 0.6}
+{"lines": ["470uF/16V/63V", "470 250V"], "category": null, "frame": "k_0226.jpg", "t": 166.8, "where": "row 4, middle column", "confidence": 0.6}
+{"lines": ["220uF/63V/16V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 2, right column", "confidence": 0.65}
+{"lines": ["470 16V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 3, left column, yellow tag", "confidence": 0.85}
+{"lines": ["470uF/16V/63V", "470 250V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 3, right column", "confidence": 0.7}
+{"lines": ["680uF/50V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 4, left column", "confidence": 0.75}
+{"lines": ["1000uF/16V/16V/63V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 4, right column", "confidence": 0.55}
+{"lines": ["2200uF/16V/63V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 5, left column", "confidence": 0.6}
+{"lines": ["3300uF/50V/16V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 5, right column", "confidence": 0.6}
+{"lines": ["6800uF/16V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 6, left column", "confidence": 0.5}
+{"lines": ["4700uF/16V/63V"], "category": null, "frame": "k_0227.jpg", "t": 168.13, "where": "row 6, right column", "confidence": 0.55}
+{"lines": ["330uF/35V/6.3V/16V"], "category": null, "frame": "k_0228.jpg", "t": 169.72, "where": "row 1, middle column", "confidence": 0.5}
+{"lines": ["470uF/63V/16V"], "category": null, "frame": "k_0228.jpg", "t": 169.72, "where": "row 2, middle column", "confidence": 0.6}
+{"lines": ["1000uF 16V", "1000uF 25V", "1000uF 35V"], "category": null, "frame": "k_0228.jpg", "t": 169.72, "where": "row 3, middle column, white note", "confidence": 0.65}
+{"lines": ["4700uF/50-63V"], "category": null, "frame": "k_0228.jpg", "t": 169.72, "where": "row 4, middle column", "confidence": 0.75}
