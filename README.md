@@ -10,9 +10,10 @@ push and deploys `site/`.
 
 ## Accuracy
 
-Treat every entry as a hint, not a fact. The data comes from OCR of drawer labels in a video and
-only part of it has been verified by a person (see the status badges on the site). Reasons an
-entry can be wrong include:
+Treat every entry as a hint, not a fact. The data comes from OCR of drawer labels in a video.
+The status badges on the site ("label OK", "label corrected", "unsure", "label unchecked") only say
+whether a person has checked the OCR reading against the label in the video. Nobody has checked
+that the part is actually in the drawer. Reasons an entry can be wrong include:
 
 - the drawer is empty, or the contents were moved or mixed with a neighbour
 - the OCR misread a label (handwritten labels especially: `0`/`O`, `1`/`I`, `5`/`S`, decimal points)

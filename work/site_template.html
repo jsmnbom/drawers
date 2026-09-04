@@ -91,10 +91,10 @@
   <header>
     <h1>Drawer inventory</h1>
     <span class="muted">{{ entries.length }} entries · {{ counts.drawer }} drawers, {{ counts.reel }} reels, {{ counts.bin }} bins, {{ counts.column_label + counts.section_label }} labels</span>
-    <span class="muted">verified {{ counts.done }} / {{ entries.length }}</span>
+    <span class="muted">labels checked against video: {{ counts.done }} / {{ entries.length }}</span>
     <span class="muted" style="margin-left:auto">built {{ built }}</span>
   </header>
-  <div id="notice">⚠ Any entry may be wrong: labels were read by OCR from a video and only some are verified. Drawers may be empty, components may be misplaced or mixed, handwritten labels may be misread or outdated, and typed labels may not match the contents. Check the drawer before relying on this.</div>
+  <div id="notice">⚠ Any entry may be wrong: labels were read by OCR from a video and the &ldquo;label OK&rdquo; status only means the reading matches what the label says, not that the part is actually in the drawer. Drawers may be empty, components may be misplaced or mixed, handwritten labels may be misread or outdated, and typed labels may not match the contents. Check the drawer before relying on this.</div>
 
   <div id="controls">
     <input type="search" v-model.trim="f.q" placeholder="search label, category, description, contents…" autofocus>
@@ -109,10 +109,10 @@
     <select v-model="f.status">
       <option value="">any status</option>
       <option value="reviewed">reviewed (any)</option>
-      <option value="ok">verified</option>
-      <option value="wrong">corrected</option>
+      <option value="ok">label OK</option>
+      <option value="wrong">label corrected</option>
       <option value="unsure">unsure</option>
-      <option value="none">unreviewed</option>
+      <option value="none">label unchecked</option>
     </select>
     <span class="seg">
       <button :class="{on: view==='grouped'}" @click="view='grouped'">by category</button>
@@ -207,7 +207,7 @@ const DATA = /*__DATA__*/;
 const { createApp, reactive, ref, computed, watch, onMounted } = Vue;
 
 const KIND = { drawer: 'drawer', reel: 'SMD reel', bin: 'bin', column_label: 'column label', section_label: 'box label' };
-const STATUS = { '': 'unreviewed', ok: 'verified', wrong: 'corrected', unsure: 'unsure', duplicate: 'duplicate' };
+const STATUS = { '': 'label unchecked', ok: 'label OK', wrong: 'label corrected', unsure: 'unsure', duplicate: 'duplicate' };
 
 // value parsing for numeric sort: resistors (Ω) and capacitors (F)
 const R_RE = /^(\d+(?:[.,]\d+)?)\s*(R|K|M)?\s*Ω?$/i;
