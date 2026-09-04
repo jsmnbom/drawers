@@ -8,6 +8,19 @@ cabinets. The browsable parts list is published at
 **https://jsmnbom.github.io/drawers/**. GitHub Actions rebuilds `site/index.html` from the data on every
 push and deploys `site/`.
 
+## Accuracy
+
+Treat every entry as a hint, not a fact. The data comes from OCR of drawer labels in a video and
+only part of it has been verified by a person (see the status badges on the site). Reasons an
+entry can be wrong include:
+
+- the drawer is empty, or the contents were moved or mixed with a neighbour
+- the OCR misread a label (handwritten labels especially: `0`/`O`, `1`/`I`, `5`/`S`, decimal points)
+- the label is outdated, or a handwritten label was never replaced with a typed one
+- several labels were merged into one entry, or one label split into several
+
+Check the physical drawer before relying on anything here.
+
 ## Layout
 
 | Path | What |

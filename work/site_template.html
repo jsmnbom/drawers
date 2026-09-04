@@ -28,6 +28,7 @@
   header { padding: 8px 14px; border-bottom: 1px solid var(--line); background: var(--bg2); display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
   header h1 { font-size: 18px; margin: 0; }
   header .muted { color: var(--fg2); font-size: 13px; }
+  #notice { padding: 6px 14px; border-bottom: 1px solid var(--line); background: var(--unsure-bg); color: var(--unsure); font-size: 13px; }
   #controls { padding: 8px 14px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   input, select, button { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px; }
   input:focus, select:focus, button:focus-visible { outline: 2px solid var(--link); outline-offset: 1px; }
@@ -93,6 +94,7 @@
     <span class="muted">verified {{ counts.done }} / {{ entries.length }}</span>
     <span class="muted" style="margin-left:auto">built {{ built }}</span>
   </header>
+  <div id="notice">⚠ Any entry may be wrong: labels were read by OCR from a video and only some are verified. Drawers may be empty, components may be misplaced or mixed, handwritten labels may be misread or outdated, and typed labels may not match the contents. Check the drawer before relying on this.</div>
 
   <div id="controls">
     <input type="search" v-model.trim="f.q" placeholder="search label, category, description, contents…" autofocus>
