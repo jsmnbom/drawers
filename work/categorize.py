@@ -684,10 +684,13 @@ def describe(e):
             return f'0603 SMD resistor reel, {fmt_r(v)}' + (' (1 % E96 kit value)' if in_series(v, E96) or in_series(v, E24) else '')
     if cat in ('Capacitor (electrolytic)', 'Capacitor (film/ceramic)') and not desc:
         desc = 'Values: ' + ' | '.join(lines) + (' — µF range, electrolytic assumed' if 'electrolytic' in cat else '')
-    if cat == 'Resistor (power)' and not desc:
+    if cat == 'Resistor (power)':
+        # the values are more useful than the generic rule text ("... label lists the values")
         vals = [parse_r(l) for l in k.split('/') if l != 'POWER']
-        desc = 'Power resistor(s): ' + (', '.join(fmt_r(v) for v in vals) if vals and all(v is not None for v in vals)
-                                         else ' | '.join(lines))
+        if vals and all(v is not None for v in vals):
+            desc = 'Power resistor(s): ' + ', '.join(fmt_r(v) for v in vals)
+        elif not desc:
+            desc = 'Power resistor(s): ' + ' | '.join(lines)
     cur = desc or ''
     foreign = [m for m in re.findall(r'[A-Z]{2,}\d{3,}[A-Z0-9]*', cur.upper()) if m not in k.replace('/', '')]
     if not cur or ';' in cur or foreign:

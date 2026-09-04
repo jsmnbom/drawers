@@ -13,7 +13,8 @@ Rules:
   contents           -> list of {label, category} items copied onto the entry (multi-item drawers/boxes);
                         falls back to the auto-detected `items` from categorize.py when no human contents;
                         each human item gets a description via categorize.describe_item() when a part rule matches
-  description        -> recomputed with categorize.describe() whenever lines or category were edited
+  description        -> recomputed with categorize.describe() whenever lines or category were edited,
+                        and for column labels marked ok/wrong (drops the "keep or drop case by case" advice)
                         (the OCR-time text described the old label/category); original kept under `ocr`
   everything else    -> kept, with human.status ('' if unreviewed)
 """
@@ -81,6 +82,15 @@ for e in entries:
         new_desc = categorize.describe(n)
         if new_desc != e.get('description'):
             ocr['description'] = e.get('description')
+            n['description'] = new_desc
+    if n.get('kind') == 'column_label' and status in ('ok', 'wrong'):
+        # a person confirmed this column label, so the OCR-time "keep or drop case by case" advice is
+        # moot: describe it like a drawer with the same lines (e.g. "Power resistor(s): 0.10Ω, 1Ω")
+        new_desc = categorize.describe({**n, 'kind': 'drawer'})
+        if not new_desc or new_desc.startswith('Label: '):
+            new_desc = 'Column label: ' + ' | '.join(n['lines'])
+        if new_desc != n.get('description'):
+            ocr.setdefault('description', e.get('description'))
             n['description'] = new_desc
     if d.get('contents'):
         n['contents'] = []
