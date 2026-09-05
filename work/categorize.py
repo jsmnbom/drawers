@@ -61,10 +61,56 @@ def in_series(v, series):
     mant = v / 10 ** math.floor(math.log10(v))
     return any(abs(mant - s) < 0.006 * s for s in series)
 
+THIN = '\u2009'  # thin space: thousands separator (en_DK style: "10 000µF", "4,7kΩ")
+
+def dnum(num, thousands=True):
+    """Canonical number text: decimal comma, thin-space thousands groups. Accepts str or float."""
+    t = f'{num:g}' if isinstance(num, float) else str(num)
+    if 'e' in t:
+        t = f'{float(t):f}'.rstrip('0').rstrip('.')
+    whole, _, frac = t.replace(',', '.').partition('.')
+    if thousands and len(whole) > 3:
+        whole = whole[:len(whole) % 3 or 3] + ''.join(THIN + whole[i:i + 3] for i in range(len(whole) % 3 or 3, len(whole), 3))
+    return whole + (',' + frac if frac else '')
+
 def fmt_r(v):
-    if v >= 1e6: return f'{v/1e6:g} MΩ'
-    if v >= 1e3: return f'{v/1e3:g} kΩ'
-    return f'{v:g} Ω'
+    if v >= 1e6: return f'{dnum(v / 1e6)}MΩ'
+    if v >= 1e3: return f'{dnum(v / 1e3)}kΩ'
+    return f'{dnum(v)}Ω'
+
+# ---------------------------------------------------------------- label value normalisation
+# "470uF/16V" -> "470µF/16V", "4.7KΩ" -> "4,7kΩ", "8,2k" (resistor drawer) -> "8,2kΩ", "5v" -> "5V",
+# "9.5mm" -> "9,5mm", "10.000µF" -> "10 000µF" (compact, decimal comma, thin-space thousands). Applied by
+# export_verified.py to lines and item labels (originals kept
+# under ocr.lines); verify.json keys are untouched because they come from the raw OCR part_key.
+_NUM = r'(?<![A-Za-z0-9,.])(\d{1,3}(?:\.\d{3})+|\d+(?:[.,]\d+)?)'
+_END = r'(?![A-Za-z0-9Ωµμ])'
+_RX_F = re.compile(_NUM + r'\s*([pnuµμ]?|m)F' + _END)
+_RX_H = re.compile(_NUM + r'\s*([uµμm]?)H' + _END)
+_RX_V = re.compile(_NUM + r'\s*(V|W|A|mA|MHz|kHz|Hz|mm)' + _END, re.I)
+_RX_OHM = re.compile(_NUM + r'\s*([kKmMrR]?)\s*(Ω|OHM)' + _END, re.I)
+_RX_OHM_BARE = re.compile(_NUM + r'\s*([kKMR])' + _END)
+_PREFIX = {'u': 'µ', 'μ': 'µ', 'µ': 'µ', 'p': 'p', 'n': 'n', 'm': 'm', 'k': 'k', 'K': 'k', 'r': '', 'R': '', 'M': 'M', '': ''}
+_UNIT_CASE = {'V': 'V', 'W': 'W', 'A': 'A', 'MA': 'mA', 'MHZ': 'MHz', 'KHZ': 'kHz', 'HZ': 'Hz', 'MM': 'mm'}
+
+def _num(t, cap=False):
+    if re.fullmatch(r'\d{1,3}(?:\.\d{3})+', t) and (cap or t.count('.') > 1):
+        return dnum(t.replace('.', ''))  # Danish thousands separator ("10.000")
+    return dnum(t)
+
+def norm_value(line, category=None):
+    """Canonical value formatting for one label line / item label (see module comment above)."""
+    resistorish = bool(category) and (category.startswith(('Resistor', 'Trim pot')) or 'Ω' in line)
+    s = _RX_F.sub(lambda m: f'{_num(m[1], cap=True)}{_PREFIX[m[2]]}F', line)
+    s = _RX_H.sub(lambda m: f'{_num(m[1])}{_PREFIX[m[2]]}H', s)
+    s = _RX_OHM.sub(lambda m: f'{_num(m[1])}{_PREFIX[m[2]]}Ω', s)
+    if resistorish:
+        s = _RX_OHM_BARE.sub(lambda m: f'{_num(m[1])}{_PREFIX[m[2]]}Ω', s)
+    s = _RX_V.sub(lambda m: f'{_num(m[1])}{_UNIT_CASE[m[2].upper()]}', s)
+    s = re.sub(r'(?<![A-Za-z0-9])(\d+)\.(\d+)(?=[xX]\d)', r'\1,\2', s)  # washer sizes "4.3x9"
+    if re.search(r'\d\s*[A-Za-zµΩ]+\s*/\s*\d', s):
+        s = re.sub(r'\s*/\s*', '/', s)
+    return re.sub(r'[ ]{2,}', ' ', s).strip()
 
 # ---------------------------------------------------------------- category merge map
 # Rules below keep fine-grained names (the sub-type is useful for descriptions); the published
@@ -667,7 +713,10 @@ def split_items(lines):
 
 # ---------------------------------------------------------------- single-entry description
 def part_key_of(lines):
-    """Same normalisation as dedup3.py: whitespace stripped, dots kept only between digits, '/'-joined."""
+    """Same normalisation as dedup3.py (whitespace stripped, dots kept only between digits, '/'-joined),
+    with the display formatting of norm_value() mapped back (decimal comma -> dot, thin space removed) so
+    the rule regexes see the same key for "4,7kΩ" and "4.7KΩ"."""
+    lines = [re.sub(r'(?<=\d),(?=\d)', '.', l).replace(THIN, '') for l in lines]
     return '/'.join(re.sub(r'(?<!\d)\.|\.(?!\d)', '', re.sub(r'\s+', '', l.upper())) for l in lines if l.strip())
 
 
@@ -687,6 +736,12 @@ def item_category(label, parent, category=None):
 GENERIC_DESC = {'Voltage regulator', 'Negative voltage regulator', 'Switching regulator', 'Voltage regulators'}
 
 def describe(e):
+    """Description with locale number formatting (decimal comma) applied to the text of _describe()."""
+    d = _describe(e)
+    return re.sub(r'(?<=\d)\.(?=\d)', ',', d) if d else d
+
+
+def _describe(e):
     """Description for one entry from its lines / category / kind (no neighbour context).
 
     The single description path: the OCR pipeline calls it for every entry, and export_verified.py
@@ -698,7 +753,7 @@ def describe(e):
     k, lines, kind = K(e), e['lines'], e.get('kind')
     cat = canon(e.get('category')) or ''
     if kind == 'column_label':
-        d = describe({**e, 'kind': 'drawer'})
+        d = _describe({**e, 'kind': 'drawer'})
         return d if d and not d.startswith('Label: ') else 'Column label: ' + ' | '.join(lines)
     if k == 'M6' and e.get('t_first', 0) < 355 and cat.startswith('Screw'):
         return 'M6 screws (assumed)'
@@ -712,19 +767,19 @@ def describe(e):
     # --- sizes / values / pin counts derived from the label
     m = re.fullmatch(r'(\d+(?:\.\d+)?)MM', k)
     if m and cat == 'Drill bit':
-        return f'HSS twist drill bit, {m[1]} mm'
+        return f'HSS twist drill bit, {dnum(m[1])} mm'
     if m and cat == 'Washer':
-        return f'Washer, {m[1]} mm hole'
-    m = re.fullmatch(r'(\d+\.\d+)X(\d+)', k)
+        return f'Washer, {dnum(m[1])} mm hole'
+    m = re.fullmatch(r'(\d+[.,]\d+)X(\d+)', k)
     if m and cat == 'Washer':
-        return f'Washer, {m[1]} x {m[2]} mm'
+        return f'Washer, {dnum(m[1])} x {m[2]} mm'
     if cat == 'Drill bit' and k.startswith('HSS') and not desc:
         m = re.search(r'(\d+(?:\.\d+)?)MM', k)
-        return f'HSS twist drill bit, {m[1]} mm' if m else 'HSS twist drill bits'
+        return f'HSS twist drill bit, {dnum(m[1])} mm' if m else 'HSS twist drill bits'
     if cat.startswith('Screw/bolt'):
         m = re.match(r'^M(\d+(?:\.\d+)?)(?:X(\d+))?(?![\d.])', k)
         if m:
-            size = f'M{m[1]}' + (f' x {m[2]}' if m[2] else '')
+            size = f'M{dnum(m[1])}' + (f' x {m[2]}' if m[2] else '')
             base = desc or 'metric screws'
             desc = f'{size} {base[0].lower() + base[1:]}'
     if cat == 'IC socket':
@@ -736,7 +791,7 @@ def describe(e):
             return f'{m[1].title()} LEDs' if m[1] else 'LEDs'
     if cat == 'Crystal' and not desc:
         m = re.search(r'(\d+(?:\.\d+)?)(MHZ|KHZ)', k)
-        desc = f'Quartz crystal, {m[1]} {"MHz" if m[2] == "MHZ" else "kHz"}' if m else 'Quartz crystals'
+        desc = f'Quartz crystal, {dnum(m[1])} {"MHz" if m[2] == "MHZ" else "kHz"}' if m else 'Quartz crystals'
     if cat == 'Resistor (SMD 0603)' or (kind == 'reel' and cat == 'Resistor'):
         v = next((v for v in (parse_r(l) for l in k.split('/') if l != '0603') if v is not None), None)
         if v is not None:

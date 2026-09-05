@@ -67,6 +67,9 @@ inventory_verified.json + work/site_template.html   --build_site.py-------->  si
   applied to human categories), `split_items()`/`DESCR` (multi-item labels). `describe()` is the single
   description path (OCR pipeline, post-edit re-describe, and `describe_item()` for contents items);
   `description` is part identity only, OCR/position/translation remarks go in `note`.
+  Number formatting is en_DK style: decimal comma, thin-space (U+2009) thousands, no space before the
+  unit (`470µF/16V`, `4,7kΩ`, `10 000µF`); `norm_value()` applies it to lines and item labels at export
+  and `describe()` to description text.
   `work/logic_parts.json` (from `fetch_logic_tables.py`) supplies 74 / 4000 / LM part functions.
 - **Frontends**: both `tool.html` and `work/site_template.html` are single-file Vue 3 pages (jsdelivr CDN).
   The site defaults to items mode, keeps search/filter/sort/selection state in the URL hash; the tool has keyboard shortcuts

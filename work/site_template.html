@@ -253,6 +253,7 @@ const STATUS = { '': 'label unchecked', ok: 'label OK', wrong: 'label corrected'
 const R_RE = /^(\d+(?:[.,]\d+)?)\s*(R|K|M)?\s*Ω?$/i;
 const C_RE = /^(\d+(?:[.,]\d+)?)\s*(p|n|u|µ|m)?F(?:\s*[\/ ].*)?$/i;
 function parseValue(line) {
+  line = line.replace(/\u2009/g, '');  // thin-space thousands separator
   let m = R_RE.exec(line);
   if (m && (m[2] || /Ω/.test(line))) return { kind: 0, v: parseFloat(m[1].replace(',', '.')) * ({ R: 1, K: 1e3, M: 1e6 }[(m[2] || 'R').toUpperCase()]) };
   m = C_RE.exec(line);
@@ -265,12 +266,15 @@ function valueKey(e) {
 }
 
 const coll = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
+// loose form for matching typed values: "470uf", "4.7k", "10000µF" all find "470µF" / "4,7kΩ" / "10 000µF"
+const squash = s => s.toLowerCase().replace(/[\s\u2009]/g, '').replace(/[µμ]/g, 'u').replace(/,/g, '.');
 
 createApp({
   setup() {
     const entries = DATA.entries.map(e => ({ ...e, _vk: valueKey(e),
       _hay: (e.lines.join(' ') + ' ' + e.category + ' ' + (e.description || '') + ' ' + (e.note || '') + ' ' +
              (e.contents || []).map(c => c.label + ' ' + (c.category || '')).join(' ') + ' ' + (e.ocr_lines || []).join(' ')).toLowerCase() }));
+    for (const e of entries) e._hay2 = squash(e.lines.join(' ') + ' ' + (e.contents || []).map(c => c.label).join(' '));
     for (const e of entries) e._e = e;   // a drawer row points at itself
     const byId = new Map(entries.map(e => [e.id, e]));
     // item rows: one per listed part (entries with `contents`), else the entry itself
@@ -278,7 +282,7 @@ createApp({
       ? e.contents.map((c, i) => ({ id: e.id + '.' + i, _i: i, lines: [c.label], category: c.category || e.category,
           description: c.description || '', kind: e.kind, status: e.status, t_first: e.t_first, _e: e,
           _vk: valueKey({ lines: [c.label] }),
-          _hay: (c.label + ' ' + (c.category || '') + ' ' + (c.description || '') + ' ' + e._hay).toLowerCase() }))
+          _hay: (c.label + ' ' + (c.category || '') + ' ' + (c.description || '') + ' ' + e._hay).toLowerCase(), _hay2: e._hay2 }))
       : [e]);
     const f = reactive({ q: '', cat: '', kind: '', status: '' });
     const mode = ref('items'), view = ref('grouped'), sort = ref('value'), sel = ref(null), selItem = ref(null), fi = ref(0);
@@ -295,7 +299,7 @@ createApp({
       return rows.value.filter(e =>
         (!f.kind || e.kind === f.kind) &&
         (!f.status || (f.status === 'none' ? !e.status : f.status === 'reviewed' ? !!e.status : e.status === f.status)) &&
-        q.every(w => e._hay.includes(w)));
+        q.every(w => e._hay.includes(w) || e._hay2.includes(squash(w))));
     });
     const catList = computed(() => {
       const m = new Map();

@@ -13,6 +13,8 @@ Rules:
   status duplicate   -> collapsed into its same_as target (target gets also_seen_at + merged frames);
                         a duplicate without a valid same_as is kept and flagged
   category           -> human and OCR categories both go through categorize.canon() (merged category names)
+  lines / item labels-> value formatting normalised with categorize.norm_value() ("470uF/16V" -> "470µF/16V",
+                        "4.7KΩ" -> "4,7kΩ"); this is presentation, so it is not recorded under `ocr`
   contents           -> list of {label, category, description} items on the entry (multi-item drawers/boxes):
                         the human list from verify.json, else the auto-detected `items` from categorize.py;
                         every item gets category + description from categorize.describe_item() (a human
@@ -83,10 +85,13 @@ for e in entries:
         n['kind'] = 'reel'  # OCR missed the red reel tag; the SMD category (human or rule) says it is a reel
     n['human'] = {'status': status, **({'edited_at': d['edited_at']} if 'edited_at' in d else {}),
                   **({'same_as': d['same_as']} if 'same_as' in d else {})}
-    if 'lines' in ocr or 'category' in ocr:
+    edited = 'lines' in ocr or 'category' in ocr
+    n['lines'] = [categorize.norm_value(l, n.get('category')) for l in n['lines']]
+    if edited or n['lines'] != e['lines']:
         new_desc = categorize.describe(n)
         if new_desc != e.get('description'):
-            ocr['description'] = e.get('description')
+            if edited:
+                ocr['description'] = e.get('description')
             n['description'] = new_desc
     items = d.get('contents') or e.get('items') or []
     n.pop('items', None)
@@ -97,6 +102,7 @@ for e in entries:
                 continue
             c = {k: v for k, v in c.items() if k in ('label', 'category')}
             if c.get('label'):
+                c['label'] = categorize.norm_value(c['label'], c.get('category') or n.get('category'))
                 c['category'], desc = categorize.describe_item(c['label'], n, c.get('category'))
                 if desc:
                     c['description'] = desc
