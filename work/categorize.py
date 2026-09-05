@@ -215,7 +215,7 @@ RULES = [
  (r'RESNETWORK', 'Resistor network', 'high', 'Bourns 4608X-type resistor network'),
  (r'^SMD-?0?6?0?3?$|^MD-0603$|^SMD-0$', 'Resistor (SMD 0603)', 'medium', 'SMD 0603 section label (shelf of reels)'),
  (r'^0603/', 'Resistor (SMD 0603)', 'high', None),
- (r'^[\d.,]+Ω.*/POWER$', 'Resistor (power)', 'high', 'Power (wirewound/cement) resistor; label lists the values'),
+ (r'^[\d.,]+[KM]?Ω.*/POWER$', 'Resistor (power)', 'high', 'Power (wirewound/cement) resistor; label lists the values'),
  (r'^POWER$', 'Resistor (power)', 'high', None),
 
  # --- diodes ---------------------------------------------------------------
@@ -678,7 +678,7 @@ def describe(e):
         desc = desc74(k)
     if cat == 'Logic (CMOS 4000)' and not desc:
         desc = desc4000(k)
-    if cat == 'Resistor (SMD 0603)' and e.get('kind') == 'reel':
+    if cat == 'Resistor (SMD 0603)':  # a human-set SMD category on a 'drawer' entry is still a reel
         v = next((v for v in (parse_r(l) for l in k.split('/') if l != '0603') if v is not None), None)
         if v is not None:
             return f'0603 SMD resistor reel, {fmt_r(v)}' + (' (1 % E96 kit value)' if in_series(v, E96) or in_series(v, E24) else '')

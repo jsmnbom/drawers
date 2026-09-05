@@ -76,6 +76,8 @@ for e in entries:
     if 'category' in d and d['category'] != e.get('category'):
         n['category_source'] = 'human'
         n['category_confidence'] = 'high'
+    if n.get('category') == 'Resistor (SMD 0603)' and n.get('kind') == 'drawer':
+        n['kind'] = 'reel'  # OCR missed the red reel tag; the SMD category (human or rule) says it is a reel
     n['human'] = {'status': status, **({'edited_at': d['edited_at']} if 'edited_at' in d else {}),
                   **({'same_as': d['same_as']} if 'same_as' in d else {})}
     if 'lines' in ocr or 'category' in ocr:

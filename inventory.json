@@ -2621,7 +2621,7 @@
    ],
    "part_key": "6.8KΩ/68KΩ/680KΩ/6.8MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 6.8KΩ | 68KΩ | 680KΩ / 6.8MΩ | POWER — keep or drop case by case",
@@ -2629,23 +2629,19 @@
    "items": [
     {
      "label": "6.8KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 6.8 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "68KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 68 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "680KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 680 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "6.8MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 6.8 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -2670,7 +2666,7 @@
    ],
    "part_key": "7.5KΩ/75KΩ/750KΩ/7.5KΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 7.5KΩ | 75KΩ | 750KΩ / 7.5KΩ | POWER — keep or drop case by case",
@@ -2678,18 +2674,15 @@
    "items": [
     {
      "label": "7.5KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 7.5 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "75KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 75 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "750KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 750 kΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 3,
@@ -2892,7 +2885,7 @@
    ],
    "part_key": "8.2KΩ/82KΩ/820KΩ/8.2MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 8.2KΩ | 82KΩ | 820KΩ / 8.2MΩ | POWER — keep or drop case by case",
@@ -2900,23 +2893,19 @@
    "items": [
     {
      "label": "8.2KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 8.2 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "82KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 82 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "820KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 820 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "8.2MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 8.2 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 4,
@@ -2943,7 +2932,7 @@
    ],
    "part_key": "9.1KΩ/91KΩ/910KΩ/9.1MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 9.1KΩ | 91KΩ | 910KΩ / 9.1MΩ | POWER — keep or drop case by case",
@@ -2951,23 +2940,19 @@
    "items": [
     {
      "label": "9.1KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 9.1 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "91KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 91 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "910KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 910 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "9.1MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 9.1 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 4,
@@ -10514,27 +10499,27 @@
    ],
    "part_key": "1.0KΩ/10KΩ/100KΩ/1.0MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.0KΩ | 10KΩ | 100KΩ/1.0MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "1.0KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "10KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "100KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.0MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -10559,27 +10544,27 @@
    ],
    "part_key": "1.1KΩ/11KΩ/110KΩ/1.1MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.1KΩ | 11KΩ | 110KΩ/1.1MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "1.1KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "11KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "110KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.1MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -10604,27 +10589,27 @@
    ],
    "part_key": "1.2KΩ/12KΩ/120KΩ/1.2MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.2KΩ | 12KΩ | 120KΩ/1.2MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "1.2KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "12KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "120KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.2MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -15733,27 +15718,27 @@
    ],
    "part_key": "5.1KΩ/51KΩ/510KΩ/5.1MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 5.1KΩ | 51KΩ | 510KΩ / 5.1MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "5.1KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "51KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "510KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "5.1MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -15778,27 +15763,27 @@
    ],
    "part_key": "5.6KΩ/56KΩ/560KΩ/5.6MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 5.6KΩ | 56KΩ | 560KΩ / 5.6MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "5.6KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "56KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "560KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "5.6MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -15823,27 +15808,27 @@
    ],
    "part_key": "6.2KΩ/62KΩ/620KΩ/6.2MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 6.2KΩ | 62KΩ | 620KΩ / 6.2MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "6.2KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "62KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "620KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "6.2MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -17291,7 +17276,7 @@
    ],
    "part_key": "1.5KΩ/15KΩ/150KΩ/1.5MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.5KΩ | 15KΩ | 150KΩ / 1.5MΩ | POWER — keep or drop case by case",
@@ -17299,23 +17284,19 @@
    "items": [
     {
      "label": "1.5KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.5 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "15KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 15 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "150KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 150 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.5MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.5 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -17340,7 +17321,7 @@
    ],
    "part_key": "1.6KΩ/16KΩ/160KΩ/1.6MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.6KΩ | 16KΩ | 160KΩ / 1.6MΩ | POWER — keep or drop case by case",
@@ -17348,23 +17329,19 @@
    "items": [
     {
      "label": "1.6KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.6 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "16KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 16 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "160KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 160 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.6MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.6 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -37614,7 +37591,7 @@
    ],
    "part_key": "6.8KΩ/68KΩ/680KΩ/6.8MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 6.8KΩ | 68KΩ | 680KΩ / 6.8MΩ | POWER — keep or drop case by case",
@@ -37622,23 +37599,19 @@
    "items": [
     {
      "label": "6.8KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 6.8 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "68KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 68 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "680KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 680 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "6.8MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 6.8 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -37663,7 +37636,7 @@
    ],
    "part_key": "7.5KΩ/75KΩ/750KΩ/7.5KΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 7.5KΩ | 75KΩ | 750KΩ / 7.5KΩ | POWER — keep or drop case by case",
@@ -37671,18 +37644,15 @@
    "items": [
     {
      "label": "7.5KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 7.5 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "75KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 75 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "750KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 750 kΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 3,
@@ -37860,7 +37830,7 @@
    ],
    "part_key": "8.2KΩ/82KΩ/820KΩ/8.2MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 8.2KΩ | 82KΩ | 820KΩ / 8.2MΩ | POWER — keep or drop case by case",
@@ -37868,23 +37838,19 @@
    "items": [
     {
      "label": "8.2KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 8.2 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "82KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 82 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "820KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 820 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "8.2MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 8.2 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 4,
@@ -37911,7 +37877,7 @@
    ],
    "part_key": "9.1KΩ/91KΩ/910KΩ/9.1MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 9.1KΩ | 91KΩ | 910KΩ / 9.1MΩ | POWER — keep or drop case by case",
@@ -37919,23 +37885,19 @@
    "items": [
     {
      "label": "9.1KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 9.1 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "91KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 91 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "910KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 910 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "9.1MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 9.1 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 4,
@@ -40881,27 +40843,27 @@
    ],
    "part_key": "1.0KΩ/10KΩ/100KΩ/1.0MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.0KΩ | 10KΩ | 100KΩ/1.0MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "1.0KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "10KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "100KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.0MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -40926,27 +40888,27 @@
    ],
    "part_key": "1.1KΩ/11KΩ/110KΩ/1.1MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.1KΩ | 11KΩ | 110KΩ/1.1MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "1.1KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "11KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "110KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.1MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -40971,27 +40933,27 @@
    ],
    "part_key": "1.2KΩ/12KΩ/120KΩ/1.2MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.2KΩ | 12KΩ | 120KΩ/1.2MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "1.2KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "12KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "120KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.2MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -42894,27 +42856,27 @@
    ],
    "part_key": "5.1KΩ/51KΩ/510KΩ/5.1MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 5.1KΩ | 51KΩ | 510KΩ / 5.1MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "5.1KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "51KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "510KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "5.1MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -42939,27 +42901,27 @@
    ],
    "part_key": "5.6KΩ/56KΩ/560KΩ/5.6MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 5.6KΩ | 56KΩ | 560KΩ / 5.6MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "5.6KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "56KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "560KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "5.6MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -42984,27 +42946,27 @@
    ],
    "part_key": "6.2KΩ/62KΩ/620KΩ/6.2MΩ/POWER",
    "kind": "column_label",
-   "category": "Resistor",
-   "category_source": "context",
+   "category": "Resistor (power)",
+   "category_source": "part_number",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 6.2KΩ | 62KΩ | 620KΩ / 6.2MΩ | POWER — keep or drop case by case",
    "label_category": null,
    "items": [
     {
      "label": "6.2KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "62KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "620KΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     },
     {
      "label": "6.2MΩ",
-     "category": "Resistor"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 1,
@@ -44230,7 +44192,7 @@
    ],
    "part_key": "1.5KΩ/15KΩ/150KΩ/1.5MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.5KΩ | 15KΩ | 150KΩ / 1.5MΩ | POWER — keep or drop case by case",
@@ -44238,23 +44200,19 @@
    "items": [
     {
      "label": "1.5KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.5 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "15KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 15 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "150KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 150 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.5MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.5 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
@@ -44279,7 +44237,7 @@
    ],
    "part_key": "1.6KΩ/16KΩ/160KΩ/1.6MΩ/POWER",
    "kind": "column_label",
-   "category": "Power",
+   "category": "Resistor (power)",
    "category_source": "label",
    "category_confidence": "medium",
    "description": "Column label listing the drawers below/above it: 1.6KΩ | 16KΩ | 160KΩ / 1.6MΩ | POWER — keep or drop case by case",
@@ -44287,23 +44245,19 @@
    "items": [
     {
      "label": "1.6KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.6 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "16KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 16 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "160KΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 160 kΩ"
+     "category": "Resistor (power)"
     },
     {
      "label": "1.6MΩ",
-     "category": "Resistor",
-     "description": "Through-hole resistor(s): 1.6 MΩ"
+     "category": "Resistor (power)"
     }
    ],
    "reads_total": 2,
