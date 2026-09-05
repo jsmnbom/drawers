@@ -213,7 +213,7 @@
         <span class="links"><a v-for="l in links(sel.name)" :href="l.href" target="_blank" rel="noopener">{{ l.name }}</a></span>
       </div>
       <div class="kv">
-        <div>label</div><div>{{ sel.lines.join(' / ') }}</div>
+        <div>label</div><div><div v-for="l in sel.lines">{{ l }}</div></div>
         <div>category</div><div>{{ sel.category }} <span class="sub" v-if="sel.cat_human">(set by hand)</span></div>
         <div>kind</div><div>{{ kindName(sel.kind) }}</div>
         <template v-if="sel.description"><div>description</div><div>{{ sel.description }}</div></template>
