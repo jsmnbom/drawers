@@ -34,7 +34,7 @@ Check the physical drawer before relying on anything here.
 | `tool.py` + `tool.html` | Local verification tool: `.venv/bin/python tool.py`, then open http://localhost:8765. Needs the full-size keyframes in `frames/` (not committed). |
 | `work/` | Pipeline scripts (keyframe selection, OCR, dedup, categorisation) and OCR outputs. |
 | `site/` | Static browse site. `site/frames/` (downscaled keyframes) is committed; `site/index.html` is generated. |
-| `HANDOFF*.md` | Working notes on how the pipeline was built. |
+| `CLAUDE.md` | Rules and architecture notes for working on the repo. |
 
 The source video and the 529 full-size keyframes are not in the repo; `site/frames/` holds
 downscaled copies of the frames referenced by the inventory.
