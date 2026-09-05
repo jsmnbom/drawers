@@ -10,7 +10,7 @@ Each entry gets:
   category_confidence high | medium | low
   description         short human-readable meaning (part function, Danish -> English)
   kind                drawer | reel | section_label | bin
-  note                optional caveat
+  note                optional caveat (OCR / position / translation remarks; never part identity)
 Writes ../inventory.json ({inventory, review_queue}) and ../inventory.md.
 """
 import json, re, collections
@@ -66,7 +66,51 @@ def fmt_r(v):
     if v >= 1e3: return f'{v/1e3:g} kΩ'
     return f'{v:g} Ω'
 
-# ---------------------------------------------------------------- 74 / 4000 function tables
+# ---------------------------------------------------------------- category merge map
+# Rules below keep fine-grained names (the sub-type is useful for descriptions); the published
+# category is the coarse name. canon() is also applied to human categories from verify.json.
+CAT_MERGE = {
+ **{c: 'Drill bit' for c in ('Drill bit (centre)', 'Drill bit (masonry)', 'Drill bit (self-centering)', 'Drill bit (wood)')},
+ **{c: 'Nut' for c in ('Nut (square)', 'Nut (thin/flat)', 'Cap nut', 'Wing nut', 'Insert nut', 'Rivet nut')},
+ **{c: 'Screw/bolt' for c in ('Screw/bolt (flanged)', 'Screw/bolt (left-hand)', 'Screw/bolt (with washer)', 'Set screw', 'Shoulder bolt')},
+ **{c: 'Washer' for c in ('Rubber washer', 'Disc spring')},
+ **{c: 'Diode' for c in ('Diode (Schottky)', 'Diode (signal)', 'Diode (TVS)')},
+ 'Bridge rectifier': 'Diode (rectifier)',
+ **{c: 'Transistor (bipolar)' for c in ('Transistor (NPN)', 'Transistor (PNP)', 'Transistor (Darlington)', 'Transistor')},
+ **{c: 'Transistor (FET / IGBT)' for c in ('MOSFET (N-ch)', 'MOSFET (P-ch)', 'MOSFET', 'IGBT', 'JFET')},
+ 'Logic (74HC / 40HC)': 'Logic (74HC)',
+ **{c: 'Memory (EPROM/EEPROM/PROM)' for c in ('Memory (EPROM)', 'Memory (EEPROM)', 'Memory (PROM)')},
+ **{c: 'CPU / microcontroller' for c in ('CPU', 'Microcontroller')},
+ **{c: 'Peripheral IC' for c in ('Peripheral IC (UART)', 'Peripheral IC (USART)', 'Peripheral IC (timer)', 'RTC')},
+ **{c: 'TV / RF / telecom IC' for c in ('TV/video IC', 'TV IC (teletext)', 'RF IC', 'Telecom IC (DTMF)', 'Telecom IC (dialer)', 'Telecom IC (modem)')},
+ **{c: 'Power IC (switching / SMPS)' for c in ('Voltage regulator (switching)', 'Voltage converter', 'Power management IC (SMPS)')},
+ **{c: 'Analog IC (other)' for c in ('ADC', 'Analog IC (LVDT)', 'Analog switch/mux', 'Audio IC', 'Amplifier (differential)', 'Amplifier (video)',
+                                     'Buffer amplifier', 'Frequency-to-voltage converter', 'Function generator IC', 'Tone decoder / PLL',
+                                     'Supervisor / reset IC', 'Voltage reference', 'Voltage reference (shunt)', 'Timer', 'Voice record/playback IC')},
+ **{c: 'LED / display / lamp' for c in ('LED', 'Display (7-segment)', 'Display driver', 'Lamp (incandescent)')},
+ 'Reed relay': 'Relay',
+ **{c: 'Hardware (other)' for c in ('Thread insert', 'Threaded rod', 'Standoff/strut', 'Spring', 'Cable/hose clamp sleeve', 'Cutting disc',
+                                    'Transistor mounting hardware')},
+}
+
+def canon(cat):
+    """Published category name for a rule / human category (identity for anything not merged)."""
+    return CAT_MERGE.get(cat, cat) if cat else cat
+
+def qualifier(fine):
+    """'Diode (Schottky)' -> 'Schottky diode'; 'Cap nut' -> 'Cap nut' (fallback description for merged categories)."""
+    m = re.match(r'(.*) \((.*)\)$', fine)
+    return f'{m[2]} {m[1].lower()}' if m else fine
+
+# ---------------------------------------------------------------- 74 / 4000 / LM function tables
+# logic_parts.json is built by fetch_logic_tables.py from the Wikipedia part lists; the hand-written
+# tables below fill gaps and stay as fallback.
+import os
+try:
+    LOGIC = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logic_parts.json'), encoding='utf-8'))
+except FileNotFoundError:
+    LOGIC = {}
+FLM = LOGIC.get('LM', {})
 F74 = {'00':'quad NAND','01':'quad NAND OC','02':'quad NOR','03':'quad NAND OC','04':'hex inverter',
  '05':'hex inverter OC','06':'hex inverter buffer OC','07':'hex buffer OC','08':'quad AND','09':'quad AND OC',
  '10':'triple 3-in NAND','11':'triple 3-in AND','12':'triple 3-in NAND OC','13':'dual Schmitt NAND',
@@ -121,6 +165,9 @@ F4000 = {'4001':'quad NOR','4002':'dual 4-in NOR','4006':'18-stage shift reg','4
  '4541':'programmable timer','4543':'BCD-7seg latch/driver','4553':'3-digit BCD counter','4555':'dual 1-of-4 decoder',
  '4556':'dual 1-of-4 decoder inv','4584':'hex Schmitt trigger'}
 
+F74 = {**F74, **LOGIC.get('74', {})}
+F4000 = {**F4000, **LOGIC.get('4000', {})}
+
 def desc74(key):
     nums = re.findall(r'(?:74X?|X|4X)\s*(\d{2,4})', key)
     nums = nums or re.findall(r'\d{2,4}', key)
@@ -139,90 +186,93 @@ def desc4000(key):
     return '; '.join(parts) if parts else None
 
 # ---------------------------------------------------------------- part-number rules
-# (regex on normalized key, category, confidence, description)
-# Regexes are matched with re.search on the '/'-joined normalized key.
+# (regex on normalized key, category, confidence, description[, note])
+# Regexes are matched with re.search on the '/'-joined normalized key. The description says what the
+# part *is*; OCR / position / translation remarks go in the note. A None description is filled in by
+# describe() (size, pin count, value, part tables) or falls back to the category.
 RULES = [
  # --- Danish section words / hardware ------------------------------------
- (r'^TRACISPACE', 'Transistor mounting hardware', 'medium', 'Danish: "div. transistor mont. tilbehør" = assorted transistor mounting accessories (insulators, bushings, clips)'),
- (r'^KLEMMUFFER$', 'Cable/hose clamp sleeve', 'low', 'Danish "klemmuffe" = clamp sleeve / compression coupling'),
+ (r'^TRACISPACE', 'Transistor mounting hardware', 'medium', 'Assorted transistor mounting accessories (insulators, bushings, clips)', 'Danish "div. transistor mont. tilbehør"'),
+ (r'^KLEMMUFFER$', 'Cable/hose clamp sleeve', 'low', 'Clamp sleeves / compression couplings', 'Danish "klemmuffe"'),
  (r'^DCMOTOR$', 'Motor', 'high', 'Small DC motors'),
  (r'^SOLENOID/VALVES$', 'Solenoid valve', 'high', 'Solenoid valves'),
- (r'^(BATTERYHOLDER|BATTERIHOLDER)', 'Battery holder', 'high', None),
- (r'^GLØDEPÆRER$', 'Lamp (incandescent)', 'high', 'Danish "glødepærer" = incandescent bulbs'),
- (r'^DIODER$', 'Diode', 'high', 'Danish "dioder" = diodes (cabinet header)'),
- (r'^(EFFEKTMODS?|EFFEKTMODSTANDE)$', 'Resistor (power)', 'high', 'Danish "effektmodstande" = power resistors (cabinet label)'),
- (r'^(MODSTANDE|OSTANDE|TANDE|STANDE)$', 'Resistor', 'high', 'Danish "modstande" = resistors (cabinet/divider label, partly cut off)'),
- (r'KONDENSAT', 'Capacitor', 'high', 'Danish "kondensatorer" = capacitors'),
- (r'^SPOLER?/', 'Inductor', 'high', 'Danish "spole(r)" = coil(s); values in µH, 1S82/xx look like Philips/Vogt choke part codes'),
- (r'^SOK+EL/|^SOCKEL', 'IC socket', 'high', 'Danish "sokkel" = IC socket; pin count on label'),
+ (r'^(BATTERYHOLDER|BATTERIHOLDER)', 'Battery holder', 'high', 'Battery holders'),
+ (r'^GLØDEPÆRER$', 'Lamp (incandescent)', 'high', 'Incandescent bulbs', 'Danish "glødepærer"'),
+ (r'^DIODER$', 'Diode', 'high', 'Diodes', 'Danish "dioder"; cabinet header'),
+ (r'^(EFFEKTMODS?|EFFEKTMODSTANDE)$', 'Resistor (power)', 'high', 'Power resistors', 'Danish "effektmodstande"; cabinet label'),
+ (r'^(MODSTANDE|OSTANDE|TANDE|STANDE)$', 'Resistor', 'high', 'Resistors', 'Danish "modstande"; cabinet/divider label, partly cut off'),
+ (r'KONDENSAT', 'Capacitor', 'high', 'Capacitors', 'Danish "kondensatorer"'),
+ (r'^SPOLER?/', 'Inductor', 'high', 'Coils / chokes, values in µH', 'Danish "spoler"; 1S82/xx look like Philips/Vogt choke part codes'),
+ (r'^SOK+EL/|^SOCKEL', 'IC socket', 'high', None, 'Danish "sokkel"'),
  (r'^JUMPERS', 'Jumper', 'high', '2.54 mm shorting jumpers'),
- (r'^TNUT|^T-NUT|^1-NUT$', 'T-nut', 'high', 'T-slot nuts (OCR "1-nut" = t-nut)'),
- (r'VINGEM', 'Wing nut', 'high', 'Danish "vingemøtrik" = wing nut'),
- (r'HÆTTEM|HAETTEM', 'Cap nut', 'high', 'Danish "hættemøtrik" = cap (acorn) nut'),
- (r'INDSLAGSM', 'Insert nut', 'high', 'Danish "indslagsmøtrik" = hammer-in / pronged tee nut'),
- (r'MØTRIK|MOTRIK', 'Nut', 'high', 'Danish "møtrik(ker)" = nut(s); "usorterede" = unsorted'),
- (r'^FIRKANTEDE$', 'Nut (square)', 'medium', 'Danish "firkantede" = square (nuts), in nut section'),
- (r'^(EKSTRA)?FLADE$', 'Nut (thin/flat)', 'medium', 'Danish "flade"/"ekstra flade" = flat / extra-thin nuts, in nut section'),
- (r'FJEDERSKIVE', 'Spring washer', 'high', 'Danish "fjederskive" = spring (lock) washer'),
- (r'TALLERKENSKIVE', 'Disc spring', 'high', 'Danish "tallerkenskive" = Belleville / disc spring washer'),
- (r'GUMMISKIVER', 'Rubber washer', 'high', 'Danish "gummiskiver" = rubber washers'),
- (r'SKÆRESKIVER|SKAERESKIVER', 'Cutting disc', 'medium', 'Danish "skæreskiver" = cutting discs (M5 arbor)'),
- (r'M\.?SKIVER?$', 'Screw/bolt (with washer)', 'high', 'Danish "m. skive" = with washer (flanged / sems screw)'),
- (r'SKIVER$', 'Washer', 'high', 'Danish "skiver" = washers'),
- (r'^\d+\.\d+(MM|X\d+)$', 'Washer', 'medium', 'Washer size (hole diameter x outer diameter), in washer section'),
- (r'^FJEDRE$', 'Spring', 'high', 'Danish "fjedre" = springs'),
- (r'^STAG$', 'Standoff/strut', 'low', 'Danish "stag" = stays/struts; in hardware cabinet, likely standoffs or rods'),
- (r'^GEVINDST', 'Threaded rod', 'high', 'Danish "gevindstænger" = threaded rods'),
- (r'^GEVINDNITTER', 'Rivet nut', 'high', 'Danish "gevindnitter" = rivet nuts'),
- (r'^GEVINDINDSATSER', 'Thread insert', 'high', 'Danish "gevindindsatser" = threaded inserts (Helicoil-type)'),
- (r'^PASBOLTE', 'Shoulder bolt', 'high', 'Danish "pasbolte" = shoulder / fitted bolts'),
- (r'^LINKSGEVIND', 'Screw/bolt (left-hand)', 'high', 'Danish "linksgevind" = left-hand thread'),
- (r'PINOLBOR', 'Drill bit (centre)', 'high', 'Danish "pinolbor" = centre drill'),
- (r'^PINOL', 'Set screw', 'high', 'Danish "pinolskrue" = set (grub) screw'),
- (r'^INOL', 'Set screw', 'medium', 'Cut-off "PINOL M8x25" = set screw'),
- (r'^TRAEBOR|^TRÆBOR', 'Drill bit (wood)', 'high', 'Danish "træbor" = wood drill bits'),
- (r'^MURBOR', 'Drill bit (masonry)', 'high', 'Danish "murbor" = masonry drill bits'),
- (r'SELVCENTRERENDE', 'Drill bit (self-centering)', 'high', 'Danish "selvcentrerende bor" = self-centering (hinge) drill bits'),
- (r'^HSS', 'Drill bit', 'high', 'HSS twist drill bits, size on label; "blandet" = mixed'),
- (r'^\d+(\.\d+)?MM$', 'Drill bit', 'medium', 'Size only; in drill-bit section'),
- (r'^M\d+(\.\d+)?X\d+', 'Screw/bolt', 'high', 'Metric screw, size x length; 6K = hex head, A2 = stainless, allen = socket head'),
- (r'^\d+X\d+TX\d+', 'Screw/bolt', 'high', 'Torx (TX) screw, A2 stainless'),
+ (r'^TNUT|^T-NUT|^1-NUT$', 'T-nut', 'high', 'T-slot nuts', 'OCR "1-nut" = t-nut'),
+ (r'VINGEM', 'Wing nut', 'high', 'Wing nuts', 'Danish "vingemøtrik"'),
+ (r'HÆTTEM|HAETTEM', 'Cap nut', 'high', 'Cap (acorn) nuts', 'Danish "hættemøtrik"'),
+ (r'INDSLAGSM', 'Insert nut', 'high', 'Hammer-in / pronged tee nuts', 'Danish "indslagsmøtrik"'),
+ (r'MØTRIK|MOTRIK', 'Nut', 'high', 'Nuts', 'Danish "møtrik(ker)"; "usorterede" = unsorted'),
+ (r'^FIRKANTEDE$', 'Nut (square)', 'medium', 'Square nuts', 'Danish "firkantede"; in the nut section'),
+ (r'^(EKSTRA)?FLADE$', 'Nut (thin/flat)', 'medium', 'Thin / extra-thin (jam) nuts', 'Danish "flade"/"ekstra flade"; in the nut section'),
+ (r'FJEDERSKIVE', 'Spring washer', 'high', 'Spring (lock) washers', 'Danish "fjederskive"'),
+ (r'TALLERKENSKIVE', 'Disc spring', 'high', 'Belleville / disc spring washers', 'Danish "tallerkenskive"'),
+ (r'GUMMISKIVER', 'Rubber washer', 'high', 'Rubber washers', 'Danish "gummiskiver"'),
+ (r'SKÆRESKIVER|SKAERESKIVER', 'Cutting disc', 'medium', 'Cutting discs (M5 arbor)', 'Danish "skæreskiver"'),
+ (r'M\.?SKIVER?$', 'Screw/bolt (with washer)', 'high', 'Screws with captive washer (sems / flanged)', 'Danish "m. skive" = with washer'),
+ (r'SKIVER$', 'Washer', 'high', 'Washers', 'Danish "skiver"'),
+ (r'^\d+\.\d+(MM|X\d+)$', 'Washer', 'medium', None, 'size-only label in the washer section (hole diameter x outer diameter)'),
+ (r'^FJEDRE$', 'Spring', 'high', 'Springs', 'Danish "fjedre"'),
+ (r'^STAG$', 'Standoff/strut', 'low', 'Standoffs / spacer rods', 'Danish "stag" = stays/struts; in the hardware cabinet'),
+ (r'^GEVINDST', 'Threaded rod', 'high', 'Threaded rods', 'Danish "gevindstænger"'),
+ (r'^GEVINDNITTER', 'Rivet nut', 'high', 'Rivet nuts', 'Danish "gevindnitter"'),
+ (r'^GEVINDINDSATSER', 'Thread insert', 'high', 'Threaded inserts (Helicoil-type)', 'Danish "gevindindsatser"'),
+ (r'^PASBOLTE', 'Shoulder bolt', 'high', 'Shoulder / fitted bolts', 'Danish "pasbolte"'),
+ (r'^LINKSGEVIND', 'Screw/bolt (left-hand)', 'high', 'Left-hand-thread screws', 'Danish "linksgevind"'),
+ (r'PINOLBOR', 'Drill bit (centre)', 'high', 'Centre drills', 'Danish "pinolbor"'),
+ (r'^PINOL', 'Set screw', 'high', 'Set (grub) screws', 'Danish "pinolskrue"'),
+ (r'^INOL', 'Set screw', 'medium', 'Set (grub) screws', 'cut-off "PINOL M8x25"'),
+ (r'^TRAEBOR|^TRÆBOR', 'Drill bit (wood)', 'high', 'Wood drill bits', 'Danish "træbor"'),
+ (r'^MURBOR', 'Drill bit (masonry)', 'high', 'Masonry drill bits', 'Danish "murbor"'),
+ (r'SELVCENTRERENDE', 'Drill bit (self-centering)', 'high', 'Self-centering (hinge) drill bits', 'Danish "selvcentrerende bor"'),
+ (r'^HSS.*BLANDET', 'Drill bit', 'high', 'Mixed HSS twist drill bits', 'Danish "blandet" = mixed'),
+ (r'^HSS', 'Drill bit', 'high', None),
+ (r'^\d+(\.\d+)?MM$', 'Drill bit', 'medium', None, 'size-only label in the drill-bit section'),
+ (r'^M\d+(\.\d+)?X\d+', 'Screw/bolt', 'high', None, '6K = hex head, A2 = stainless, allen = socket head'),
+ (r'^\d+X\d+TX\d+', 'Screw/bolt', 'high', 'Torx (TX) screws, A2 stainless'),
  (r'^M\d+(\.\d+)?(,M\d+(\.\d+)?)+$', 'Screw/bolt', 'medium', 'Small metric screws (sizes listed)'),
  (r'(^|/)(M\d+|\d+X)?/?ALLEN|ALLEN', 'Screw/bolt (socket head)', 'high', 'Allen / socket-head cap screws'),
- (r'USAE|USÆ|U\.?SAENK|U\.?SÆNK', 'Screw/bolt (countersunk)', 'high', 'Danish "undersænket" = countersunk'),
- (r'LÅS|LAS$', 'Lock nut', 'high', 'Danish "låsemøtrik" = lock (nyloc) nut'),
- (r'FLANGE', 'Screw/bolt (flanged)', 'high', None),
- (r'MESSING', 'Screw/bolt (brass)', 'high', 'Danish "messing" = brass'),
- (r'^M\d+/?6K|6K/?M\d+|6KBLANDET|^M\d+6K', 'Screw/bolt (hex head)', 'high', 'Danish "6K" (sekskant) = hex head; "blandet" = mixed'),
- (r'(?<!U)SORTE?$', 'Screw/bolt (black)', 'high', 'Danish "sorte" = black (oxide) finish'),
- (r'USORT|BLANDET', 'Fastener (unsorted)', 'medium', 'Danish "usorteret"/"blandet" = unsorted / mixed; "halvsmå" = smallish, "meget små" = very small'),
- (r'^\d+XM\d+$', 'Screw/bolt', 'medium', 'e.g. 6x M8'),
- (r'^M\d+$', 'Screw/bolt', 'medium', 'Metric size only; in the screw cabinet'),
+ (r'USAE|USÆ|U\.?SAENK|U\.?SÆNK', 'Screw/bolt (countersunk)', 'high', 'Countersunk screws', 'Danish "undersænket"'),
+ (r'LÅS|LAS$', 'Lock nut', 'high', 'Lock (nyloc) nuts', 'Danish "låsemøtrik"'),
+ (r'FLANGE', 'Screw/bolt (flanged)', 'high', 'Flanged screws'),
+ (r'MESSING', 'Screw/bolt (brass)', 'high', 'Brass screws', 'Danish "messing"'),
+ (r'^M\d+/?6K|6K/?M\d+|6KBLANDET|^M\d+6K', 'Screw/bolt (hex head)', 'high', 'Hex-head screws', 'Danish "6K" (sekskant) = hex head; "blandet" = mixed'),
+ (r'(?<!U)SORTE?$', 'Screw/bolt (black)', 'high', 'Black (oxide) screws', 'Danish "sorte"'),
+ (r'USORT|BLANDET', 'Fastener (unsorted)', 'medium', 'Unsorted / mixed fasteners', 'Danish "usorteret"/"blandet" = unsorted / mixed; "halvsmå" = smallish, "meget små" = very small'),
+ (r'^\d+XM\d+$', 'Screw/bolt', 'medium', 'Metric screws', 'e.g. 6x M8'),
+ (r'^M\d+$', 'Screw/bolt', 'medium', None, 'size-only label in the screw cabinet'),
 
  # --- electromechanical ----------------------------------------------------
- (r'REEDRELAY', 'Reed relay', 'high', '5 V reed relay'),
- (r'RELAY', 'Relay', 'high', 'Coil voltage on label; 6.000.xxxx looks like a supplier stock number'),
- (r'^SWITCH/SPST/DIL', 'Switch', 'high', 'DIL (DIP) switch, SPST'),
- (r'^BRIDGE/RECTIFIERS', 'Bridge rectifier', 'high', None),
+ (r'REEDRELAY', 'Reed relay', 'high', '5 V reed relays'),
+ (r'RELAY', 'Relay', 'high', 'Relays, coil voltage on label', '6.000.xxxx looks like a supplier stock number'),
+ (r'^SWITCH/SPST/DIL', 'Switch', 'high', 'DIL (DIP) switches, SPST'),
+ (r'^BRIDGE/RECTIFIERS', 'Bridge rectifier', 'high', 'Bridge rectifiers'),
  (r'^(RED|GREEN|YELLOW)?LED$', 'LED', 'high', None),
- (r'^7-SEG', 'Display (7-segment)', 'high', None),
+ (r'^7-SEG', 'Display (7-segment)', 'high', '7-segment LED displays'),
  (r'^BPW34', 'Photodiode', 'high', 'BPW34 PIN photodiode'),
- (r'^\d+(\.\d+)?MHZ|^KDS8C/|KHZ$', 'Crystal', 'high', 'Quartz crystals; KDS 32.768 kHz is a watch crystal'),
+ (r'^\d+(\.\d+)?MHZ|^KDS8C/|KHZ$', 'Crystal', 'high', None),
 
  # --- passives -------------------------------------------------------------
- (r'MULTITU', 'Trim pot (multiturn)', 'high', 'Multiturn trimmer potentiometer'),
- (r'TRIMPOT', 'Trim pot', 'high', 'Single-turn trimmer potentiometer'),
- (r'RESNETWORK', 'Resistor network', 'high', 'Bourns 4608X-type resistor network'),
- (r'^SMD-?0?6?0?3?$|^MD-0603$|^SMD-0$', 'Resistor (SMD 0603)', 'medium', 'SMD 0603 section label (shelf of reels)'),
+ (r'MULTITU', 'Trim pot (multiturn)', 'high', 'Multiturn trimmer potentiometers'),
+ (r'TRIMPOT', 'Trim pot', 'high', 'Single-turn trimmer potentiometers'),
+ (r'RESNETWORK', 'Resistor network', 'high', 'Bourns 4608X-type resistor networks'),
+ (r'^SMD-?0?6?0?3?$|^MD-0603$|^SMD-0$', 'Resistor (SMD 0603)', 'medium', 'SMD 0603 resistor reels', 'section label on the shelf of reels'),
  (r'^0603/', 'Resistor (SMD 0603)', 'high', None),
- (r'^[\d.,]+[KM]?Ω.*/POWER$', 'Resistor (power)', 'high', 'Power (wirewound/cement) resistor; label lists the values'),
- (r'^POWER$', 'Resistor (power)', 'high', None),
+ (r'^[\d.,]+[KM]?Ω.*/POWER$', 'Resistor (power)', 'high', None),
+ (r'^POWER$', 'Resistor (power)', 'high', 'Power resistors'),
 
  # --- diodes ---------------------------------------------------------------
  (r'/SCHOTTKY', 'Diode (Schottky)', 'high', None),
- (r'/TVS', 'Diode (TVS)', 'high', 'BZW04 transient voltage suppressor'),
+ (r'/TVS', 'Diode (TVS)', 'high', 'BZW04 transient voltage suppressors'),
  (r'ZENER|^ZD\d+|^BZX|^1N7\d\dA|^1N9\d\dB|^\d{3}B/\d{3}B', 'Diode (zener)', 'high', None),
- (r'^X55C12', 'Diode (zener)', 'high', 'BZX55C12 (cut off)'),
+ (r'^X55C12', 'Diode (zener)', 'high', 'BZX55C12 12 V zener', 'label cut off'),
  (r'^1N4148', 'Diode (signal)', 'high', '1N4148 small-signal diode'),
  (r'/SIGNAL$|^AAZ1\d', 'Diode (signal)', 'high', 'AAZ18 germanium signal diode'),
  (r'^1N4\d{3}|^1N5\d{3}|^RHC\d|^BY\d{3}|^RGP10|^N4942|^1N6\d{3}', 'Diode (rectifier)', 'high', None),
@@ -233,30 +283,30 @@ RULES = [
  (r'JFETN-CH|^U1899', 'JFET', 'high', 'U1899E N-channel JFET'),
  (r'DARLINGTONARRAY|SEVEN/DARLINGTON|^ULN2\d{3}|^L201/', 'Darlington array', 'high', 'ULN2003/2004/2803/2804/2823-type 7/8-channel Darlington driver arrays'),
  (r'DARLINGTON', 'Transistor (Darlington)', 'high', 'TIP127 PNP Darlington'),
- (r'/P-CH', 'MOSFET (P-ch)', 'high', None),
- (r'/N-CH', 'MOSFET (N-ch)', 'high', None),
- (r'^IRF|^BUK|^RFP', 'MOSFET', 'high', None),
- (r'/PNP|^557B', 'Transistor (PNP)', 'high', None),
- (r'/NPN', 'Transistor (NPN)', 'high', None),
- (r'^BC(107|182|337|547|639|301)', 'Transistor (NPN)', 'high', 'Small-signal NPN'),
- (r'^BC(327|557|640)|^BD(234|950)|^BFT80|^MJE15031', 'Transistor (PNP)', 'high', None),
- (r'^BD(138|738)', 'Transistor (PNP)', 'medium', 'BD138 medium-power PNP (BD738 is probably a misread of BD138)'),
- (r'^BUJ|^BU508|^BUT90|^MJE3055|^2N3055|^2N6292|^BDY1|^MJ3001|^BD413|^2N3738', 'Transistor (NPN)', 'high', 'Power NPN'),
- (r'TRANSISTOR$', 'Transistor', 'high', None),
+ (r'/P-CH', 'MOSFET (P-ch)', 'high', 'P-channel MOSFET'),
+ (r'/N-CH', 'MOSFET (N-ch)', 'high', 'N-channel MOSFET'),
+ (r'^IRF|^BUK|^RFP', 'MOSFET', 'high', 'Power MOSFET'),
+ (r'/PNP|^557B', 'Transistor (PNP)', 'high', 'PNP transistor'),
+ (r'/NPN', 'Transistor (NPN)', 'high', 'NPN transistor'),
+ (r'^BC(107|182|337|547|639|301)', 'Transistor (NPN)', 'high', 'Small-signal NPN transistor'),
+ (r'^BC(327|557|640)|^BD(234|950)|^BFT80|^MJE15031', 'Transistor (PNP)', 'high', 'PNP transistor'),
+ (r'^BD(138|738)', 'Transistor (PNP)', 'medium', 'BD138 medium-power PNP transistor', 'BD738 is probably a misread of BD138'),
+ (r'^BUJ|^BU508|^BUT90|^MJE3055|^2N3055|^2N6292|^BDY1|^MJ3001|^BD413|^2N3738', 'Transistor (NPN)', 'high', 'Power NPN transistor'),
+ (r'TRANSISTOR$', 'Transistor', 'high', 'Transistors'),
 
  # --- optos ----------------------------------------------------------------
- (r'OPTOCOUPLER|^6N13[679]|^TIL111|^PC817|^CNY|^MOC30|^MCP30|^ILQ|^TCDT|^H11A', 'Optocoupler', 'high', 'MOC/MCP3010/3063 are triac-output optocouplers; 6N137/6N136/6N139 high-speed'),
+ (r'OPTOCOUPLER|^6N13[679]|^TIL111|^PC817|^CNY|^MOC30|^MCP30|^ILQ|^TCDT|^H11A', 'Optocoupler', 'high', 'Optocouplers'),
 
  # --- memory / processors ---------------------------------------------------
- (r'EEPROM|^24C\d+|^93C\d+|^HN58', 'Memory (EEPROM)', 'high', None),
- (r'EP?ROM|ERROM|^27\d{2,3}|^2516|^2732|^2764', 'Memory (EPROM)', 'high', 'UV-erasable EPROM (2716=2 KB … 27512=64 KB); suffix -20/-25/-30/-45 = access time in 10 ns'),
+ (r'EEPROM|^24C\d+|^93C\d+|^HN58', 'Memory (EEPROM)', 'high', 'EEPROM'),
+ (r'EP?ROM|ERROM|^27\d{2,3}|^2516|^2732|^2764', 'Memory (EPROM)', 'high', 'UV-erasable EPROM', '2716 = 2 KB … 27512 = 64 KB; suffix -20/-25/-30/-45 = access time in 10 ns'),
  (r'BI-POLAR/PROM|^TBP18S030|PROGRAMMABLE/READ-ONLY', 'Memory (PROM)', 'high', '32x8 bipolar fusible-link PROM'),
- (r'DRAM|^KM4164|^TMS4256|^MM5290|^UPD41?16|^V53C256|^MB81C4256', 'Memory (DRAM)', 'high', None),
- (r'SRAM|^93L415|^MN2114|^M5M5165|^DS1225', 'Memory (SRAM)', 'high', 'DS1225Y is battery-backed NVRAM'),
- (r'/RAM$|^XX6116|^AM29700', 'Memory (SRAM)', 'high', '6116/6264 are 2K/8K x8 SRAM; AM29700 is a 16x4 register-file RAM'),
+ (r'DRAM|^KM4164|^TMS4256|^MM5290|^UPD41?16|^V53C256|^MB81C4256', 'Memory (DRAM)', 'high', 'DRAM'),
+ (r'SRAM|^93L415|^MN2114|^M5M5165|^DS1225', 'Memory (SRAM)', 'high', 'SRAM'),
+ (r'/RAM$|^XX6116|^AM29700', 'Memory (SRAM)', 'high', 'SRAM'),
  (r'^INTEL8080|^ZILOG/Z80|/CPU$|TMS9995|TM69995', 'CPU', 'high', '8-bit microprocessor'),
- (r'^M80C154|MICROCONTROLLER|MCU$', 'Microcontroller', 'high', '80C154 = 8051-family MCU'),
- (r'^D8749', 'Microcontroller', 'high', '8749 = MCS-48 family MCU with EPROM (label says CPU)'),
+ (r'^M80C154|MICROCONTROLLER|MCU$', 'Microcontroller', 'high', '80C154 8051-family MCU'),
+ (r'^D8749', 'Microcontroller', 'high', '8749 MCS-48 family MCU with EPROM', 'label says CPU'),
  (r'^M5L8251|^D8251|USART', 'Peripheral IC (USART)', 'high', '8251 programmable USART'),
  (r'^M5L8253', 'Peripheral IC (timer)', 'high', '8253 programmable interval timer'),
  (r'^TMS9901', 'Peripheral IC', 'high', 'TMS9901 programmable systems interface (I/O + timer)'),
@@ -268,7 +318,7 @@ RULES = [
  (r'^10124N|^MC1010[0-9]|^MC1011[0-9]|TTL-ECL', 'Logic (ECL)', 'high', 'Motorola MECL 10K series'),
  (r'^74X|^X\d{2,3}/X|^4X\d{2,3}|^\d{2}/\d{2}(/\d{2})?$|^\d{3}/\d{3}/\d{3}$', 'Logic (74-series)', 'high', None),
  (r'^HC\d{2,3}', 'Logic (74HC)', 'high', None),
- (r'^74LS|^80C95|^81LS9', 'Logic (74-series)', 'high', '80C95 = CMOS hex 3-state buffer; 81LS95/97 = octal 3-state buffers'),
+ (r'^74LS|^80C95|^81LS9', 'Logic (74-series)', 'high', None),
  (r'^40HC-XX', 'Logic (74HC / 40HC)', 'high', 'Mixed 74HC / 40HC (HC-series CMOS 4000) parts'),
  (r'^CD4\d{3,4}|^MC1407\d|^MAA40', 'Logic (CMOS 4000)', 'high', None),
  (r'^40[0-9]{2}$|^45\d\d$', 'Logic (CMOS 4000)', 'high', None),
@@ -280,11 +330,11 @@ RULES = [
  (r'^TL431|SHUNT/REGULATOR', 'Voltage reference (shunt)', 'high', 'TL431 adjustable shunt regulator / reference'),
  (r'^LM336', 'Voltage reference', 'high', 'LM336 2.5 V / 5 V reference'),
  (r'^ICL7660|^7660|NEGATIVE/VOLTAGE/CONVERTER', 'Voltage converter', 'high', 'ICL7660 switched-capacitor voltage inverter'),
- (r'^L4960|SWVREG|^UA78S40|SWREG', 'Voltage regulator (switching)', 'high', 'L4960 2.5 A step-down; µA78S40 universal switching regulator subsystem'),
- (r'NEGATIVE/?VOLTAGE|^79\d\d|^UA79|^LM320|^LM337|^LM104|^79M', 'Voltage regulator (negative)', 'high', '79xx / LM320 / LM337 negative regulators'),
- (r'VOLTAGE/?REGULATOR|VOLTAGE/STABILIZER|^7805|^805$|^LM317|^LM340|^UA78|^78\d\d|^LT1086|^LM723|^TAA550', 'Voltage regulator', 'high', None),
- (r'^NE555|^LM555|^LM556|/TIMER$', 'Timer', 'high', '555 / 556 timers'),
- (r'TONE/DECODER|^XR2211|^LM567', 'Tone decoder / PLL', 'high', 'XR2211 FSK demodulator/tone decoder; LM567 tone decoder'),
+ (r'^L4960|SWVREG|^UA78S40|SWREG', 'Voltage regulator (switching)', 'high', 'Switching regulator'),
+ (r'NEGATIVE/?VOLTAGE|^79\d\d|^UA79|^LM320|^LM337|^LM104|^79M', 'Voltage regulator (negative)', 'high', 'Negative voltage regulator'),
+ (r'VOLTAGE/?REGULATOR|VOLTAGE/STABILIZER|^7805|^805$|^LM317|^LM340|^UA78|^78\d\d|^LT1086|^LM723|^TAA550', 'Voltage regulator', 'high', 'Voltage regulator'),
+ (r'^NE555|^LM555|^LM556|/TIMER$', 'Timer', 'high', '555 / 556 timer'),
+ (r'TONE/DECODER|^XR2211|^LM567', 'Tone decoder / PLL', 'high', 'Tone decoder / PLL'),
  (r'^XR2206', 'Function generator IC', 'high', 'XR2206 monolithic function generator'),
  (r'^LM2917', 'Frequency-to-voltage converter', 'high', 'LM2917 F/V converter (tachometer)'),
  (r'^MT8870', 'Telecom IC (DTMF)', 'high', 'MT8870 DTMF receiver/decoder'),
@@ -300,52 +350,64 @@ RULES = [
  (r'^LM733', 'Amplifier (differential)', 'high', 'LM733 video/differential amplifier'),
  (r'^EL2003', 'Amplifier (video)', 'high', 'EL2003 video line driver'),
  (r'^LH0033|^LH0002|/BUFFER$', 'Buffer amplifier', 'high', 'LH0002/LH0033 high-speed buffers'),
- (r'^TDA4718|^TEA1507|^NCP1200', 'Power management IC (SMPS)', 'high', 'SMPS / PWM controllers'),
- (r'^MAYBE|MAX6383|RESET', 'Supervisor / reset IC', 'high', 'MAX638x µP reset circuit (MAX6383XR16D3 = SC70 reset IC, 1.58 V threshold)'),
- (r'^SN7549|^DS7549|MOS-TO-LED', 'Display driver', 'high', 'SN75491/DS75492 MOS-to-LED segment/digit drivers'),
- (r'LINE|^SN75|^SN55|^DS26C31|^LTC485|^MC1488|^MC1489|^MC3441|^751\d\d|TRANSC', 'Line driver/receiver', 'high', None),
- (r'^SAA5|TELETEXT', 'TV IC (teletext)', 'high', 'Philips SAA50xx/52xx teletext decoder chips'),
- (r'TV/CRT|^SAA12|^SPU2|^VCU2|^SL1430', 'TV/video IC', 'high', None),
- (r'^TDA(10|15|20|21|25|27|29|30|33|35|36|37|39|44|45)', 'TV/audio IC (TDA)', 'medium', 'Philips/SGS TDA linear ICs (audio amps, TV IF/deflection/colour decoders)'),
+ (r'^TDA4718|^TEA1507|^NCP1200', 'Power management IC (SMPS)', 'high', 'SMPS / PWM controller'),
+ (r'^MAYBE|MAX6383|RESET', 'Supervisor / reset IC', 'high', 'MAX638x µP reset circuit', 'MAX6383XR16D3 = SC70 reset IC, 1.58 V threshold'),
+ (r'^SN7549|^DS7549|MOS-TO-LED', 'Display driver', 'high', 'MOS-to-LED segment/digit driver'),
+ (r'LINE|^SN75|^SN55|^DS26C31|^LTC485|^MC1488|^MC1489|^MC3441|^751\d\d|TRANSC', 'Line driver/receiver', 'high', 'Line driver / receiver'),
+ (r'^SAA5|TELETEXT', 'TV IC (teletext)', 'high', 'Philips SAA50xx/52xx teletext decoder'),
+ (r'TV/CRT|^SAA12|^SPU2|^VCU2|^SL1430', 'TV/video IC', 'high', 'TV / video IC'),
+ (r'^TDA(10|15|20|21|25|27|29|30|33|35|36|37|39|44|45)', 'TV/audio IC (TDA)', 'medium', 'Philips/SGS TDA linear IC (audio amp, TV IF/deflection/colour decoder)'),
  (r'^TDA', 'TV/audio IC (TDA)', 'medium', None),
 
  # --- caps / resistors by value --------------------------------------------
  (r'(PF|NF)', 'Capacitor (film/ceramic)', 'high', None),
  (r'(UF|ΜF|µF)', 'Capacitor (electrolytic)', 'medium', None),
- (r'^10\.000$', 'Capacitor (electrolytic)', 'medium', '10.000 µF (Danish thousands separator), value only'),
+ (r'^10\.000$', 'Capacitor (electrolytic)', 'medium', '10,000 µF electrolytic capacitor', 'Danish thousands separator; value only'),
 ]
-RULES = [(re.compile(rx), c, cf, d) for rx, c, cf, d in RULES]
+RULES = [(re.compile(r[0]),) + tuple(r[1:4]) + ((r[4],) if len(r) > 4 else (None,)) for r in RULES]
 
 RVAL = re.compile(r'^(\d+(?:[.,]\d+)?)(R|K|M)?Ω?$')
 
 def classify(e):
+    """(category, confidence, description, note) from the part-number rules, or (None,)*4."""
     k = K(e)
-    lines = e['lines']
-    # resistor drawers: every line a value, or values + POWER
     vals = [parse_r(l.replace(' ', '')) for l in k.split('/') if RVAL.fullmatch(l)]
-    for rx, cat, conf, desc in RULES:
+    for rx, cat, conf, desc, note in RULES:
         if rx.search(k):
-            return cat, conf, desc
+            return cat, conf, desc, note
+    # resistor drawers: every line a value (bare integers without a unit are ambiguous: 74HC numbers, washer sizes)
     if vals and all(RVAL.fullmatch(l) for l in k.split('/')):
-        # bare integers without a unit are ambiguous (74HC numbers, washer sizes) -> handled later
         if all(v is not None for v in vals) and not all(re.fullmatch(r'\d+(\.\d+)?', l) for l in k.split('/')):
-            return 'Resistor', 'high', 'Through-hole resistor(s): ' + ', '.join(fmt_r(v) for v in vals)
+            return 'Resistor', 'high', resistor_desc(vals), None
     if re.fullmatch(r'\d{3}', k) and 312 <= e['t_first'] <= 315:
-        return 'Resistor', 'high', 'Through-hole resistor ' + fmt_r(float(k)) + ' (tan cabinet, values without unit)'
-    return None, None, None
+        return 'Resistor', 'high', resistor_desc([float(k)]), 'tan cabinet, values without unit'
+    return None, None, None, None
+
+def resistor_desc(vals, power=False):
+    vals = [v for v in vals if v is not None]
+    if not vals:
+        return 'Power resistors' if power else 'Through-hole resistors'
+    if len(vals) == 1:
+        return ('Power resistor ' if power else 'Through-hole resistor ') + fmt_r(vals[0])
+    return ('Power resistors: ' if power else 'Through-hole resistors: ') + ', '.join(fmt_r(v) for v in vals)
 
 out = []
 for e in inv:
-    cat, conf, desc = classify(e)
+    cat, conf, desc, note = classify(e)
     src = 'part_number' if cat else None
     lab = e.get('label_category')
     if cat and lab and lab.lower().split()[0] in cat.lower():
         src = 'label'
     if not cat and lab:
         cat, conf, src = lab.strip().title(), 'medium', 'label'
-    e['category'], e['category_confidence'], e['category_source'], e['description'] = cat, conf, src, desc
+    e['category'], e['category_confidence'], e['category_source'], e['description'] = cat, conf, src, None
+    if note:
+        e['note'] = note
     e['kind'] = kind_of(e)
     out.append(e)
+
+def add_note(e, s):
+    e['note'] = (e['note'] + '; ' + s) if e.get('note') else s
 
 # ---------------------------------------------------------------- context pass
 WIN = 6.0
@@ -365,67 +427,75 @@ for i, e in enumerate(out):
             e['category'] = cat
             e['category_source'] = 'context'
             e['category_confidence'] = 'low'
-            e['description'] = f'No recognisable part on label; neighbouring drawers ({n}/{tot} reads) are {cat}'
+            add_note(e, f'no recognisable part on label; neighbouring drawers ({n}/{tot} reads) are {canon(cat)}')
 
 # ---------------------------------------------------------------- manual overrides / inferred
+# key -> (category, confidence, source, description[, note])
 OVR = {
- '4071': ('Logic (CMOS 4000)', 'low', 'inferred', 'Blue tape label on top of the resistor cabinet; "4071" could be CD4071 quad OR but is out of place here'),
- '74LS05': ('Logic (74-series)', 'high', 'part_number', '74LS05 hex inverter (OC); cardboard tab in the capacitor cabinet'),
- '60001596': ('Unknown', 'low', 'inferred', 'Looks like a supplier stock number (6000xxxx pattern also seen on relay and BD138 labels), not a part number'),
- 'PICO-10.5K125M6A': ('Fuse', 'low', 'inferred', 'Reads like a Littelfuse PICO fuse rating (125 mA?); uncertain'),
- 'MPID1603/470G': ('Unknown', 'low', 'inferred', 'Unrecognised code; ".470g" may be a weight'),
- 'ML1008': ('Unknown', 'low', 'inferred', 'Unrecognised; sits among bulbs/zeners/fuses'),
- '7ED6/10148/8A': ('Fuse', 'low', 'inferred', '"8A" rating with a stock number; probably fuses (next to bulbs)'),
- '7638/10148/8A': ('Fuse', 'low', 'inferred', '"8A" rating with a stock number; probably fuses (next to bulbs)'),
- 'SPC/3624RC/25B': ('Unknown', 'low', 'inferred', 'Unrecognised code'),
- 'MOB': ('Unknown', 'low', 'inferred', 'Cut-off handwritten label on top of the fastener cabinet'),
- '?': ('Fastener (unsorted)', 'low', 'context', 'Label unreadable; drawer sits in the nut section'),
- 'MESSING': ('Screw/bolt (brass)', 'medium', 'part_number', 'Danish "messing" = brass; size cut off'),
- 'USORT': ('Fastener (unsorted)', 'medium', 'part_number', 'Cut off, likely "M3 USORT."'),
- 'BLANDET': ('Drill bit', 'medium', 'label', 'Danish "blandet" = mixed; OCR saw a drill-bit label, sits between the HSS and screw drawers'),
- 'MEGETSMÅ': ('Fastener (unsorted)', 'medium', 'part_number', 'Danish "meget små" = very small (screws/nuts)'),
- 'M6/ALLENPAN': ('Screw/bolt (socket head)', 'medium', 'part_number', 'M6 allen pan-head'),
+ '4071': ('Logic (CMOS 4000)', 'low', 'inferred', 'CD4071 quad 2-input OR (uncertain)', 'blue tape label on top of the resistor cabinet; out of place here'),
+ '74LS05': ('Logic (74-series)', 'high', 'part_number', '74LS05 hex inverter (open-collector)', 'cardboard tab in the capacitor cabinet'),
+ '60001596': ('Unknown', 'low', 'inferred', None, 'looks like a supplier stock number (6000xxxx pattern also seen on relay and BD138 labels), not a part number'),
+ 'PICO-10.5K125M6A': ('Fuse', 'low', 'inferred', 'Littelfuse PICO fuse, 125 mA (uncertain)', 'reads like a PICO fuse rating'),
+ 'MPID1603/470G': ('Unknown', 'low', 'inferred', None, 'unrecognised code; ".470g" may be a weight'),
+ 'ML1008': ('Unknown', 'low', 'inferred', None, 'unrecognised; sits among bulbs/zeners/fuses'),
+ '7ED6/10148/8A': ('Fuse', 'low', 'inferred', '8 A fuses (probably)', '"8A" rating with a stock number; next to the bulbs'),
+ '7638/10148/8A': ('Fuse', 'low', 'inferred', '8 A fuses (probably)', '"8A" rating with a stock number; next to the bulbs'),
+ 'SPC/3624RC/25B': ('Unknown', 'low', 'inferred', None, 'unrecognised code'),
+ 'MOB': ('Unknown', 'low', 'inferred', None, 'cut-off handwritten label on top of the fastener cabinet'),
+ '?': ('Fastener (unsorted)', 'low', 'context', 'Unsorted fasteners', 'label unreadable; drawer sits in the nut section'),
+ 'MESSING': ('Screw/bolt (brass)', 'medium', 'part_number', 'Brass screws', 'Danish "messing"; size cut off'),
+ 'USORT': ('Fastener (unsorted)', 'medium', 'part_number', 'Unsorted fasteners', 'cut off, likely "M3 USORT."'),
+ 'BLANDET': ('Drill bit', 'medium', 'label', 'Mixed drill bits', 'Danish "blandet" = mixed; OCR saw a drill-bit label, sits between the HSS and screw drawers'),
+ 'MEGETSMÅ': ('Fastener (unsorted)', 'medium', 'part_number', 'Very small screws / nuts', 'Danish "meget små" = very small'),
+ 'M6/ALLENPAN': ('Screw/bolt (socket head)', 'medium', 'part_number', 'M6 allen pan-head screws'),
  'ALLENPAN': ('Screw/bolt (socket head)', 'medium', 'part_number', 'Allen pan-head screws'),
- '1PCTKONDENSAT': ('Capacitor', 'medium', 'part_number', 'Faded handwritten "1% kondensator" = 1 % tolerance capacitors'),
- 'VOLTAGE/REGULATOR': ('Voltage regulator', 'high', 'label', 'Part number cut off'),
- '196/TM69995': ('Logic (74HC)', 'medium', 'part_number', 'HC196 counter; "TMS 9995" (16-bit CPU) written over the printed label'),
- '40HC-XX&74HC-XX': ('Logic (74HC / 40HC)', 'high', 'part_number', 'Handwritten card: mixed 40HC and 74HC parts'),
+ '1PCTKONDENSAT': ('Capacitor', 'medium', 'part_number', '1 % tolerance capacitors', 'faded handwritten "1% kondensator"'),
+ 'VOLTAGE/REGULATOR': ('Voltage regulator', 'high', 'label', 'Voltage regulators', 'part number cut off'),
+ '196/TM69995': ('Logic (74HC)', 'medium', 'part_number', '74HC196 presettable counter', '"TMS 9995" (16-bit CPU) written over the printed label'),
+ '40HC-XX&74HC-XX': ('Logic (74HC / 40HC)', 'high', 'part_number', 'Mixed 40HC and 74HC parts', 'handwritten card'),
  'M6': None,  # handled below (time-dependent)
- '0.0Ω': ('Resistor (SMD 0603)', 'medium', 'inferred', '0 Ω jumper reel at the left end of the 0603 reel shelf'),
- 'LM353': ('Op amp', 'medium', 'inferred', 'Probably LF353 dual JFET op amp (misread) — an "LM353" does not exist'),
- 'MAA4001/MAA4004/MAA4051': ('Logic (CMOS 4000)', 'low', 'inferred', 'Tesla (CZ) MAA-prefixed numbers matching 4001/4051; not a standard series, unverified'),
- 'MC14/OPA': ('Op amp', 'medium', 'part_number', 'Cut-off "MC14xx OP AMP" (MC1439 drawer next to it)'),
+ '0.0Ω': ('Resistor (SMD 0603)', 'medium', 'inferred', '0603 SMD 0 Ω jumper reel', 'at the left end of the 0603 reel shelf'),
+ 'LM353': ('Op amp', 'medium', 'inferred', 'LF353 dual JFET op amp (probably; label misread)', 'an "LM353" does not exist'),
+ 'MAA4001/MAA4004/MAA4051': ('Logic (CMOS 4000)', 'low', 'inferred', 'Tesla MAA4001 / MAA4004 / MAA4051 (CMOS 4000 equivalents, unverified)', 'Tesla (CZ) MAA-prefixed numbers; not a standard series'),
+ 'MC14/OPA': ('Op amp', 'medium', 'part_number', 'MC14xx op amp', 'cut-off "MC14xx OP AMP" (MC1439 drawer next to it)'),
  '6N136/6N139': ('Optocoupler', 'high', 'part_number', '6N136/6N139 high-speed optocouplers'),
  '75188/75188': ('Line driver/receiver', 'high', 'part_number', 'SN75188 quad RS-232 line driver'),
  'LM336': ('Voltage reference', 'high', 'part_number', 'LM336 2.5 V / 5 V shunt reference'),
- 'LM356': ('Op amp', 'medium', 'inferred', 'LM356 is not a standard part; probably LF356 JFET op amp'),
- 'BC182': ('Transistor (NPN)', 'high', 'part_number', 'BC182 small-signal NPN'),
- '10.000': ('Capacitor (electrolytic)', 'medium', 'part_number', '10.000 µF (Danish thousands separator)'),
- 'RTC': ('RTC', 'high', 'label', 'Label below the MM58274 real-time clock bin'),
- '4503': ('Logic (CMOS 4000)', 'high', 'part_number', 'CD4503 hex 3-state buffer (CD prefix cut off)'),
- 'CNY75A/H11A1/OPAMP': ('Optocoupler', 'high', 'part_number', 'CNY75A / H11A1 optocouplers (label says OP. AMP. but both are optos)'),
- 'STAG': ('Standoff/strut', 'low', 'inferred', 'Danish "stag" = stays/struts; probably standoffs or spacer rods'),
+ 'LM356': ('Op amp', 'medium', 'inferred', 'LF356 JFET op amp (probably)', 'LM356 is not a standard part'),
+ 'BC182': ('Transistor (NPN)', 'high', 'part_number', 'BC182 small-signal NPN transistor'),
+ '10.000': ('Capacitor (electrolytic)', 'medium', 'part_number', '10,000 µF electrolytic capacitor', 'Danish thousands separator'),
+ 'RTC': ('RTC', 'high', 'label', 'Real-time clock IC', 'label below the MM58274 real-time clock bin'),
+ '4503': ('Logic (CMOS 4000)', 'high', 'part_number', 'CD4503 hex 3-state buffer', 'CD prefix cut off'),
+ 'CNY75A/H11A1/OPAMP': ('Optocoupler', 'high', 'part_number', 'CNY75A / H11A1 optocouplers', 'label says OP. AMP. but both are optos'),
+ 'STAG': ('Standoff/strut', 'low', 'inferred', 'Standoffs / spacer rods (probably)', 'Danish "stag" = stays/struts'),
 }
 for e in out:
     o = OVR.get(K(e))
     if o:
-        e['category'], e['category_confidence'], e['category_source'], e['description'] = o
+        e['category'], e['category_confidence'], e['category_source'] = o[:3]
+        if len(o) > 4 and o[4]:
+            e['note'] = o[4]
     if K(e) == 'M6' and e['t_first'] < 355:
         e['category_confidence'] = 'low'
-        e['description'] = 'Plastic bin labelled M6 in a separate cabinet section next to the memory ICs; M6 screws assumed'
+        e['note'] = 'plastic bin in a separate cabinet section next to the memory ICs; M6 screws assumed'
 
 # value-only resistor whose OCR reads saw a POWER label -> power resistor (label source)
 for e in out:
     if e['category'] == 'Resistor' and (e.get('label_category') or '').lower() == 'power':
         e['category'], e['category_source'], e['category_confidence'] = 'Resistor (power)', 'label', 'medium'
-        e['description'] = (e['description'] or '') + ' — some reads saw a POWER label on/near this drawer'
+        add_note(e, 'some reads saw a POWER label on/near this drawer')
 
 # size-only labels: drill section before t=375, washer section after
 for e in out:
     if re.fullmatch(r'\d+(\.\d+)?MM', K(e)):
         e['category'] = 'Drill bit' if e['t_first'] < 375 else 'Washer'
         e['category_source'], e['category_confidence'] = 'context', 'medium'
-        e['description'] = 'Size only; ' + ('in the HSS drill-bit section' if e['t_first'] < 375 else 'hole diameter, in the washer section')
+
+# a value-only label on a reel is an SMD reel even when no "0603" line was read
+for e in out:
+    if e['kind'] == 'reel' and e['category'] == 'Resistor':
+        e['category'], e['category_source'], e['category_confidence'] = 'Resistor (SMD 0603)', 'inferred', 'medium'
+        add_note(e, 'no 0603 marking read; SMD reel assumed from the reel tag')
 
 # bare 74-numbers: only when the nearest categorised neighbours are HC drawers
 def hc_neigh(e):
@@ -437,52 +507,34 @@ for e in out:
     k = K(e)
     if re.fullmatch(r'\d{2,3}(\.\d)?', k) and 290 < e['t_first'] < 350 and hc_neigh(e):
         k = k.replace('.', '')
-        f = F74.get(k)
         e['category'] = 'Logic (74HC)'
         e['category_source'] = 'inferred'
         e['category_confidence'] = 'medium'
-        e['description'] = f'Handwritten "{k}" among HC-series drawers → 74HC{k}' + (f' ({f})' if f else '')
         e['kind'] = 'drawer'
+        add_note(e, f'handwritten "{k}" among HC-series drawers → 74HC{k}')
 
-# descriptions for logic families
+# value sanity notes
 for e in out:
     k = K(e)
-    if e['category'] in ('Logic (74-series)', 'Logic (74HC)') and not e['description']:
-        d = desc74(k)
-        if d:
-            e['description'] = d
-    if e['category'] == 'Logic (CMOS 4000)' and not e['description']:
-        d = desc4000(k)
-        if d:
-            e['description'] = d
     if e['category'] in ('Resistor', 'Resistor (power)') and e['kind'] != 'column_label':
         # User (2026-09-04): a "7500Ω" read turned out to be a misread; flag values outside E24/E96
         vals = [(l, parse_r(l)) for l in k.split('/') if l != 'POWER']
         odd = [l for l, v in vals if v is not None and v > 0 and not in_series(v, E24) and not in_series(v, E96)]
         if odd:
-            e['note'] = (e.get('note', '') + '; ' if e.get('note') else '') + 'not an E24/E96 value (' + ', '.join(odd) + ') — possible OCR misread'
+            add_note(e, 'not an E24/E96 value (' + ', '.join(odd) + ') — possible OCR misread')
             if e['category_confidence'] == 'high':
                 e['category_confidence'] = 'medium'
     if e['category'] == 'Resistor (SMD 0603)' and e['kind'] == 'reel':
         vals = [parse_r(l) for l in k.split('/') if l != '0603']
         v = next((v for v in vals if v is not None), None)
         if v is not None:
-            e['description'] = f'0603 SMD resistor reel, {fmt_r(v)} (1 % E96 kit value)'
             if not in_series(v, E96) and not in_series(v, E24):
-                e['description'] = f'0603 SMD resistor reel, {fmt_r(v)}'
-                e['note'] = 'Not an E96/E24 value — possible OCR misread of a neighbouring reel'
+                add_note(e, 'not an E96/E24 value — possible OCR misread of a neighbouring reel')
                 e['category_confidence'] = 'medium'
-            if '0603' not in k:
-                e['note'] = (e.get('note', '') + '; ' if e.get('note') else '') + '"0603" line cut off in every read; reel inferred from position'
+            if '0603' not in k and e['category_source'] != 'inferred':
+                add_note(e, '"0603" line cut off in every read; reel inferred from position')
                 e['category_source'] = 'inferred'
-    if e['category'] in ('Capacitor (electrolytic)', 'Capacitor (film/ceramic)') and not e['description']:
-        e['description'] = 'Values: ' + ' | '.join(e['lines'])
-        if 'electrolytic' in e['category']:
-            e['description'] += ' — µF range, electrolytic assumed'
-    if e['category'] == 'Resistor (power)' and not e['description']:
-        e['description'] = 'Power resistor(s): ' + ' | '.join(e['lines'])
     if e['kind'] == 'column_label':
-        e['description'] = 'Column label listing the drawers below/above it: ' + ' | '.join(e['lines']) + ' — keep or drop case by case'
         e['category_confidence'] = 'medium'
 
 # ---------------------------------------------------------------- descriptions from part-number knowledge
@@ -490,7 +542,7 @@ PDESC = [
  (r'^KM4164|^TMS4256', '64K x1 / 256K x1 DRAM'), (r'^24C16', '16 kbit I2C EEPROM'), (r'^93C56', '2 kbit Microwire EEPROM'),
  (r'^HN58064', 'Hitachi 64 kbit (8K x 8) parallel EEPROM; P-25 = plastic DIP, 250 ns'), (r'AM29700', 'AMD AM29700 16 x 4 bipolar register-file RAM'), (r'^XX6116', '6116 = 2K x 8 and 6264 = 8K x 8 CMOS SRAM'), (r'AM6688', 'AMD AM6688 4-bit quantizer (quad comparator)'),
  (r'^MM5290', '16K x1 DRAM (4116-type)'), (r'^UPD41?16', 'NEC 4116 16K x1 DRAM'), (r'^V53C256', '256K x1 DRAM'),
- (r'^MB81C4256', '256K x4 DRAM'), (r'^93L415', '1K x1 bipolar SRAM'), (r'^MN2114', '1K x4 SRAM'), (r'^M5M5165', '8K x8 SRAM'),
+ (r'^MB81C4256', '256K x4 DRAM'), (r'^93L415', '1K x1 bipolar SRAM'), (r'^MN2114', '1K x4 SRAM'), (r'^M5M5165', '8K x8 SRAM'), (r'^DS1225', 'DS1225Y 8K x8 battery-backed NVRAM'),
  (r'^SN75172|^SN75173', 'quad differential RS-422/485 line driver / receiver'),
  (r'^SPU2220|^SPU2221', 'ITT Digit2000 SECAM processor'), (r'^VCU2100|^VCU21', 'ITT Digit2000 video codec'),
  (r'^SAA128', 'Philips TV remote/tuning control ICs'), (r'^SL1430', 'Plessey TV IF preamp'),
@@ -511,7 +563,7 @@ PDESC = [
  (r'^79M0T3C|^79MGT3C|^9MGT3C', '79Mxx negative regulator (part number partly misread)'), (r'^79057912', '7905/7912/7906/7924 negative regulators'),
  (r'^LM104', 'negative regulator'), (r'^LM320', 'LM320 = 79xx negative regulator'), (r'^UA79HG', '5 A adjustable negative regulator'),
  (r'^LM337', 'LM337 1.5 A adjustable negative regulator'), (r'^LM219', 'high-speed dual comparator'), (r'^LM339', 'quad comparator'),
- (r'^LM311', 'single comparator'), (r'^IRFB130', 'MOSFET (label says P-ch; IRF9130 is the P-ch part)'), (r'^BUK45', 'Philips BUK45x N-ch MOSFET'),
+ (r'^LM311', 'single comparator'), (r'^IRFB130', 'IRF130 N-ch MOSFET (label says P-ch; IRF9130 is the P-ch part)'), (r'^BUK45', 'Philips BUK45x N-ch MOSFET'),
  (r'^RFP4N100|IRF740', 'RFP4N100 / IRF740 N-ch power MOSFETs'), (r'^IRF9130', 'P-ch power MOSFET'), (r'^IRFD9210|^IRFD921', 'P-ch MOSFET, 4-pin DIP'),
  (r'^IRFP250', '200 V 30 A N-ch MOSFET'), (r'^IRFD120', 'N-ch MOSFET, 4-pin DIP'), (r'^BUJ302', 'high-voltage switching NPN'),
  (r'^BU508', 'horizontal-deflection NPN with damper diode'), (r'^BFT40', 'RF NPN'), (r'^BC301', 'medium-power NPN'), (r'^2N3738', 'high-voltage NPN'),
@@ -521,11 +573,13 @@ PDESC = [
  (r'^BC327', 'small-signal PNP, 800 mA'), (r'^BFT80', 'RF PNP'), (r'^BD234', 'medium-power PNP'), (r'^557B', 'BC557B small-signal PNP'),
  (r'^BC557', 'small-signal PNP'), (r'^MJE15031', 'audio driver PNP'), (r'^BD950', 'PNP power'), (r'^TIP127', 'PNP Darlington 5 A'),
  (r'^TIL111|^PC817|^CNY17|^CNY75|^TCDT1102', 'transistor-output optocoupler'), (r'^ILQ-1', 'quad optocoupler'), (r'^6N137', 'high-speed logic-output optocoupler'),
+ (r'^6N136|^6N139', 'high-speed optocoupler'),
  (r'^MOC3010|^MCP3010', 'triac-driver optocoupler (non zero-crossing)'), (r'^MOC3063', 'zero-crossing triac-driver optocoupler'),
- (r'^GBC40F', 'N-ch IGBT'), (r'^U1899', 'N-ch JFET'), (r'^ULN2004', 'seven-Darlington array'), (r'^L201', 'NPN Darlington array'),
+ (r'^GBC40F', 'N-ch IGBT'), (r'^U1899', 'N-ch JFET'), (r'^ULN2004', 'seven-Darlington array'), (r'^ULN2003', 'seven-Darlington array'),
+ (r'^ULN28(03|04|23)', 'octal Darlington array'), (r'^L201', 'NPN Darlington array'),
  (r'^BZW04', 'transient voltage suppressor'), (r'^1N5818', '1 A 30 V Schottky'), (r'^1N540[14]', '3 A rectifier'), (r'^1N4004', '1 A 400 V rectifier'),
  (r'^1N4942|^N4942', '1 A fast recovery rectifier'), (r'^1N5624', '5 A rectifier'), (r'^1N5062', '2 A rectifier'), (r'^RGP10', '1 A fast rectifier'),
- (r'^BY229|^BY329|^BY359', 'fast soft-recovery rectifier'), (r'^RHC', 'rectifier (RHC = ?)'), (r'^1N4987', 'rectifier'),
+ (r'^BY229|^BY329|^BY359', 'fast soft-recovery rectifier'), (r'^RHC', 'rectifier'), (r'^1N4987', 'rectifier'),
  (r'^1N6267', '1.5 kW TVS/zener'), (r'^1N6921|^1N5921', '1.5 W / 3 W zener'), (r'^1N967|^967B', '1N967B 18 V / 974B 33 V / 979B 56 V zeners (500 mW)'),
  (r'^1N972|^1N973', '1N972B 30 V / 1N973B 33 V zeners'), (r'^BZX79/C2V4', '2.4 V zener 500 mW'), (r'^BZX79/C5V6', '5.6 V zener 500 mW'),
  (r'^1N748', '3.9 V zener'), (r'^1N749', '4.3 V zener'), (r'^ZD27', '27 V zener'), (r'BZX55C12|X55C12', '12 V zener 500 mW'),
@@ -535,38 +589,16 @@ PDESC = [
  (r'^NE555', '555 timer'), (r'^LM555', '555 timer'), (r'^LM556', 'dual 555 timer'), (r'^LM567', 'tone decoder PLL'), (r'^XR2211', 'FSK demodulator / tone decoder PLL'),
  (r'^SN75491', 'quad segment driver'), (r'^DS75492', 'hex digit driver'), (r'^MC10102', 'ECL quad 2-in NOR'), (r'^MC10111', 'ECL dual 3-in/3-out NOR'),
  (r'^MC10116', 'ECL triple line receiver'), (r'^10124', 'quad TTL-to-ECL translator'), (r'^MC14071', 'quad 2-in OR (CMOS 4000)'),
+ (r'^80C95', 'CMOS hex 3-state buffer'), (r'^81LS9[57]', 'octal 3-state buffer'),
+ (r'^L4960', 'L4960 2.5 A step-down switching regulator'), (r'^UA78S40', 'µA78S40 universal switching regulator subsystem'),
  (r'^TEA1507', 'GreenChip II SMPS controller'), (r'^SAA5020|^SAA5050', 'SAA5020 timing chain, SAA5050 teletext character generator'),
  (r'^SAA5051|^SAA5243', 'teletext character generator / decoder'), (r'^MC3361', 'narrowband FM IF'),
  (r'^TMS9901', 'programmable systems interface'), (r'^LM733', 'differential video amp'), (r'^SL611', 'RF/IF amplifier with AGC'),
- (r'^LM336', '2.5 V reference'), (r'^7660', 'ICL7660 voltage inverter'), (r'^BATTERYHOLDER|^BATTERIHOLDER', 'battery holder, cell type on label'),
- (r'^PRME|REEDRELAY', '5 V reed relay'), (r'^SWITCH', 'DIP switch'), (r'^BRIDGE', 'bridge rectifiers'), (r'LED$', 'LEDs, colour on label'),
+ (r'^LM336', '2.5 V reference'), (r'^7660', 'ICL7660 voltage inverter'), (r'^BATTERYHOLDER|^BATTERIHOLDER', 'battery holders'),
+ (r'^PRME|REEDRELAY', '5 V reed relay'), (r'^SWITCH', 'DIP switch'), (r'^BRIDGE', 'bridge rectifiers'), (r'^KDS8C', 'KDS 32.768 kHz watch crystal'),
  (r'^BC182', 'small-signal NPN'), (r'^TDA1670', 'TDA1670/1675 vertical deflection, TDA1701 horizontal, TDA1940 TV sync'), (r'^7-SEG', '7-segment LED displays'), (r'^M5FLANGE', 'M5 flanged screws'), (r'^MJE15031', 'PNP audio driver'), (r'^BD138', 'medium-power PNP'), (r'^KM4164', '64K x1 DRAM'),
 ]
 PDESC = [(re.compile(rx), d) for rx, d in PDESC]
-for e in out:
-    k = K(e)
-    # a part-specific description beats the shared one from a grouped rule
-    # (e.g. the XR2211/LM567 rule text mentioned both parts on every drawer)
-    # ...but only when the shared text is clearly about several parts (has ';') or names a part number
-    # that is not on this label (e.g. "DS1225Y is battery-backed NVRAM" on the MN2114 drawer)
-    cur = e['description'] or ''
-    foreign = [m for m in re.findall(r'[A-Z]{2,}\d{3,}[A-Z0-9]*', cur.upper()) if m not in k.replace('/', '')]
-    if not cur or ';' in cur or foreign:
-        for rx, d in PDESC:
-            if rx.search(k):
-                e['description'] = d
-                break
-    if e['description']:
-        continue
-    if not e['description']:
-        extra = [l for l in e['lines'][1:] if not re.search(r'\d{3}', l)]
-        if extra:
-            e['description'] = 'Label: ' + ' '.join(extra)
-        elif e['category'] == 'Resistor':
-            vals = [parse_r(l) for l in k.split('/')]
-            if all(v is not None for v in vals):
-                e['description'] = 'Through-hole resistor(s): ' + ', '.join(fmt_r(v) for v in vals)
-
 
 # ---------------------------------------------------------------- labels that are themselves unsure
 # "MAYBE!", "?" on the label: the drawer's owner was not sure what it holds.
@@ -613,6 +645,8 @@ def split_items(lines):
             toks = part.split()
             # "7805 7809", "TDA3630 TDA4442": split on whitespace only when every token is an item and
             # all tokens have the same shape (so "74x 247", "BD 138", "1000uF 16V", "1,0uH 1S82/13" stay whole)
+            if re.fullmatch(r'\d{4} \d{3} \d{3}', part.strip()):
+                continue  # Philips 12NC stock number, not three parts
             if len(toks) >= 2 and all(_is_item(t) for t in toks) and len({_shape(t) for t in toks}) == 1:
                 items += toks
             elif _is_item(part) or (len(parts) > 1 and len(part) >= 2 and any(c.isdigit() for c in part)):
@@ -630,21 +664,6 @@ def split_items(lines):
             seen.add(_norm(it)); out_.append(it)
     return out_
 
-for e in out:
-    its = split_items(e['lines'])
-    if len(its) < 2:
-        continue
-    e['items'] = []
-    for it in its:
-        stub = {'part_key': _norm(it), 'lines': [it], 't_first': e['t_first'], 'label_category': e.get('label_category')}
-        cat, conf, desc = classify(stub)
-        # a generic hit ("Resistor", "MOSFET") defers to the more specific entry category ("Resistor (power)")
-        if not cat or (e['category'] and e['category'].startswith(cat)):
-            cat, desc = e['category'], None
-        item = {'label': it, 'category': cat}
-        if desc and cat:
-            item['description'] = desc
-        e['items'].append(item)
 
 # ---------------------------------------------------------------- single-entry description
 def part_key_of(lines):
@@ -652,80 +671,150 @@ def part_key_of(lines):
     return '/'.join(re.sub(r'(?<!\d)\.|\.(?!\d)', '', re.sub(r'\s+', '', l.upper())) for l in lines if l.strip())
 
 
-def describe(e):
-    """Description for one entry from its current lines / category / kind (no neighbour context).
+def item_category(label, parent, category=None):
+    """Published category for one contents item: its own rule hit, unless that is generic relative to the parent."""
+    stub = {'part_key': part_key_of([label]), 'lines': [label], 't_first': parent['t_first'], 'label_category': parent.get('label_category')}
+    if category:
+        return canon(category)
+    cat = canon(classify(stub)[0])
+    pcat = canon(parent.get('category'))
+    # a generic hit ("Resistor", "Diode") defers to the more specific parent category ("Resistor (power)")
+    if not cat or (pcat and pcat.startswith(cat)):
+        return pcat
+    return cat
 
-    Used by export_verified.py after a human edited lines or category, where the OCR-time
-    description no longer fits. Mirrors the passes above in the same order; a rule/override
-    description is only used when its category agrees with the entry's category (a human who
-    changed the category disagreed with the rule). Returns None when nothing applies.
+
+GENERIC_DESC = {'Voltage regulator', 'Negative voltage regulator', 'Switching regulator', 'Voltage regulators'}
+
+def describe(e):
+    """Description for one entry from its lines / category / kind (no neighbour context).
+
+    The single description path: the OCR pipeline calls it for every entry, and export_verified.py
+    calls it again after a human edited lines or category (and for every contents item via
+    describe_item()). A rule / override description is only used when its category agrees with the
+    entry's (a human who changed the category disagreed with the rule). Returns None when nothing applies.
     """
     e = dict(e, part_key=part_key_of(e['lines']))
-    k, cat, lines = K(e), e.get('category'), e['lines']
-    if e.get('kind') == 'column_label':
-        return 'Column label listing the drawers below/above it: ' + ' | '.join(lines) + ' — keep or drop case by case'
-    if k == 'M6' and e['t_first'] < 355 and cat and cat.startswith('Screw'):
-        return 'Plastic bin labelled M6 in a separate cabinet section next to the memory ICs; M6 screws assumed'
+    k, lines, kind = K(e), e['lines'], e.get('kind')
+    cat = canon(e.get('category')) or ''
+    if kind == 'column_label':
+        d = describe({**e, 'kind': 'drawer'})
+        return d if d and not d.startswith('Label: ') else 'Column label: ' + ' | '.join(lines)
+    if k == 'M6' and e.get('t_first', 0) < 355 and cat.startswith('Screw'):
+        return 'M6 screws (assumed)'
     o = OVR.get(k)
-    if o and o[0] == cat:
+    if o and canon(o[0]) == cat and o[3]:
         return o[3]
-    rcat, _, desc = classify(e)
-    if rcat != cat:
+    rcat, _, desc, _ = classify(e)
+    fine = rcat if rcat and canon(rcat) == cat else None
+    if not fine:
         desc = None
-    if re.fullmatch(r'\d+(\.\d+)?MM', k) and cat in ('Drill bit', 'Washer'):
-        return 'Size only; ' + ('in the HSS drill-bit section' if cat == 'Drill bit' else 'hole diameter, in the washer section')
-    if cat in ('Logic (74-series)', 'Logic (74HC)') and not desc:
-        desc = desc74(k)
-    if cat == 'Logic (CMOS 4000)' and not desc:
-        desc = desc4000(k)
-    if cat == 'Resistor (SMD 0603)':  # a human-set SMD category on a 'drawer' entry is still a reel
+    # --- sizes / values / pin counts derived from the label
+    m = re.fullmatch(r'(\d+(?:\.\d+)?)MM', k)
+    if m and cat == 'Drill bit':
+        return f'HSS twist drill bit, {m[1]} mm'
+    if m and cat == 'Washer':
+        return f'Washer, {m[1]} mm hole'
+    m = re.fullmatch(r'(\d+\.\d+)X(\d+)', k)
+    if m and cat == 'Washer':
+        return f'Washer, {m[1]} x {m[2]} mm'
+    if cat == 'Drill bit' and k.startswith('HSS') and not desc:
+        m = re.search(r'(\d+(?:\.\d+)?)MM', k)
+        return f'HSS twist drill bit, {m[1]} mm' if m else 'HSS twist drill bits'
+    if cat.startswith('Screw/bolt'):
+        m = re.match(r'^M(\d+(?:\.\d+)?)(?:X(\d+))?(?![\d.])', k)
+        if m:
+            size = f'M{m[1]}' + (f' x {m[2]}' if m[2] else '')
+            base = desc or 'metric screws'
+            desc = f'{size} {base[0].lower() + base[1:]}'
+    if cat == 'IC socket':
+        m = re.search(r'(?<!\d)(\d{1,2})(?!\d)', k)
+        return f'IC socket, {m[1]}-pin' if m and 6 <= int(m[1]) <= 64 else 'IC sockets'
+    if cat == 'LED / display / lamp':
+        m = re.fullmatch(r'(RED|GREEN|YELLOW)?LED', k)
+        if m:
+            return f'{m[1].title()} LEDs' if m[1] else 'LEDs'
+    if cat == 'Crystal' and not desc:
+        m = re.search(r'(\d+(?:\.\d+)?)(MHZ|KHZ)', k)
+        desc = f'Quartz crystal, {m[1]} {"MHz" if m[2] == "MHZ" else "kHz"}' if m else 'Quartz crystals'
+    if cat == 'Resistor (SMD 0603)' or (kind == 'reel' and cat == 'Resistor'):
         v = next((v for v in (parse_r(l) for l in k.split('/') if l != '0603') if v is not None), None)
         if v is not None:
             return f'0603 SMD resistor reel, {fmt_r(v)}' + (' (1 % E96 kit value)' if in_series(v, E96) or in_series(v, E24) else '')
     if cat in ('Capacitor (electrolytic)', 'Capacitor (film/ceramic)') and not desc:
-        desc = 'Values: ' + ' | '.join(lines) + (' — µF range, electrolytic assumed' if 'electrolytic' in cat else '')
+        desc = 'Electrolytic capacitor' if 'electrolytic' in cat else 'Film / ceramic capacitor'
     if cat == 'Resistor (power)':
-        # the values are more useful than the generic rule text ("... label lists the values")
         vals = [parse_r(l) for l in k.split('/') if l != 'POWER']
         if vals and all(v is not None for v in vals):
-            desc = 'Power resistor(s): ' + ', '.join(fmt_r(v) for v in vals)
+            desc = resistor_desc(vals, power=True)
         elif not desc:
-            desc = 'Power resistor(s): ' + ' | '.join(lines)
-    cur = desc or ''
-    foreign = [m for m in re.findall(r'[A-Z]{2,}\d{3,}[A-Z0-9]*', cur.upper()) if m not in k.replace('/', '')]
-    if not cur or ';' in cur or foreign:
-        for rx, d in PDESC:
-            if rx.search(k):
-                desc = d
+            desc = 'Power resistors'
+    if cat == 'Resistor' and not desc:
+        vals = [parse_r(l) for l in k.split('/')]
+        if vals and all(v is not None for v in vals):
+            desc = resistor_desc(vals)
+    # --- a part-specific description beats the family-level text of a rule
+    for rx, d in PDESC:
+        if rx.search(k):
+            desc = d
+            break
+    # --- part tables
+    if cat in ('Logic (74-series)', 'Logic (74HC)') and not desc:
+        desc = desc74(k)
+    if cat == 'Logic (CMOS 4000)' and not desc:
+        desc = desc4000(k)
+    if not desc or desc in GENERIC_DESC:
+        for tok in k.split('/'):
+            m = re.match(r'(LM\d{2,5})', tok)
+            if m and m[1] in FLM:
+                desc = m[1] + ' ' + FLM[m[1]]
                 break
+    if cat.startswith('Voltage regulator') and (not desc or desc in GENERIC_DESC):
+        ms = re.findall(r'(?:^|/)(?:UA|LM|MC)?(78|79)(\d\d)(?:[A-Z]*(?:/|$))', k)
+        if len(ms) == 1 and ms[0][1] != '00':
+            desc = f'{"+" if ms[0][0] == "78" else "−"}{int(ms[0][1])} V regulator ({ms[0][0]}{ms[0][1]})'
     if desc:
         return desc
+    if fine and fine != cat:  # merged sub-category: keep the sub-type as the description
+        return qualifier(fine)
     extra = [l for l in lines[1:] if not re.search(r'\d{3}', l)]
     if extra:
         return 'Label: ' + ' '.join(extra)
-    if cat == 'Resistor':
-        vals = [parse_r(l) for l in k.split('/')]
-        if vals and all(v is not None for v in vals):
-            return 'Through-hole resistor(s): ' + ', '.join(fmt_r(v) for v in vals)
     return None
 
 
-def describe_item(label, parent):
-    """(category, description) for one contents item, as split_items()/the multi-item pass does it."""
-    stub = {'part_key': part_key_of([label]), 'lines': [label], 't_first': parent['t_first'],
+def describe_item(label, parent, category=None):
+    """(category, description) for one contents item of `parent` (a human category, if given, wins)."""
+    cat = item_category(label, parent, category)
+    stub = {'lines': [label], 'category': cat, 't_first': parent['t_first'],
+            'kind': 'drawer' if parent.get('kind') == 'column_label' else parent.get('kind'),
             'label_category': parent.get('label_category')}
-    cat, _, desc = classify(stub)
-    if not cat or (parent.get('category') and parent['category'].startswith(cat)):
-        return parent.get('category'), None
+    desc = describe(stub)
+    if not desc:
+        pd = parent.get('description') or ''
+        desc = pd if pd and ';' not in pd and not pd.startswith(('Label: ', 'Column label: ')) else None
     return cat, desc
+
+
+# ---------------------------------------------------------------- final categories, items, descriptions
+for e in out:
+    e['category'] = canon(e['category'])
+for e in out:
+    its = split_items(e['lines'])
+    if len(its) >= 2:
+        # items carry label + category only; export_verified.py describes each one via describe_item()
+        e['items'] = [{'label': it, 'category': item_category(it, e)} for it in its]
+for e in out:
+    e['description'] = describe(e)
 
 
 # ---------------------------------------------------------------- output
 if __name__ == '__main__':
-    # User (2026-09-04): 'section labels' are actually boxes with things in them; exclude entirely for now.
-    excluded = [e for e in out if e['kind'] == 'section_label']
-    out = [e for e in out if e['kind'] != 'section_label']
-    json.dump([{k: v for k, v in e.items() if k != '_wheres'} for e in excluded], open('excluded_boxes.json', 'w'), indent=1, ensure_ascii=False)
+    # 'section labels' are boxes with things in them. They used to go to a separate excluded_boxes.json;
+    # they are now appended after the drawers (same order as before, so entry ids in verify.json are
+    # unchanged) and a person drops the ones that are not real containers with the not_drawer status.
+    boxes = [e for e in out if e['kind'] == 'section_label']
+    out = [e for e in out if e['kind'] != 'section_label'] + boxes
     review = []
     for e in out:
         e.pop('_wheres', None)
@@ -752,7 +841,7 @@ if __name__ == '__main__':
     confs = collections.Counter(e['category_confidence'] or 'none' for e in out)
     md = ['# Drawer inventory', '',
           f'{len(out)} entries ({kinds["drawer"]} drawers, {kinds["reel"]} SMD reels, {kinds["bin"]} bins, {kinds["column_label"]} column labels, '
-          f'{len(excluded)} box labels excluded) from 4,702 OCR reads over 528 keyframes; {len(review)} entries in the review queue.', '',
+          f'{len(boxes)} box labels) from 4,702 OCR reads over 528 keyframes; {len(review)} entries in the review queue.', '',
           'Category source: ' + ', '.join(f'{k} {v}' for k, v in srcs.most_common()) + '. ',
           'Category confidence: ' + ', '.join(f'{k} {v}' for k, v in confs.most_common()) + '.', '',
           '## Categories', '', '| Category | Entries |', '|---|---|']

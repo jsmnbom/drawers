@@ -66,11 +66,9 @@ def where_by_frame(e, exact, by_frame):
 
 def load_entries():
     inv = json.load(open(os.path.join(ROOT, 'inventory.json'), encoding='utf-8'))['inventory']
-    boxes_path = os.path.join(ROOT, 'work', 'excluded_boxes.json')
-    boxes = json.load(open(boxes_path, encoding='utf-8')) if os.path.exists(boxes_path) else []
     exact, by_frame = load_reads()
     entries = []
-    for e in inv + boxes:
+    for e in inv:
         e = {k: v for k, v in e.items() if not k.startswith('_')}
         e['where_by_frame'] = where_by_frame(e, exact, by_frame)
         e.setdefault('kind', 'drawer')

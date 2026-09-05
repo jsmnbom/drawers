@@ -30,6 +30,9 @@ cd work && ../.venv/bin/python build_site.py --no-images  # what CI runs; then o
 
 # regenerate the OCR-derived data (rarely needed; run from work/)
 cd work && ../.venv/bin/python dedup3.py && ../.venv/bin/python categorize.py && ../.venv/bin/python export_verified.py
+
+# refresh the 74 / 4000 / LM part tables from Wikipedia (manual, rarely; writes work/logic_parts.json)
+cd work && ../.venv/bin/python fetch_logic_tables.py
 ```
 
 CI (`.github/workflows`) runs `build_site.py --no-images` on every push to `main` and deploys `site/`.
@@ -39,14 +42,16 @@ Commit `site/frames/` only when new frames were generated locally; `site/index.h
 ## Data flow
 
 ```
-work/ocr/agent_*.jsonl  --dedup3.py-->  work/dedup3_out.json  --categorize.py-->  inventory.json (+ work/excluded_boxes.json)
-inventory.json + excluded_boxes.json + verify.json  --export_verified.py-->  inventory_verified.json
+work/ocr/agent_*.jsonl  --dedup3.py-->  work/dedup3_out.json  --categorize.py-->  inventory.json
+inventory.json + verify.json  --export_verified.py-->  inventory_verified.json
 inventory_verified.json + work/site_template.html   --build_site.py-------->  site/index.html (JSON embedded at /*__DATA__*/)
 ```
 
 - **Entry identity**: `verify.json` is keyed `"{part_key}|{t_first}"`; `same_as` references use the
-  entry `id`, which is the index into `inventory + excluded_boxes` in that order (assigned identically by
-  `tool.py` and `export_verified.py`). Changing `dedup3.py` or category rules can change keys and orphan
+  entry `id`, which is the index into `inventory.json` (assigned identically by `tool.py` and
+  `export_verified.py`). `categorize.py` appends the `section_label` boxes after all other entries
+  (they used to live in a separate `excluded_boxes.json`); boxes that are not real containers get
+  `not_drawer`. Changing `dedup3.py` or category rules can change keys and orphan
   edits, so diff keys before and after.
 - **Edit record fields** (all optional): `status` (`ok | wrong | not_drawer | duplicate | unsure | old`),
   `lines`, `category`, `note`, `same_as`, `contents`, `edited_at`. `wrong` means "OCR misread, lines
@@ -56,10 +61,15 @@ inventory_verified.json + work/site_template.html   --build_site.py-------->  si
   its `same_as` target; `description` recomputed via `categorize.describe()` when lines/category changed;
   `contents` = human list or auto-detected `items`. `categorize.py` is importable for this because its
   pipeline only runs under `__main__`.
-- **Category rules** live in `work/categorize.py`: `RULES` (ordered), `OVR` (per-key overrides), `PDESC`
-  (per-part descriptions), `split_items()`/`DESCR` (multi-item labels).
+- **Category rules** live in `work/categorize.py`: `RULES` (ordered; `(regex, category, confidence,
+  description[, note])`), `OVR` (per-key overrides, same shape plus source), `PDESC` (per-part
+  descriptions, beat rule text), `CAT_MERGE`/`canon()` (fine rule names -> published categories; also
+  applied to human categories), `split_items()`/`DESCR` (multi-item labels). `describe()` is the single
+  description path (OCR pipeline, post-edit re-describe, and `describe_item()` for contents items);
+  `description` is part identity only, OCR/position/translation remarks go in `note`.
+  `work/logic_parts.json` (from `fetch_logic_tables.py`) supplies 74 / 4000 / LM part functions.
 - **Frontends**: both `tool.html` and `work/site_template.html` are single-file Vue 3 pages (jsdelivr CDN).
-  The site keeps search/filter/sort/selection state in the URL hash; the tool has keyboard shortcuts
+  The site defaults to items mode, keeps search/filter/sort/selection state in the URL hash; the tool has keyboard shortcuts
   `j/k a w x u o d m [ ] e /`.
 - `work/select.py` shadows the stdlib `select` module; scripts in `work/` that use `subprocess` strip the
   script dir from `sys.path` first (see `build_site.py`).

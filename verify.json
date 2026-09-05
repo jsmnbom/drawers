@@ -737,6 +737,13 @@
   "edited_at": "2026-09-05T12:39:06",
   "status": "ok"
  },
+ "10.000|257.8": {
+  "edited_at": "2026-09-05T14:35:36",
+  "lines": [
+   "10.000µF"
+  ],
+  "status": "ok"
+ },
  "1000UF/16V/16V/63V|168.1": {
   "edited_at": "2026-09-04T13:13:32",
   "status": "ok"
@@ -1126,6 +1133,11 @@
   "same_as": 311,
   "status": "duplicate"
  },
+ "1PCTKONDENSAT|269.1": {
+  "edited_at": "2026-09-05T14:37:02",
+  "note": "1% kondensator could be a lot of things",
+  "status": "unsure"
+ },
  "1UF/100V/1UF/250V/1.5UF/100V|151.4": {
   "edited_at": "2026-09-04T13:12:43",
   "status": "unsure"
@@ -1138,6 +1150,14 @@
   "edited_at": "2026-09-05T15:53:47",
   "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
   "status": "old"
+ },
+ "2,2UF|247.7": {
+  "edited_at": "2026-09-05T14:35:07",
+  "status": "ok"
+ },
+ "2,2UF|267.0": {
+  "edited_at": "2026-09-05T14:36:17",
+  "status": "ok"
  },
  "2,7K|314.6": {
   "edited_at": "2026-09-05T15:53:47",
@@ -1269,6 +1289,10 @@
  "220UF/63V|165.4": {
   "edited_at": "2026-09-04T13:13:09",
   "status": "unsure"
+ },
+ "220UF|267.0": {
+  "edited_at": "2026-09-05T14:36:24",
+  "status": "ok"
  },
  "220Ω|104.5": {
   "edited_at": "2026-09-05T12:39:19",
@@ -1499,6 +1523,10 @@
   "edited_at": "2026-09-04T13:12:42",
   "status": "unsure"
  },
+ "330UF|269.1": {
+  "edited_at": "2026-09-05T14:37:14",
+  "status": "ok"
+ },
  "330Ω|116.4": {
   "edited_at": "2026-09-05T12:40:59",
   "status": "ok"
@@ -1700,6 +1728,10 @@
   "edited_at": "2026-09-05T12:59:51",
   "status": "ok"
  },
+ "4071|105.7": {
+  "edited_at": "2026-09-05T14:33:16",
+  "status": "old"
+ },
  "420UF/630V/630UF/100V/680UF/250V|153.5": {
   "edited_at": "2026-09-04T13:12:45",
   "status": "unsure"
@@ -1760,6 +1792,15 @@
  "470UF/63V/16V|169.7": {
   "edited_at": "2026-09-04T13:14:31",
   "status": "unsure"
+ },
+ "470UF|247.7": {
+  "edited_at": "2026-09-05T14:35:09",
+  "status": "ok"
+ },
+ "470UF|257.1": {
+  "edited_at": "2026-09-05T14:35:25",
+  "same_as": 822,
+  "status": "duplicate"
  },
  "470Ω/TRIMPOT|8.6": {
   "edited_at": "2026-09-04T12:02:51",
@@ -2231,6 +2272,15 @@
   "edited_at": "2026-09-04T13:13:14",
   "status": "unsure"
  },
+ "680UF|270.5": {
+  "edited_at": "2026-09-05T14:37:41",
+  "status": "ok"
+ },
+ "680ΜF|272.5": {
+  "edited_at": "2026-09-05T14:37:56",
+  "same_as": 865,
+  "status": "duplicate"
+ },
  "680Ω|20.6": {
   "edited_at": "2026-09-04T12:09:08",
   "status": "ok"
@@ -2241,6 +2291,10 @@
  },
  "68MΩ|21.9": {
   "edited_at": "2026-09-04T12:09:53",
+  "status": "ok"
+ },
+ "68UF|269.1": {
+  "edited_at": "2026-09-05T14:37:12",
   "status": "ok"
  },
  "68Ω/680Ω/POWER|23.6": {
@@ -3140,8 +3194,8 @@
   "status": "duplicate"
  },
  "?|378.1": {
-  "edited_at": "2026-09-04T12:23:38",
-  "status": "unsure"
+  "edited_at": "2026-09-05T14:33:43",
+  "status": "ok"
  },
  "AMD/AM29700PC/RAM|1.0": {
   "edited_at": "2026-09-04T11:56:04",
@@ -3483,6 +3537,11 @@
   "edited_at": "2026-09-05T13:22:08",
   "status": "ok"
  },
+ "M6|352.4": {
+  "edited_at": "2026-09-05T14:33:26",
+  "same_as": 1186,
+  "status": "duplicate"
+ },
  "M80C154/8-BIT/MICROCONTROLLER/MCU|1.0": {
   "edited_at": "2026-09-04T11:56:16",
   "status": "ok"
@@ -3520,6 +3579,11 @@
  "MC10116/TRIPLE/LINERECIEVER|70.5": {
   "edited_at": "2026-09-05T13:23:28",
   "status": "ok"
+ },
+ "MC14/OPA|196.8": {
+  "edited_at": "2026-09-05T14:34:41",
+  "same_as": 188,
+  "status": "duplicate"
  },
  "MC1439G/OPAMP|197.2": {
   "edited_at": "2026-09-05T12:55:41",
@@ -3562,6 +3626,10 @@
  "MN2114-3/SRAM|3.0": {
   "edited_at": "2026-09-04T11:59:08",
   "status": "ok"
+ },
+ "MOB|376.9": {
+  "edited_at": "2026-09-05T14:33:37",
+  "status": "not_drawer"
  },
  "MPID1603/470G|132.7": {
   "category": "Resistor network",
@@ -3666,6 +3734,10 @@
  },
  "SMD-0603|60.2": {
   "edited_at": "2026-09-05T13:19:08",
+  "status": "not_drawer"
+ },
+ "SMD-06|177.8": {
+  "edited_at": "2026-09-05T14:34:04",
   "status": "not_drawer"
  },
  "SMD-0|204.6": {

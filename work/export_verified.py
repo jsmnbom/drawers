@@ -2,7 +2,7 @@
 """Merge human edits (../verify.json, written by tool.py) into the OCR inventory.
 
 Run from work/:  ../.venv/bin/python export_verified.py
-Reads  ../inventory.json, excluded_boxes.json, ../verify.json
+Reads  ../inventory.json, ../verify.json
 Writes ../inventory_verified.json, ../inventory_verified.md   (inventory.json is left untouched)
 
 Rules:
@@ -12,11 +12,12 @@ Rules:
                         cabinet, due for consolidation). The site shows it with an 'old' badge.
   status duplicate   -> collapsed into its same_as target (target gets also_seen_at + merged frames);
                         a duplicate without a valid same_as is kept and flagged
-  contents           -> list of {label, category} items copied onto the entry (multi-item drawers/boxes);
-                        falls back to the auto-detected `items` from categorize.py when no human contents;
-                        each human item gets a description via categorize.describe_item() when a part rule matches
-  description        -> recomputed with categorize.describe() whenever lines or category were edited,
-                        and for column labels marked ok/wrong (drops the "keep or drop case by case" advice)
+  category           -> human and OCR categories both go through categorize.canon() (merged category names)
+  contents           -> list of {label, category, description} items on the entry (multi-item drawers/boxes):
+                        the human list from verify.json, else the auto-detected `items` from categorize.py;
+                        every item gets category + description from categorize.describe_item() (a human
+                        item category wins; the description is derived from that category)
+  description        -> recomputed with categorize.describe() whenever lines or category were edited
                         (the OCR-time text described the old label/category); original kept under `ocr`
   everything else    -> kept, with human.status ('' if unreviewed)
 """
@@ -39,12 +40,11 @@ def load(path, default=None):
 
 
 inv = (load(P(ROOT, 'inventory.json')) or {'inventory': []})['inventory']
-boxes = load(P(HERE, 'excluded_boxes.json'), [])
 edits = load(P(ROOT, 'verify.json'), {})
 
 # Same id/key assignment as tool.py
 entries = []
-for e in inv + boxes:
+for e in inv:
     e = {k: v for k, v in e.items() if not k.startswith('_')}
     e.setdefault('review', [])
     e['id'] = len(entries)
@@ -72,9 +72,10 @@ for e in entries:
     n = {k: v for k, v in e.items() if k != 'key'}
     ocr = {}
     for fld in ('lines', 'category', 'note'):
-        if fld in d and d[fld] != e.get(fld):
+        val = categorize.canon(d[fld]) if fld == 'category' and fld in d else d.get(fld)
+        if fld in d and val != e.get(fld):
             ocr[fld] = e.get(fld)
-            n[fld] = d[fld]
+            n[fld] = val
     if 'category' in d and d['category'] != e.get('category'):
         n['category_source'] = 'human'
         n['category_confidence'] = 'high'
@@ -87,30 +88,21 @@ for e in entries:
         if new_desc != e.get('description'):
             ocr['description'] = e.get('description')
             n['description'] = new_desc
-    if n.get('kind') == 'column_label' and status in ('ok', 'wrong'):
-        # a person confirmed this column label, so the OCR-time "keep or drop case by case" advice is
-        # moot: describe it like a drawer with the same lines (e.g. "Power resistor(s): 0.10Ω, 1Ω")
-        new_desc = categorize.describe({**n, 'kind': 'drawer'})
-        if not new_desc or new_desc.startswith('Label: '):
-            new_desc = 'Column label: ' + ' | '.join(n['lines'])
-        if new_desc != n.get('description'):
-            ocr.setdefault('description', e.get('description'))
-            n['description'] = new_desc
-    if d.get('contents'):
+    items = d.get('contents') or e.get('items') or []
+    n.pop('items', None)
+    if items:
         n['contents'] = []
-        for c in d['contents']:
+        for c in items:
             if not (c.get('label') or c.get('category')):
                 continue
             c = {k: v for k, v in c.items() if k in ('label', 'category')}
             if c.get('label'):
-                auto_cat, desc = categorize.describe_item(c['label'], n)
-                c.setdefault('category', auto_cat)
-                if desc and (c.get('category') or '').startswith(auto_cat or '\0'):
+                c['category'], desc = categorize.describe_item(c['label'], n, c.get('category'))
+                if desc:
                     c['description'] = desc
+            else:
+                c['category'] = categorize.canon(c['category'])
             n['contents'].append(c)
-    elif e.get('items'):
-        n['contents'] = [{'label': c['label'], 'category': c.get('category')} for c in e['items']]
-        n.pop('items', None)
     if ocr:
         n['ocr'] = ocr
     n['review'] = list(e['review'])

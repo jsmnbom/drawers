@@ -29,10 +29,18 @@
   header h1 { font-size: 18px; margin: 0; }
   header .muted { color: var(--fg2); font-size: 13px; }
   #notice { padding: 6px 14px; border-bottom: 1px solid var(--line); background: var(--unsure-bg); color: var(--unsure); font-size: 13px; }
-  #controls { padding: 8px 14px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  #side { width: 250px; flex: none; border-right: 1px solid var(--line); overflow: auto; padding: 10px 12px; background: var(--bg2); display: flex; flex-direction: column; gap: 6px; }
+  #side input[type=search], #side select { width: 100%; min-width: 0; }
+  #side .seg { display: flex; } #side .seg button { flex: 1; }
+  #side .row2 { display: flex; gap: 6px; align-items: center; justify-content: space-between; }
+  .cats { border-top: 1px solid var(--line); margin-top: 4px; padding-top: 6px; }
+  .cats .c { display: flex; justify-content: space-between; gap: 8px; padding: 3px 6px; border-radius: 4px; cursor: pointer; }
+  .cats .c:hover { background: var(--hover); }
+  .cats .c.on { background: var(--sel); }
+  .cats .c .n { color: var(--fg2); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .cats .c.all { font-weight: 600; }
   input, select, button { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 5px 8px; }
   input:focus, select:focus, button:focus-visible { outline: 2px solid var(--link); outline-offset: 1px; }
-  input[type=search] { min-width: 260px; flex: 1; }
   button { cursor: pointer; background: var(--bg2); }
   button:hover { background: var(--bg3); }
   button.on { background: var(--sel); border-color: var(--link); }
@@ -46,6 +54,10 @@
   @media (max-width: 900px) {
     #main { position: relative; }
     #detail { position: absolute; inset: 0; width: auto; border: 0; }
+  }
+  @media (max-width: 800px) {
+    #main { flex-direction: column; }
+    #side { width: auto; border-right: 0; border-bottom: 1px solid var(--line); max-height: 45vh; }
   }
   h2.cat { font-size: 15px; margin: 18px 0 4px; padding-bottom: 3px; border-bottom: 1px solid var(--line); display: flex; gap: 8px; align-items: baseline; position: sticky; top: 0; background: var(--bg); }
   h2.cat .n { color: var(--fg2); font-weight: normal; font-size: 13px; }
@@ -81,7 +93,14 @@
   .kv { display: grid; grid-template-columns: 96px 1fr; gap: 4px 10px; margin: 10px 0; }
   .kv > div:nth-child(odd) { color: var(--fg2); font-size: 12px; padding-top: 2px; }
   .kv .strike { text-decoration: line-through; color: var(--fg2); }
-  .contents div { padding: 2px 0; }
+  .contents .it { padding: 2px 4px; margin: 0 -4px; border-radius: 4px; }
+  .contents .it.on { background: var(--sel); }
+  .links { white-space: nowrap; }
+  .links a { font-size: 12px; margin-right: 8px; }
+  .contents .links { margin-left: 6px; }
+  tr.row.cur td.lbl { box-shadow: inset 3px 0 var(--link); }
+  #detail .lines { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  #detail .lines .l { display: flex; flex-direction: column; }
   .frame { margin-top: 12px; }
   .frame .bar { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; font-size: 12px; color: var(--fg2); }
   .frame img { width: 100%; display: block; border: 1px solid var(--line); border-radius: 4px; background: #000; }
@@ -99,43 +118,46 @@
   </header>
   <div id="notice">⚠ Any entry may be wrong: labels were read by OCR from a video and the &ldquo;label OK&rdquo; status only means the reading matches what the label says, not that the part is actually in the drawer. Drawers may be empty (&ldquo;old&rdquo; marks ones that probably are: superseded drawers due for consolidation), components may be misplaced or mixed, handwritten labels may be misread or outdated, and typed labels may not match the contents. Check the drawer before relying on this.</div>
 
-  <div id="controls">
-    <span class="seg" title="one row per drawer/reel/bin, or one row per listed part">
-      <button :class="{on: mode==='drawers'}" @click="mode='drawers'">drawers</button>
-      <button :class="{on: mode==='items'}" @click="mode='items'">items</button>
-    </span>
-    <input type="search" v-model.trim="f.q" placeholder="search label, category, description, contents…" autofocus>
-    <select v-model="f.cat">
-      <option value="">all categories ({{ rows.length }})</option>
-      <option v-for="c in catList" :value="c.name">{{ c.name }} ({{ c.n }})</option>
-    </select>
-    <select v-model="f.kind">
-      <option value="">any kind</option>
-      <option v-for="k in kindList" :value="k">{{ kindName(k) }}</option>
-    </select>
-    <select v-model="f.status">
-      <option value="">any status</option>
-      <option value="reviewed">reviewed (any)</option>
-      <option value="ok">label OK</option>
-      <option value="wrong">label corrected</option>
-      <option value="unsure">unsure</option>
-      <option value="old">old / likely empty</option>
-      <option value="none">label unchecked</option>
-    </select>
-    <span class="seg">
-      <button :class="{on: view==='grouped'}" @click="view='grouped'">by category</button>
-      <button :class="{on: view==='table'}" @click="view='table'">table</button>
-    </span>
-    <span class="seg" title="sort order">
-      <button :class="{on: sort==='value'}" @click="sort='value'">value</button>
-      <button :class="{on: sort==='label'}" @click="sort='label'">label</button>
-      <button :class="{on: sort==='time'}" @click="sort='time'">video order</button>
-    </span>
-    <button v-if="f.q || f.cat || f.kind || f.status" @click="reset">clear</button>
-    <span class="sub">{{ filtered.length }} shown</span>
-  </div>
-
   <div id="main">
+    <aside id="side">
+      <input type="search" v-model.trim="f.q" placeholder="search label, category, description…" autofocus>
+      <span class="seg" title="one row per listed part, or one row per drawer/reel/bin">
+        <button :class="{on: mode==='items'}" @click="mode='items'">items</button>
+        <button :class="{on: mode==='drawers'}" @click="mode='drawers'">drawers</button>
+      </span>
+      <span class="seg">
+        <button :class="{on: view==='grouped'}" @click="view='grouped'">by category</button>
+        <button :class="{on: view==='table'}" @click="view='table'">table</button>
+      </span>
+      <span class="seg" title="sort order">
+        <button :class="{on: sort==='value'}" @click="sort='value'">value</button>
+        <button :class="{on: sort==='label'}" @click="sort='label'">label</button>
+        <button :class="{on: sort==='time'}" @click="sort='time'">video</button>
+      </span>
+      <select v-model="f.kind">
+        <option value="">any kind</option>
+        <option v-for="k in kindList" :value="k">{{ kindName(k) }}</option>
+      </select>
+      <select v-model="f.status">
+        <option value="">any status</option>
+        <option value="reviewed">reviewed (any)</option>
+        <option value="ok">label OK</option>
+        <option value="wrong">label corrected</option>
+        <option value="unsure">unsure</option>
+        <option value="old">old / likely empty</option>
+        <option value="none">label unchecked</option>
+      </select>
+      <div class="row2">
+        <span class="sub">{{ filtered.length }} shown</span>
+        <button v-if="f.q || f.cat || f.kind || f.status" @click="reset">clear</button>
+      </div>
+      <div class="cats">
+        <div class="c all" :class="{on: !f.cat}" @click="f.cat = ''"><span>all categories</span><span class="n">{{ base.length }}</span></div>
+        <div class="c" v-for="c in catList" :key="c.name" :class="{on: f.cat === c.name}" @click="f.cat = f.cat === c.name ? '' : c.name">
+          <span>{{ c.name }}</span><span class="n">{{ c.n }}</span>
+        </div>
+      </div>
+    </aside>
     <div id="list">
       <div v-if="!filtered.length" class="empty">Nothing matches.</div>
 
@@ -145,7 +167,7 @@
             <a href="#" v-if="!f.cat" @click.prevent="f.cat = g.name">only this</a></h2>
           <table>
             <colgroup><col class="c-lbl"><col><col class="c-drw" v-if="mode==='items'"><col class="c-kind"><col class="c-st"></colgroup>
-            <tr class="row" v-for="e in g.rows" :key="e.id" :class="{sel: sel && sel.id===e._e.id}" @click="select(e._e)">
+            <tr class="row" v-for="e in g.rows" :key="e.id" :class="{sel: sel && sel.id===e._e.id, cur: sel && sel.id===e._e.id && e._e !== e && selItem === e._i}" @click="select(e._e, e._i)">
               <td class="lbl">{{ label(e) }}</td>
               <td class="desc">{{ short(e) }}</td>
               <td class="drw" v-if="mode==='items'"><span v-if="e._e !== e" :title="'listed on: ' + label(e._e)">{{ label(e._e) }}</span></td>
@@ -168,7 +190,7 @@
           <th :class="{on: sort==='time'}" @click="sort='time'">Video</th>
         </tr></thead>
         <tbody>
-          <tr class="row" v-for="e in filtered" :key="e.id" :class="{sel: sel && sel.id===e._e.id}" @click="select(e._e)">
+          <tr class="row" v-for="e in filtered" :key="e.id" :class="{sel: sel && sel.id===e._e.id, cur: sel && sel.id===e._e.id && e._e !== e && selItem === e._i}" @click="select(e._e, e._i)">
             <td class="lbl">{{ label(e) }}</td>
             <td>{{ e.category }}</td>
             <td class="desc">{{ short(e) }}</td>
@@ -186,14 +208,21 @@
         <span class="badge" :class="sel.status || 'none'">{{ statusName(sel.status) }}<span v-if="sel.edited_at"> · {{ sel.edited_at }}</span></span>
         <button @click="select(null)" title="close (Esc)">✕ close</button>
       </div>
-      <div class="lines"><div v-for="l in sel.lines">{{ l }}</div></div>
+      <div class="lines">
+        <div class="l" v-for="l in sel.lines"><span style="font-size:16px">{{ l }}</span></div>
+        <span class="links"><a v-for="l in links(sel.lines.join(' '))" :href="l.href" target="_blank" rel="noopener">{{ l.name }}</a></span>
+      </div>
       <div class="kv">
         <div>category</div><div>{{ sel.category }} <span class="sub" v-if="sel.cat_human">(set by hand)</span></div>
         <div>kind</div><div>{{ kindName(sel.kind) }}</div>
         <template v-if="sel.description"><div>description</div><div>{{ sel.description }}</div></template>
         <template v-if="sel.note"><div>note</div><div>{{ sel.note }}</div></template>
         <template v-if="sel.contents"><div>contents</div><div class="contents">
-          <div v-for="c in sel.contents"><b>{{ c.label }}</b> <span class="sub" v-if="c.category">— {{ c.category }}</span></div>
+          <div class="it" v-for="(c, i) in sel.contents" :class="{on: selItem === i}">
+            <b>{{ c.label }}</b><span v-if="c.description"> — {{ c.description }}</span>
+            <span class="sub" v-if="c.category && c.category !== sel.category"> · {{ c.category }}</span>
+            <span class="links" v-if="c.label"> <a v-for="l in links(c.label)" :href="l.href" target="_blank" rel="noopener">{{ l.name }}</a></span>
+          </div>
         </div></template>
         <template v-if="sel.ocr_lines"><div>OCR read</div><div><span class="strike">{{ sel.ocr_lines.join(' / ') }}</span> <span class="sub">(corrected by hand)</span></div></template>
         <div>in video</div><div>{{ mmss(sel.t_first) }}<span v-if="sel.also_seen_at"> (also {{ sel.also_seen_at.map(mmss).join(', ') }})</span></div>
@@ -246,13 +275,13 @@ createApp({
     const byId = new Map(entries.map(e => [e.id, e]));
     // item rows: one per listed part (entries with `contents`), else the entry itself
     const items = entries.flatMap(e => e.contents && e.contents.length
-      ? e.contents.map((c, i) => ({ id: e.id + '.' + i, lines: [c.label], category: c.category || e.category,
+      ? e.contents.map((c, i) => ({ id: e.id + '.' + i, _i: i, lines: [c.label], category: c.category || e.category,
           description: c.description || '', kind: e.kind, status: e.status, t_first: e.t_first, _e: e,
           _vk: valueKey({ lines: [c.label] }),
           _hay: (c.label + ' ' + (c.category || '') + ' ' + (c.description || '') + ' ' + e._hay).toLowerCase() }))
       : [e]);
     const f = reactive({ q: '', cat: '', kind: '', status: '' });
-    const mode = ref('drawers'), view = ref('grouped'), sort = ref('value'), sel = ref(null), fi = ref(0);
+    const mode = ref('items'), view = ref('grouped'), sort = ref('value'), sel = ref(null), selItem = ref(null), fi = ref(0);
     const rows = computed(() => mode.value === 'items' ? items : entries);
 
     const counts = computed(() => {
@@ -260,9 +289,18 @@ createApp({
       for (const e of entries) { c[e.kind] = (c[e.kind] || 0) + 1; if (e.status) c.done++; }
       return c;
     });
+    // rows passing every filter except the category: the sidebar counts are facets of the current search
+    const base = computed(() => {
+      const q = f.q.toLowerCase().split(/\s+/).filter(Boolean);
+      return rows.value.filter(e =>
+        (!f.kind || e.kind === f.kind) &&
+        (!f.status || (f.status === 'none' ? !e.status : f.status === 'reviewed' ? !!e.status : e.status === f.status)) &&
+        q.every(w => e._hay.includes(w)));
+    });
     const catList = computed(() => {
       const m = new Map();
-      for (const e of rows.value) m.set(e.category, (m.get(e.category) || 0) + 1);
+      for (const e of base.value) m.set(e.category, (m.get(e.category) || 0) + 1);
+      if (f.cat && !m.has(f.cat)) m.set(f.cat, 0);
       return [...m].map(([name, n]) => ({ name, n })).sort((a, b) => coll.compare(a.name, b.name));
     });
     const kindList = computed(() => Object.keys(KIND).filter(k => counts.value[k]));
@@ -273,22 +311,21 @@ createApp({
       if (sort.value === 'cat') return coll.compare(a.category, b.category) || a._vk - b._vk || coll.compare(a.lines[0], b.lines[0]);
       return (a._vk - b._vk) || coll.compare(a.lines[0], b.lines[0]) || a.t_first - b.t_first; // value
     }
-    const filtered = computed(() => {
-      const q = f.q.toLowerCase().split(/\s+/).filter(Boolean);
-      return rows.value.filter(e =>
-        (!f.cat || e.category === f.cat) &&
-        (!f.kind || e.kind === f.kind) &&
-        (!f.status || (f.status === 'none' ? !e.status : f.status === 'reviewed' ? !!e.status : e.status === f.status)) &&
-        q.every(w => e._hay.includes(w))
-      ).sort(cmp);
-    });
+    const filtered = computed(() => base.value.filter(e => !f.cat || e.category === f.cat).sort(cmp));
     const groups = computed(() => {
       const m = new Map();
       for (const e of filtered.value) { if (!m.has(e.category)) m.set(e.category, []); m.get(e.category).push(e); }
       return [...m].map(([name, rows]) => ({ name, rows })).sort((a, b) => coll.compare(a.name, b.name));
     });
 
-    function select(e) { sel.value = e; fi.value = 0; }
+    function select(e, item) { sel.value = e; selItem.value = item ?? null; fi.value = 0; }
+    const links = q => {
+      const u = encodeURIComponent(q);
+      return [{ name: 'Google', href: 'https://www.google.com/search?q=' + u },
+              { name: 'Images', href: 'https://www.google.com/search?tbm=isch&q=' + u },
+              { name: 'DDG', href: 'https://duckduckgo.com/?q=' + u },
+              { name: 'Octopart', href: 'https://octopart.com/search?q=' + u }];
+    };
     function reset() { f.q = f.cat = f.kind = f.status = ''; }
     const label = e => e.lines.join(' / ');
     const short = e => e._e !== e ? (e.description || '') :
@@ -301,7 +338,7 @@ createApp({
     function writeHash() {
       const p = new URLSearchParams();
       for (const k of ['q', 'cat', 'kind', 'status']) if (f[k]) p.set(k, f[k]);
-      if (mode.value !== 'drawers') p.set('mode', mode.value);
+      if (mode.value !== 'items') p.set('mode', mode.value);
       if (view.value !== 'grouped') p.set('view', view.value);
       if (sort.value !== 'value') p.set('sort', sort.value);
       if (sel.value) p.set('id', sel.value.id);
@@ -311,7 +348,7 @@ createApp({
     function readHash() {
       const p = new URLSearchParams(location.hash.slice(1));
       for (const k of ['q', 'cat', 'kind', 'status']) f[k] = p.get(k) || '';
-      mode.value = p.get('mode') === 'items' ? 'items' : 'drawers';
+      mode.value = p.get('mode') === 'drawers' ? 'drawers' : 'items';
       view.value = p.get('view') || 'grouped';
       sort.value = p.get('sort') || 'value';
       const id = p.get('id');
@@ -319,14 +356,14 @@ createApp({
     }
     readHash();
     watch([f, mode, view, sort, sel], writeHash, { deep: true });
-    watch(mode, () => { if (f.cat && !catList.value.some(c => c.name === f.cat)) f.cat = ''; });
+    watch(mode, () => { if (f.cat && !rows.value.some(e => e.category === f.cat)) f.cat = ''; });
     onMounted(() => {
       window.addEventListener('hashchange', readHash);
       window.addEventListener('keydown', ev => { if (ev.key === 'Escape') select(null); });
     });
 
-    return { entries, items, rows, f, mode, view, sort, sel, fi, counts, catList, kindList, filtered, groups, built: DATA.built,
-             select, reset, label, short, mmss, kindName, statusName };
+    return { entries, items, rows, f, mode, view, sort, sel, selItem, fi, counts, base, catList, kindList, filtered, groups, built: DATA.built,
+             select, reset, label, short, mmss, kindName, statusName, links };
   }
 }).mount('#app');
 </script>
