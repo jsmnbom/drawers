@@ -209,19 +209,20 @@
         <button @click="select(null)" title="close (Esc)">✕ close</button>
       </div>
       <div class="lines">
-        <div class="l" v-for="l in sel.lines"><span style="font-size:16px">{{ l }}</span></div>
-        <span class="links"><a v-for="l in links(sel.lines.join(' '))" :href="l.href" target="_blank" rel="noopener">{{ l.name }}</a></span>
+        <div class="l"><span style="font-size:16px">{{ sel.name }}</span></div>
+        <span class="links"><a v-for="l in links(sel.name)" :href="l.href" target="_blank" rel="noopener">{{ l.name }}</a></span>
       </div>
       <div class="kv">
+        <div>label</div><div>{{ sel.lines.join(' / ') }}</div>
         <div>category</div><div>{{ sel.category }} <span class="sub" v-if="sel.cat_human">(set by hand)</span></div>
         <div>kind</div><div>{{ kindName(sel.kind) }}</div>
         <template v-if="sel.description"><div>description</div><div>{{ sel.description }}</div></template>
         <template v-if="sel.note"><div>note</div><div>{{ sel.note }}</div></template>
         <template v-if="sel.contents"><div>contents</div><div class="contents">
           <div class="it" v-for="(c, i) in sel.contents" :class="{on: selItem === i}">
-            <b>{{ c.label }}</b><span v-if="c.description"> — {{ c.description }}</span>
+            <b>{{ c.name || c.label }}</b><span class="sub" v-if="c.name && c.name !== c.label"> ({{ c.label }})</span><span v-if="c.description"> — {{ c.description }}</span>
             <span class="sub" v-if="c.category && c.category !== sel.category"> · {{ c.category }}</span>
-            <span class="links" v-if="c.label"> <a v-for="l in links(c.label)" :href="l.href" target="_blank" rel="noopener">{{ l.name }}</a></span>
+            <span class="links" v-if="c.label"> <a v-for="l in links(c.name || c.label)" :href="l.href" target="_blank" rel="noopener">{{ l.name }}</a></span>
           </div>
         </div></template>
         <template v-if="sel.ocr_lines"><div>OCR read</div><div><span class="strike">{{ sel.ocr_lines.join(' / ') }}</span> <span class="sub">(corrected by hand)</span></div></template>
@@ -271,18 +272,18 @@ const squash = s => s.toLowerCase().replace(/[\s\u2009]/g, '').replace(/[µμ]/g
 
 createApp({
   setup() {
-    const entries = DATA.entries.map(e => ({ ...e, _vk: valueKey(e),
-      _hay: (e.lines.join(' ') + ' ' + e.category + ' ' + (e.description || '') + ' ' + (e.note || '') + ' ' +
+    const entries = DATA.entries.map(e => ({ ...e, _vk: valueKey(e), name: e.name || e.lines.join(' / '),
+      _hay: (e.lines.join(' ') + ' ' + (e.name || '') + ' ' + e.category + ' ' + (e.description || '') + ' ' + (e.note || '') + ' ' +
              (e.contents || []).map(c => c.label + ' ' + (c.category || '')).join(' ') + ' ' + (e.ocr_lines || []).join(' ')).toLowerCase() }));
-    for (const e of entries) e._hay2 = squash(e.lines.join(' ') + ' ' + (e.contents || []).map(c => c.label).join(' '));
+    for (const e of entries) e._hay2 = squash(e.lines.join(' ') + ' ' + e.name + ' ' + (e.contents || []).map(c => (c.name || '') + ' ' + c.label).join(' '));
     for (const e of entries) e._e = e;   // a drawer row points at itself
     const byId = new Map(entries.map(e => [e.id, e]));
     // item rows: one per listed part (entries with `contents`), else the entry itself
     const items = entries.flatMap(e => e.contents && e.contents.length
-      ? e.contents.map((c, i) => ({ id: e.id + '.' + i, _i: i, lines: [c.label], category: c.category || e.category,
+      ? e.contents.map((c, i) => ({ id: e.id + '.' + i, _i: i, lines: [c.label], name: c.name || c.label, category: c.category || e.category,
           description: c.description || '', kind: e.kind, status: e.status, t_first: e.t_first, _e: e,
           _vk: valueKey({ lines: [c.label] }),
-          _hay: (c.label + ' ' + (c.category || '') + ' ' + (c.description || '') + ' ' + e._hay).toLowerCase(), _hay2: e._hay2 }))
+          _hay: (c.label + ' ' + (c.name || '') + ' ' + (c.category || '') + ' ' + (c.description || '') + ' ' + e._hay).toLowerCase(), _hay2: e._hay2 }))
       : [e]);
     const f = reactive({ q: '', cat: '', kind: '', status: '' });
     const mode = ref('items'), view = ref('grouped'), sort = ref('value'), sel = ref(null), selItem = ref(null), fi = ref(0);
@@ -311,9 +312,9 @@ createApp({
 
     function cmp(a, b) {
       if (sort.value === 'time') return a.t_first - b.t_first;
-      if (sort.value === 'label') return coll.compare(a.lines[0], b.lines[0]) || a.t_first - b.t_first;
-      if (sort.value === 'cat') return coll.compare(a.category, b.category) || a._vk - b._vk || coll.compare(a.lines[0], b.lines[0]);
-      return (a._vk - b._vk) || coll.compare(a.lines[0], b.lines[0]) || a.t_first - b.t_first; // value
+      if (sort.value === 'label') return coll.compare(a.name, b.name) || a.t_first - b.t_first;
+      if (sort.value === 'cat') return coll.compare(a.category, b.category) || a._vk - b._vk || coll.compare(a.name, b.name);
+      return (a._vk - b._vk) || coll.compare(a.name, b.name) || a.t_first - b.t_first; // value
     }
     const filtered = computed(() => base.value.filter(e => !f.cat || e.category === f.cat).sort(cmp));
     const groups = computed(() => {
@@ -331,9 +332,9 @@ createApp({
               { name: 'Octopart', href: 'https://octopart.com/search?q=' + u }];
     };
     function reset() { f.q = f.cat = f.kind = f.status = ''; }
-    const label = e => e.lines.join(' / ');
+    const label = e => e.name;
     const short = e => e._e !== e ? (e.description || '') :
-      e.contents && e.contents.length ? e.contents.map(c => c.label).join(', ') + (e.description ? ' — ' + e.description : '') : (e.description || '');
+      e.contents && e.contents.length ? e.contents.map(c => c.name || c.label).join(', ') + (e.description ? ' — ' + e.description : '') : (e.description || '');
     const mmss = t => { t = Math.round(t); return Math.floor(t / 60) + ':' + String(t % 60).padStart(2, '0'); };
     const kindName = k => KIND[k] || k;
     const statusName = s => STATUS[s] || s;

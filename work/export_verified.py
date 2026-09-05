@@ -21,6 +21,9 @@ Rules:
                         item category wins; the description is derived from that category)
   description        -> recomputed with categorize.describe() whenever lines or category were edited
                         (the OCR-time text described the old label/category); original kept under `ocr`
+  name               -> manufacturer part number(s) / values from the label (categorize.name_of(); the whole
+                        label when it has none); the site lists entries by it. Items get name = canon_part(label).
+                        A leading part number the name already says is stripped from descriptions (strip_name()).
   everything else    -> kept, with human.status ('' if unreviewed)
 """
 import collections
@@ -93,6 +96,8 @@ for e in entries:
             if edited:
                 ocr['description'] = e.get('description')
             n['description'] = new_desc
+    n['name'] = categorize.name_of(n['lines'], n.get('category')) or ' / '.join(n['lines'])
+    n['description'] = categorize.strip_name(n.get('description'), n['name'])
     items = d.get('contents') or e.get('items') or []
     n.pop('items', None)
     if items:
@@ -104,6 +109,8 @@ for e in entries:
             if c.get('label'):
                 c['label'] = categorize.norm_value(c['label'], c.get('category') or n.get('category'))
                 c['category'], desc = categorize.describe_item(c['label'], n, c.get('category'))
+                c['name'] = categorize.canon_part(c['label'], c.get('category') or n.get('category'))
+                desc = categorize.strip_name(desc, c['name'])
                 if desc:
                     c['description'] = desc
             else:

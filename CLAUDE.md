@@ -59,7 +59,11 @@ inventory_verified.json + work/site_template.html   --build_site.py-------->  si
 - **Export semantics** (`work/export_verified.py` docstring is authoritative): human `lines/category/note`
   override OCR values with originals kept under `ocr`; `not_drawer` dropped; `duplicate` collapsed into
   its `same_as` target; `description` recomputed via `categorize.describe()` when lines/category changed;
-  `contents` = human list or auto-detected `items`. `categorize.py` is importable for this because its
+  `contents` = human list or auto-detected `items`; `name` = manufacturer part number(s) from the label
+  (`categorize.name_of(lines, category)`: descriptor words dropped, "LM 555" -> "LM555", "HC 260" -> "74HC260",
+  bare "112" in a logic category -> "74HC112"; whole label when it has no part number or for hardware
+  categories), items get `name` via `canon_part()`, and `strip_name()` removes a part number the name already
+  says from descriptions (unless the text names further parts). The site lists rows by `name`; `lines` show only in the detail pane. `categorize.py` is importable for this because its
   pipeline only runs under `__main__`.
 - **Category rules** live in `work/categorize.py`: `RULES` (ordered; `(regex, category, confidence,
   description[, note])`), `OVR` (per-key overrides, same shape plus source), `PDESC` (per-part

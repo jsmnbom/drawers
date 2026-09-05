@@ -106,7 +106,8 @@ def norm_value(line, category=None):
     s = _RX_OHM.sub(lambda m: f'{_num(m[1])}{_PREFIX[m[2]]}Ω', s)
     if resistorish:
         s = _RX_OHM_BARE.sub(lambda m: f'{_num(m[1])}{_PREFIX[m[2]]}Ω', s)
-    s = _RX_V.sub(lambda m: f'{_num(m[1])}{_UNIT_CASE[m[2].upper()]}', s)
+    # a 4+ digit number glued to a single letter ("8080A", "2114V") is a part number, not a value
+    s = _RX_V.sub(lambda m: m[0] if re.fullmatch(r'\d{4,}[A-Za-z]', m[0]) else f'{_num(m[1])}{_UNIT_CASE[m[2].upper()]}', s)
     s = re.sub(r'(?<![A-Za-z0-9])(\d+)\.(\d+)(?=[xX]\d)', r'\1,\2', s)  # washer sizes "4.3x9"
     if re.search(r'\d\s*[A-Za-zµΩ]+\s*/\s*\d', s):
         s = re.sub(r'\s*/\s*', '/', s)
@@ -662,16 +663,23 @@ for e in out:
 DESCR = re.compile(r'(^|[\s\-/])(MUX|QUAD|DUAL|OCTAL|\d?BITS?|INPUT|IN|OUT|POWER|VOLTAGE|REGULATOR|LINE|DRIVERS?|'
                    r'RECEIVERS?|RECIEVERS?|GATE|CH|RESET|CIRCUIT|PROCESSOR|ICS?|CTRL|SMPS|PROM|RAM|DRAM|SRAM|EPROM|'
                    r'EEPROM|CPU|MCU|MICROCONTROLLER|TELETEXT|ZENER|OPTOCOUPLER|SPOLER|STATE|BUFFER|AMP|OP|LOW|NARROWBAND|'
-                   r'GREENCHIP\d?|\d+X\d+|N-CH|P-CH|MAYBE!?)($|[\s\-/.])', re.I)
+                   r'GREENCHIP\d?|\d+X\d+|N-CH|P-CH|MAYBE!?|MULTITURN|MULTITUM|PINS?|RS-?\d{3}|ERROM)($|[\s\-/.])', re.I)
 PACKAGES = {'0402', '0603', '0805', '1206', '1210', '2512'}
+PARTLIKE = re.compile(r'(?:[A-Za-z]{1,4}\d{2,}|\d{3,})[A-Za-z0-9.\-+/]*')  # "8080A", "CR2032", "27128"; not "12V", "10kΩ"
 
 def _norm(s):
     s = re.sub(r'\s+', '', s.upper())
     return re.sub(r'(?<!\d)\.|\.(?!\d)', '', s)
 
+# a known 74-series part number ("74x02", "74LS245") is an item even though "\d+X\d+" would otherwise
+# read as a dimension descriptor
+CHIP = re.compile(r'^(74|54)[A-Z]{0,4}\d{2,4}$', re.I)
+
 def _is_item(tok):
     t = tok.strip()
-    return len(t) >= 3 and any(c.isdigit() for c in t) and _norm(t) not in PACKAGES and not DESCR.search(t)
+    if len(t) < 3 or not any(c.isdigit() for c in t) or _norm(t) in PACKAGES:
+        return False
+    return bool(CHIP.match(t)) or not DESCR.search(t)
 
 def _shape(t):  # alpha prefix + alpha suffix, e.g. "TDA3630"->("TDA",""), "16V"->("","V"), "1000uF"->("","UF")
     t = t.strip().upper()
@@ -695,8 +703,19 @@ def split_items(lines):
                 continue  # Philips 12NC stock number, not three parts
             if len(toks) >= 2 and all(_is_item(t) for t in toks) and len({_shape(t) for t in toks}) == 1:
                 items += toks
+            elif len(toks) >= 2 and sum(any(c.isdigit() for c in t) for t in toks) == 1 \
+                    and any(_is_item(t) and PARTLIKE.fullmatch(t) for t in toks) \
+                    and not any(re.fullmatch(r'[A-Z]{1,4}', t) for t in toks[:next(i for i, t in enumerate(toks) if any(c.isdigit() for c in t))]):
+                # "Intel 8080A", "27128 EP...": one part number among digitless words
+                # (not "LM 336", "HC 260": a short prefix before the number belongs to it, see canon_part())
+                items.append(next(t for t in toks if any(c.isdigit() for c in t)))
             elif _is_item(part) or (len(parts) > 1 and len(part) >= 2 and any(c.isdigit() for c in part)):
                 items.append(part)
+            elif len(toks) >= 2 and DESCR.search(part):
+                # "2716 EPROM", "CR2032 x 1": drop the descriptor words when exactly one part number is left
+                rest = [t for t in toks if _is_item(t)]
+                if len(rest) == 1:
+                    items.append(rest[0])
     joined = []
     for it in items:
         if joined and (joined[-1].endswith('-') or re.fullmatch(r'[A-Za-z]{1,2}-\d{1,3}', it)):
@@ -777,7 +796,7 @@ def _describe(e):
         m = re.search(r'(\d+(?:\.\d+)?)MM', k)
         return f'HSS twist drill bit, {dnum(m[1])} mm' if m else 'HSS twist drill bits'
     if cat.startswith('Screw/bolt'):
-        m = re.match(r'^M(\d+(?:\.\d+)?)(?:X(\d+))?(?![\d.])', k)
+        m = re.match(r'^M(\d+(?:\.\d+)?)(?: ?X(\d+))?(?![\d.])', re.sub(r'\s+', ' ', re.sub(r'(?<=\d),(?=\d)', '.', lines[0].upper())))
         if m:
             size = f'M{dnum(m[1])}' + (f' x {m[2]}' if m[2] else '')
             base = desc or 'metric screws'
@@ -836,6 +855,63 @@ def _describe(e):
     if extra:
         return 'Label: ' + ' '.join(extra)
     return None
+
+
+# ---------------------------------------------------------------- display name
+# User (2026-09-05): the site lists a drawer by its manufacturer part number(s) only; the rest of the
+# label text ("Voice / Record/ / Playback") is drawer info for the detail pane. Written the way the
+# manufacturer writes it: no space after the prefix ("LM 555" -> "LM555", "CD 4001" -> "CD4001"), and a
+# bare 74-family suffix ("HC 260") gets its "74".
+LOGIC_FAMILY = {'Logic (74HC)': '74HC', 'Logic (74-series)': '74x', 'Logic (CMOS 4000)': 'CD'}
+# categories whose labels are not part numbers: the whole label is the name
+HW_CATS = ('Screw', 'Nut', 'Washer', 'Drill bit', 'Hardware', 'Fastener', 'T-nut', 'Lock nut', 'Spring washer',
+           'Battery holder', 'IC socket', 'Jumper', 'Switch', 'Motor', 'Solenoid', 'Unknown')
+
+def canon_part(tok, category=None):
+    t = re.sub(r'^([A-Za-z]{1,4}) (?=\d)', r'\1', tok.strip())
+    m = re.fullmatch(r'(HC|HCT|HCU|LS|ALS|AC|ACT)(\d{2,4}[A-Za-z]?)', t, re.I)
+    if m:
+        t = '74' + m[1].upper() + m[2]
+    m = re.fullmatch(r'(?:74|4)?\s*x\s*(\d{2,4})', t, re.I)  # "74x 220", "x 220", "4x 112" -> 74x220
+    if m:
+        t = '74x' + m[1]
+    fam = LOGIC_FAMILY.get(canon(category) if category else None)
+    if fam and re.fullmatch(r'\d{2,5}', t):  # bare "112" in the 74HC cabinet, "4010" in the CMOS one
+        t = fam + t
+    return t
+
+def _family(tok):  # "74HC260" and "74x260" name the same part
+    return re.sub(r'^74[A-Z]*(\d)', r'74x\1', tok)
+
+def name_of(lines, category=None):
+    """Manufacturer part number(s) / values on the label joined with ' / '; None when the label has none
+    (and for hardware categories, whose labels are descriptions rather than part numbers)."""
+    cat = canon(category) if category else ''
+    if cat.startswith(HW_CATS):
+        return None
+    its = split_items(lines)
+    if not its and cat in LOGIC_FAMILY:
+        its = [l.strip() for l in lines if re.fullmatch(r'\d{2,5}', l.strip())]
+    return ' / '.join(canon_part(i, cat) for i in its) if its else None
+
+def strip_name(desc, name):
+    """Drop a leading part number from a description when the name already says it
+    ("ISD1016 16 s analog voice recorder" with name ISD1016AP -> "16 s analog voice recorder")."""
+    if not desc or not name or ';' in desc:
+        return desc
+    if any(_family(_norm(n)) == _family(_norm(desc)) for n in name.split(' / ')):
+        return None  # the description only repeats the part number
+    m = re.match(r'(\S+)\s+(?=[\w(])(.*)', desc, re.S)
+    if not m or not any(c.isdigit() for c in m[1]) or m[2].startswith('='):
+        return desc
+    tok = _norm(m[1])
+    if OTHER_PART.search(m[2]):
+        return desc  # the text covers several parts ("1N967B 18 V / 974B 33 V zeners"); keep it whole
+    if len(tok) >= 4 and any(_family(_norm(n)).startswith(_family(tok)) or _norm(n).endswith(tok) for n in name.split(' / ')):
+        return m[2]
+    return desc
+
+OTHER_PART = re.compile(r'(?<![\w-])(?=[A-Z0-9]{4,}\b)(?=[A-Z0-9]*\d)[A-Z]*\d+[A-Z][A-Z0-9]*|(?<![\w-])[A-Z]{1,4}\d{3,}[A-Z0-9]*')
 
 
 def describe_item(label, parent, category=None):

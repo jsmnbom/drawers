@@ -4873,6 +4873,10 @@
     {
      "label": "SAA1296",
      "category": "TV / RF / telecom IC"
+    },
+    {
+     "label": "SAA1292",
+     "category": "TV / RF / telecom IC"
     }
    ],
    "reads_total": 1,
@@ -6741,16 +6745,6 @@
    "category_confidence": "high",
    "description": "low-power RS-485 transceiver",
    "label_category": "RS485 transceiver",
-   "items": [
-    {
-     "label": "LTC485",
-     "category": "Line driver/receiver"
-    },
-    {
-     "label": "RS485 interf",
-     "category": "Line driver/receiver"
-    }
-   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -6760,9 +6754,7 @@
     "k_0089.jpg"
    ],
    "where": "row 6 (bottom), col 1",
-   "review": [
-    "multi-item"
-   ]
+   "review": []
   },
   {
    "lines": [
@@ -6919,16 +6911,6 @@
    "category_confidence": "high",
    "description": "low-power RS-485 transceiver",
    "label_category": null,
-   "items": [
-    {
-     "label": "LTC485",
-     "category": "Line driver/receiver"
-    },
-    {
-     "label": "RS485 interf",
-     "category": "Line driver/receiver"
-    }
-   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -6938,9 +6920,7 @@
     "k_0094.jpg"
    ],
    "where": "row 6, left (partially cut)",
-   "review": [
-    "multi-item"
-   ]
+   "review": []
   },
   {
    "lines": [
@@ -16621,7 +16601,7 @@
    "label_category": null,
    "items": [
     {
-     "label": "3624 RC",
+     "label": "3624",
      "category": "Unknown"
     },
     {
@@ -24917,6 +24897,16 @@
    "category_confidence": "high",
    "description": "74x14 hex Schmitt inverter; 74x15 triple AND OC",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x14",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x15",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 7,
    "reads_agreeing": 7,
    "confidence": 1.0,
@@ -24931,7 +24921,9 @@
     "k_0389.jpg"
    ],
    "where": "row 2, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -24945,6 +24937,16 @@
    "category_confidence": "high",
    "description": "74x16; 74x17",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x16",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x17",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -24957,7 +24959,9 @@
     "k_0390.jpg"
    ],
    "where": "row 2, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -24971,6 +24975,16 @@
    "category_confidence": "high",
    "description": "74x18; 74x19",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x18",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x19",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -24982,7 +24996,9 @@
     "k_0391.jpg"
    ],
    "where": "row 2, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -24996,6 +25012,16 @@
    "category_confidence": "high",
    "description": "74x24; 74x25",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x24",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x25",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 7,
    "reads_agreeing": 7,
    "confidence": 1.0,
@@ -25010,7 +25036,9 @@
     "k_0389.jpg"
    ],
    "where": "row 3, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25024,6 +25052,16 @@
    "category_confidence": "high",
    "description": "74x26; 74x27 triple NOR",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x26",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x27",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -25036,7 +25074,9 @@
     "k_0390.jpg"
    ],
    "where": "row 3, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25050,6 +25090,16 @@
    "category_confidence": "high",
    "description": "74x28; 74x29",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x28",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x29",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25061,7 +25111,9 @@
     "k_0391.jpg"
    ],
    "where": "row 3, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25075,6 +25127,16 @@
    "category_confidence": "high",
    "description": "74x34; 74x35",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x34",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x35",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 7,
    "reads_agreeing": 7,
    "confidence": 1.0,
@@ -25089,7 +25151,9 @@
     "k_0389.jpg"
    ],
    "where": "row 4, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25103,6 +25167,16 @@
    "category_confidence": "high",
    "description": "74x36; 74x37 quad NAND buffer",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x36",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x37",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -25115,7 +25189,9 @@
     "k_0390.jpg"
    ],
    "where": "row 4, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25129,6 +25205,16 @@
    "category_confidence": "high",
    "description": "74x38 quad NAND buffer OC; 74x39",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x38",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x39",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25140,7 +25226,9 @@
     "k_0391.jpg"
    ],
    "where": "row 4, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25154,6 +25242,16 @@
    "category_confidence": "high",
    "description": "74x44; 74x45",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x44",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x45",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 7,
    "reads_agreeing": 7,
    "confidence": 1.0,
@@ -25168,7 +25266,9 @@
     "k_0389.jpg"
    ],
    "where": "row 5, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25182,6 +25282,16 @@
    "category_confidence": "high",
    "description": "74x46; 74x47 BCD-7seg decoder/driver",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x46",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x47",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -25195,7 +25305,9 @@
     "k_0390.jpg"
    ],
    "where": "row 5, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25209,6 +25321,16 @@
    "category_confidence": "high",
    "description": "74x48 BCD-7seg decoder; 74x49",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x48",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x49",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25220,7 +25342,9 @@
     "k_0391.jpg"
    ],
    "where": "row 5, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25234,6 +25358,16 @@
    "category_confidence": "high",
    "description": "74x54 AND-OR-invert; 74x55",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x54",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x55",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 4,
    "confidence": 0.8,
@@ -25250,7 +25384,8 @@
     "74X54": 1
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
    ]
   },
   {
@@ -25265,6 +25400,16 @@
    "category_confidence": "high",
    "description": "74x56; 74x57",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x56",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x57",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -25274,7 +25419,9 @@
     "k_0387.jpg"
    ],
    "where": "row 5, middle column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25288,6 +25435,16 @@
    "category_confidence": "high",
    "description": "74x58; 74x59",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x58",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x59",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25297,7 +25454,8 @@
    ],
    "where": "row 5, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25312,6 +25470,16 @@
    "category_confidence": "high",
    "description": "74x62; 74x63",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x62",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x63",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 1,
    "confidence": 0.5,
@@ -25325,7 +25493,8 @@
     "74X62": 1
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
    ]
   },
   {
@@ -25340,6 +25509,16 @@
    "category_confidence": "high",
    "description": "74x64; 74x65",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x64",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x65",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 1,
    "confidence": 0.5,
@@ -25353,7 +25532,8 @@
     "74X64": 1
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
    ]
   },
   {
@@ -25368,6 +25548,16 @@
    "category_confidence": "high",
    "description": "74x66; 74x67",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x66",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x67",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25377,7 +25567,8 @@
    ],
    "where": "row 6, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25392,6 +25583,16 @@
    "category_confidence": "high",
    "description": "74x68; 74x69",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x68",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x69",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25401,7 +25602,8 @@
    ],
    "where": "row 6, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25416,6 +25618,16 @@
    "category_confidence": "high",
    "description": "74x72; 74x73 dual JK FF",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x72",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x73",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25425,7 +25637,8 @@
    ],
    "where": "row 7, far left (edge cut off)",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25440,6 +25653,16 @@
    "category_confidence": "high",
    "description": "74x74 dual D FF; 74x75 quad latch",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x74",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x75",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25449,7 +25672,8 @@
    ],
    "where": "row 7, left column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25464,6 +25688,16 @@
    "category_confidence": "high",
    "description": "74x76 dual JK FF; 74x77",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x76",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x77",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25473,7 +25707,8 @@
    ],
    "where": "row 7, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25488,6 +25723,16 @@
    "category_confidence": "high",
    "description": "74x78; 74x79",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x78",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x79",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25497,7 +25742,8 @@
    ],
    "where": "row 7, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25512,6 +25758,16 @@
    "category_confidence": "high",
    "description": "74x82; 74x83 4-bit adder",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x82",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x83",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25521,7 +25777,8 @@
    ],
    "where": "row 8, far left",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25536,6 +25793,16 @@
    "category_confidence": "high",
    "description": "74x84; 74x85 4-bit comparator",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x84",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x85",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25545,7 +25812,8 @@
    ],
    "where": "row 8, left column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25560,6 +25828,16 @@
    "category_confidence": "high",
    "description": "74x86 quad XOR; 74x87",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x86",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x87",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25569,7 +25847,8 @@
    ],
    "where": "row 8, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25584,6 +25863,16 @@
    "category_confidence": "high",
    "description": "74x88; 74x89",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x88",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x89",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25593,7 +25882,8 @@
    ],
    "where": "row 8, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25608,6 +25898,16 @@
    "category_confidence": "high",
    "description": "74x92 divide-by-12 counter; 74x93 4-bit binary counter",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x92",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x93",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25617,7 +25917,8 @@
    ],
    "where": "bottom row, far left (cut off)",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25632,6 +25933,16 @@
    "category_confidence": "high",
    "description": "74x94; 74x95 4-bit shift register",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x94",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x95",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25641,7 +25952,8 @@
    ],
    "where": "bottom row, left column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25656,6 +25968,16 @@
    "category_confidence": "high",
    "description": "74x96; 74x97",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x96",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x97",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -25665,7 +25987,8 @@
    ],
    "where": "bottom row, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -25680,6 +26003,16 @@
    "category_confidence": "high",
    "description": "74x02 quad NOR; 74x03 quad NAND OC",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x02",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x03",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -25693,7 +26026,9 @@
     "k_0387.jpg"
    ],
    "where": "row 1, middle column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25707,6 +26042,16 @@
    "category_confidence": "high",
    "description": "74x04 hex inverter; 74x05 hex inverter OC",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x04",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x05",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -25720,7 +26065,9 @@
     "k_0389.jpg"
    ],
    "where": "row 1, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25734,6 +26081,16 @@
    "category_confidence": "high",
    "description": "74x06 hex inverter buffer OC; 74x07 hex buffer OC",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x06",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x07",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25745,7 +26102,9 @@
     "k_0390.jpg"
    ],
    "where": "row 1, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25759,6 +26118,16 @@
    "category_confidence": "high",
    "description": "74x12 triple 3-in NAND OC; 74x13 dual Schmitt NAND",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x12",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x13",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -25772,7 +26141,9 @@
     "k_0387.jpg"
    ],
    "where": "row 2, middle column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25786,6 +26157,16 @@
    "category_confidence": "high",
    "description": "74x22; 74x23",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x22",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x23",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -25799,7 +26180,9 @@
     "k_0387.jpg"
    ],
    "where": "row 3, middle column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25813,6 +26196,16 @@
    "category_confidence": "high",
    "description": "74x32 quad OR; 74x33",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x32",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x33",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -25826,7 +26219,9 @@
     "k_0387.jpg"
    ],
    "where": "row 4, middle column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25840,6 +26235,16 @@
    "category_confidence": "high",
    "description": "74x42 BCD-decimal decoder; 74x43",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x42",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x43",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -25853,7 +26258,9 @@
     "k_0387.jpg"
    ],
    "where": "row 5, middle column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25867,6 +26274,16 @@
    "category_confidence": "high",
    "description": "74x52; 74x53",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x52",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x53",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 2,
    "confidence": 0.5,
@@ -25882,7 +26299,8 @@
     "74X52": 2
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
    ]
   },
   {
@@ -25897,6 +26315,16 @@
    "category_confidence": "high",
    "description": "74x00 quad NAND; 74x01 quad NAND OC",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x00",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x01",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25908,7 +26336,9 @@
     "k_0386.jpg"
    ],
    "where": "row 1, left column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25922,6 +26352,16 @@
    "category_confidence": "high",
    "description": "74x10 triple 3-in NAND; 74x11 triple 3-in AND",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x10",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x11",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25933,7 +26373,9 @@
     "k_0386.jpg"
    ],
    "where": "row 2, left column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25947,6 +26389,16 @@
    "category_confidence": "high",
    "description": "74x20 dual 4-in NAND; 74x21 dual 4-in AND",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x20",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x21",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25958,7 +26410,9 @@
     "k_0386.jpg"
    ],
    "where": "row 3, left column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25972,6 +26426,16 @@
    "category_confidence": "high",
    "description": "74x40; 74x41",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x40",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x41",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -25983,7 +26447,9 @@
     "k_0386.jpg"
    ],
    "where": "row 5, left column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -25997,6 +26463,16 @@
    "category_confidence": "high",
    "description": "74x50; 74x51 AND-OR-invert",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x50",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x51",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26008,7 +26484,9 @@
     "k_0386.jpg"
    ],
    "where": "row 6, left column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26045,6 +26523,16 @@
    "category_confidence": "high",
    "description": "74x08 quad AND; 74x09 quad AND OC",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x08",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x09",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26055,7 +26543,9 @@
     "k_0391.jpg"
    ],
    "where": "row 1, right column",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26070,6 +26560,20 @@
    "category_confidence": "high",
    "description": "74x130; 74x131; 74x132 quad Schmitt NAND",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x130",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x131",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x132",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26080,7 +26584,9 @@
     "k_0394.jpg"
    ],
    "where": "row 1, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26095,6 +26601,20 @@
    "category_confidence": "high",
    "description": "74x133 13-in NAND; 74x134; 74x135",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x133",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x134",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x135",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26106,7 +26626,9 @@
     "k_0395.jpg"
    ],
    "where": "row 1, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26121,6 +26643,20 @@
    "category_confidence": "high",
    "description": "74x145 BCD-decimal decoder/driver; 74x146; 74x147 10-to-4 priority encoder",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x145",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x146",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x147",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26131,7 +26667,9 @@
     "k_0394.jpg"
    ],
    "where": "row 2, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26146,6 +26684,20 @@
    "category_confidence": "high",
    "description": "74x148 8-to-3 priority encoder; 74x149; 74x150 16:1 mux",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x148",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x149",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x150",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26157,7 +26709,9 @@
     "k_0395.jpg"
    ],
    "where": "row 2, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26172,6 +26726,20 @@
    "category_confidence": "high",
    "description": "74x160 decade counter; 74x161 4-bit binary counter; 74x162 decade counter",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x160",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x161",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x162",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26182,7 +26750,9 @@
     "k_0394.jpg"
    ],
    "where": "row 3, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26197,6 +26767,20 @@
    "category_confidence": "high",
    "description": "74x163 4-bit binary counter; 74x164 8-bit SIPO shift reg; 74x165 8-bit PISO shift reg",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x163",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x164",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x165",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26208,7 +26792,9 @@
     "k_0395.jpg"
    ],
    "where": "row 3, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26223,6 +26809,20 @@
    "category_confidence": "high",
    "description": "74x175 quad D FF; 74x176; 74x177",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x175",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x176",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x177",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26233,7 +26833,9 @@
     "k_0394.jpg"
    ],
    "where": "row 4, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26248,6 +26850,20 @@
    "category_confidence": "high",
    "description": "74x178; 74x179; 74x180",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x178",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x179",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x180",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26259,7 +26875,9 @@
     "k_0395.jpg"
    ],
    "where": "row 4, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26274,6 +26892,20 @@
    "category_confidence": "high",
    "description": "74x190 up/down decade counter; 74x191 up/down binary counter; 74x192 up/down decade counter",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x190",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x191",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x192",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26284,7 +26916,9 @@
     "k_0394.jpg"
    ],
    "where": "row 5, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26299,6 +26933,20 @@
    "category_confidence": "high",
    "description": "74x193 up/down binary counter; 74x194 4-bit universal shift reg; 74x195 4-bit shift reg",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x193",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x194",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x195",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26310,7 +26958,9 @@
     "k_0395.jpg"
    ],
    "where": "row 5, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26325,6 +26975,20 @@
    "category_confidence": "high",
    "description": "74x136 quad XOR OC; 74x137 3-to-8 decoder w/ latch; 74x138 3-to-8 decoder",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x136",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x137",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x138",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26335,7 +26999,9 @@
     "k_0397.jpg"
    ],
    "where": "row 1, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26350,6 +27016,20 @@
    "category_confidence": "high",
    "description": "74x151 8:1 mux; 74x152; 74x153 dual 4:1 mux",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x151",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x152",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x153",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26360,7 +27040,9 @@
     "k_0397.jpg"
    ],
    "where": "row 2, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26375,6 +27057,20 @@
    "category_confidence": "high",
    "description": "74x166 8-bit shift reg; 74x167; 74x168",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x166",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x167",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x168",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26385,7 +27081,9 @@
     "k_0397.jpg"
    ],
    "where": "row 3, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26400,6 +27098,20 @@
    "category_confidence": "high",
    "description": "74x181 4-bit ALU; 74x182 look-ahead carry; 74x183",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x181",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x182",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x183",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26410,7 +27122,9 @@
     "k_0397.jpg"
    ],
    "where": "row 4, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26425,6 +27139,20 @@
    "category_confidence": "high",
    "description": "74x196 presettable decade counter; 74x197 presettable binary counter; 74x198 8-bit shift reg",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x196",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x197",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x198",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -26435,7 +27163,9 @@
     "k_0397.jpg"
    ],
    "where": "row 5, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26450,6 +27180,20 @@
    "category_confidence": "high",
    "description": "74x139 dual 2-to-4 decoder; 74x140; 74x141",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x139",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x140",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x141",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26461,7 +27205,9 @@
     "k_0399.jpg"
    ],
    "where": "row 1, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26476,6 +27222,20 @@
    "category_confidence": "high",
    "description": "74x154 4-to-16 decoder; 74x155 dual 2-to-4 decoder; 74x156 dual 2-to-4 decoder OC",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x154",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x155",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x156",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26487,7 +27247,9 @@
     "k_0399.jpg"
    ],
    "where": "row 2, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26502,6 +27264,20 @@
    "category_confidence": "high",
    "description": "74x169; 74x170 4x4 register file; 74x171",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x169",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x170",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x171",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26513,7 +27289,9 @@
     "k_0399.jpg"
    ],
    "where": "row 3, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26528,6 +27306,20 @@
    "category_confidence": "high",
    "description": "74x184; 74x185; 74x186",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x184",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x185",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x186",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26539,7 +27331,9 @@
     "k_0399.jpg"
    ],
    "where": "row 4, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26554,6 +27348,20 @@
    "category_confidence": "high",
    "description": "74x199 8-bit shift reg; 74x200; 74x201",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x199",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x200",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x201",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26565,7 +27373,9 @@
     "k_0399.jpg"
    ],
    "where": "row 5, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26580,6 +27390,20 @@
    "category_confidence": "high",
    "description": "74x142; 74x143; 74x144",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x142",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x143",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x144",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -26592,7 +27416,9 @@
     "k_0402.jpg"
    ],
    "where": "row 1, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26607,6 +27433,20 @@
    "category_confidence": "high",
    "description": "74x157 quad 2:1 mux; 74x158 quad 2:1 mux inv; 74x159",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x157",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x158",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x159",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -26619,7 +27459,9 @@
     "k_0402.jpg"
    ],
    "where": "row 2, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26634,6 +27476,20 @@
    "category_confidence": "high",
    "description": "74x172; 74x173 quad D reg 3-state; 74x174 hex D FF",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x172",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x173",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x174",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -26646,7 +27502,9 @@
     "k_0402.jpg"
    ],
    "where": "row 3, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26661,6 +27519,20 @@
    "category_confidence": "high",
    "description": "74x187; 74x188; 74x189 64-bit RAM",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x187",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x188",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x189",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -26673,7 +27545,9 @@
     "k_0402.jpg"
    ],
    "where": "row 4, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26688,6 +27562,20 @@
    "category_confidence": "high",
    "description": "74x202; 74x203; 74x204",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x202",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x203",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x204",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -26700,7 +27588,9 @@
     "k_0402.jpg"
    ],
    "where": "row 5, right",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -26715,6 +27605,20 @@
    "category_confidence": "high",
    "description": "74x262; 74x263; 74x264",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x262",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x263",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x264",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -26726,7 +27630,9 @@
     "k_0404.jpg"
    ],
    "where": "top-right, tilted label",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -30919,15 +31825,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 220",
+     "label": "220",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 221",
+     "label": "221",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 222",
+     "label": "222",
      "category": "Logic (74-series)"
     }
    ],
@@ -30999,15 +31905,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 253",
+     "label": "253",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 254",
+     "label": "254",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 255",
+     "label": "255",
      "category": "Logic (74-series)"
     }
    ],
@@ -31079,15 +31985,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 283",
+     "label": "283",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 284",
+     "label": "284",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 285",
+     "label": "285",
      "category": "Logic (74-series)"
     }
    ],
@@ -31159,15 +32065,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 373",
+     "label": "373",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 374",
+     "label": "374",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 375",
+     "label": "375",
      "category": "Logic (74-series)"
     }
    ],
@@ -31652,6 +32558,16 @@
    "category_confidence": "high",
    "description": "74x68; 74x69",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x68",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x69",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -31661,7 +32577,9 @@
     "k_0459.jpg"
    ],
    "where": "row 2, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31675,6 +32593,16 @@
    "category_confidence": "high",
    "description": "74x78; 74x79",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x78",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x79",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -31684,7 +32612,9 @@
     "k_0459.jpg"
    ],
    "where": "row 3, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31698,6 +32628,16 @@
    "category_confidence": "high",
    "description": "74x88; 74x89",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x88",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x89",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -31707,7 +32647,9 @@
     "k_0459.jpg"
    ],
    "where": "row 4, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31721,6 +32663,16 @@
    "category_confidence": "high",
    "description": "74x98; 74x99",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x98",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x99",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -31730,7 +32682,9 @@
     "k_0459.jpg"
    ],
    "where": "row 5, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31825,6 +32779,16 @@
    "category_confidence": "high",
    "description": "74x66; 74x67",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x66",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x67",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -31835,7 +32799,9 @@
     "k_0461.jpg"
    ],
    "where": "row 1, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31849,6 +32815,16 @@
    "category_confidence": "high",
    "description": "74x76 dual JK FF; 74x77",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x76",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x77",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -31859,7 +32835,9 @@
     "k_0461.jpg"
    ],
    "where": "row 2, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31873,6 +32851,16 @@
    "category_confidence": "high",
    "description": "74x86 quad XOR; 74x87",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x86",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x87",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -31883,7 +32871,9 @@
     "k_0461.jpg"
    ],
    "where": "row 3, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31897,6 +32887,16 @@
    "category_confidence": "high",
    "description": "74x96; 74x97",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x96",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x97",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -31907,7 +32907,9 @@
     "k_0461.jpg"
    ],
    "where": "row 4, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31962,6 +32964,16 @@
    "category_confidence": "high",
    "description": "74x64; 74x65",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x64",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x65",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -31972,7 +32984,9 @@
     "k_0462.jpg"
    ],
    "where": "row 1, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -31986,6 +33000,16 @@
    "category_confidence": "high",
    "description": "74x74 dual D FF; 74x75 quad latch",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x74",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x75",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -31996,7 +33020,9 @@
     "k_0462.jpg"
    ],
    "where": "row 2, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32010,6 +33036,16 @@
    "category_confidence": "high",
    "description": "74x84; 74x85 4-bit comparator",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x84",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x85",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -32020,7 +33056,9 @@
     "k_0462.jpg"
    ],
    "where": "row 3, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32034,6 +33072,16 @@
    "category_confidence": "high",
    "description": "74x94; 74x95 4-bit shift register",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x94",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x95",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -32047,7 +33095,9 @@
     "k_0467.jpg"
    ],
    "where": "row 4, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32103,6 +33153,16 @@
    "category_confidence": "high",
    "description": "74x62; 74x63",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x62",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x63",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -32113,7 +33173,9 @@
     "k_0464.jpg"
    ],
    "where": "row 1, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32127,6 +33189,16 @@
    "category_confidence": "high",
    "description": "74x72; 74x73 dual JK FF",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x72",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x73",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -32138,7 +33210,9 @@
     "k_0465.jpg"
    ],
    "where": "row 2, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32152,6 +33226,16 @@
    "category_confidence": "high",
    "description": "74x82; 74x83 4-bit adder",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x82",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x83",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -32164,7 +33248,9 @@
     "k_0466.jpg"
    ],
    "where": "row 3, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32178,6 +33264,16 @@
    "category_confidence": "high",
    "description": "74x92 divide-by-12 counter; 74x93 4-bit binary counter",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x92",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x93",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 6,
    "reads_agreeing": 6,
    "confidence": 1.0,
@@ -32191,7 +33287,9 @@
     "k_0467.jpg"
    ],
    "where": "row 4, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32329,6 +33427,16 @@
    "category_confidence": "high",
    "description": "74x60; 74x61",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x60",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x61",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 2,
    "confidence": 1.0,
@@ -32338,7 +33446,9 @@
     "k_0464.jpg"
    ],
    "where": "row 1, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32352,6 +33462,16 @@
    "category_confidence": "high",
    "description": "74x70; 74x71",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x70",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x71",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 3,
    "reads_agreeing": 3,
    "confidence": 1.0,
@@ -32362,7 +33482,9 @@
     "k_0465.jpg"
    ],
    "where": "row 2, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32376,6 +33498,16 @@
    "category_confidence": "high",
    "description": "74x80; 74x81",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x80",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x81",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 4,
    "confidence": 1.0,
@@ -32387,7 +33519,9 @@
     "k_0466.jpg"
    ],
    "where": "row 3, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -32401,6 +33535,16 @@
    "category_confidence": "high",
    "description": "74x90 decade counter; 74x91",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x90",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x91",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 5,
    "confidence": 1.0,
@@ -32413,7 +33557,9 @@
     "k_0467.jpg"
    ],
    "where": "row 4, left",
-   "review": []
+   "review": [
+    "multi-item"
+   ]
   },
   {
    "lines": [
@@ -33293,7 +34439,7 @@
    "category": "Screw/bolt (hex head)",
    "category_source": "part_number",
    "category_confidence": "high",
-   "description": "M66 hex-head screws",
+   "description": "M6 hex-head screws",
    "note": "Danish \"6K\" (sekskant) = hex head; \"blandet\" = mixed",
    "label_category": null,
    "reads_total": 15,
@@ -33774,7 +34920,7 @@
    "category": "Screw/bolt (hex head)",
    "category_source": "part_number",
    "category_confidence": "high",
-   "description": "M56 hex-head screws",
+   "description": "M5 hex-head screws",
    "note": "Danish \"6K\" (sekskant) = hex head; \"blandet\" = mixed",
    "label_category": null,
    "reads_total": 1,
@@ -34607,7 +35753,7 @@
    "category": "Screw/bolt (hex head)",
    "category_source": "part_number",
    "category_confidence": "high",
-   "description": "M86 hex-head screws",
+   "description": "M8 hex-head screws",
    "note": "Danish \"6K\" (sekskant) = hex head; \"blandet\" = mixed",
    "label_category": null,
    "reads_total": 24,
@@ -34772,7 +35918,7 @@
    "category": "Screw/bolt (hex head)",
    "category_source": "part_number",
    "category_confidence": "high",
-   "description": "M106 hex-head screws",
+   "description": "M10 hex-head screws",
    "note": "Danish \"6K\" (sekskant) = hex head; \"blandet\" = mixed",
    "label_category": null,
    "reads_total": 6,
@@ -39320,6 +40466,10 @@
     {
      "label": "SAA1296",
      "category": "TV / RF / telecom IC"
+    },
+    {
+     "label": "SAA1292",
+     "category": "TV / RF / telecom IC"
     }
    ],
    "reads_total": 1,
@@ -40206,43 +41356,6 @@
   },
   {
    "lines": [
-    "LTC485",
-    "Low power",
-    "RS485 interf",
-    "transciever"
-   ],
-   "part_key": "LTC485/LOWPOWER/RS485INTERF/TRANSCIEVER",
-   "kind": "drawer",
-   "category": "Line driver/receiver",
-   "category_source": "part_number",
-   "category_confidence": "high",
-   "description": "low-power RS-485 transceiver",
-   "label_category": "RS485 transceiver",
-   "items": [
-    {
-     "label": "LTC485",
-     "category": "Line driver/receiver"
-    },
-    {
-     "label": "RS485 interf",
-     "category": "Line driver/receiver"
-    }
-   ],
-   "reads_total": 2,
-   "reads_agreeing": 2,
-   "confidence": 1.0,
-   "t_first": 67.6,
-   "frames": [
-    "k_0088.jpg",
-    "k_0089.jpg"
-   ],
-   "where": "row 6 (bottom), col 1",
-   "review": [
-    "multi-item"
-   ]
-  },
-  {
-   "lines": [
     "MC1488P",
     "MC1489A",
     "Quad Line",
@@ -40276,43 +41389,6 @@
    "where": "row 5, right",
    "review": [
     "single read",
-    "multi-item"
-   ]
-  },
-  {
-   "lines": [
-    "LTC485",
-    "Low power",
-    "RS485 interf",
-    "transceiver"
-   ],
-   "part_key": "LTC485/LOWPOWER/RS485INTERF/TRANSCEIVER",
-   "kind": "drawer",
-   "category": "Line driver/receiver",
-   "category_source": "part_number",
-   "category_confidence": "high",
-   "description": "low-power RS-485 transceiver",
-   "label_category": null,
-   "items": [
-    {
-     "label": "LTC485",
-     "category": "Line driver/receiver"
-    },
-    {
-     "label": "RS485 interf",
-     "category": "Line driver/receiver"
-    }
-   ],
-   "reads_total": 2,
-   "reads_agreeing": 2,
-   "confidence": 1.0,
-   "t_first": 69.1,
-   "frames": [
-    "k_0090.jpg",
-    "k_0094.jpg"
-   ],
-   "where": "row 6, left (partially cut)",
-   "review": [
     "multi-item"
    ]
   },
@@ -44107,7 +45183,7 @@
    "label_category": null,
    "items": [
     {
-     "label": "3624 RC",
+     "label": "3624",
      "category": "Unknown"
     },
     {
@@ -48832,6 +49908,467 @@
   },
   {
    "lines": [
+    "74x14",
+    "74x15"
+   ],
+   "part_key": "74X14/74X15",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x14 hex Schmitt inverter; 74x15 triple AND OC",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x14",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x15",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 7,
+   "reads_agreeing": 7,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg"
+   ],
+   "where": "row 2, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x16",
+    "74x17"
+   ],
+   "part_key": "74X16/74X17",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x16; 74x17",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x16",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x17",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg"
+   ],
+   "where": "row 2, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x18",
+    "74x19"
+   ],
+   "part_key": "74X18/74X19",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x18; 74x19",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x18",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x19",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg",
+    "k_0391.jpg"
+   ],
+   "where": "row 2, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x24",
+    "74x25"
+   ],
+   "part_key": "74X24/74X25",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x24; 74x25",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x24",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x25",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 7,
+   "reads_agreeing": 7,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg"
+   ],
+   "where": "row 3, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x26",
+    "74x27"
+   ],
+   "part_key": "74X26/74X27",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x26; 74x27 triple NOR",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x26",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x27",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg"
+   ],
+   "where": "row 3, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x28",
+    "74x29"
+   ],
+   "part_key": "74X28/74X29",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x28; 74x29",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x28",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x29",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg",
+    "k_0391.jpg"
+   ],
+   "where": "row 3, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x34",
+    "74x35"
+   ],
+   "part_key": "74X34/74X35",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x34; 74x35",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x34",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x35",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 7,
+   "reads_agreeing": 7,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg"
+   ],
+   "where": "row 4, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x36",
+    "74x37"
+   ],
+   "part_key": "74X36/74X37",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x36; 74x37 quad NAND buffer",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x36",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x37",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg"
+   ],
+   "where": "row 4, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x38",
+    "74x39"
+   ],
+   "part_key": "74X38/74X39",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x38 quad NAND buffer OC; 74x39",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x38",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x39",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg",
+    "k_0391.jpg"
+   ],
+   "where": "row 4, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x44",
+    "74x45"
+   ],
+   "part_key": "74X44/74X45",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x44; 74x45",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x44",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x45",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 7,
+   "reads_agreeing": 7,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg"
+   ],
+   "where": "row 5, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x46",
+    "74x47"
+   ],
+   "part_key": "74X46/74X47",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x46; 74x47 BCD-7seg decoder/driver",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x46",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x47",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0382.jpg",
+    "k_0387.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg"
+   ],
+   "where": "row 5, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x48",
+    "74x49"
+   ],
+   "part_key": "74X48/74X49",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x48 BCD-7seg decoder; 74x49",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x48",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x49",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg",
+    "k_0391.jpg"
+   ],
+   "where": "row 5, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
     "74x54",
     "74x55"
    ],
@@ -48842,6 +50379,16 @@
    "category_confidence": "high",
    "description": "74x54 AND-OR-invert; 74x55",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x54",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x55",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 5,
    "reads_agreeing": 4,
    "confidence": 0.8,
@@ -48858,7 +50405,43 @@
     "74X54": 1
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x56",
+    "74x57"
+   ],
+   "part_key": "74X56/74X57",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x56; 74x57",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x56",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x57",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 2,
+   "reads_agreeing": 2,
+   "confidence": 1.0,
+   "t_first": 276.6,
+   "frames": [
+    "k_0381.jpg",
+    "k_0387.jpg"
+   ],
+   "where": "row 5, middle column",
+   "review": [
+    "multi-item"
    ]
   },
   {
@@ -48873,6 +50456,16 @@
    "category_confidence": "high",
    "description": "74x58; 74x59",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x58",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x59",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -48882,7 +50475,8 @@
    ],
    "where": "row 5, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -48897,6 +50491,16 @@
    "category_confidence": "high",
    "description": "74x62; 74x63",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x62",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x63",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 1,
    "confidence": 0.5,
@@ -48910,7 +50514,8 @@
     "74X62": 1
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
    ]
   },
   {
@@ -48925,6 +50530,16 @@
    "category_confidence": "high",
    "description": "74x64; 74x65",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x64",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x65",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 2,
    "reads_agreeing": 1,
    "confidence": 0.5,
@@ -48938,7 +50553,8 @@
     "74X64": 1
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
    ]
   },
   {
@@ -48953,6 +50569,16 @@
    "category_confidence": "high",
    "description": "74x66; 74x67",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x66",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x67",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -48962,7 +50588,8 @@
    ],
    "where": "row 6, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -48977,6 +50604,16 @@
    "category_confidence": "high",
    "description": "74x68; 74x69",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x68",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x69",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -48986,7 +50623,8 @@
    ],
    "where": "row 6, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49001,6 +50639,16 @@
    "category_confidence": "high",
    "description": "74x72; 74x73 dual JK FF",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x72",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x73",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49010,7 +50658,8 @@
    ],
    "where": "row 7, far left (edge cut off)",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49025,6 +50674,16 @@
    "category_confidence": "high",
    "description": "74x74 dual D FF; 74x75 quad latch",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x74",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x75",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49034,7 +50693,8 @@
    ],
    "where": "row 7, left column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49049,6 +50709,16 @@
    "category_confidence": "high",
    "description": "74x76 dual JK FF; 74x77",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x76",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x77",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49058,7 +50728,8 @@
    ],
    "where": "row 7, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49073,6 +50744,16 @@
    "category_confidence": "high",
    "description": "74x78; 74x79",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x78",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x79",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49082,7 +50763,8 @@
    ],
    "where": "row 7, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49097,6 +50779,16 @@
    "category_confidence": "high",
    "description": "74x82; 74x83 4-bit adder",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x82",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x83",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49106,7 +50798,8 @@
    ],
    "where": "row 8, far left",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49121,6 +50814,16 @@
    "category_confidence": "high",
    "description": "74x84; 74x85 4-bit comparator",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x84",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x85",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49130,7 +50833,8 @@
    ],
    "where": "row 8, left column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49145,6 +50849,16 @@
    "category_confidence": "high",
    "description": "74x86 quad XOR; 74x87",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x86",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x87",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49154,7 +50868,8 @@
    ],
    "where": "row 8, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49169,6 +50884,16 @@
    "category_confidence": "high",
    "description": "74x88; 74x89",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x88",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x89",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49178,7 +50903,8 @@
    ],
    "where": "row 8, right column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49193,6 +50919,16 @@
    "category_confidence": "high",
    "description": "74x92 divide-by-12 counter; 74x93 4-bit binary counter",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x92",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x93",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49202,7 +50938,8 @@
    ],
    "where": "bottom row, far left (cut off)",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49217,6 +50954,16 @@
    "category_confidence": "high",
    "description": "74x94; 74x95 4-bit shift register",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x94",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x95",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49226,7 +50973,8 @@
    ],
    "where": "bottom row, left column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
    ]
   },
   {
@@ -49241,6 +50989,16 @@
    "category_confidence": "high",
    "description": "74x96; 74x97",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x96",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x97",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 1,
    "reads_agreeing": 1,
    "confidence": 1.0,
@@ -49250,7 +51008,279 @@
    ],
    "where": "bottom row, middle column",
    "review": [
-    "single read"
+    "single read",
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x02",
+    "74x03"
+   ],
+   "part_key": "74X02/74X03",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x02 quad NOR; 74x03 quad NAND OC",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x02",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x03",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 277.0,
+   "frames": [
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg"
+   ],
+   "where": "row 1, middle column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x04",
+    "74x05"
+   ],
+   "part_key": "74X04/74X05",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x04 hex inverter; 74x05 hex inverter OC",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x04",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x05",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 277.0,
+   "frames": [
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg"
+   ],
+   "where": "row 1, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x06",
+    "74x07"
+   ],
+   "part_key": "74X06/74X07",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x06 hex inverter buffer OC; 74x07 hex buffer OC",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x06",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x07",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 277.0,
+   "frames": [
+    "k_0382.jpg",
+    "k_0388.jpg",
+    "k_0389.jpg",
+    "k_0390.jpg"
+   ],
+   "where": "row 1, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x12",
+    "74x13"
+   ],
+   "part_key": "74X12/74X13",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x12 triple 3-in NAND OC; 74x13 dual Schmitt NAND",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x12",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x13",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 277.0,
+   "frames": [
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg"
+   ],
+   "where": "row 2, middle column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x22",
+    "74x23"
+   ],
+   "part_key": "74X22/74X23",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x22; 74x23",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x22",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x23",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 277.0,
+   "frames": [
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg"
+   ],
+   "where": "row 3, middle column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x32",
+    "74x33"
+   ],
+   "part_key": "74X32/74X33",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x32 quad OR; 74x33",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x32",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x33",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 277.0,
+   "frames": [
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg"
+   ],
+   "where": "row 4, middle column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x42",
+    "74x43"
+   ],
+   "part_key": "74X42/74X43",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x42 BCD-decimal decoder; 74x43",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x42",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x43",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 277.0,
+   "frames": [
+    "k_0382.jpg",
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg",
+    "k_0387.jpg"
+   ],
+   "where": "row 5, middle column",
+   "review": [
+    "multi-item"
    ]
   },
   {
@@ -49265,6 +51295,16 @@
    "category_confidence": "high",
    "description": "74x52; 74x53",
    "label_category": null,
+   "items": [
+    {
+     "label": "74x52",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x53",
+     "category": "Logic (74-series)"
+    }
+   ],
    "reads_total": 4,
    "reads_agreeing": 2,
    "confidence": 0.5,
@@ -49280,7 +51320,193 @@
     "74X52": 2
    },
    "review": [
-    "variants"
+    "variants",
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x00",
+    "74x01"
+   ],
+   "part_key": "74X00/74X01",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x00 quad NAND; 74x01 quad NAND OC",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x00",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x01",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 277.4,
+   "frames": [
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg"
+   ],
+   "where": "row 1, left column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x10",
+    "74x11"
+   ],
+   "part_key": "74X10/74X11",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x10 triple 3-in NAND; 74x11 triple 3-in AND",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x10",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x11",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 277.4,
+   "frames": [
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg"
+   ],
+   "where": "row 2, left column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x20",
+    "74x21"
+   ],
+   "part_key": "74X20/74X21",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x20 dual 4-in NAND; 74x21 dual 4-in AND",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x20",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x21",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 277.4,
+   "frames": [
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg"
+   ],
+   "where": "row 3, left column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x40",
+    "74x41"
+   ],
+   "part_key": "74X40/74X41",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x40; 74x41",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x40",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x41",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 277.4,
+   "frames": [
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg"
+   ],
+   "where": "row 5, left column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x50",
+    "74x51"
+   ],
+   "part_key": "74X50/74X51",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x50; 74x51 AND-OR-invert",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x50",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x51",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 277.4,
+   "frames": [
+    "k_0383.jpg",
+    "k_0384.jpg",
+    "k_0385.jpg",
+    "k_0386.jpg"
+   ],
+   "where": "row 6, left column",
+   "review": [
+    "multi-item"
    ]
   },
   {
@@ -49304,6 +51530,1129 @@
    "where": "bottom row, left column (cut off)",
    "review": [
     "single read"
+   ]
+  },
+  {
+   "lines": [
+    "74x08",
+    "74x09"
+   ],
+   "part_key": "74X08/74X09",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x08 quad AND; 74x09 quad AND OC",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x08",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x09",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 282.8,
+   "frames": [
+    "k_0389.jpg",
+    "k_0390.jpg",
+    "k_0391.jpg"
+   ],
+   "where": "row 1, right column",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x130",
+    "74x131",
+    "74x132"
+   ],
+   "part_key": "74X130/74X131/74X132",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x130; 74x131; 74x132 quad Schmitt NAND",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x130",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x131",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x132",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg"
+   ],
+   "where": "row 1, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x133",
+    "74x134",
+    "74x135"
+   ],
+   "part_key": "74X133/74X134/74X135",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x133 13-in NAND; 74x134; 74x135",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x133",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x134",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x135",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg",
+    "k_0395.jpg"
+   ],
+   "where": "row 1, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x145",
+    "74x146",
+    "74x147"
+   ],
+   "part_key": "74X145/74X146/74X147",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x145 BCD-decimal decoder/driver; 74x146; 74x147 10-to-4 priority encoder",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x145",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x146",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x147",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg"
+   ],
+   "where": "row 2, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x148",
+    "74x149",
+    "74x150"
+   ],
+   "part_key": "74X148/74X149/74X150",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x148 8-to-3 priority encoder; 74x149; 74x150 16:1 mux",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x148",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x149",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x150",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg",
+    "k_0395.jpg"
+   ],
+   "where": "row 2, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x160",
+    "74x161",
+    "74x162"
+   ],
+   "part_key": "74X160/74X161/74X162",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x160 decade counter; 74x161 4-bit binary counter; 74x162 decade counter",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x160",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x161",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x162",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg"
+   ],
+   "where": "row 3, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x163",
+    "74x164",
+    "74x165"
+   ],
+   "part_key": "74X163/74X164/74X165",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x163 4-bit binary counter; 74x164 8-bit SIPO shift reg; 74x165 8-bit PISO shift reg",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x163",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x164",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x165",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg",
+    "k_0395.jpg"
+   ],
+   "where": "row 3, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x175",
+    "74x176",
+    "74x177"
+   ],
+   "part_key": "74X175/74X176/74X177",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x175 quad D FF; 74x176; 74x177",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x175",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x176",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x177",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg"
+   ],
+   "where": "row 4, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x178",
+    "74x179",
+    "74x180"
+   ],
+   "part_key": "74X178/74X179/74X180",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x178; 74x179; 74x180",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x178",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x179",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x180",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg",
+    "k_0395.jpg"
+   ],
+   "where": "row 4, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x190",
+    "74x191",
+    "74x192"
+   ],
+   "part_key": "74X190/74X191/74X192",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x190 up/down decade counter; 74x191 up/down binary counter; 74x192 up/down decade counter",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x190",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x191",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x192",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg"
+   ],
+   "where": "row 5, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x193",
+    "74x194",
+    "74x195"
+   ],
+   "part_key": "74X193/74X194/74X195",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x193 up/down binary counter; 74x194 4-bit universal shift reg; 74x195 4-bit shift reg",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x193",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x194",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x195",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 285.2,
+   "frames": [
+    "k_0392.jpg",
+    "k_0393.jpg",
+    "k_0394.jpg",
+    "k_0395.jpg"
+   ],
+   "where": "row 5, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x136",
+    "74x137",
+    "74x138"
+   ],
+   "part_key": "74X136/74X137/74X138",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x136 quad XOR OC; 74x137 3-to-8 decoder w/ latch; 74x138 3-to-8 decoder",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x136",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x137",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x138",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 288.6,
+   "frames": [
+    "k_0395.jpg",
+    "k_0396.jpg",
+    "k_0397.jpg"
+   ],
+   "where": "row 1, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x151",
+    "74x152",
+    "74x153"
+   ],
+   "part_key": "74X151/74X152/74X153",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x151 8:1 mux; 74x152; 74x153 dual 4:1 mux",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x151",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x152",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x153",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 288.6,
+   "frames": [
+    "k_0395.jpg",
+    "k_0396.jpg",
+    "k_0397.jpg"
+   ],
+   "where": "row 2, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x166",
+    "74x167",
+    "74x168"
+   ],
+   "part_key": "74X166/74X167/74X168",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x166 8-bit shift reg; 74x167; 74x168",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x166",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x167",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x168",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 288.6,
+   "frames": [
+    "k_0395.jpg",
+    "k_0396.jpg",
+    "k_0397.jpg"
+   ],
+   "where": "row 3, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x181",
+    "74x182",
+    "74x183"
+   ],
+   "part_key": "74X181/74X182/74X183",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x181 4-bit ALU; 74x182 look-ahead carry; 74x183",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x181",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x182",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x183",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 288.6,
+   "frames": [
+    "k_0395.jpg",
+    "k_0396.jpg",
+    "k_0397.jpg"
+   ],
+   "where": "row 4, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x196",
+    "74x197",
+    "74x198"
+   ],
+   "part_key": "74X196/74X197/74X198",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x196 presettable decade counter; 74x197 presettable binary counter; 74x198 8-bit shift reg",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x196",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x197",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x198",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 288.6,
+   "frames": [
+    "k_0395.jpg",
+    "k_0396.jpg",
+    "k_0397.jpg"
+   ],
+   "where": "row 5, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x139",
+    "74x140",
+    "74x141"
+   ],
+   "part_key": "74X139/74X140/74X141",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x139 dual 2-to-4 decoder; 74x140; 74x141",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x139",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x140",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x141",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 289.4,
+   "frames": [
+    "k_0396.jpg",
+    "k_0397.jpg",
+    "k_0398.jpg",
+    "k_0399.jpg"
+   ],
+   "where": "row 1, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x154",
+    "74x155",
+    "74x156"
+   ],
+   "part_key": "74X154/74X155/74X156",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x154 4-to-16 decoder; 74x155 dual 2-to-4 decoder; 74x156 dual 2-to-4 decoder OC",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x154",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x155",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x156",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 289.4,
+   "frames": [
+    "k_0396.jpg",
+    "k_0397.jpg",
+    "k_0398.jpg",
+    "k_0399.jpg"
+   ],
+   "where": "row 2, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x169",
+    "74x170",
+    "74x171"
+   ],
+   "part_key": "74X169/74X170/74X171",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x169; 74x170 4x4 register file; 74x171",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x169",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x170",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x171",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 289.4,
+   "frames": [
+    "k_0396.jpg",
+    "k_0397.jpg",
+    "k_0398.jpg",
+    "k_0399.jpg"
+   ],
+   "where": "row 3, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x184",
+    "74x185",
+    "74x186"
+   ],
+   "part_key": "74X184/74X185/74X186",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x184; 74x185; 74x186",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x184",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x185",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x186",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 289.4,
+   "frames": [
+    "k_0396.jpg",
+    "k_0397.jpg",
+    "k_0398.jpg",
+    "k_0399.jpg"
+   ],
+   "where": "row 4, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x199",
+    "74x200",
+    "74x201"
+   ],
+   "part_key": "74X199/74X200/74X201",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x199 8-bit shift reg; 74x200; 74x201",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x199",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x200",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x201",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 289.4,
+   "frames": [
+    "k_0396.jpg",
+    "k_0397.jpg",
+    "k_0398.jpg",
+    "k_0399.jpg"
+   ],
+   "where": "row 5, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x142",
+    "74x143",
+    "74x144"
+   ],
+   "part_key": "74X142/74X143/74X144",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x142; 74x143; 74x144",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x142",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x143",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x144",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 291.1,
+   "frames": [
+    "k_0398.jpg",
+    "k_0399.jpg",
+    "k_0400.jpg",
+    "k_0401.jpg",
+    "k_0402.jpg"
+   ],
+   "where": "row 1, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x157",
+    "74x158",
+    "74x159"
+   ],
+   "part_key": "74X157/74X158/74X159",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x157 quad 2:1 mux; 74x158 quad 2:1 mux inv; 74x159",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x157",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x158",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x159",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 291.1,
+   "frames": [
+    "k_0398.jpg",
+    "k_0399.jpg",
+    "k_0400.jpg",
+    "k_0401.jpg",
+    "k_0402.jpg"
+   ],
+   "where": "row 2, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x172",
+    "74x173",
+    "74x174"
+   ],
+   "part_key": "74X172/74X173/74X174",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x172; 74x173 quad D reg 3-state; 74x174 hex D FF",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x172",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x173",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x174",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 291.1,
+   "frames": [
+    "k_0398.jpg",
+    "k_0399.jpg",
+    "k_0400.jpg",
+    "k_0401.jpg",
+    "k_0402.jpg"
+   ],
+   "where": "row 3, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x187",
+    "74x188",
+    "74x189"
+   ],
+   "part_key": "74X187/74X188/74X189",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x187; 74x188; 74x189 64-bit RAM",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x187",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x188",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x189",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 291.1,
+   "frames": [
+    "k_0398.jpg",
+    "k_0399.jpg",
+    "k_0400.jpg",
+    "k_0401.jpg",
+    "k_0402.jpg"
+   ],
+   "where": "row 4, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x202",
+    "74x203",
+    "74x204"
+   ],
+   "part_key": "74X202/74X203/74X204",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x202; 74x203; 74x204",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x202",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x203",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x204",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 291.1,
+   "frames": [
+    "k_0398.jpg",
+    "k_0399.jpg",
+    "k_0400.jpg",
+    "k_0401.jpg",
+    "k_0402.jpg"
+   ],
+   "where": "row 5, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x262",
+    "74x263",
+    "74x264"
+   ],
+   "part_key": "74X262/74X263/74X264",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x262; 74x263; 74x264",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x262",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x263",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x264",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 293.2,
+   "frames": [
+    "k_0401.jpg",
+    "k_0402.jpg",
+    "k_0403.jpg",
+    "k_0404.jpg"
+   ],
+   "where": "top-right, tilted label",
+   "review": [
+    "multi-item"
    ]
   },
   {
@@ -50766,15 +54115,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 220",
+     "label": "220",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 221",
+     "label": "221",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 222",
+     "label": "222",
      "category": "Logic (74-series)"
     }
    ],
@@ -50846,15 +54195,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 253",
+     "label": "253",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 254",
+     "label": "254",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 255",
+     "label": "255",
      "category": "Logic (74-series)"
     }
    ],
@@ -50926,15 +54275,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 283",
+     "label": "283",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 284",
+     "label": "284",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 285",
+     "label": "285",
      "category": "Logic (74-series)"
     }
    ],
@@ -51006,15 +54355,15 @@
    "label_category": null,
    "items": [
     {
-     "label": "x 373",
+     "label": "373",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 374",
+     "label": "374",
      "category": "Logic (74-series)"
     },
     {
-     "label": "x 375",
+     "label": "375",
      "category": "Logic (74-series)"
     }
    ],
@@ -51489,6 +54838,146 @@
   },
   {
    "lines": [
+    "74x68",
+    "74x69"
+   ],
+   "part_key": "74X68/74X69",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x68; 74x69",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x68",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x69",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 2,
+   "reads_agreeing": 2,
+   "confidence": 1.0,
+   "t_first": 338.5,
+   "frames": [
+    "k_0458.jpg",
+    "k_0459.jpg"
+   ],
+   "where": "row 2, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x78",
+    "74x79"
+   ],
+   "part_key": "74X78/74X79",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x78; 74x79",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x78",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x79",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 2,
+   "reads_agreeing": 2,
+   "confidence": 1.0,
+   "t_first": 338.5,
+   "frames": [
+    "k_0458.jpg",
+    "k_0459.jpg"
+   ],
+   "where": "row 3, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x88",
+    "74x89"
+   ],
+   "part_key": "74X88/74X89",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x88; 74x89",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x88",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x89",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 2,
+   "reads_agreeing": 2,
+   "confidence": 1.0,
+   "t_first": 338.5,
+   "frames": [
+    "k_0458.jpg",
+    "k_0459.jpg"
+   ],
+   "where": "row 4, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x98",
+    "74x99"
+   ],
+   "part_key": "74X98/74X99",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x98; 74x99",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x98",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x99",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 2,
+   "reads_agreeing": 2,
+   "confidence": 1.0,
+   "t_first": 338.5,
+   "frames": [
+    "k_0458.jpg",
+    "k_0459.jpg"
+   ],
+   "where": "row 5, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
     "74x 112",
     "74x 113",
     "74x 114"
@@ -51570,6 +55059,150 @@
   },
   {
    "lines": [
+    "74x66",
+    "74x67"
+   ],
+   "part_key": "74X66/74X67",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x66; 74x67",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x66",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x67",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 339.3,
+   "frames": [
+    "k_0459.jpg",
+    "k_0460.jpg",
+    "k_0461.jpg"
+   ],
+   "where": "row 1, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x76",
+    "74x77"
+   ],
+   "part_key": "74X76/74X77",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x76 dual JK FF; 74x77",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x76",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x77",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 339.3,
+   "frames": [
+    "k_0459.jpg",
+    "k_0460.jpg",
+    "k_0461.jpg"
+   ],
+   "where": "row 2, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x86",
+    "74x87"
+   ],
+   "part_key": "74X86/74X87",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x86 quad XOR; 74x87",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x86",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x87",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 339.3,
+   "frames": [
+    "k_0459.jpg",
+    "k_0460.jpg",
+    "k_0461.jpg"
+   ],
+   "where": "row 3, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x96",
+    "74x97"
+   ],
+   "part_key": "74X96/74X97",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x96; 74x97",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x96",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x97",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 339.3,
+   "frames": [
+    "k_0459.jpg",
+    "k_0460.jpg",
+    "k_0461.jpg"
+   ],
+   "where": "row 4, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
     "74x 109",
     "74x 110",
     "74x 111"
@@ -51605,6 +55238,153 @@
     "k_0461.jpg"
    ],
    "where": "bottom row, middle",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x64",
+    "74x65"
+   ],
+   "part_key": "74X64/74X65",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x64; 74x65",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x64",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x65",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 340.2,
+   "frames": [
+    "k_0460.jpg",
+    "k_0461.jpg",
+    "k_0462.jpg"
+   ],
+   "where": "row 1, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x74",
+    "74x75"
+   ],
+   "part_key": "74X74/74X75",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x74 dual D FF; 74x75 quad latch",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x74",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x75",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 340.2,
+   "frames": [
+    "k_0460.jpg",
+    "k_0461.jpg",
+    "k_0462.jpg"
+   ],
+   "where": "row 2, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x84",
+    "74x85"
+   ],
+   "part_key": "74X84/74X85",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x84; 74x85 4-bit comparator",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x84",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x85",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 340.2,
+   "frames": [
+    "k_0460.jpg",
+    "k_0461.jpg",
+    "k_0462.jpg"
+   ],
+   "where": "row 3, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x94",
+    "74x95"
+   ],
+   "part_key": "74X94/74X95",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x94; 74x95 4-bit shift register",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x94",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x95",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 340.2,
+   "frames": [
+    "k_0460.jpg",
+    "k_0461.jpg",
+    "k_0462.jpg",
+    "k_0465.jpg",
+    "k_0466.jpg",
+    "k_0467.jpg"
+   ],
+   "where": "row 4, left",
    "review": [
     "multi-item"
    ]
@@ -51647,6 +55427,156 @@
     "k_0465.jpg"
    ],
    "where": "bottom row, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x62",
+    "74x63"
+   ],
+   "part_key": "74X62/74X63",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x62; 74x63",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x62",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x63",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 342.3,
+   "frames": [
+    "k_0462.jpg",
+    "k_0463.jpg",
+    "k_0464.jpg"
+   ],
+   "where": "row 1, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x72",
+    "74x73"
+   ],
+   "part_key": "74X72/74X73",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x72; 74x73 dual JK FF",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x72",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x73",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 342.3,
+   "frames": [
+    "k_0462.jpg",
+    "k_0463.jpg",
+    "k_0464.jpg",
+    "k_0465.jpg"
+   ],
+   "where": "row 2, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x82",
+    "74x83"
+   ],
+   "part_key": "74X82/74X83",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x82; 74x83 4-bit adder",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x82",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x83",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 342.3,
+   "frames": [
+    "k_0462.jpg",
+    "k_0463.jpg",
+    "k_0464.jpg",
+    "k_0465.jpg",
+    "k_0466.jpg"
+   ],
+   "where": "row 3, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x92",
+    "74x93"
+   ],
+   "part_key": "74X92/74X93",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x92 divide-by-12 counter; 74x93 4-bit binary counter",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x92",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x93",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 6,
+   "reads_agreeing": 6,
+   "confidence": 1.0,
+   "t_first": 342.3,
+   "frames": [
+    "k_0462.jpg",
+    "k_0463.jpg",
+    "k_0464.jpg",
+    "k_0465.jpg",
+    "k_0466.jpg",
+    "k_0467.jpg"
+   ],
+   "where": "row 4, left",
    "review": [
     "multi-item"
    ]
@@ -51771,6 +55701,152 @@
     "k_0468.jpg"
    ],
    "where": "top row, right",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x60",
+    "74x61"
+   ],
+   "part_key": "74X60/74X61",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x60; 74x61",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x60",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x61",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 2,
+   "reads_agreeing": 2,
+   "confidence": 1.0,
+   "t_first": 343.2,
+   "frames": [
+    "k_0463.jpg",
+    "k_0464.jpg"
+   ],
+   "where": "row 1, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x70",
+    "74x71"
+   ],
+   "part_key": "74X70/74X71",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x70; 74x71",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x70",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x71",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 3,
+   "reads_agreeing": 3,
+   "confidence": 1.0,
+   "t_first": 343.2,
+   "frames": [
+    "k_0463.jpg",
+    "k_0464.jpg",
+    "k_0465.jpg"
+   ],
+   "where": "row 2, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x80",
+    "74x81"
+   ],
+   "part_key": "74X80/74X81",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x80; 74x81",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x80",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x81",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 4,
+   "reads_agreeing": 4,
+   "confidence": 1.0,
+   "t_first": 343.2,
+   "frames": [
+    "k_0463.jpg",
+    "k_0464.jpg",
+    "k_0465.jpg",
+    "k_0466.jpg"
+   ],
+   "where": "row 3, left",
+   "review": [
+    "multi-item"
+   ]
+  },
+  {
+   "lines": [
+    "74x90",
+    "74x91"
+   ],
+   "part_key": "74X90/74X91",
+   "kind": "drawer",
+   "category": "Logic (74-series)",
+   "category_source": "part_number",
+   "category_confidence": "high",
+   "description": "74x90 decade counter; 74x91",
+   "label_category": null,
+   "items": [
+    {
+     "label": "74x90",
+     "category": "Logic (74-series)"
+    },
+    {
+     "label": "74x91",
+     "category": "Logic (74-series)"
+    }
+   ],
+   "reads_total": 5,
+   "reads_agreeing": 5,
+   "confidence": 1.0,
+   "t_first": 343.2,
+   "frames": [
+    "k_0463.jpg",
+    "k_0464.jpg",
+    "k_0465.jpg",
+    "k_0466.jpg",
+    "k_0467.jpg"
+   ],
+   "where": "row 4, left",
    "review": [
     "multi-item"
    ]
@@ -52218,7 +56294,7 @@
    "category": "Screw/bolt (hex head)",
    "category_source": "part_number",
    "category_confidence": "high",
-   "description": "M56 hex-head screws",
+   "description": "M5 hex-head screws",
    "note": "Danish \"6K\" (sekskant) = hex head; \"blandet\" = mixed",
    "label_category": null,
    "reads_total": 1,
