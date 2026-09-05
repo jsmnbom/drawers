@@ -107,9 +107,10 @@ def save_edits(edits):
 
 
 class Handler(SimpleHTTPRequestHandler):
-    def log_message(self, format, *args):  # quieter
-        if '/frames/' not in (args[0] if args else ''):
-            sys.stderr.write("%s\n" % (format % args))
+    def log_message(self, format, *args):  # quieter: skip the per-image lines
+        msg = format % args
+        if '/frames/' not in msg:
+            sys.stderr.write(msg + '\n')
 
     def _json(self, obj, status=200):
         body = json.dumps(obj, ensure_ascii=False).encode('utf-8')
