@@ -63,7 +63,7 @@
   h2.cat .n { color: var(--fg2); font-weight: normal; font-size: 13px; }
   h2.cat a { font-weight: normal; font-size: 12px; }
   table { border-collapse: collapse; width: 100%; table-layout: fixed; }
-  col.c-lbl { width: 34%; } col.c-cat { width: 18%; } col.c-kind { width: 90px; } col.c-st { width: 100px; } col.c-time { width: 60px; }
+  col.c-lbl { width: 34%; } col.c-cat { width: 18%; } col.c-st { width: 100px; } col.c-time { width: 60px; }
   td { overflow: hidden; text-overflow: ellipsis; }
   th { text-align: left; font-weight: 600; color: var(--fg2); font-size: 12px; padding: 6px 8px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--bg); cursor: pointer; user-select: none; }
   th.on { color: var(--fg); }
@@ -83,7 +83,6 @@
   .badge.none { color: var(--none); background: var(--none-bg); font-weight: normal; }
   .badge.duplicate { color: var(--dup); background: var(--dup-bg); }
   .badge.old { color: var(--old); background: var(--old-bg); }
-  .kind { font-size: 11px; color: var(--fg2); border: 1px solid var(--line); border-radius: 3px; padding: 1px 4px; white-space: nowrap; }
   .sub { color: var(--fg2); font-size: 12px; }
   .empty { color: var(--fg2); padding: 40px 0; text-align: center; }
   /* detail */
@@ -134,10 +133,6 @@
         <button :class="{on: sort==='label'}" @click="sort='label'">label</button>
         <button :class="{on: sort==='time'}" @click="sort='time'">video</button>
       </span>
-      <select v-model="f.kind">
-        <option value="">any kind</option>
-        <option v-for="k in kindList" :value="k">{{ kindName(k) }}</option>
-      </select>
       <select v-model="f.status">
         <option value="">any status</option>
         <option value="reviewed">reviewed (any)</option>
@@ -149,7 +144,7 @@
       </select>
       <div class="row2">
         <span class="sub">{{ filtered.length }} shown</span>
-        <button v-if="f.q || f.cat || f.kind || f.status" @click="reset">clear</button>
+        <button v-if="f.q || f.cat || f.status" @click="reset">clear</button>
       </div>
       <div class="cats">
         <div class="c all" :class="{on: !f.cat}" @click="f.cat = ''"><span>all categories</span><span class="n">{{ base.length }}</span></div>
@@ -166,12 +161,11 @@
           <h2 class="cat">{{ g.name }} <span class="n">{{ g.rows.length }}</span>
             <a href="#" v-if="!f.cat" @click.prevent="f.cat = g.name">only this</a></h2>
           <table>
-            <colgroup><col class="c-lbl"><col><col class="c-drw" v-if="mode==='items'"><col class="c-kind"><col class="c-st"></colgroup>
+            <colgroup><col class="c-lbl"><col><col class="c-drw" v-if="mode==='items'"><col class="c-st"></colgroup>
             <tr class="row" v-for="e in g.rows" :key="e.id" :class="{sel: sel && sel.id===e._e.id, cur: sel && sel.id===e._e.id && e._e !== e && selItem === e._i}" @click="select(e._e, e._i)">
               <td class="lbl">{{ label(e) }}</td>
               <td class="desc">{{ short(e) }}</td>
               <td class="drw" v-if="mode==='items'"><span v-if="e._e !== e" :title="'listed on: ' + label(e._e)">{{ label(e._e) }}</span></td>
-              <td><span class="kind" v-if="e.kind!=='drawer'">{{ kindName(e.kind) }}</span></td>
               <td><span class="badge" :class="e.status || 'none'">{{ statusName(e.status) }}</span></td>
             </tr>
           </table>
@@ -179,7 +173,7 @@
       </template>
 
       <table v-else-if="filtered.length">
-        <colgroup><col class="c-lbl"><col class="c-cat"><col><col class="c-drw" v-if="mode==='items'"><col class="c-kind"><col class="c-st"><col class="c-time"></colgroup>
+        <colgroup><col class="c-lbl"><col class="c-cat"><col><col class="c-drw" v-if="mode==='items'"><col class="c-st"><col class="c-time"></colgroup>
         <thead><tr>
           <th :class="{on: sort==='label'}" @click="sort='label'">{{ mode==='items' ? 'Item' : 'Label' }}</th>
           <th :class="{on: sort==='cat'}" @click="sort='cat'">Category</th>
@@ -195,7 +189,6 @@
             <td>{{ e.category }}</td>
             <td class="desc">{{ short(e) }}</td>
             <td class="drw" v-if="mode==='items'"><span v-if="e._e !== e">{{ label(e._e) }}</span></td>
-            <td><span class="kind" v-if="e.kind!=='drawer'">{{ kindName(e.kind) }}</span></td>
             <td><span class="badge" :class="e.status || 'none'">{{ statusName(e.status) }}</span></td>
             <td class="time">{{ mmss(e.t_first) }}</td>
           </tr>
@@ -215,7 +208,6 @@
       <div class="kv">
         <div>label</div><div><div v-for="l in sel.lines">{{ l }}</div></div>
         <div>category</div><div>{{ sel.category }} <span class="sub" v-if="sel.cat_human">(set by hand)</span></div>
-        <div>kind</div><div>{{ kindName(sel.kind) }}</div>
         <template v-if="sel.description"><div>description</div><div>{{ sel.description }}</div></template>
         <template v-if="sel.note"><div>note</div><div>{{ sel.note }}</div></template>
         <template v-if="sel.contents"><div>contents</div><div class="contents">
@@ -285,7 +277,7 @@ createApp({
           _vk: valueKey({ lines: [c.label] }),
           _hay: (c.label + ' ' + (c.name || '') + ' ' + (c.category || '') + ' ' + (c.description || '') + ' ' + e._hay).toLowerCase(), _hay2: e._hay2 }))
       : [e]);
-    const f = reactive({ q: '', cat: '', kind: '', status: '' });
+    const f = reactive({ q: '', cat: '', status: '' });
     const mode = ref('items'), view = ref('grouped'), sort = ref('value'), sel = ref(null), selItem = ref(null), fi = ref(0);
     const rows = computed(() => mode.value === 'items' ? items : entries);
 
@@ -298,7 +290,6 @@ createApp({
     const base = computed(() => {
       const q = f.q.toLowerCase().split(/\s+/).filter(Boolean);
       return rows.value.filter(e =>
-        (!f.kind || e.kind === f.kind) &&
         (!f.status || (f.status === 'none' ? !e.status : f.status === 'reviewed' ? !!e.status : e.status === f.status)) &&
         q.every(w => e._hay.includes(w) || e._hay2.includes(squash(w))));
     });
@@ -308,7 +299,6 @@ createApp({
       if (f.cat && !m.has(f.cat)) m.set(f.cat, 0);
       return [...m].map(([name, n]) => ({ name, n })).sort((a, b) => coll.compare(a.name, b.name));
     });
-    const kindList = computed(() => Object.keys(KIND).filter(k => counts.value[k]));
 
     function cmp(a, b) {
       if (sort.value === 'time') return a.t_first - b.t_first;
@@ -331,7 +321,7 @@ createApp({
               { name: 'DDG', href: 'https://duckduckgo.com/?q=' + u },
               { name: 'Octopart', href: 'https://octopart.com/search?q=' + u }];
     };
-    function reset() { f.q = f.cat = f.kind = f.status = ''; }
+    function reset() { f.q = f.cat = f.status = ''; }
     const label = e => e.name;
     const short = e => e._e !== e ? (e.description || '') :
       e.contents && e.contents.length ? e.contents.map(c => c.name || c.label).join(', ') + (e.description ? ' — ' + e.description : '') : (e.description || '');
@@ -342,7 +332,7 @@ createApp({
     // shareable URL: #q=…&cat=…&id=…
     function writeHash() {
       const p = new URLSearchParams();
-      for (const k of ['q', 'cat', 'kind', 'status']) if (f[k]) p.set(k, f[k]);
+      for (const k of ['q', 'cat', 'status']) if (f[k]) p.set(k, f[k]);
       if (mode.value !== 'items') p.set('mode', mode.value);
       if (view.value !== 'grouped') p.set('view', view.value);
       if (sort.value !== 'value') p.set('sort', sort.value);
@@ -352,7 +342,7 @@ createApp({
     }
     function readHash() {
       const p = new URLSearchParams(location.hash.slice(1));
-      for (const k of ['q', 'cat', 'kind', 'status']) f[k] = p.get(k) || '';
+      for (const k of ['q', 'cat', 'status']) f[k] = p.get(k) || '';
       mode.value = p.get('mode') === 'drawers' ? 'drawers' : 'items';
       view.value = p.get('view') || 'grouped';
       sort.value = p.get('sort') || 'value';
@@ -367,7 +357,7 @@ createApp({
       window.addEventListener('keydown', ev => { if (ev.key === 'Escape') select(null); });
     });
 
-    return { entries, items, rows, f, mode, view, sort, sel, selItem, fi, counts, base, catList, kindList, filtered, groups, built: DATA.built,
+    return { entries, items, rows, f, mode, view, sort, sel, selItem, fi, counts, base, catList, filtered, groups, built: DATA.built,
              select, reset, label, short, mmss, kindName, statusName, links };
   }
 }).mount('#app');
