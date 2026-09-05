@@ -35,7 +35,7 @@ with open(os.path.join(ROOT, 'inventory_verified.json'), encoding='utf-8') as f:
     exported = json.load(f)['inventory']
 
 # 2. slim the data for the page
-KEEP = ('id', 'lines', 'kind', 'category', 'description', 'note', 'contents', 't_first', 'frames',
+KEEP = ('id', 'lines', 'name', 'kind', 'category', 'description', 'note', 'contents', 't_first', 'frames',
         'also_seen_at', 'confidence', 'review')
 entries = []
 for e in exported:
