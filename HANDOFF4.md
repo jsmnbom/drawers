@@ -53,11 +53,12 @@ Supersedes `HANDOFF3.md` (data pipeline details, known weaknesses) which superse
 "KLEMMUFFER|1.0": {"status": "ok", "contents": [{"label": "M3 screws", "category": "Screw/bolt"}], ...}
 ```
 
-Fields, all optional: `status` (`ok | wrong | not_drawer | duplicate | unsure`), `lines`,
+Fields, all optional: `status` (`ok | wrong | not_drawer | duplicate | unsure | old`), `lines`,
 `category`, `note`, `same_as` (entry `id` = index into inventory + boxes, same order as
 `tool.py`/`export_verified.py` assign), `contents` (human item list; overrides auto `items`),
 `edited_at`. User's convention: `wrong` = "OCR misread, I corrected the lines" (the entry is
-still a real drawer), not "bad entry".
+still a real drawer), not "bad entry". `old` = real drawer, but probably empty/outdated (an older
+cabinet superseded by another; due for consolidation) — kept in the export, badged on the site.
 
 ### Verification tool (`tool.py`, `tool.html`)
 
@@ -66,7 +67,7 @@ still a real drawer), not "bad entry".
 - Three columns: filterable queue (flags first, low confidence, then video time), zoomable
   full keyframe with prev/next frame, edit panel (lines, category datalist, status buttons,
   same-as with same-part_key candidates, auto items with "copy to contents", contents
-  rows, note). Keyboard: `j/k a w x u d m [ ] e /`.
+  rows, note). Keyboard: `j/k a w x u o d m [ ] e /`.
 - If "address already in use": a previous instance is still running (`pkill -f tool.py`).
 
 ### Export (`work/export_verified.py`, run from `work/`)

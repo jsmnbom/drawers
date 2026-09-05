@@ -8,6 +8,8 @@ Writes ../inventory_verified.json, ../inventory_verified.md   (inventory.json is
 Rules:
   lines / category / note in an edit override the OCR values (originals kept under `ocr`)
   status not_drawer  -> dropped
+  status old         -> kept as is; the drawer is real but probably empty/outdated (superseded by another
+                        cabinet, due for consolidation). The site shows it with an 'old' badge.
   status duplicate   -> collapsed into its same_as target (target gets also_seen_at + merged frames);
                         a duplicate without a valid same_as is kept and flagged
   contents           -> list of {label, category} items copied onto the entry (multi-item drawers/boxes);

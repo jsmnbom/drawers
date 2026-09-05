@@ -42,7 +42,7 @@ KEEP = ('id', 'lines', 'kind', 'category', 'description', 'note', 'contents', 't
 entries = []
 for e in exported:
     n = {k: e[k] for k in KEEP if k in e and e[k] not in (None, [], '')}
-    n['status'] = e['human']['status']            # '' | ok | wrong | unsure | duplicate
+    n['status'] = e['human']['status']            # '' | ok | wrong | unsure | duplicate | old
     if e['human'].get('edited_at'):
         n['edited_at'] = e['human']['edited_at'][:10]
     if e.get('ocr', {}).get('lines'):

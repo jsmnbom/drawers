@@ -12,7 +12,9 @@ push and deploys `site/`.
 
 Treat every entry as a hint, not a fact. The data comes from OCR of drawer labels in a video.
 The status badges on the site ("label OK", "label corrected", "unsure", "label unchecked") only say
-whether a person has checked the OCR reading against the label in the video. Nobody has checked
+whether a person has checked the OCR reading against the label in the video. "old / likely empty"
+marks drawers that look superseded by another cabinet and are probably empty or outdated; they are
+due to be consolidated. Nobody has checked
 that the part is actually in the drawer. Reasons an entry can be wrong include:
 
 - the drawer is empty, or the contents were moved or mixed with a neighbour

@@ -10,14 +10,14 @@
     --bg: #ffffff; --bg2: #f3f3f3; --bg3: #e6e6e6; --fg: #1a1a1a; --fg2: #555; --line: #cfcfcf;
     --link: #0b57d0; --sel: #dce8ff; --hover: #f0f4ff;
     --ok: #1e7e34; --ok-bg: #d9f2df; --wrong: #a15c00; --wrong-bg: #ffe9c7; --unsure: #7a6a00; --unsure-bg: #fff3b0;
-    --none: #555; --none-bg: #e8e8e8; --dup: #1c4fb5; --dup-bg: #dbe6ff;
+    --none: #555; --none-bg: #e8e8e8; --dup: #1c4fb5; --dup-bg: #dbe6ff; --old: #6b2d7a; --old-bg: #f0dcf5;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #1b1b1b; --bg2: #262626; --bg3: #333; --fg: #ececec; --fg2: #b8b8b8; --line: #4a4a4a;
       --link: #8ab4f8; --sel: #2f4470; --hover: #2a2f3a;
       --ok: #7ee095; --ok-bg: #1f3d27; --wrong: #ffc266; --wrong-bg: #4a3512; --unsure: #ffe066; --unsure-bg: #4a4212;
-      --none: #cfcfcf; --none-bg: #3a3a3a; --dup: #9db8ff; --dup-bg: #22335c;
+      --none: #cfcfcf; --none-bg: #3a3a3a; --dup: #9db8ff; --dup-bg: #22335c; --old: #dfa8ee; --old-bg: #3f2547;
     }
   }
   * { box-sizing: border-box; }
@@ -70,6 +70,7 @@
   .badge.unsure { color: var(--unsure); background: var(--unsure-bg); }
   .badge.none { color: var(--none); background: var(--none-bg); font-weight: normal; }
   .badge.duplicate { color: var(--dup); background: var(--dup-bg); }
+  .badge.old { color: var(--old); background: var(--old-bg); }
   .kind { font-size: 11px; color: var(--fg2); border: 1px solid var(--line); border-radius: 3px; padding: 1px 4px; white-space: nowrap; }
   .sub { color: var(--fg2); font-size: 12px; }
   .empty { color: var(--fg2); padding: 40px 0; text-align: center; }
@@ -96,7 +97,7 @@
     <span class="muted">labels checked against video: {{ counts.done }} / {{ entries.length }}</span>
     <span class="muted" style="margin-left:auto">built {{ built }}</span>
   </header>
-  <div id="notice">⚠ Any entry may be wrong: labels were read by OCR from a video and the &ldquo;label OK&rdquo; status only means the reading matches what the label says, not that the part is actually in the drawer. Drawers may be empty, components may be misplaced or mixed, handwritten labels may be misread or outdated, and typed labels may not match the contents. Check the drawer before relying on this.</div>
+  <div id="notice">⚠ Any entry may be wrong: labels were read by OCR from a video and the &ldquo;label OK&rdquo; status only means the reading matches what the label says, not that the part is actually in the drawer. Drawers may be empty (&ldquo;old&rdquo; marks ones that probably are: superseded drawers due for consolidation), components may be misplaced or mixed, handwritten labels may be misread or outdated, and typed labels may not match the contents. Check the drawer before relying on this.</div>
 
   <div id="controls">
     <span class="seg" title="one row per drawer/reel/bin, or one row per listed part">
@@ -118,6 +119,7 @@
       <option value="ok">label OK</option>
       <option value="wrong">label corrected</option>
       <option value="unsure">unsure</option>
+      <option value="old">old / likely empty</option>
       <option value="none">label unchecked</option>
     </select>
     <span class="seg">
@@ -216,7 +218,7 @@ const DATA = /*__DATA__*/;
 const { createApp, reactive, ref, computed, watch, onMounted } = Vue;
 
 const KIND = { drawer: 'drawer', reel: 'SMD reel', bin: 'bin', column_label: 'column label', section_label: 'box label' };
-const STATUS = { '': 'label unchecked', ok: 'label OK', wrong: 'label corrected', unsure: 'unsure', duplicate: 'duplicate' };
+const STATUS = { '': 'label unchecked', ok: 'label OK', wrong: 'label corrected', unsure: 'unsure', duplicate: 'duplicate', old: 'old / likely empty' };
 
 // value parsing for numeric sort: resistors (Ω) and capacitors (F)
 const R_RE = /^(\d+(?:[.,]\d+)?)\s*(R|K|M)?\s*Ω?$/i;

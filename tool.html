@@ -26,7 +26,7 @@
   .item .cat { color: #bbb; font-size: 11px; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; background: #555; }
   .dot.ok { background: #4c4; } .dot.wrong { background: #e55; } .dot.not_drawer { background: #999; }
-  .dot.duplicate { background: #48f; } .dot.unsure { background: #fc3; }
+  .dot.duplicate { background: #48f; } .dot.unsure { background: #fc3; } .dot.old { background: #b7a; }
   .flag { color: #ffd54a; font-size: 11px; }
   /* viewer */
   #viewer { position: relative; overflow: hidden; background: #000; user-select: none; }
@@ -47,7 +47,7 @@
   button:hover { background: #444; }
   button.on.ok { background: #274; border-color: #4c4; } button.on.wrong { background: #722; border-color: #e55; }
   button.on.not_drawer { background: #555; border-color: #aaa; } button.on.duplicate { background: #236; border-color: #48f; }
-  button.on.unsure { background: #663; border-color: #fc3; }
+  button.on.unsure { background: #663; border-color: #fc3; } button.on.old { background: #536; border-color: #b7a; }
   .cand { cursor: pointer; padding: 2px 4px; background: #262626; margin: 2px 0; border-radius: 3px; }
   .cand:hover { background: #354a6b; }
   .variants { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
@@ -69,6 +69,7 @@
     <span class="dot not_drawer"></span>{{ counts.not_drawer }}
     <span class="dot duplicate"></span>{{ counts.duplicate }}
     <span class="dot unsure"></span>{{ counts.unsure }}
+    <span class="dot old"></span>{{ counts.old }}
     <span style="margin-left:auto" :class="saveState">{{ saveMsg }}</span>
   </header>
 
@@ -173,7 +174,7 @@
 
     <div class="help">
       <kbd>j</kbd>/<kbd>k</kbd> next/prev · <kbd>a</kbd> ok+next · <kbd>w</kbd> wrong (edit lines) · <kbd>x</kbd> not a drawer+next ·
-      <kbd>d</kbd> duplicate · <kbd>s</kbd> same as earliest+next · <kbd>m</kbd> add item · <kbd>u</kbd> unsure+next · <kbd>[</kbd>/<kbd>]</kbd> frames · <kbd>e</kbd> edit lines · <kbd>/</kbd> search · <kbd>Esc</kbd> blur
+      <kbd>d</kbd> duplicate · <kbd>s</kbd> same as earliest+next · <kbd>m</kbd> add item · <kbd>u</kbd> unsure+next · <kbd>o</kbd> old (likely empty/superseded)+next · <kbd>[</kbd>/<kbd>]</kbd> frames · <kbd>e</kbd> edit lines · <kbd>/</kbd> search · <kbd>Esc</kbd> blur
     </div>
   </div>
   <div id="edit" class="col" v-else><span class="muted">select an entry</span></div>
@@ -181,8 +182,8 @@
 
 <script>
 const { createApp, reactive, ref, computed, watch, nextTick, onMounted } = Vue;
-const STATUSES = ['ok', 'wrong', 'not_drawer', 'duplicate', 'unsure'];
-const KEYFOR = { ok: 'a', wrong: 'w', not_drawer: 'x', duplicate: 'd', unsure: 'u' };
+const STATUSES = ['ok', 'wrong', 'not_drawer', 'duplicate', 'unsure', 'old'];
+const KEYFOR = { ok: 'a', wrong: 'w', not_drawer: 'x', duplicate: 'd', unsure: 'u', old: 'o' };
 const CONF = { low: 0, medium: 1, high: 2 };
 const KINDN = { drawer: 'drawer', reel: 'reel', bin: 'bin', column_label: 'column label', section_label: 'box' };
 
@@ -226,7 +227,7 @@ createApp({
     });
 
     const counts = computed(() => {
-      const c = { ok: 0, wrong: 0, not_drawer: 0, duplicate: 0, unsure: 0, done: 0 };
+      const c = { ok: 0, wrong: 0, not_drawer: 0, duplicate: 0, unsure: 0, old: 0, done: 0 };
       for (const e of entries.value) { const s = st(e); if (s) { c[s]++; c.done++; } }
       return c;
     });
@@ -300,6 +301,7 @@ createApp({
       else if (k === 'a') { setStatus('ok'); nextAfterMark(); }
       else if (k === 'x') { setStatus('not_drawer'); nextAfterMark(); }
       else if (k === 'u') { setStatus('unsure'); nextAfterMark(); }
+      else if (k === 'o') { setStatus('old'); nextAfterMark(); }
       else if (k === 'w') { setStatus('wrong'); nextTick(() => lines.value && lines.value.focus()); }
       else if (k === 'd') { setStatus('duplicate'); nextTick(() => sameAs.value && sameAs.value.focus()); }
       else if (k === 's') { sameAsEarliest(); }

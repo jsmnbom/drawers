@@ -550,6 +550,11 @@
   "edited_at": "2026-09-05T12:55:37",
   "status": "ok"
  },
+ "1,5K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "1.0KΩ/10KΩ/100KΩ/1.0MΩ/POWER|100.0": {
   "category": "Resistor (power)",
   "edited_at": "2026-09-04T12:39:56",
@@ -768,6 +773,11 @@
   "edited_at": "2026-09-04T11:42:34",
   "status": "ok"
  },
+ "10K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "10KΩMULTITUM/TRIMPOT|10.9": {
   "edited_at": "2026-09-04T12:03:36",
   "status": "ok"
@@ -837,6 +847,11 @@
  "120Ω|95.6": {
   "edited_at": "2026-09-05T12:38:08",
   "status": "ok"
+ },
+ "12K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "12KΩ|171.9": {
   "edited_at": "2026-09-05T12:44:13",
@@ -910,6 +925,11 @@
  "150KΩ|101.2": {
   "edited_at": "2026-09-05T12:38:40",
   "status": "ok"
+ },
+ "150R|314.6": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "150UF/630V/220UF/100V/220UF/250V|155.9": {
   "edited_at": "2026-09-04T13:12:59",
@@ -999,6 +1019,11 @@
   "note": "empty, not in grid",
   "status": "not_drawer"
  },
+ "18K|314.6": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "18KΩ|102.5": {
   "edited_at": "2026-09-05T12:38:56",
   "status": "ok"
@@ -1052,6 +1077,11 @@
   "edited_at": "2026-09-04T12:02:26",
   "status": "ok"
  },
+ "1K|314.6": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "1KΩMULTITURN/TRIMPOT|8.1": {
   "edited_at": "2026-09-04T12:02:33",
   "status": "ok"
@@ -1103,6 +1133,16 @@
  "1UF/63V/100V|159.2": {
   "edited_at": "2026-09-04T13:13:06",
   "status": "unsure"
+ },
+ "2,2K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
+ "2,7K|314.6": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "2.0KΩ/20KΩ/200KΩ/2.0MΩ|103.3": {
   "category": "Resistor (power)",
@@ -1294,6 +1334,11 @@
   "edited_at": "2026-09-05T12:39:41",
   "status": "ok"
  },
+ "27K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "27KΩ|108.3": {
   "edited_at": "2026-09-05T12:39:42",
   "status": "ok"
@@ -1321,6 +1366,11 @@
  "2MΩ/TRIMPOT|13.0": {
   "edited_at": "2026-09-04T12:05:04",
   "status": "ok"
+ },
+ "3,9K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "3.0KΩ/30KΩ/300KΩ/3.0MΩ|110.0": {
   "edited_at": "2026-09-04T12:40:59",
@@ -1453,6 +1503,11 @@
   "edited_at": "2026-09-05T12:40:59",
   "status": "ok"
  },
+ "33K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "33KΩ|115.7": {
   "edited_at": "2026-09-05T12:40:42",
   "status": "ok"
@@ -1525,6 +1580,11 @@
  "39Ω|115.7": {
   "edited_at": "2026-09-05T12:40:39",
   "status": "ok"
+ },
+ "4,7K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "4.3KΩ/43KΩ/430KΩ/4.3MΩ|112.6": {
   "edited_at": "2026-09-04T12:41:11",
@@ -1714,6 +1774,11 @@
   "edited_at": "2026-09-04T13:20:09",
   "status": "ok"
  },
+ "47K|314.6": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "47KΩ|118.2": {
   "edited_at": "2026-09-05T12:42:01",
   "same_as": 144,
@@ -1788,6 +1853,11 @@
   ],
   "same_as": 1132,
   "status": "duplicate"
+ },
+ "5,6K|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "5.1KΩ/51KΩ/510KΩ/5.1MΩ/POWER|122.3": {
   "edited_at": "2026-09-04T12:42:20",
@@ -1965,6 +2035,11 @@
   "same_as": 534,
   "status": "ok"
  },
+ "560|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "560Ω|118.2": {
   "edited_at": "2026-09-05T12:42:00",
   "same_as": 153,
@@ -2013,6 +2088,11 @@
  "5KΩMULTITUM/TRIMPOT|10.9": {
   "edited_at": "2026-09-04T12:03:36",
   "status": "ok"
+ },
+ "6,8K|314.6": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "6.2KΩ/62KΩ/620KΩ/6.2MΩ/POWER|122.3": {
   "edited_at": "2026-09-04T12:42:31",
@@ -2874,6 +2954,11 @@
   "edited_at": "2026-09-04T12:22:09",
   "status": "unsure"
  },
+ "8,2K|312.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
+ },
  "8.2KΩ/82KΩ/820KΩ/8.2MΩ/POWER|25.9": {
   "edited_at": "2026-09-04T12:39:15",
   "same_as": 97,
@@ -2925,6 +3010,11 @@
  "820UF/250V/820UF/400V/1UF/250V|151.4": {
   "edited_at": "2026-09-04T13:12:42",
   "status": "unsure"
+ },
+ "820|313.2": {
+  "edited_at": "2026-09-05T15:53:47",
+  "note": "Grey Raaco cabinet at ~5:12 in the video: a sparse older resistor set. Every value here also exists in the main E24 resistor cabinet, so this one is probably superseded; check and consolidate.",
+  "status": "old"
  },
  "820Ω|18.7": {
   "edited_at": "2026-09-04T12:06:54",
